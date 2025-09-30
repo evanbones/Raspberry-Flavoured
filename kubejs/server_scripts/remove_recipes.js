@@ -2797,7 +2797,11 @@ ServerEvents.recipes(event => {
 	'upgrade_aquatic:tooth_tiles',
 	'autumnity:snail_shell_bricks',
 	'autumnity:snail_shell_tiles',
-	'create:emptying/builders_tea'
+	'create:emptying/builders_tea',
+	'frame_changer:mixing/portal_fluid_from_crying_polished_obsidian',
+	'frame_changer:mixing/portal_fluid_from_crying_obsidian_bricks',
+	'frame_changer:mixing/portal_fluid_from_crying_obsidian_pillar',
+	'frame_changer:mixing/portal_fluid_from_crying_chiseled_obsidian'
 	]
     
     removedIds.forEach(removedId => {

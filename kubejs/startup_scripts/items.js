@@ -103,7 +103,7 @@ StartupEvents.registry('item', event => {
 		food
     		.hunger(3)
     		.saturation(0.3)
-			.effect('windswept:thorns', 600, 2, 1)
+			.effect('windswept:thorns', 1800, 4, 1)
 			.fastToEat()
         	})
 	event.create('kipper_sandwich').group('food').food(food => {

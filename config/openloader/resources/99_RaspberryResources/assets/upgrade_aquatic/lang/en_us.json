@@ -46,5 +46,8 @@
   "item.upgrade_aquatic.mulberry_jam_bottle": "Jar of Sweet Berry Jam",
   "item.upgrade_aquatic.perch": "Perch",
   "item.upgrade_aquatic.pike": "Pike",
-  "item.upgrade_aquatic.lionfish": "Lionfish"
+  "item.upgrade_aquatic.lionfish": "Lionfish",
+  
+  "entity.upgrade_aquatic.great_thrasher": "Elder Thrasher",
+  "item.upgrade_aquatic.great_thrasher_spawn_egg": "Elder Thrasher Spawn Egg"
 }

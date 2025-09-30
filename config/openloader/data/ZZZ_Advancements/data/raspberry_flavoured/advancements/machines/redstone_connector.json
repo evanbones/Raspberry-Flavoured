@@ -10,11 +10,11 @@
   },
   "display": {
     "title": {
-      "translate": "advancements.rf.machines.redstone.title"
+      "translate": "advancements.rf.machines.redstone_connector.title"
     },
     "description": {
       "color": "#DBA213",
-      "translate": "advancements.rf.machines.redstone.description"
+      "translate": "advancements.rf.machines.redstone_connector.description"
     },
     "icon": {
       "item": "supplementaries:cog_block"

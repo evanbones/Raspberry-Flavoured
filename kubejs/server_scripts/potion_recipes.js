@@ -38,17 +38,6 @@ ServerEvents.recipes(event => {
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'supplementaries:sugar_cube', '2x honeycomb'
 	]).heated()
-	// Water breathing
-	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
-		Potion:"minecraft:water_breathing"
-	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'aquaculture:goldfish', '2x nautilus_shell'
-	]).heated()
-	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
-		Potion:"minecraft:water_breathing"
-	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'kubejs:crystalfish'
-	]).heated()
 	// Instant health
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:healing"
@@ -182,24 +171,30 @@ ServerEvents.recipes(event => {
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'atmospheric:aloe_bundle', 'atmospheric:yucca_flower'
 	]).heated()
-// Neutral potions
-	// Snail master
+// Multi-effect potions
+	// Snail Master
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:turtle_master"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'3x autumnity:snail_shell_piece'
+		'2x autumnity:snail_shell_piece'
 	]).heated()
-	// Forest dasher
+	// Forest Dasher
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"naturalist:forest_dasher"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'2x environmental:venison', '4x carrot'
 	]).heated()
-	// Mad prospector
+	// Mad Prospector
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"kubejs:mad_prospector"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
 		'diamond', '2x quark:glow_shroom'
+	]).heated()
+	// Deep Diver
+	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
+		Potion:"minecraft:water_breathing"
+	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
+		'scute'
 	]).heated()
 
 	const allPotions = [

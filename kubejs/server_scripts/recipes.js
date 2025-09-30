@@ -320,6 +320,7 @@ ServerEvents.recipes(event => {
 	twoByTwo('upgrade_aquatic:tooth_bricks', 'upgrade_aquatic:tooth_tiles', 4)
 	twoByTwo('autumnity:snail_shell_piece', 'autumnity:snail_shell_bricks', 16)
 	twoByTwo('autumnity:snail_shell_bricks', 'autumnity:snail_shell_tiles', 4)
+	twoByTwo('nethersdelight:propelpearl', 'shroomlight', 1)
 	
 	threeByThree('amethyst_shard', 'twigs:polished_amethyst', 1)
 	threeByThree('string', 'architects_palette:spool', 1)
@@ -1487,6 +1488,8 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('atmospheric:flowering_morado_leaves', '#forge:shears', ['atmospheric:morado_leaves', 'atmospheric:yellow_blossoms'])
 	event.recipes.farmersdelight.cutting('ecologics:azalea_flower', '#forge:tools/knives', ['3x pink_dye'])
 	event.recipes.farmersdelight.cutting('atmospheric:yellow_blossoms', '#forge:tools/knives', ['2x yellow_dye'])
+	event.recipes.farmersdelight.cutting('crimson_fungus', '#forge:tools/knives', ['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), Item.of('crimson_roots').withChance(0.75)])
+	event.recipes.farmersdelight.cutting('warped_fungus', '#forge:tools/knives', ['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), Item.of('warped_roots').withChance(0.75)])
 	
 	event.recipes.farmersdelight.cutting('miners_delight:squid', '#forge:tools/knives', ['4x miners_delight:tentacles', '4x ink_sac', Item.of('miners_delight:tentacles').withChance(0.5)]).id('miners_delight:cutting/squid')
 	event.recipes.farmersdelight.cutting('miners_delight:glow_squid', '#forge:tools/knives', ['4x miners_delight:tentacles', '4x glow_ink_sac', Item.of('miners_delight:tentacles').withChance(0.5)]).id('miners_delight:cutting/glow_squid')
@@ -2243,12 +2246,13 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('4x kubejs:rubber', [Fluid.of('kubejs:latex',250), 'create:zinc_ingot', 'gunpowder']).heated()
 	event.recipes.create.mixing('4x twigs:bloodstone', ['2x #forge:gems/quartz', 'spelunkery:raw_magnetite_nugget', 'additionaladditions:copper_patina']).heated().id('twigs:bloodstone')
 	event.recipes.create.mixing('oreganized:electrum_ingot', ['4x #forge:ingots/gold', '4x #forge:ingots/silver']).superheated().id('oreganized:electrum_ingot')
-	event.recipes.create.mixing('4x glowstone', ['shroomlight', '2x #forge:gems/quartz', '2x #mynethersdelight:hot_spice']).heated()
 	event.recipes.create.mixing('additionaladditions:rose_gold_alloy', ['4x #forge:ingots/gold', '4x #forge:ingots/copper']).heated()
-	event.recipes.create.mixing('4x alloyed:bronze_ingot', ['4x #forge:ingots/copper', '2x #forge:ingots/zinc', '#forge:ingots/lead']).heated()
+	event.recipes.create.mixing('4x alloyed:bronze_ingot', ['3x #forge:ingots/copper', '2x #forge:ingots/zinc', '#forge:ingots/lead']).heated()
 	event.recipes.create.mixing('modestmining:coke', ['coal', '2x glowstone_dust', '3x create:cinder_flour']).heated()
 	event.recipes.create.mixing('6x farmersdelight:wheat_dough', ['2x #farmersdelight:wheat_or_flour', '#forge:eggs', 'spelunkery:salt', Fluid.of('minecraft:water',250)]).id('create:mixing/dough_by_mixing')
 	event.recipes.create.mixing('6x culturaldelights:corn_dough', ['2x #raspberry_flavoured:corn_dough_ingredients', '#forge:eggs', 'spelunkery:salt', Fluid.of('minecraft:water',250)])
+	
+	event.recipes.create.mixing(['8x glowstone_dust', Item.of('glowstone_dust', 4).withChance(0.35)], ['4x nethersdelight:propelpearl', '#forge:gems/quartz', '#mynethersdelight:hot_spice']).heated()
 	
 	event.recipes.create.mixing(Fluid.of('kubejs:cactus_juice',500), ['3x #raspberry_flavoured:cacti', 'sugar']).heated()
 	event.recipes.create.mixing(Fluid.of('kubejs:strawberry_banana_smoothie',500), ['2x #forge:fruits/strawberry', '#forge:fruits/banana', Fluid.of('minecraft:milk',250)]).heated()
@@ -2319,6 +2323,10 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['naturalist:glow_goop'], 'glow_berries')
 	event.recipes.create.milling(['3x pink_dye',Item.of('pink_dye', 2).withChance(0.25),Item.of('magenta_dye').withChance(0.5)], 'ecologics:azalea_flower')
 	event.recipes.create.milling(['3x yellow_dye'], 'atmospheric:yellow_blossoms')
+	event.recipes.create.milling(['3x glowstone_dust', Item.of('glowstone_dust').withChance(0.5)], 'glowstone').id('create:crushing/glowstone')
+	event.recipes.create.milling(['3x nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5)], 'shroomlight')
+	event.recipes.create.milling(['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), 'crimson_roots'], 'crimson_fungus')
+	event.recipes.create.milling(['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), 'warped_roots'], 'warped_fungus')
 	
 	event.recipes.create.milling(['2x red_dye', Item.of('red_dye').withChance(0.1)], 'windswept:red_rose')
 	event.recipes.create.milling(['2x pink_dye', Item.of('pink_dye').withChance(0.1)], 'windswept:pink_rose')
@@ -3070,7 +3078,8 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ id: 'create:crafting/logistics/brass_tunnel' }, 'minecraft:dried_kelp', 'kubejs:rubber')
 	event.replaceInput({ id: 'quark:building/crafting/blackstone_bricks' }, 'minecraft:blackstone', 'kubejs:cobbled_blackstone')
 	event.replaceInput({ id: 'quark:building/crafting/blackstone_bricks' }, 'paletteblocks:cobblestone_bricks', 'kubejs:cobbled_blackstone')
-	event.replaceInput({ id: 'minecraft:beacon' }, 'minecraft:glass', '#quark:framed_glasses')
+	event.replaceInput({ id: 'minecraft:beacon' }, 'minecraft:glass', '#raspberry_flavoured:obsidian')
+	event.replaceInput({ id: 'minecraft:beacon' }, 'minecraft:obsidian', '#quark:framed_glasses')
 	event.replaceInput({ id: 'create:mechanical_crafting/crushing_wheel' }, '#forge:stone', 'create:shaft')
 	event.replaceInput({ id: 'create:mechanical_crafting/crushing_wheel' }, '#minecraft:planks', '#forge:ingots/steel')
 	event.replaceInput({ id: 'farmersdelight:apple_pie' }, 'minecraft:apple', '#raspberry_flavoured:apples')

@@ -623,7 +623,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('farmersdelight:cake_slice', item => {
         item.foodProperties = food => {
-            food.removeEffect('speed')
+            food.removeEffect('speed').effect('windswept:thorns', 1800, 2, 1)
         }
     })
 	event.modify('farmersrespite:coffee_cake_slice', item => {
@@ -1100,6 +1100,9 @@ ItemEvents.modification(event => {
         item.foodProperties = food => {
             food.hunger(8).saturation(0.7)
         }
+    })
+	event.modify('nethersdelight:propelpearl', item => {
+        item.foodProperties = null
     })
 
 // Drinks rebalance

@@ -1593,7 +1593,6 @@ ItemEvents.tooltip(tooltip => {
 	"nethersdelight:plate_of_stuffed_hoglin_snout",
 	"nethersdelight:plate_of_stuffed_hoglin_ham",
 	"nethersdelight:plate_of_stuffed_hoglin_roast",
-	"nethersdelight:propelpearl",
 	"nethersdelight:nether_skewer",
 	"nethersdelight:magma_gelatin",
 	"mynethersdelight:warped_fungus_colony",

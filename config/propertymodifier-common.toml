@@ -2101,6 +2101,7 @@
 		"kubejs:blackstone_deposit" = "building_blocks"
 		"upgrade_aquatic:purple_pickerelweed" = "decorations"
 		"raspberry:firefly" = "misc"
+		"nethersdelight:propelpearl" = "misc"
 
 	#Set this value to true to make an item fire resistant (like netherite is), or set it to false to make it burn in fire and lava. Example (without the leading #):
 	#"minecraft:netherite_ingot" = false
@@ -2256,7 +2257,7 @@
 		"create:copper_diving_boots" = "#raspberry_flavoured:copper_repair_materials"
 		"create:sand_paper" = "#raspberry_flavoured:sand_repair_materials"
 		"create:potato_cannon" = "#raspberry_flavoured:copper_repair_materials"
-		"create:extendo_grip" = "#raspberry_flavoured:rose_gold_repair_materials"
+		"create:extendo_grip" = "#raspberry_flavoured:brass_repair_materials"
 		"environmental:yak_pants" = "#raspberry_flavoured:yak_repair_materials"
 		"savage_and_ravage:griefer_helmet" = "#raspberry_flavoured:griefer_repair_materials"
 		"savage_and_ravage:griefer_chestplate" = "#raspberry_flavoured:griefer_repair_materials"
@@ -2744,6 +2745,9 @@
 		"kubejs:oat_cookie" = 0.85
 		"onion_onion:onion_slice" = 0.3
 		"ecologics:surface_moss" = 0.125
+		"minecraft:shroomlight" = 0.8
+		"nethersdelight:propelpearl" = 0.2
+		"architects_palette:twisted_sapling" = 0.7
 
 #Set the values for axe stripping.
 [stripping]

@@ -41,7 +41,7 @@ ItemEvents.tooltip(event => {
     'supplementaries:flute': 'block.minecraft.bamboo, block.quark.bamboo_planks',
     'vc_gliders:paraglider_wood': 'block.create.white_sail, item.minecraft.phantom_membrane',
     'create:potato_cannon': 'item.minecraft.copper_ingot, item.create.copper_sheet',
-    'create:extendo_grip': 'item.minecraft.iron_ingot, item.create.iron_sheet',
+    'create:extendo_grip': 'item.create.brass_ingot, item.create.brass_sheet',
     'supplementaries:wrench': 'item.minecraft.copper_ingot, item.create.copper_sheet',
     'quark:echorang': 'item.minecraft.echo_shard',
 	

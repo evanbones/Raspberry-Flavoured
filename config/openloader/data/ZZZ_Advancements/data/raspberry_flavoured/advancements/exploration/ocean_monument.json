@@ -35,7 +35,7 @@
     "show_toast": true
   },
   "rewards": {
-      "function": "raspberry_flavoured:sound_goal"
+      "function": "raspberry_flavoured:sound_mystery"
     },
   "requirements": [
     [

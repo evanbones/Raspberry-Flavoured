@@ -234,6 +234,7 @@
   "item.minecraft.potion.effect.water": "Bottle of Water",
   "item.minecraft.splash_potion.effect.water": "Splash Bottle of Water",
   "item.minecraft.lingering_potion.effect.water": "Lingering Bottle of Water",
+  
   "item.minecraft.potion.effect.awkward": "Clear Potion",
   "item.minecraft.splash_potion.effect.awkward": "Clear Splash Potion",
   "item.minecraft.lingering_potion.effect.awkward": "Clear Lingering Potion",
@@ -243,20 +244,27 @@
   "item.minecraft.splash_potion.effect.fire_resistance": "Splash Potion of Incombustibility",
   "item.minecraft.lingering_potion.effect.fire_resistance": "Lingering Potion of Incombustibility",
   "item.minecraft.tipped_arrow.effect.fire_resistance": "Arrow of Incombustibility",
+  
   "item.minecraft.potion.effect.healing": "Potion of Hasty Healing",
   "item.minecraft.splash_potion.effect.healing": "Splash Potion of Hasty Healing",
   "item.minecraft.lingering_potion.effect.healing": "Lingering Potion of Hasty Healing",
   "item.minecraft.tipped_arrow.effect.healing": "Arrow of Hasty Healing",
+  
   "item.minecraft.potion.effect.turtle_master": "Potion of the Snail Master",
   "item.minecraft.splash_potion.effect.turtle_master": "Splash Potion of the Snail Master",
   "item.minecraft.lingering_potion.effect.turtle_master": "Lingering Potion of the Snail Master",
   "item.minecraft.tipped_arrow.effect.turtle_master": "Arrow of the Snail Master",
   
-  "subtitles.entity.wither.ambient": "Wither angers",
+  "item.minecraft.potion.effect.water_breathing": "Potion of the Deep Diver",
+  "item.minecraft.splash_potion.effect.water_breathing": "Splash Potion of the Deep Diver",
+  "item.minecraft.lingering_potion.effect.water_breathing": "Lingering Potion of the Deep Diver",
+  "item.minecraft.tipped_arrow.effect.water_breathing": "Arrow of the Deep Diver",
+  
+  "subtitles.entity.wither.ambient": "The Wither angers",
   "subtitles.entity.wither.death": "The Wither dies",
   "subtitles.entity.wither.hurt": "The Wither hurts",
   "subtitles.entity.wither.shoot": "The Wither attacks",
-  "subtitles.entity.wither.spawn": "The Wither released",
+  "subtitles.entity.wither.spawn": "The Wither is summoned",
   "subtitles.entity.wither_skeleton.ambient": "Withered rattles",
   "subtitles.entity.wither_skeleton.death": "Withered dies",
   "subtitles.entity.wither_skeleton.hurt": "Withered hurts",

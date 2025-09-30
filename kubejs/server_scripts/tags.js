@@ -3148,6 +3148,8 @@ ServerEvents.tags('block', event => {
 		.add('twigs:bamboo_thatch_slab')
 
 	event.get('create:fan_transparent')
+		.add('minecraft:sponge')
+		.add('minecraft:wet_sponge')
 		.add('quark:gold_bars')
 		.add('quark:grate')
 		.add('quark:mud_brick_lattice')
@@ -3372,6 +3374,9 @@ ServerEvents.tags('block', event => {
 		.remove('quark:red_blossom_sapling')
 		.remove('quark:ancient_sapling')
 		.remove('architects_palette:twisted_sapling')
+		
+	event.get('create:fan_processing_catalysts/splashing')
+		.add('minecraft:wet_sponge')
 		
 	event.get('create:fan_processing_catalysts/blasting')
 		.add('caverns_and_chasms:lava_lamp')
@@ -5149,10 +5154,13 @@ ServerEvents.tags('worldgen/biome', event => {
 })
 
 ServerEvents.tags('worldgen/structure', event => {
+	event.get('minecraft:dolphin_located')
+		.add('minecraft:buried_treasure')
+		
 	event.get('minecraft:eye_of_ender_located').removeAll()
 		.add('#minecraft:ruined_portal')
 		.add('#minecraft:bastion_remnant')
-		.add('#minecraft:dolphin_located')
+		.add('#minecraft:shipwreck')
 		.add('#minecraft:ocean_ruin')
 		
 	event.get('raspberry_flavoured:spirited_exopearl_located')
