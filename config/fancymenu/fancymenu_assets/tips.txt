@@ -138,10 +138,13 @@ Cattails grow best on Mud.
 Brushes will allow you to brush some animals for drops.
 Glue Brushes can glue blocks together.
 Wax Brushes can wax loads of blocks at once.
-Shift + T while hovering over an item will share it in chat.
+Pressing Shift + T while hovering over an item will share it in chat.
 Tackle Boxes can customise Reinforced Fishing Rods.
 Worms will shorten the time it takes to catch a fish.
-Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find worms.
+Spider Eyes will shorten the time it takes to catch a fish.
+Fireflies will decently shorten the time it takes to catch a fish.
+Caterpillars will significantly shorten the time it takes to catch a fish.
+Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find Worms.
 Different Hooks have a different impact on the fishing experience.
 Holding a Bucket of Water in the offhand will make caught fish go in it.
 Copper and Gold can be hammered into Sheets, with a chance of breaking.

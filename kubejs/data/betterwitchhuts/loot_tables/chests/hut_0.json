@@ -119,8 +119,18 @@
       "rolls": 1.0,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 4
+          "type": "minecraft:item",
+          "name": "kubejs:witch_bag"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "kubejs:herb_bag"
         },
         {
           "type": "minecraft:item",

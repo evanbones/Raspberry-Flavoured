@@ -416,6 +416,7 @@ ServerEvents.tags('item', event => {
 		
 	event.get('raspberry_flavoured:blackstone_slab')
 		.add('minecraft:blackstone_slab')
+		.add('minecraft:polished_blackstone_slab')
 		.add('minecraft:polished_blackstone_brick_slab')
 		.add('quark:blackstone_bricks_slab')
 		.add('supplementaries:blackstone_tile_slab')

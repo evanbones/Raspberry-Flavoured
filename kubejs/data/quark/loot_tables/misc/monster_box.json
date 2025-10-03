@@ -101,6 +101,11 @@
         },
 		{
           "type": "minecraft:item",
+          "name": "kubejs:herb_bag",
+          "weight": 20
+        },
+		{
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,

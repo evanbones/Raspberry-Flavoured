@@ -392,6 +392,11 @@
             }
           ],
           "name": "minecraft:tnt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:herb_bag",
+          "weight": 6
         }
       ],
       "rolls": {

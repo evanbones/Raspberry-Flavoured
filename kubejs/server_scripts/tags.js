@@ -1375,6 +1375,15 @@ ServerEvents.tags('item', event => {
 		.add('create:chocolate_glazed_berries')
 		.add('create_confectionery:chocolate_glazed_marshmallow')
 
+	event.get('caverns_and_chasms:glare_food')
+		.add('naturalist:glow_goop')
+		.add('nethersdelight:propelpearl')
+
+	event.get('raspberry_flavoured:loot_bags')
+		.add('kubejs:loot_bag')
+		.add('kubejs:witch_bag')
+		.add('kubejs:herb_bag')
+
 	event.get('raspberry_flavoured:glowstick_materials')
 		.add('minecraft:glow_ink_sac')
 		.add('quark:glow_shroom')

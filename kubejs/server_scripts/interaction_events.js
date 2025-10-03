@@ -283,17 +283,11 @@ ItemEvents.entityInteracted(event => {
     }
 })
 
-// loot bag item interaction
-ItemEvents.rightClicked(event => {
-    if (event.item.id === 'kubejs:loot_bag') {
-	// remove one loot bag if the player isnt in creative
-		if (!event.player.isCreative()) {
-		event.item.count --
-		}
-		// swing arm, play the bundle sound and spawn loot
-		event.player.swing(event.hand, true)
-		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
-		event.server.runCommandSilent(`execute as ${event.entity.username} run loot spawn ${event.player.x} ${event.player.y+0.2} ${event.player.z} loot additionaladditions:mysterious_bundle`)
+// feeding glares
+ItemEvents.entityInteracted(event => {
+    if (event.item.hasTag('caverns_and_chasms:glare_food') && event.target.type === "caverns_and_chasms:glare") {
+        event.level.spawnParticles('minecraft:end_rod', true, event.target.x, event.target.y+0.5, event.target.z, 0.2, 0.2, 0.2, Math.floor(Math.random() * (18 - 9 + 1) + 9), 0.15)
+        event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (1800 - 900 + 1) + 900), 0, true, false)
     }
 })
 
@@ -669,4 +663,59 @@ ItemEvents.rightClicked(event => {
     if (event.item.hasTag('raspberry_flavoured:bombs')) {
 		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/bomb`)
     }
+})
+
+// loot bags (script by asof)
+ItemEvents.rightClicked(event => {
+	// goodie bag
+    if (event.item.id === 'kubejs:loot_bag') {
+		// take away loot bag if not in creative, swing hand, play bundle sound
+		if (!event.player.isCreative()) {
+			event.item.count --
+		}
+		event.player.swing(event.hand, true)
+		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
+		
+		// loot
+		let items = Utils.rollChestLoot('kubejs:bags/loot_bag')
+		
+		// give items
+		event.server.schedule(1, () => {
+			for(let item of items) event.player.giveInHand(item)
+		})
+	}
+	// witch bag
+    if (event.item.id === 'kubejs:witch_bag') {
+		// take away loot bag if not in creative, swing hand, play bundle sound
+		if (!event.player.isCreative()) {
+			event.item.count --
+		}
+		event.player.swing(event.hand, true)
+		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
+		
+		// loot
+		let items = Utils.rollChestLoot('kubejs:bags/witch_bag')
+		
+		// give items
+		event.server.schedule(1, () => {
+			for(let item of items) event.player.giveInHand(item)
+		})
+	}
+	// herb bag
+    if (event.item.id === 'kubejs:herb_bag') {
+		// take away loot bag if not in creative, swing hand, play bundle sound
+		if (!event.player.isCreative()) {
+			event.item.count --
+		}
+		event.player.swing(event.hand, true)
+		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
+		
+		// loot
+		let items = Utils.rollChestLoot('kubejs:bags/herb_bag')
+		
+		// give items
+		event.server.schedule(1, () => {
+			for(let item of items) event.player.giveInHand(item)
+		})
+	}
 })

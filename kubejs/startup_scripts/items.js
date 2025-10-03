@@ -14,7 +14,6 @@ StartupEvents.registry('item', event => {
 	event.create('latex_bottle').group('misc')
 	event.create('batter').group('misc')
 	event.create('rubber').group('misc')
-	event.create('loot_bag').maxStackSize(1).rarity('uncommon').group('misc')
 	event.create('copper_brush').maxStackSize(1).maxDamage(200).group('tools')
 	event.create('charcoal_lump').burnTime(200).group('misc')
 	event.create('rose_gold_nugget').group('misc')
@@ -25,6 +24,10 @@ StartupEvents.registry('item', event => {
 	event.create('dwarf_geode').group('misc')
 	event.create('deepslate_dwarf_geode').group('misc')
 	event.create('blackstone_dwarf_geode').group('misc')
+	
+	event.create('loot_bag').maxStackSize(1).rarity('uncommon').group('misc')
+	event.create('witch_bag').maxStackSize(1).rarity('uncommon').group('misc')
+	event.create('herb_bag').maxStackSize(1).rarity('uncommon').group('misc')
 	
 // Food & drinks
 	// Regular

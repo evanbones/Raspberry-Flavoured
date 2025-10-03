@@ -62,16 +62,16 @@ EntityEvents.spawned(event => {
     }
 	// give withered armour
     if (entity.type === 'minecraft:wither_skeleton') {
-        if (Math.floor(Math.random() * (5 - 1 + 1) + 1) === 1) {
+        if (Math.floor(Math.random() * (10 - 1 + 1) + 1) === 1) {
             entity.setItemSlot("head", Item.of('alloyed:steel_helmet'))
         }
-        if (Math.floor(Math.random() * (5 - 1 + 1) + 1) === 1) {
+        if (Math.floor(Math.random() * (16 - 1 + 1) + 1) === 1) {
             entity.setItemSlot("chest", Item.of('alloyed:steel_chestplate'))
         }
-        if (Math.floor(Math.random() * (5 - 1 + 1) + 1) === 1) {
+        if (Math.floor(Math.random() * (13 - 1 + 1) + 1) === 1) {
             entity.setItemSlot("legs", Item.of('alloyed:steel_leggings'))
         }
-        if (Math.floor(Math.random() * (5 - 1 + 1) + 1) === 1) {
+        if (Math.floor(Math.random() * (8 - 1 + 1) + 1) === 1) {
             entity.setItemSlot("feet", Item.of('alloyed:steel_boots'))
         }
     }

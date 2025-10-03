@@ -324,6 +324,9 @@ EntityJSEvents.attributes(event => {
     event.modify('caverns_and_chasms:peeper', attribute => {
         attribute.add("minecraft:generic.max_health", 15)
     })
+    event.modify('minecraft:witch', attribute => {
+        attribute.add("minecraft:generic.max_health", 30)
+    })
     event.modify('minecraft:wither', attribute => {
         attribute.add("minecraft:generic.max_health", 500)
     })
@@ -385,6 +388,11 @@ EntityJSEvents.attributes(event => {
     event.modify('neapolitan:plantain_spider', attribute => {
         attribute.add("minecraft:generic.follow_range", 20.0)
         attribute.add("forge:step_height_addition", 0.45)
+    })
+	
+	// Buff witches
+    event.modify('minecraft:witch', attribute => {
+        attribute.add("minecraft:generic.armor", 4)
     })
 })
 
