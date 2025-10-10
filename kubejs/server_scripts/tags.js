@@ -3273,6 +3273,10 @@ ServerEvents.tags('block', event => {
 	event.get('supplementaries:un_rotatable')
 		.add('minecraft:deepslate')
 
+	event.get("supplementaries:posts")
+    .add("windswept:chestnut_post")
+    .add("windswept:stripped_chestnut_post")
+
 	event.get('vc_gliders:updraft')
 		.add('#farmersdelight:heat_sources')
 
