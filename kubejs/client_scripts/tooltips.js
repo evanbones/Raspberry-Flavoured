@@ -2784,7 +2784,8 @@ ItemEvents.tooltip(tooltip => {
 	"upgrade_aquatic:boiled_blue_pickerelweed_block",
 	"upgrade_aquatic:boiled_blue_pickerelweed",
 	"abnormals_delight:pickerelweed_juice",
-	"create:builders_tea"
+	"create:builders_tea",
+	"architects_palette:algal_blend"
 	], Text.translate("rf.tooltip.unobtainable"))
   
 // snowball

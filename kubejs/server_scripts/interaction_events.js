@@ -287,7 +287,15 @@ ItemEvents.entityInteracted(event => {
 ItemEvents.entityInteracted(event => {
     if (event.item.hasTag('caverns_and_chasms:glare_food') && event.target.type === "caverns_and_chasms:glare") {
         event.level.spawnParticles('minecraft:end_rod', true, event.target.x, event.target.y+0.5, event.target.z, 0.2, 0.2, 0.2, Math.floor(Math.random() * (18 - 9 + 1) + 9), 0.15)
-        event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (1800 - 900 + 1) + 900), 0, true, false)
+		if (event.item.id === 'minecraft:glow_berries') {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (1200 - 600 + 1) + 600), 0, true, false)
+		}
+		if (event.item.id === 'naturalist:glow_goop') {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (2400 - 1200 + 1) + 1200), 0, true, false)
+		}
+		if (event.item.id === 'nethersdelight:propelpearl') {
+			event.player.potionEffects.add('night_vision', Math.floor(Math.random() * (3600 - 2400 + 1) + 2400), 0, true, false)
+		}
     }
 })
 
@@ -664,12 +672,17 @@ ItemEvents.rightClicked(event => {
 		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/bomb`)
     }
 })
+BlockEvents.broken(event => {
+    if (event.block.hasTag('raspberry_flavoured:fragile_blocks')) {
+		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/fragile_stone`)
+    }
+})
 
 // loot bags (script by asof)
 ItemEvents.rightClicked(event => {
 	// goodie bag
     if (event.item.id === 'kubejs:loot_bag') {
-		// take away loot bag if not in creative, swing hand, play bundle sound
+		// take away if not in creative, swing hand, play bundle sound
 		if (!event.player.isCreative()) {
 			event.item.count --
 		}
@@ -686,7 +699,7 @@ ItemEvents.rightClicked(event => {
 	}
 	// witch bag
     if (event.item.id === 'kubejs:witch_bag') {
-		// take away loot bag if not in creative, swing hand, play bundle sound
+		// take away if not in creative, swing hand, play bundle sound
 		if (!event.player.isCreative()) {
 			event.item.count --
 		}
@@ -703,7 +716,7 @@ ItemEvents.rightClicked(event => {
 	}
 	// herb bag
     if (event.item.id === 'kubejs:herb_bag') {
-		// take away loot bag if not in creative, swing hand, play bundle sound
+		// take away if not in creative, swing hand, play bundle sound
 		if (!event.player.isCreative()) {
 			event.item.count --
 		}
@@ -712,6 +725,23 @@ ItemEvents.rightClicked(event => {
 		
 		// loot
 		let items = Utils.rollChestLoot('kubejs:bags/herb_bag')
+		
+		// give items
+		event.server.schedule(1, () => {
+			for(let item of items) event.player.giveInHand(item)
+		})
+	}
+	// can of bait
+    if (event.item.id === 'kubejs:bait_can') {
+		// take away if not in creative, swing hand, play bundle sound
+		if (!event.player.isCreative()) {
+			event.item.count --
+		}
+		event.player.swing(event.hand, true)
+		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
+		
+		// loot
+		let items = Utils.rollChestLoot('kubejs:bags/bait_can')
 		
 		// give items
 		event.server.schedule(1, () => {

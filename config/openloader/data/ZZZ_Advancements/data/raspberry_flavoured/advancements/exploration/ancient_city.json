@@ -27,7 +27,7 @@
       "translate": "advancements.rf.exploration.ancient_city.description"
     },
     "icon": {
-      "item": "minecraft:sculk_sensor"
+      "item": "minecraft:echo_shard"
     },
     "frame": "goal",
     "hidden": false,

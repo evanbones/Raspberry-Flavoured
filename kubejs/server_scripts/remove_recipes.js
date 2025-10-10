@@ -13,7 +13,6 @@ ServerEvents.recipes(event => {
 	'mynethersdelight:crimson_fungus_colony',
 	'mynethersdelight:ghast_dough',
 	'nethersdelight:propelplant_cane',
-	'nethersdelight:propelpearl',
 	'architects_palette:twisted_leaves',
 	'windswept:frozen_flesh',
 	'environmental:healer_pouch',

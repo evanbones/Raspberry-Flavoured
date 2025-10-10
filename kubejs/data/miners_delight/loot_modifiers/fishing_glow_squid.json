@@ -18,7 +18,7 @@
         },
 		{
 			"condition": "minecraft:random_chance",
-			"chance" : 0.01
+			"chance" : 0
 		},
 	],
 	"item": "miners_delight:glow_squid",

@@ -1309,7 +1309,6 @@ ServerEvents.tags('item', event => {
 		.add('farmersdelight:wheat_dough')
 		.add('culturaldelights:corn_dough')
 		.add('additionaladditions:rose_gold_alloy')
-		.add('architects_palette:algal_blend')
 		.add('supplementaries:candy')
 		.add('kubejs:oat_bar')
 		.add('minecraft:ender_eye')
@@ -1375,6 +1374,23 @@ ServerEvents.tags('item', event => {
 		.add('create:chocolate_glazed_berries')
 		.add('create_confectionery:chocolate_glazed_marshmallow')
 
+	event.get('raspberry:repairs_in_darkness')
+		.add('caverns_and_chasms:necromium_shovel')
+		.add('caverns_and_chasms:necromium_pickaxe')
+		.add('caverns_and_chasms:necromium_axe')
+		.add('caverns_and_chasms:necromium_hoe')
+		.add('caverns_and_chasms:necromium_sword')
+		.add('caverns_and_chasms:necromium_helmet')
+		.add('caverns_and_chasms:necromium_chestplate')
+		.add('caverns_and_chasms:necromium_leggings')
+		.add('caverns_and_chasms:necromium_boots')
+		.add('abnormals_delight:necromium_knife')
+		.add('clash:greatblade')
+
+	event.get('raspberry_flavoured:raw_crab_meat')
+		.add('kubejs:crab_meat')
+		.add('ecologics:crab_claw')
+
 	event.get('caverns_and_chasms:glare_food')
 		.add('naturalist:glow_goop')
 		.add('nethersdelight:propelpearl')
@@ -1383,6 +1399,7 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:loot_bag')
 		.add('kubejs:witch_bag')
 		.add('kubejs:herb_bag')
+		.add('kubejs:bait_can')
 
 	event.get('raspberry_flavoured:glowstick_materials')
 		.add('minecraft:glow_ink_sac')
@@ -1421,6 +1438,7 @@ ServerEvents.tags('item', event => {
 
 	event.get('raspberry:good_bait')
 		.add('naturalist:caterpillar')
+		.add('kubejs:golden_worm')
 
 	event.get('mynethersdelight:hot_spice').removeAll()
 		.add('mynethersdelight:bullet_pepper')
@@ -1779,7 +1797,6 @@ ServerEvents.tags('item', event => {
 		.add('architects_palette:entwine_rod')
 		.add('architects_palette:withered_bone')
 		.add('architects_palette:algal_brick')
-		.add('architects_palette:algal_blend')
 		.add('naturalist:bear_fur')
 		.add('ecologics:coconut_husk')
 		.add('supplementaries:ash_brick')
@@ -2808,6 +2825,7 @@ ServerEvents.tags('item', event => {
 	
 	event.get('minecraft:small_flowers')
 		.remove('nethersdelight:mimicarnation')
+		.add('raspberry:hopeful_wildflowers')
 	
 	event.get('forge:dough')
 		.remove('create:dough')
@@ -3048,6 +3066,10 @@ ServerEvents.tags('block', event => {
 	event.removeAll('auditory:obsidian_sounds')
 	event.removeAll('sullysmod:projectiles_bounce_on')
 	event.removeAll('spelunkery:can_boil_water')
+
+	event.get('raspberry_flavoured:fragile_blocks')
+		.add('caverns_and_chasms:fragile_stone')
+		.add('caverns_and_chasms:fragile_deepslate')
 
 	event.get('raspberry_flavoured:zombie_dungeon_blocks')
 		.add('minecraft:coarse_dirt')
@@ -4162,6 +4184,10 @@ ServerEvents.tags('block', event => {
 	event.get('minecraft:small_flowers')
 		.remove('nethersdelight:mimicarnation')
 		.remove('miners_delight:wild_cave_carrots')
+		.add('raspberry:hopeful_wildflowers')
+	
+	event.get('universalbonemeal:fertilizer_resistant_flowers')
+		.add('raspberry:hopeful_wildflowers')
 	
 	event.removeAll('auditory:leaf_sounds')
 	event.removeAll('auditory:plant_sounds')
@@ -5095,6 +5121,9 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('minecraft:windswept_savanna')
 		.add('autumnity:maple_forest')
 		.add('autumnity:pumpkin_fields')
+		
+	event.get('raspberry_flavoured:hopeful_wildflowers_biomes')
+		.add('minecraft:flower_forest')
 		
 	event.get('raspberry_flavoured:dense_pink_petals_biomes')
 		.add('environmental:blossom_woods')

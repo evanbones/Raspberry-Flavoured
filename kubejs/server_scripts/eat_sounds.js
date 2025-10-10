@@ -116,6 +116,7 @@ ServerEvents.tags('item', event => {
 		.add('miners_delight:improvised_barbecue_stick')
 		.add('mynethersdelight:hot_cream')
 		.add('mynethersdelight:hot_cream_cone')
+		.add('berry_good:glowgurt')
 		
 	event.get('raspberry:sounds/vegetable')
 		.add('minecraft:potato')

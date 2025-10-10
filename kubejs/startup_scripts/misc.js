@@ -37,48 +37,37 @@ StartupEvents.registry('fluid', event =>
 	event.create('ink').stillTexture('kubejs:fluid/ink_still').flowingTexture('kubejs:fluid/ink_flow')
 	event.create('latex').stillTexture('kubejs:fluid/latex_still').flowingTexture('kubejs:fluid/latex_flow')
 	event.create('cooking_oil').stillTexture('kubejs:fluid/cooking_oil_still').flowingTexture('kubejs:fluid/cooking_oil_flow')
+	
 	event.create('strawberry_banana_smoothie').stillTexture('kubejs:fluid/strawberry_banana_smoothie_still').flowingTexture('kubejs:fluid/strawberry_banana_smoothie_flow').noBucket().noBlock()
 	event.create('cherry_cream_soda').stillTexture('kubejs:fluid/cherry_cream_soda_still').flowingTexture('kubejs:fluid/cherry_cream_soda_flow').noBucket().noBlock()
 	
-	event.create('cactus_juice').thinTexture(0x4B8C37).noBucket().noBlock
+	event.create('cactus_juice').thinTexture(0x4B8C37).noBucket().noBlock()
 	event.create('lemonade').thinTexture(0xF9F93B).noBucket().noBlock()
 	event.create('mint_green_tea').thinTexture(0x6BCF87).noBucket().noBlock()
 	event.create('vanilla_milk_tea').thinTexture(0xD3A872).noBucket().noBlock()
-	event.create('pickerelweed_juice').thinTexture(0x519991).noBucket().noBlock
+	event.create('pickerelweed_juice').thinTexture(0x519991).noBucket().noBlock()
 	
 	// don't ask
 	event.create('wooden_pickaxe').displayName('Wooden Pickaxe Fluid').stillTexture('kubejs:fluid/wooden_pickaxe').flowingTexture('kubejs:fluid/wooden_pickaxe')
 })
 
-// Misc. item attributes
 ItemEvents.modification(event => {
-	// Burn time
-	event.modify('atmospheric:large_kousa_boat', item => {
-		item.burnTime = 2400
-    })
-	event.modify('twigs:twig', item => {
-		item.burnTime = 200
-    })
-	event.modify('environmental:tall_dead_bush', item => {
+// Fuel (fuel amount is x * 200)
+	// 0.5 
+	event.modify([
+	'environmental:tall_dead_bush'
+	], item => {
 		item.burnTime = 100
     })
-	event.modify('kubejs:heating_cask', item => {
-		item.burnTime = 900
-    })
-	event.modify('minecraft:mushroom_stem', item => {
-		item.burnTime = 800
-    })
-	event.modify('quark:glow_shroom_stem', item => {
-		item.burnTime = 800
-    })
+	
+	// 1
 	event.modify([
-	'minecraft:campfire',
-	'minecraft:soul_campfire',
-	'endergetic:ender_campfire',
-	'caverns_and_chasms:cupric_campfire'
+	'twigs:twig'
 	], item => {
-		item.burnTime = 600
+		item.burnTime = 200
     })
+	
+	// 1.25
 	event.modify([
 	'minecraft:torch',
 	'minecraft:soul_torch',
@@ -88,6 +77,56 @@ ItemEvents.modification(event => {
 		item.burnTime = 250
     })
 	
+	// 3
+	event.modify([
+	'minecraft:campfire',
+	'minecraft:soul_campfire',
+	'endergetic:ender_campfire',
+	'caverns_and_chasms:cupric_campfire',
+	'mynethersdelight:bullet_pepper',
+	'mynethersdelight:magma_cake_slice'
+	], item => {
+		item.burnTime = 600
+    })
+	
+	// 4
+	event.modify([
+	'minecraft:mushroom_stem',
+	'quark:glow_shroom_stem',
+	'minecraft:blaze_powder',
+	'mynethersdelight:hot_cream_cone'
+	], item => {
+		item.burnTime = 800
+    })
+	
+	// 4.5
+	event.modify([
+	'kubejs:heating_cask'
+	], item => {
+		item.burnTime = 900
+    })
+	
+	// 12
+	event.modify([
+	'atmospheric:large_kousa_boat',
+	'mynethersdelight:hot_cream'
+	], item => {
+		item.burnTime = 2400
+    })
+	
+	// 21
+	event.modify([
+	'raspberry:magma_cake'
+	], item => {
+		item.burnTime = 4200
+    })
+	
+	// 30
+	event.modify('mynethersdelight:bullet_pepper_crate', item => {
+		item.burnTime = 6000
+    })
+	
+// Rarity
 	// Common items
 	event.modify([
 	'supplementaries:quiver',
@@ -168,7 +207,7 @@ ItemEvents.modification(event => {
         item.rarity = 'epic'
     })
 	
-	// Crafting remainders
+// Crafting remainders
 	event.modify('minecraft:potion', item => {
 		item.craftingRemainder = Item.of('minecraft:glass_bottle').item
 	})
@@ -196,11 +235,13 @@ ItemEvents.modification(event => {
 })
 // Enchantments
 StartupEvents.registry('enchantment', event => {
+	// used exclusively on rose gold rapiers
     event.create('rose_lifesteal')
         .postAttack(
             (user, target, level) => {
                 user.health += 1
             })
+	// reduces targets' invulnerability timer
     event.create('guard_break')
         .maxLevel(3)
         .weapon()
@@ -223,6 +264,7 @@ StartupEvents.registry('painting_variant', event => {
     event.create('investigation').width(64).height(64).tag('minecraft:placeable')
     event.create('miniature').width(48).height(48).tag('minecraft:placeable')
     event.create('mirror_mirror').width(32).height(32).tag('minecraft:placeable')
+    event.create('ride_fast').width(64).height(64).tag('minecraft:placeable')
     event.create('six_months').width(48).height(32).tag('minecraft:placeable')
     event.create('sun').width(48).height(48).tag('minecraft:placeable')
     event.create('white_eyes').width(64).height(48).tag('minecraft:placeable')
@@ -392,7 +434,7 @@ EntityJSEvents.attributes(event => {
 	
 	// Buff witches
     event.modify('minecraft:witch', attribute => {
-        attribute.add("minecraft:generic.armor", 4)
+        attribute.add("minecraft:generic.armor", 6)
     })
 })
 

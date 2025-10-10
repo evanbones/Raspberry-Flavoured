@@ -4,10 +4,10 @@
     "item": "ecologics:coconut_slice"
   },
   "cookingtime": 200,
-  "experience": 0.35,
+  "experience": 0,
   "ingredients": [
     {
-      "item": "kubejs:crab_meat"
+      "tag": "raspberry_flavoured:raw_crab_meat"
     },
     {
       "tag": "forge:vegetables"

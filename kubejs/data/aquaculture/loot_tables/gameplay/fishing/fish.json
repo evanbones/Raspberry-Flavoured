@@ -28,6 +28,17 @@
               ]
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 40,
           "name": "aquaculture:blackfish"
         },
@@ -40,6 +51,17 @@
                 "include": ["minecraft:is_ocean", "minecraft:is_beach"],
                 "exclude": ["forge:is_hot"]
               }
+            }
+          ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 60,
@@ -68,6 +90,17 @@
               ]
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 25,
           "name": "aquaculture:pollock"
         },
@@ -80,6 +113,17 @@
                 "include": ["forge:is_dry"],
                 "exclude": ["forge:is_cold"]
               }
+            }
+          ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 20,
@@ -96,6 +140,17 @@
               }
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 30,
           "name": "aquaculture:boulti"
         },
@@ -108,6 +163,17 @@
                 "include": ["forge:is_dry"],
                 "exclude": ["forge:is_cold"]
               }
+            }
+          ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 5,
@@ -124,6 +190,17 @@
               }
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 60,
           "name": "aquaculture:synodontis"
         },
@@ -135,6 +212,17 @@
               "predicate": {
                 "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_dry", "minecraft:is_jungle"]
               }
+            }
+          ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 60,
@@ -150,6 +238,17 @@
               }
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 30,
           "name": "aquaculture:brown_trout"
         },
@@ -161,6 +260,17 @@
               "predicate": {
                 "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_dry", "minecraft:is_jungle"]
               }
+            }
+          ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 30,
@@ -176,6 +286,17 @@
               }
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 20,
           "name": "aquaculture:gar"
         },
@@ -187,6 +308,17 @@
               "predicate": {
                 "exclude": ["minecraft:is_ocean", "minecraft:is_beach", "forge:is_hot", "forge:is_dry", "minecraft:is_jungle"]
               }
+            }
+          ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 60,
@@ -202,6 +334,17 @@
               }
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 20,
           "name": "aquaculture:tambaqui"
         },
@@ -215,6 +358,17 @@
               }
             }
           ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 20,
           "name": "aquaculture:red_grouper"
         },
@@ -226,6 +380,17 @@
               "predicate": {
                 "include": ["minecraft:is_ocean", "minecraft:is_beach"]
               }
+            }
+          ],
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 5,

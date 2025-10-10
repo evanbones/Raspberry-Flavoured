@@ -403,7 +403,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('miners_delight:baked_squid', item => {
         item.foodProperties = food => {
-            food.hunger(6).saturation(0.6)
+            food.hunger(7).saturation(0.6)
         }
     })
 	event.modify('abnormals_delight:maple_glazed_bacon', item => {

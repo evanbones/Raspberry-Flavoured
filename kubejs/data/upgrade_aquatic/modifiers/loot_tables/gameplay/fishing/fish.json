@@ -25,6 +25,17 @@
                 ]
               }
             ],
+			"functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                "function": "minecraft:set_count"
+              }
+			],
             "name": "naturalist:bass",
             "weight": 18
           },
@@ -49,6 +60,17 @@
                 ]
               }
             ],
+			"functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                "function": "minecraft:set_count"
+              }
+			],
             "name": "upgrade_aquatic:pike",
             "weight": 11
           },
@@ -62,6 +84,17 @@
                 }
               }
             ],
+			"functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                "function": "minecraft:set_count"
+              }
+			],
             "name": "upgrade_aquatic:perch",
             "weight": 18
           },
@@ -75,6 +108,17 @@
                 }
               }
             ],
+			"functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                    "max": 3.0,
+                    "min": 1.0
+                  },
+                "function": "minecraft:set_count"
+              }
+			],
             "name": "upgrade_aquatic:lionfish",
             "weight": 5
           }

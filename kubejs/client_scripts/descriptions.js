@@ -146,10 +146,13 @@ const keysToItems = {
     'rf.jei.spider_eye': 'minecraft:spider_eye',
     'rf.jei.firefly': 'raspberry:firefly',
     'rf.jei.caterpillar': 'naturalist:caterpillar',
+    'rf.jei.golden_worm': 'kubejs:golden_worm',
 	
     'rf.jei.dwarf_geode': 'kubejs:dwarf_geode',
     'rf.jei.deepslate_dwarf_geode': 'kubejs:deepslate_dwarf_geode',
     'rf.jei.blackstone_dwarf_geode': 'kubejs:blackstone_dwarf_geode',
+	
+    'rf.jei.loot_bags': '#raspberry_flavoured:loot_bags',
 	
     'rf.jei.totem_of_undying': 'minecraft:totem_of_undying',
     'rf.jei.wand_of_freezing': 'savage_and_ravage:wand_of_freezing',

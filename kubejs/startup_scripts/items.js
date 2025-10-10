@@ -20,11 +20,13 @@ StartupEvents.registry('item', event => {
 	event.create('rough_quartz_shard').group('misc')
 	event.create('quartz_shard').group('misc')
 	event.create('stardust').glow(true).rarity('rare').group('misc')
+	event.create('golden_worm').rarity('uncommon').group('misc')
 	
 	event.create('dwarf_geode').group('misc')
 	event.create('deepslate_dwarf_geode').group('misc')
 	event.create('blackstone_dwarf_geode').group('misc')
 	
+	event.create('bait_can').maxStackSize(1).rarity('uncommon').group('misc')
 	event.create('loot_bag').maxStackSize(1).rarity('uncommon').group('misc')
 	event.create('witch_bag').maxStackSize(1).rarity('uncommon').group('misc')
 	event.create('herb_bag').maxStackSize(1).rarity('uncommon').group('misc')
@@ -39,7 +41,7 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('cooked_fish').group('food').food(food => {
 		food
-    		.hunger(7)
+    		.hunger(5)
     		.saturation(0.5)
         	})
 	event.create('crystalfish').group('food').rarity('rare').food(food => {
