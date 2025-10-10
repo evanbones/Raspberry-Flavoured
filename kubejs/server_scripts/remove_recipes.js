@@ -1329,7 +1329,6 @@ ServerEvents.recipes(event => {
 	'rottencreatures:tnt_barrel',
 	'rottencreatures:treasure_chest',
 	'mynethersdelight:powdery_torch',
-	'caverns_and_chasms:blunt_arrow',
 	'caverns_and_chasms:tmt',
 	'caverns_and_chasms:cobblestone_tiles',
 	'caverns_and_chasms:cobblestone_tile_stairs',

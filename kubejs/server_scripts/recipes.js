@@ -166,6 +166,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('2x quark:torch_arrow', ['#minecraft:coals', '2x arrow']).id('quark:tools/crafting/torch_arrow')
 	event.shapeless('8x quark:torch_arrow', ['modestmining:coke', '8x arrow'])
 	event.shapeless('8x caverns_and_chasms:large_arrow', ['#forge:ingots/steel', '8x arrow']).id('caverns_and_chasms:large_arrow')
+	event.shapeless('8x caverns_and_chasms:blunt_arrow', ['#forge:ingots/rose_gold', '8x arrow']).id('caverns_and_chasms:blunt_arrow')
 	event.shapeless('purple_dye', ['3x upgrade_aquatic:purple_pickerelweed']).id('upgrade_aquatic:purple_dye_from_pickerelweed')
 	event.shapeless('flint', ['2x twigs:pebble'])
 	event.shapeless('spelunkery:salt', ['2x spelunkery:rock_salt'])
