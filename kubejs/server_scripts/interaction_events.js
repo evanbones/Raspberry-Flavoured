@@ -143,67 +143,6 @@ ItemEvents.entityInteracted(event => {
     }
 })
 
-// taming ocelots
-ItemEvents.entityInteracted(event => {
-    if (event.item.id === 'kubejs:cat_food' && event.target.type === 'minecraft:ocelot') {
-		event.player.swing(event.hand, true)
-
-        if (event.target.nbt.Trusting == 1) {
-		    if (!event.player.isCreative()) {
-                event.item.count --
-                event.player.giveInHand('minecraft:bowl')
-            }
-
-            const catVars = [
-                "minecraft:white",
-                "minecraft:black",
-                "minecraft:red",
-                "minecraft:siamese",
-                "minecraft:british_shorthair",
-                "minecraft:calico",
-                "minecraft:persian",
-                "minecraft:ragdoll",
-                "minecraft:tabby",
-                "minecraft:all_black",
-                "minecraft:jellie",
-                "moremobvariants:doug",
-                "moremobvariants:gray_tabby",
-                "moremobvariants:tortoiseshell"
-            ]
-            const random = Math.floor(Math.random() * catVars.length)
-
-            let ocelotData = event.target.nbt
-            delete ocelotData.UUID
-
-            event.server.runCommandSilent(`particle minecraft:heart ${event.target.x} ${event.target.y} ${event.target.z} 0.5 0.25 0.5 0.125 5 force`)
-
-            let cat = event.player.level.getBlock(event.target.x, event.target.y, event.target.z).createEntity("cat")
-            cat.mergeNbt(ocelotData)
-            cat.mergeNbt({Owner: event.player.stringUuid})
-            cat.mergeNbt({VariantID: catVars[random]})
-            cat.mergeNbt({ActiveEffects: [{"forge:id": "minecraft:speed", Ambient: 0, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1}], ShowIcon: 1, ShowParticles: 1, Duration: 6000, Id: 1, Amplifier: 0}, {"forge:id": "minecraft:regeneration", Ambient: 0, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1}], ShowIcon: 1, ShowParticles: 1, Duration: 6000, Id: 10, Amplifier: 0}, {"forge:id": "minecraft:resistance", Ambient: 0, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1}], ShowIcon: 1, ShowParticles: 1, Duration: 6000, Id: 11, Amplifier: 0}]})
-            cat.spawn()
-            event.target.discard()
-        }
-    }
-})
-
-// feeding cat food
-ItemEvents.entityInteracted(event => {
-    if (event.item.id === 'kubejs:cat_food') {
-        if (event.target.type === 'minecraft:cat') {
-		event.player.swing(event.hand, true)
-        if (!event.player.isCreative()) {
-            event.item.count --
-            event.player.giveInHand('minecraft:bowl')
-        }
-		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'entity.generic.eat', 'players', 1, 1)
-        event.server.runCommandSilent(`particle farmersdelight:star ${event.target.x} ${event.target.y+0.5} ${event.target.z} 0.2 0 0.2 0.05 4 force`)
-        event.target.mergeNbt({ActiveEffects: [{"forge:id": "minecraft:speed", Ambient: 0, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1}], ShowIcon: 1, ShowParticles: 1, Duration: 6000, Id: 1, Amplifier: 0}, {"forge:id": "minecraft:regeneration", Ambient: 0, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1}], ShowIcon: 1, ShowParticles: 1, Duration: 6000, Id: 10, Amplifier: 0}, {"forge:id": "minecraft:resistance", Ambient: 0, CurativeItems: [{id: "minecraft:milk_bucket", Count: 1}], ShowIcon: 1, ShowParticles: 1, Duration: 6000, Id: 11, Amplifier: 0}]})
-        }
-    }
-})
-
 // oxidizing copper golems
 ItemEvents.entityInteracted(event => {
     if (event.item.id === "additionaladditions:copper_patina" && event.target.type == "caverns_and_chasms:copper_golem") {

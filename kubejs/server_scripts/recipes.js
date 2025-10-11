@@ -514,9 +514,9 @@ ServerEvents.recipes(event => {
 	event.shaped('clock', [' A ', 'ABA', ' A '], {A: '#forge:ingots/gold', B: 'spelunkery:cinnabar'})
 	
 	event.shaped('aquaculture:gold_hook', [' A', ' B', 'BB'], {A: 'spelunkery:magnetite_chunk', B: 'spelunkery:raw_magnetite_nugget'}).id('aquaculture:gold_hook')
-	event.shaped('aquaculture:light_hook', [' A', ' B', 'BB'], {A: 'copper_ingot', B: 'create:copper_nugget'}).id('aquaculture:light_hook')
-	event.shaped('aquaculture:heavy_hook', [' A', ' B', 'BB'], {A: 'alloyed:steel_ingot', B: 'alloyed:steel_nugget'}).id('aquaculture:heavy_hook')
-	event.shaped('aquaculture:redstone_hook', [' A', ' B', 'BB'], {A: 'create:zinc_ingot', B: 'create:zinc_nugget'}).id('aquaculture:redstone_hook')
+	event.shaped('aquaculture:light_hook', [' A', ' B', 'BB'], {A: '#forge:ingots/rose_gold', B: '#forge:nuggets/rose_gold'}).id('aquaculture:light_hook')
+	event.shaped('aquaculture:heavy_hook', [' A', ' B', 'BB'], {A: '#forge:ingots/steel', B: '#forge:nuggets/steel'}).id('aquaculture:heavy_hook')
+	event.shaped('aquaculture:redstone_hook', [' A', ' B', 'BB'], {A: '#forge:ingots/brass', B: '#forge:nuggets/brass'}).id('aquaculture:redstone_hook')
 	
 	event.shaped('4x twigs:bamboo_thatch', ['AAA', 'AAA'], {A: 'twigs:bamboo_leaves'}).id('twigs:bamboo_thatch')
 	event.shaped('4x neapolitan:frond_thatch', ['AAA', 'AAA'], {A: 'neapolitan:banana_frond'}).id('neapolitan:banana/frond_thatch/frond_thatch')

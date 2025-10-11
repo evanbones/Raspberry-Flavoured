@@ -371,9 +371,9 @@
   "rf.jei.tackle_box": "Tackle Boxes will let you customize Reinforced Fishing Rods, allowing you to attach Hooks, Fishing Lines, Bobbers and any kind of bait to them. Reinforced Fishing Rods do not require any of these to be attached in order to work, but they will provide some neat utilities.",
   "rf.jei.hooks": "Hooks can be equipped to Reinforced Fishing Rods in a Tackle Box. Each Hook will have a unique effect on your fishing experience.",
   "rf.jei.magnetite_hook": "Will increase the chances of catching treasure, but also the chances of catching junk.",
-  "rf.jei.copper_hook": "Light, will allow you to cast your fishing line further.",
-  "rf.jei.steel_hook": "Heavy, will allow you to cast your fishing line shorter and more precisely.",
-  "rf.jei.double_hook": "The result of Copper and Steel Hooks cancelling each other out. Won't cast any shorter or further, but will instead allow you to catch two things at once, on occasion.",
+  "rf.jei.copper_hook": "Will allow you to cast your fishing line further.",
+  "rf.jei.steel_hook": "Will allow you to cast your fishing line closer.",
+  "rf.jei.double_hook": "Won't cast any closer or further, but will instead allow you to catch two things at once, on occasion.",
   "rf.jei.zinc_hook": "Will increase the amount of time you have to reel your rod once you get a bite.",
   
   "rf.jei.worms": "Worms can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll slightly decrease the amount of time it takes to catch something. Worms can be obtained by feeding Corn Kernels to a Chicken, Duck or Turkey, which will make them search for Wormy Dirt. Worms will also occasionally pop out of Composters.",
