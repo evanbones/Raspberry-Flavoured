@@ -30,8 +30,8 @@ let outputTypes = [
   ["log",4,"WOOD_fence_gate",["MOD:"]],
   ["log",1,"WOOD_boat",["MOD:","boatload:"],"incomplete"],
   ["log",8,"sign_post_WOOD",["supplementaries:","supplementaries:MOD/"]],
-  ["log",1,"hollow_WOOD_log",["quark:","everycomp:q/MOD/"],"incomplete"],
-  ["log",1,"WOOD_cabinet",["farmersdelight:","MOD:","abnormals_delight:","everycomp:fd/MOD/"]],
+  ["log",1,"hollow_WOOD_log",["everycomp:q/MOD/","quark:"],"incomplete"],
+  ["log",1,"WOOD_cabinet",["farmersdelight:","MOD:","everycomp:fd/MOD/","abnormals_delight:"]],
   
   //this bit's nice. no conficts here!
   ["log",1,"WOOD_drawer",["another_furniture:","everycomp:af/MOD/"]],

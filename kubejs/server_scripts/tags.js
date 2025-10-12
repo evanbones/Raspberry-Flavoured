@@ -1373,6 +1373,19 @@ ServerEvents.tags('item', event => {
 		.add('caverns_and_chasms:bejeweled_apple')
 		.add('create:chocolate_glazed_berries')
 		.add('create_confectionery:chocolate_glazed_marshmallow')
+		.add('spelunkery:coal_lump')
+		.add('kubejs:charcoal_lump')
+		.add('modestmining:coke_chunk')
+
+	event.get('raspberry_flavoured:latex_makers')
+		.add('minecraft:jungle_log')
+		.add('minecraft:jungle_wood')
+		.add('atmospheric:rosewood_log')
+		.add('atmospheric:rosewood')
+
+	event.get('raspberry_flavoured:sap_makers')
+		.add('autumnity:maple_log')
+		.add('autumnity:maple_wood')
 
 	event.get('raspberry:repairs_in_darkness')
 		.add('caverns_and_chasms:necromium_shovel')
@@ -2926,6 +2939,7 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:music_disc_fruitiger')
 		.add('kubejs:music_disc_redstone_baby')
 		.add('kubejs:music_disc_raveyard')
+		.add('kubejs:music_disc_one')
 		.add('sullysmod:music_disc_scour')
 		.add('trickytrialspaintingsplusmusic:music_disc_creator')
 		.add('trickytrialspaintingsplusmusic:music_disc_precipice')

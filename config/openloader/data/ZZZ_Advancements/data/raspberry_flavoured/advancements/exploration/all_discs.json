@@ -373,7 +373,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"C418 - face": {
+	"C418 - droopy": {
       "conditions": {
         "items": [
           {
@@ -385,7 +385,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-	"C418 - ricochet": {
+	"C418 - remember": {
       "conditions": {
         "items": [
           {
@@ -475,6 +475,18 @@
           {
             "items": [
               "kubejs:music_disc_raveyard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"C418 - one": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_one"
             ]
           }
         ]
@@ -597,10 +609,10 @@
       "C418 - death"
     ],
 	[
-      "C418 - face"
+      "C418 - droopy"
     ],
 	[
-      "C418 - ricochet"
+      "C418 - remember"
     ],
 	[
       "LudoCrypt - scour"
@@ -622,6 +634,9 @@
     ],
 	[
       "raspmary - Raveyard"
+    ],
+	[
+      "C418 - one"
     ]
   ]
 }

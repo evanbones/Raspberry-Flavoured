@@ -120,10 +120,6 @@
         "stream": true
       },
       {
-        "name": "music/game/creative/creative6",
-        "stream": true
-      },
-      {
         "name": "music/game/creative/beginning",
         "stream": true
       },
@@ -271,6 +267,16 @@
         "name": "music/game/click",
         "stream": true,
         "volume": 0.4
+      },
+      {
+        "name": "music/game/cliffside_hinson",
+        "stream": true,
+        "volume": 0.6
+      },
+      {
+        "name": "music/game/jayson_glove",
+        "stream": true,
+        "volume": 0.6
       }
     ]
   },
@@ -279,80 +285,156 @@
     "sounds": [
       {
         "name": "music/menu/menu1",
-        "stream": true
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/menu/menu2",
-        "stream": true
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/menu/menu3",
-        "stream": true
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/menu/menu4",
-        "stream": true
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/game/oxygene_equinoxe",
-        "stream": true
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/game/key_door",
-        "stream": true
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/game/end/credits",
-        "volume": 0.5,
-        "stream": true
+        "volume": 0.6,
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/game/infinite_amethyst",
         "stream": true,
-        "volume": 0.4
+        "volume": 0.4,
+        "weight": 2
       },
       {
         "name": "music/game/swamp/aerie",
-        "stream": true
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/game/bromeliad",
         "stream": true,
-        "volume": 0.4
+        "volume": 0.4,
+        "weight": 2
       },
       {
         "name": "music/game/beta",
         "stream": true,
-        "volume": 0.4
+        "volume": 0.4,
+        "weight": 3
       },
       {
         "name": "music/game/work_life_imbalance",
         "stream": true,
-        "volume": 0.5
+        "volume": 0.6,
+        "weight": 2
       },
       {
         "name": "music/game/only_human",
         "stream": true,
-        "volume": 0.15
+        "volume": 0.2,
+        "weight": 1
       },
       {
         "name": "music/game/certitudes",
         "stream": true,
-        "volume": 0.15
+        "volume": 0.2,
+        "weight": 2
       },
       {
         "name": "music/game/stilbruch",
-        "stream": true
+        "stream": true,
+        "weight": 2
       },
       {
         "name": "music/game/independent_accident",
         "stream": true,
-        "volume": 0.5
+        "volume": 0.6,
+        "weight": 2
       },
       {
         "name": "music/game/eld_unknown",
         "stream": true,
-        "volume": 0.4
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/buildup_errors",
+        "stream": true,
+        "volume": 0.6,
+        "weight": 2
+      },
+      {
+        "name": "music/game/halland",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/click",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "music/game/cliffside_hinson",
+        "stream": true,
+        "volume": 0.6,
+        "weight": 2
+      },
+      {
+        "name": "music/game/jayson_glove",
+        "stream": true,
+        "volume": 0.6,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true,
+        "weight": 2
       }
     ]
   },
@@ -390,7 +472,7 @@
       {
         "name": "music/game/nether/soulsand_valley/so_below",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
         "weight": 3
       }
     ]
@@ -401,7 +483,7 @@
       {
         "name": "music/game/nether/crimson_forest/chrysopoeia",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
         "weight": 3
       },
       {
@@ -468,7 +550,7 @@
       {
         "name": "music/game/nether/nether_wastes/rubedo",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
         "weight": 3
       }
     ]
@@ -507,7 +589,7 @@
       {
         "name": "music/game/nether/soulsand_valley/so_below",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
         "weight": 3
       }
     ]
@@ -652,7 +734,7 @@
       {
         "name": "music/game/independent_accident",
         "stream": true,
-        "volume": 0.5
+        "volume": 0.6
       },
       {
         "name": "music/game/eld_unknown",
@@ -733,13 +815,13 @@
       {
         "name": "music/game/flake",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 3
       },
       {
         "name": "music/game/kyoto",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 3
       },
       {
@@ -750,7 +832,7 @@
       {
         "name": "music/game/buildup_errors",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 2
       },
       {
@@ -921,13 +1003,13 @@
       {
         "name": "music/game/flake",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 3
       },
       {
         "name": "music/game/kyoto",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 3
       },
       {
@@ -938,7 +1020,7 @@
       {
         "name": "music/game/buildup_errors",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 2
       },
       {
@@ -1055,7 +1137,7 @@
       {
         "name": "music/game/independent_accident",
         "stream": true,
-        "volume": 0.5
+        "volume": 0.6
       }
     ]
   },
@@ -1423,13 +1505,13 @@
       {
         "name": "music/game/flake",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 3
       },
       {
         "name": "music/game/kyoto",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 3
       },
       {
@@ -1520,7 +1602,7 @@
       {
         "name": "music/game/buildup_errors",
         "stream": true,
-        "volume": 0.5,
+        "volume": 0.6,
 		"weight": 2
       },
       {

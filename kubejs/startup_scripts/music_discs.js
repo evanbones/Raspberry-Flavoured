@@ -4,15 +4,16 @@ let music_list = {
     "music_disc_eleven": "Eleven",
 	"music_disc_dog": "Dog",
 	"music_disc_death": "Death",
-	"music_disc_droopy1": "Droopy Likes Your Face",
-	"music_disc_droopy2": "Droopy Likes Ricochet",
+	"music_disc_droopy1": "Droopy",
+	"music_disc_droopy2": "Remember",
 	"music_disc_shimmer": "Shimmer",
 	"music_disc_frontier": "Frontier",
 	"music_disc_origin": "Origin",
 	"music_disc_savour": "Savour",
 	"music_disc_fruitiger": "Fruitiger",
 	"music_disc_redstone_baby": "Redstone Baby",
-	"music_disc_raveyard": "Raveyard"
+	"music_disc_raveyard": "Raveyard",
+	"music_disc_one": "One"
 }
 
 StartupEvents.registry('sound_event', (event) => {

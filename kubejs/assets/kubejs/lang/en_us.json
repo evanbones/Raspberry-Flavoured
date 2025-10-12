@@ -112,8 +112,10 @@
   "item.kubejs.music_disc_eleven.desc": "C418 - eleven",
   "item.kubejs.music_disc_dog.desc": "C418 - dog",
   "item.kubejs.music_disc_death.desc": "C418 - death",
-  "item.kubejs.music_disc_droopy1.desc": "C418 - face",
-  "item.kubejs.music_disc_droopy2.desc": "C418 - ricochet",
+  "item.kubejs.music_disc_droopy1.desc": "C418 - droopy",
+  "item.kubejs.music_disc_droopy2.desc": "C418 - remember",
+  "item.kubejs.music_disc_one.desc": "C418 - one",
+  
   "item.kubejs.music_disc_redstone_baby.desc": "Antimo & Welles - Redstone Baby",
   
   "item.kubejs.music_disc_exostep.desc": "§rLe§5§kn§ra R§5§ka§rin§5§ke§5? §r- §5§k$§5Exo§rstep§5§k$$",
@@ -269,10 +271,10 @@
   "rf.jei.crab_claw": "Will drop from Coconut Crabs when they're killed using a Knife.",
   "rf.jei.turtle_helmet": "Will have its durability continously drain while underwater, but as long as it has any durability, it will provide you with oxygen.",
   
-  "rf.jei.bomb": "Can be thrown to deal explosive damage in an area. Does not damage terrain. Causes Creepers and other similar mobs to ignite their fuse.",
-  "rf.jei.blue_bomb": "Can be thrown to stick to surfaces for a brief moment before exploding and dealing very high damage, lighting targets on fire and weakening them if not dead. Does not damage terrain. Causes Creepers and other similar mobs to ignite their fuse. Found rarely in underground Urns and as part of various loot.",
-  "rf.jei.spiky_bomb": "Can be thrown to deal explosive damage in an area. Throws out shrapnel in all directions which poisons targets. Does not damage terrain. Causes Creepers and other similar mobs to ignite their fuse.",
-  "rf.jei.rose_gold_bomb": "Can be thrown to cause no damage but high knockback. Does not damage terrain. Does not cause any mobs to ignite.",
+  "rf.jei.bomb": "Can be thrown to deal explosive damage in an area. Does not damage terrain. Activates Dynamite, Creepers or other similar blocks and mobs.",
+  "rf.jei.blue_bomb": "Can be thrown to stick to surfaces for a brief moment before exploding and dealing very high damage, lighting targets on fire and weakening them if not dead. Does not damage terrain. Activates Dynamite, Creepers or other similar blocks and mobs. Found rarely in underground Urns and as part of various loot.",
+  "rf.jei.spiky_bomb": "Can be thrown to deal explosive damage in an area. Throws out shrapnel in all directions which poisons targets. Does not damage terrain. Activates Dynamite, Creepers or other similar blocks and mobs.",
+  "rf.jei.rose_gold_bomb": "Can be thrown to cause no damage but high knockback. Does not damage terrain. Does not activate Dynamite, Creepers or other similar blocks and mobs.",
   
   "rf.jei.tea": "Tea is rarely found in Swamps. Harvesting tea in different stages of its growth will yield different colored leaves.",
   "rf.jei.coffee": "Coffee is found in Basalt Deltas and occassionally as part of loot in Nether Fortresses and Bastion Remnants. In the Overworld, coffee needs crops around it to grow and will cause those crops to wither away. It will grow by itself if planted in the Nether.",
@@ -761,8 +763,8 @@
   "advancements.rf.machines.root.description": "The age of machinery is upon us!",
   "advancements.rf.machines.redstone.title": "Red Power",
   "advancements.rf.machines.redstone.description": "Polish some Rough Cinnabar and then crush it to obtain Redstone Dust",
-  "advancements.rf.machines.tnt.title": "And Kablooey!",
-  "advancements.rf.machines.tnt.description": "Obtain some TNT - all ores are blast resistant, so explosives may come in handy for your next mining expedition!",
+  "advancements.rf.machines.explosive.title": "And Kablooey!",
+  "advancements.rf.machines.explosive.description": "Obtain some Dynamite - all ores are blast resistant, so explosives may come in handy for your next mining expedition!",
   "advancements.rf.machines.redstone_connector.title": "Connect Force",
   "advancements.rf.machines.redstone_connector.description": "Place down some Redstone Connectors for a much more compact way of conducting Redstone power vertically, around corners, or other tricky places",
   "advancements.rf.machines.item_movement.title": "Move Along Now",

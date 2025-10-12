@@ -195,6 +195,7 @@
   "block.minecraft.wither_skeleton_wall_skull": "Withered Wall Skull",
   "block.minecraft.wither_skeleton_skull": "Withered Skull",
   "block.minecraft.ender_chest": "Exovault",
+  "block.minecraft.tnt": "Dynamite",
   
   "item.minecraft.stone_pickaxe": "Copper Pickaxe",
   "item.minecraft.stone_shovel": "Copper Shovel",
@@ -221,6 +222,7 @@
   "item.minecraft.honey_bottle": "Bottle of Honey",
   "item.minecraft.quartz": "Rough Quartz",
   "item.minecraft.phantom_membrane": "Aeromembrane",
+  "item.minecraft.tnt_minecart": "Minecart with Dynamite",
   
   "item.minecraft.wither_skeleton_spawn_egg": "Withered Spawn Egg",
   "item.minecraft.enderman_spawn_egg": "Exokin Spawn Egg",

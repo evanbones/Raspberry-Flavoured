@@ -16,11 +16,11 @@
   },
   "display": {
     "title": {
-      "translate": "advancements.rf.machines.tnt.title"
+      "translate": "advancements.rf.machines.explosive.title"
     },
     "description": {
       "color": "#DBA213",
-      "translate": "advancements.rf.machines.tnt.description"
+      "translate": "advancements.rf.machines.explosive.description"
     },
     "icon": {
       "item": "minecraft:tnt"

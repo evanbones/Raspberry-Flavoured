@@ -662,6 +662,7 @@ ServerEvents.recipes(event => {
 	event.shaped('kubejs:music_disc_eleven', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'music_disc_11'})
 	event.shaped('kubejs:music_disc_fruitiger', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'kubejs:golden_strawberries'})
 	event.shaped('kubejs:music_disc_redstone_baby', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'spelunkery:cinnabar'})
+	event.shaped('kubejs:music_disc_one', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'diamond'})
 
 // Smelting
 	event.smelting('culturaldelights:smoked_eggplant', 'culturaldelights:eggplant')
@@ -2109,9 +2110,11 @@ ServerEvents.recipes(event => {
 	event.recipes.create.compacting(['farmersdelight:organic_compost'], ['dirt', 'bone_meal', 'farmersdelight:tree_bark', '2x supplementaries:ash'])
 	event.recipes.create.compacting(['farmersdelight:organic_compost'], ['dirt', 'farmersdelight:straw', 'bone_meal', '2x farmersdelight:tree_bark'])
 	event.recipes.create.compacting([Fluid.of('kubejs:lemonade',500)], ['3x cookscollection:lemon', 'sugar']).heated()
-	event.recipes.create.compacting([Fluid.of('create_central_kitchen:sap',125), '4x farmersdelight:tree_bark'], ['16x autumnity:maple_log'])
-	event.recipes.create.compacting([Fluid.of('kubejs:latex',125), '4x farmersdelight:tree_bark'], ['16x jungle_log'])
-	event.recipes.create.compacting([Fluid.of('kubejs:latex',125), '4x farmersdelight:tree_bark'], ['16x atmospheric:rosewood_log'])
+	event.recipes.create.compacting([Fluid.of('create_central_kitchen:sap',125), '4x farmersdelight:tree_bark'], ['16x #raspberry_flavoured:sap_makers'])
+	event.recipes.create.compacting([Fluid.of('kubejs:latex',125), '4x farmersdelight:tree_bark'], ['16x #raspberry_flavoured:latex_makers'])
+	event.recipes.create.compacting(['coal'], ['8x spelunkery:coal_lump'])
+	event.recipes.create.compacting(['charcoal'], ['8x kubejs:charcoal_lump'])
+	event.recipes.create.compacting(['modestmining:coke'], ['8x modestmining:coke_chunk'])
 	
 	// Cakes
 	event.recipes.create.compacting(['raspberry:cake'], [
@@ -2534,6 +2537,8 @@ ServerEvents.recipes(event => {
 	event.recipes.create.emptying([Fluid.of('minecraft:milk',250), 'ecologics:coconut_husk'], 'ecologics:coconut_slice')
 	event.recipes.create.emptying([Fluid.of('kubejs:batter',250), 'bowl'], 'kubejs:batter')
 	event.recipes.create.emptying([Fluid.of('kubejs:cooking_oil',250), 'glass_bottle'], 'cookscollection:cooking_oil')
+	event.recipes.create.emptying([Fluid.of('create_central_kitchen:sap',250), 'autumnity:stripped_maple_log'], 'autumnity:sappy_maple_log')
+	event.recipes.create.emptying([Fluid.of('create_central_kitchen:sap',250), 'autumnity:stripped_maple_wood'], 'autumnity:sappy_maple_wood')
 	
 	event.recipes.create.emptying([Fluid.of('kubejs:cactus_juice',250), 'glass_bottle'], 'kubejs:cactus_juice')
 	event.recipes.create.emptying([Fluid.of('kubejs:cherry_cream_soda',250), 'glass_bottle'], 'kubejs:cherry_cream_soda')

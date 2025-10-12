@@ -95,6 +95,14 @@
             }
         ]
     },
+	"music.music_disc_one": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_one",
+                "stream": true
+            }
+        ]
+    },
 	"music.music_disc_exostep": {
         "sounds": [
             {
