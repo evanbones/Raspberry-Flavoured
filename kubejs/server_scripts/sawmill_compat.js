@@ -17,7 +17,7 @@ let outputTypes = [
   ["log",4,["WOOD_stairs","WOOD_planks_stairs"],["MOD:"]],
   ["log",8,["WOOD_slab","WOOD_planks_slab"],["MOD:"]],
   ["log",4,"WOOD_sign",["MOD:"],"incomplete"],
-  ["log",3,"WOOD_post",["quark:","MOD:","everycomp:q/MOD/"]],
+  ["log",3,"WOOD_post",["everycomp:q/MOD/","quark:","MOD:"]],
   ["log",8,"WOOD_fence",["MOD:"]],
   ["log",8,"WOOD_railing",["architects_palette:","everycomp:ap/MOD/"]],
 
@@ -31,7 +31,7 @@ let outputTypes = [
   ["log",1,"WOOD_boat",["MOD:","boatload:"],"incomplete"],
   ["log",8,"sign_post_WOOD",["supplementaries:","supplementaries:MOD/"]],
   ["log",1,"hollow_WOOD_log",["everycomp:q/MOD/","quark:"],"incomplete"],
-  ["log",1,"WOOD_cabinet",["farmersdelight:","MOD:","everycomp:fd/MOD/","abnormals_delight:"]],
+  ["log",1,"WOOD_cabinet",["everycomp:fd/MOD/","farmersdelight:","MOD:","abnormals_delight:"]],
   
   //this bit's nice. no conficts here!
   ["log",1,"WOOD_drawer",["another_furniture:","everycomp:af/MOD/"]],
@@ -133,10 +133,16 @@ ServerEvents.recipes(e=>{
         if(result.id != "minecraft:air") break
       }
 
-      //if it is still air after all that searching, and that product was supposed to be complete, it means that some part was wrong.
-      if(!incomplete){
-        assert(result.id != "minecraft:air", `result item "${outputs.join(",")}" doesn't seem to exist for "${originMod}:${woodType}", did you mistype something?`)
-      }
+
+      if(result.id == "minecraft:air"){
+        console.log(`result item [${outputs.join("|")}] doesn't seem to exist for "${originMod}:${woodType}", did you mistype something, or is someone else to blame?`)        
+        //if "incomplete" mode is enabled, skip it entirely.
+        if(incomplete) continue;
+
+        throw new Error("missing item, either check your id options or mark this shape as incomplete!")
+      } 
+        
+      //otherwise it means that some part was wrong, and an error is displayed.
   
       //create the sawmill recipe.
       addSawmill(inputItem,outputCount,result)
