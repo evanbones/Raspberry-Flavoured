@@ -285,5 +285,15 @@
   "subtitles.entity.drowned.swim": "Water splashes",
   "subtitles.entity.turtle.egg_break": "Egg breaks",
   "subtitles.entity.turtle.egg_crack": "Egg cracks",
-  "subtitles.entity.turtle.egg_hatch": "Egg hatches"
+  "subtitles.entity.turtle.egg_hatch": "Egg hatches",
+  "item.minecraft.oak_chest_boat": "Oak Boat with Barrel",
+  "item.minecraft.spruce_chest_boat": "Spruce Boat with Barrel",
+  "item.minecraft.birch_chest_boat": "Birch Boat with Barrel",
+  "item.minecraft.jungle_chest_boat": "Jungle Boat with Barrel",
+  "item.minecraft.acacia_chest_boat": "Acacia Boat with Barrel",
+  "item.minecraft.dark_oak_chest_boat": "Dark Oak Boat with Barrel",
+  "item.minecraft.mangrove_chest_boat": "Mangrove Boat with Barrel",
+  "item.minecraft.chest_minecart": "Minecart with Barrel",
+  "entity.minecraft.chest_boat": "Boat with Barrel",
+  "entity.minecraft.chest_minecart": "Minecart with Barrel"
 }

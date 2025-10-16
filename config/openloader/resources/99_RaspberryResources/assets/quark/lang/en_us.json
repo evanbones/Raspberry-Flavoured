@@ -49,5 +49,8 @@
 	"block.quark.iron_plate_stairs": "Polished Iron Stairs",
 	"block.quark.rusty_iron_plate": "Rusty Iron",
 	"block.quark.rusty_iron_plate_slab": "Rusty Iron Slab",
-	"block.quark.rusty_iron_plate_stairs": "Rusty Iron Stairs"
+	"block.quark.rusty_iron_plate_stairs": "Rusty Iron Stairs",
+	
+	"item.quark.blossom_chest_boat": "Blossom Boat with Barrel",
+	"entity.quark.quark_chest_boat": "Boat with Barrel"
 }
