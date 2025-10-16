@@ -34,13 +34,29 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 18.0,
+                "min": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 10,
+          "name": "minecraft:flint"
+        },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 14.0,
                 "min": 7.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 20,
+          "weight": 10,
           "name": "minecraft:string"
         },
         {
@@ -56,7 +72,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 20,
+          "weight": 10,
           "name": "minecraft:feather"
         },
         {
@@ -66,13 +82,29 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 10,
+          "name": "minecraft:bone_meal"
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 8.0,
                 "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 20,
+          "weight": 10,
           "name": "minecraft:gunpowder"
         },
         {
@@ -82,14 +114,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 20,
-          "name": "kubejs:oatmeal"
+          "weight": 10,
+          "name": "kubejs:oats"
         },
 		{
           "type": "minecraft:item",
@@ -104,8 +136,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 20,
-          "name": "farmersdelight:wheat_dough"
+          "weight": 10,
+          "name": "create:wheat_flour"
         },
 		{
           "type": "minecraft:item",
@@ -114,14 +146,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 24.0,
-                "min": 12.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 20,
-          "name": "aquaculture:worm"
+          "weight": 10,
+          "name": "kubejs:corn_flour"
         },
 		{
           "type": "minecraft:item",
@@ -130,13 +162,29 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 8.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 16,
+          "weight": 10,
+          "name": "spelunkery:salt"
+        },
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 6,
           "name": "minecraft:egg"
         },
 		{
@@ -146,13 +194,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 8.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 14,
+          "weight": 4,
           "name": "environmental:duck_egg"
         },
 		{
@@ -162,13 +210,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 8.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 12,
+          "weight": 2,
           "name": "autumnity:turkey_egg"
         }
       ]
@@ -234,13 +282,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 18.0,
-                "min": 9.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 14,
+          "weight": 12,
           "name": "minecraft:raw_copper"
         },
         {
@@ -250,8 +298,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 18.0,
-                "min": 9.0
+                "max": 12.0,
+                "min": 6.0
               },
               "function": "minecraft:set_count"
             }
@@ -266,8 +314,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 5.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -288,7 +336,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 12,
+          "weight": 8,
           "name": "minecraft:raw_iron"
         },
         {
@@ -298,13 +346,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 10,
+          "weight": 8,
           "name": "minecraft:raw_gold"
         },
         {
@@ -314,13 +362,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 6.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 10,
+          "weight": 8,
           "name": "spelunkery:rough_cinnabar"
         },
         {
@@ -330,13 +378,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 2,
+          "weight": 4,
           "name": "spelunkery:rough_diamond_shard"
         },
         {
@@ -346,8 +394,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -362,13 +410,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 4,
+          "weight": 8,
           "name": "minecraft:golden_carrot"
         },
 		{
@@ -378,13 +426,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 4,
+          "weight": 8,
           "name": "minecraft:glistering_melon_slice"
         },
 		{
@@ -394,18 +442,29 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 4,
+          "weight": 8,
           "name": "kubejs:golden_strawberries"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 8,
           "name": "minecraft:golden_apple"
         },
         {
@@ -421,8 +480,21 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 2,
+          "weight": 3,
           "name": "kubejs:raw_ammonite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "aquaculture:goldfish"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:scute"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "autumnity:snail_shell_piece"
         }
       ]
     },
@@ -449,13 +521,29 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 10
+          "weight": 11
         }
       ]
     },
     {
       "rolls": 1,
       "entries": [
+		{
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3,
+          "name": "minecraft:disc_fragment_5"
+        },
         {
           "type": "minecraft:item",
           "weight": 3,
@@ -473,7 +561,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 10
+          "weight": 13
         }
       ]
     }

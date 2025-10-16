@@ -29,5 +29,8 @@
   "better_haste": true,
   "bannerless_raiders": true,
   "naturalist_stackable_items": true,
-  "rose_gold_bomb_knockback": 1.5
+  "rose_gold_bomb_knockback": 1.5,
+  "rose_gold_arrow_knockback": 10,
+  "rose_gold_arrow_velocity": 1.75,
+  "unified_wrenches": false
 }

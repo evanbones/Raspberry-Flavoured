@@ -474,6 +474,17 @@ BlockEvents.rightClicked(event => {
     }
 })
 
+// flax harvesting from top block (script by Grom PE)
+BlockEvents.rightClicked(event => {
+	if (event.block.id == "supplementaries:flax") {
+		if (event.block.properties.half == "upper" && event.block.properties.age == "7") {
+			// make it as if event.block.down is right-clicked by player
+			event.block.pos.y--;
+			event.player.swing(event.hand, true);
+		}
+	}
+})
+
 // right click on water interaction (WIP)
 ItemEvents.rightClicked(event => {
     // check held item

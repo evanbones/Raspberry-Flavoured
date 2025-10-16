@@ -2940,6 +2940,7 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:music_disc_redstone_baby')
 		.add('kubejs:music_disc_raveyard')
 		.add('kubejs:music_disc_one')
+		.add('kubejs:music_disc_artisan')
 		.add('sullysmod:music_disc_scour')
 		.add('trickytrialspaintingsplusmusic:music_disc_creator')
 		.add('trickytrialspaintingsplusmusic:music_disc_precipice')
@@ -3919,6 +3920,9 @@ ServerEvents.tags('block', event => {
 	    .add('clayworks:red_terracotta_brick_wall')
 	    .add('clayworks:black_terracotta_brick_wall')
 		.add('cookscollection:oven')
+		.add('raspberry:brick_counter')
+		.add('raspberry:silt_brick_counter')
+		.add('raspberry:ash_brick_counter')
 	
 	event.get('auditory:stone_brick_sounds')
 	    .add('architects_palette:abyssaline_bricks')
@@ -4309,6 +4313,8 @@ ServerEvents.tags('block', event => {
 		.add('quark:violet_crystal_lamp')
 		.add('quark:white_crystal_lamp')
 		.add('quark:black_crystal_lamp')
+		.add('storagedrawers:oak_full_drawers_1')
+		.add('storagedrawers:controller')
 	
 	event.get('forge:chests/wooden')
 		.remove('atmospheric:kousa_chest')
@@ -4513,6 +4519,9 @@ ServerEvents.tags('block', event => {
 		.add('kubejs:deposit')
 		.add('kubejs:deepslate_deposit')
 		.add('kubejs:blackstone_deposit')
+		.add('raspberry:brick_counter')
+		.add('raspberry:silt_brick_counter')
+		.add('raspberry:ash_brick_counter')
 		.remove('minecraft:end_stone')
 		.remove('woodworks:sawmill')
 		
@@ -4625,6 +4634,9 @@ ServerEvents.tags('block', event => {
 		.add('environmental:cattail_seed_sack')
 		.add('savage_and_ravage:creeper_spore_sack')
 		.add('miners_delight:wild_cave_carrots')
+		.add('supplementaries:flax')
+		.add('culturaldelights:corn')
+		.add('farmersdelight:rice')
 	
 	event.get('minecraft:needs_stone_tool')
 		.add('create_confectionery:candy_cane_block')

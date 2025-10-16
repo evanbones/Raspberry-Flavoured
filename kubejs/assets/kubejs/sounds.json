@@ -103,6 +103,14 @@
             }
         ]
     },
+	"music.music_disc_artisan": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_artisan",
+                "stream": true
+            }
+        ]
+    },
 	"music.music_disc_exostep": {
         "sounds": [
             {

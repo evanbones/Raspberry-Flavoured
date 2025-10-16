@@ -492,6 +492,18 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+	"Kayla_the_Bee - artisan": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_artisan"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
@@ -637,6 +649,9 @@
     ],
 	[
       "C418 - one"
-    ]
+    ],
+	[
+	  "Kayla_the_Bee - artisan"
+	]
   ]
 }

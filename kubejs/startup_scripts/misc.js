@@ -132,6 +132,7 @@ ItemEvents.modification(event => {
 	'supplementaries:quiver',
 	'supplementaries:bomb',
 	'supplementaries:bomb_projectile',
+	'oreganized:silver_mirror',
 	'create_confectionery:candy_cane_block'
 	], item => {
         item.rarity = 'common'
@@ -146,17 +147,12 @@ ItemEvents.modification(event => {
 	'minecraft:bell',
 	'minecraft:disc_fragment_5',
 	'create:peculiar_bell',
-	'oreganized:silver_mirror',
 	'clash:spear',
 	'clash:swept_axe',
 	'clash:greatblade',
 	'mace_backport:mace',
 	'kubejs:rose_gold_rapier',
 	'spelunkery:portal_fluid_bucket',
-	'environmental:thief_hood',
-	'environmental:healer_pouch',
-	'environmental:architect_belt',
-	'environmental:wanderer_boots',
 	'quark:echorang',
 	'heartstone:heartstone',
 	'bigbrain:buckler',
@@ -202,7 +198,11 @@ ItemEvents.modification(event => {
 	
 	// Epic items
 	event.modify([
-	'quark:monster_box'
+	'quark:monster_box',
+	'minecraft:totem_of_undying',
+	'savage_and_ravage:mask_of_dishonesty',
+	'savage_and_ravage:conch_of_conjuring',
+	'savage_and_ravage:wand_of_freezing'
 	], item => {
         item.rarity = 'epic'
     })

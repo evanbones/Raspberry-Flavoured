@@ -2799,7 +2799,11 @@ ServerEvents.recipes(event => {
 	'frame_changer:mixing/portal_fluid_from_crying_polished_obsidian',
 	'frame_changer:mixing/portal_fluid_from_crying_obsidian_bricks',
 	'frame_changer:mixing/portal_fluid_from_crying_obsidian_pillar',
-	'frame_changer:mixing/portal_fluid_from_crying_chiseled_obsidian'
+	'frame_changer:mixing/portal_fluid_from_crying_chiseled_obsidian',
+	'windswept:packed_ice_bricks',
+	'quark:building/crafting/netherrack_bricks',
+	'atmospheric:kousa_beehive',
+	'atmospheric:grimwood_beehive'
 	]
     
     removedIds.forEach(removedId => {

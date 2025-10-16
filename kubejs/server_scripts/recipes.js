@@ -323,6 +323,8 @@ ServerEvents.recipes(event => {
 	twoByTwo('autumnity:snail_shell_piece', 'autumnity:snail_shell_bricks', 16)
 	twoByTwo('autumnity:snail_shell_bricks', 'autumnity:snail_shell_tiles', 4)
 	twoByTwo('nethersdelight:propelpearl', 'shroomlight', 1)
+	twoByTwo('architects_palette:polished_packed_ice', 'windswept:packed_ice_bricks', 4)
+	twoByTwo('paletteblocks:polished_netherrack', 'quark:netherrack_bricks', 4)
 	
 	threeByThree('amethyst_shard', 'twigs:polished_amethyst', 1)
 	threeByThree('string', 'architects_palette:spool', 1)
@@ -365,10 +367,10 @@ ServerEvents.recipes(event => {
 	event.shaped('6x architects_palette:twisted_trapdoor', ['AAA', 'AAA'], {A: 'architects_palette:twisted_planks'}).id('architects_palette:twisted_trapdoor')
 	event.shaped('6x mynethersdelight:powdery_trapdoor', ['AAA', 'AAA'], {A: 'mynethersdelight:powdery_planks'}).id('mynethersdelight:powdery_trapdoor')
 	event.shaped('another_furniture:furniture_hammer', ['BBB', 'BAB', ' A '], {A: 'minecraft:stick', B: 'copper_ingot'}).id('another_furniture:furniture_hammer')
-	event.shaped('4x architects_palette:tuff_bricks', ['BA', 'AA'], {A: 'minecraft:tuff', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:tuff_bricks')
-	event.shaped('4x architects_palette:calcite_bricks', ['BA', 'AA'], {A: 'minecraft:calcite', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:calcite_bricks')
-	event.shaped('4x architects_palette:dripstone_bricks', ['BA', 'AA'], {A: 'minecraft:dripstone_block', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:dripstone_bricks')
-	event.shaped('4x twigs:smooth_basalt_bricks', ['BA', 'AA'], {A: 'minecraft:smooth_basalt', B: 'paletteblocks:cobblestone_bricks'}).id('twigs:smooth_basalt_bricks')
+	event.shaped('8x architects_palette:tuff_bricks', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:tuff', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:tuff_bricks')
+	event.shaped('8x architects_palette:calcite_bricks', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:calcite', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:calcite_bricks')
+	event.shaped('8x architects_palette:dripstone_bricks', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:dripstone_block', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:dripstone_bricks')
+	event.shaped('8x twigs:smooth_basalt_bricks', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:smooth_basalt', B: 'paletteblocks:cobblestone_bricks'}).id('twigs:smooth_basalt_bricks')
 	event.shaped('4x architects_palette:sunstone', ['AB', 'BA'], {A: 'minecraft:basalt', B: 'alloyed:bronze_ingot'}).id('architects_palette:sunstone')
 	event.shaped('8x architects_palette:plating_block', [' B ', 'BAB', ' B '], {A: ['#forge:ingots/iron', '#forge:ingots/lead'], B: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('architects_palette:plating_block')
 	event.shaped('incubation:twig_nest', ['A A', 'AAA'], {A: 'twigs:twig'})
@@ -663,6 +665,7 @@ ServerEvents.recipes(event => {
 	event.shaped('kubejs:music_disc_fruitiger', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'kubejs:golden_strawberries'})
 	event.shaped('kubejs:music_disc_redstone_baby', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'spelunkery:cinnabar'})
 	event.shaped('kubejs:music_disc_one', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: 'diamond'})
+	event.shaped('kubejs:music_disc_artisan', ['AAA', 'ABA', 'AAA'], {A: 'disc_fragment_5', B: '#raspberry_flavoured:dye_items'})
 
 // Smelting
 	event.smelting('culturaldelights:smoked_eggplant', 'culturaldelights:eggplant')
@@ -3111,6 +3114,7 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ id: 'create:crafting/kinetics/empty_blaze_burner' }, 'netherrack', 'modestmining:coke')
 	event.replaceInput({ id: 'create:crafting/appliances/copper_diving_boots' }, 'create:andesite_alloy', '#forge:ingots/lead')
 	event.replaceInput({ id: 'naturalist:bug_net' }, 'string', ['string', 'farmersdelight:canvas'])
+	event.replaceInput({ id: 'minecraft:polished_deepslate' }, 'cobbled_deepslate', 'deepslate')
 	
 	event.replaceInput({ input: 'minecraft:cake' }, 'minecraft:cake', 'raspberry:cake')
 	event.replaceInput({ input: 'neapolitan:vanilla_cake' }, 'neapolitan:vanilla_cake', 'raspberry:vanilla_cake')

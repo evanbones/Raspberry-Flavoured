@@ -1355,8 +1355,18 @@
 	"#farmersdelight:wild_crops.messy": "MESSY_GROUND",
 	"#farmersdelight:wild_crops.foliage": "straw",
 
-	"farmersdelight:stove[lit=true]": "brickstone,magma",
-	"nethersdelight:blackstone_stove[lit=true]": "brickstone,magma",
+	"raspberry:brick_counter": "hardmetal",
+	"raspberry:silt_brick_counter": "hardmetal",
+	"raspberry:ash_brick_counter": "hardmetal",
+
+	"farmersdelight:stove": "hardmetal",
+	"farmersdelight:stove[lit=true]": "hardmetal,magma",
+	"raspberry:silt_stove": "hardmetal",
+	"raspberry:silt_stove[lit=true]": "hardmetal,magma",
+	"raspberry:ash_stove": "hardmetal",
+	"raspberry:ash_stove[lit=true]": "hardmetal,magma",
+	"mynethersdelight:nether_stove": "brickstone",
+	"mynethersdelight:nether_stove[lit=true]": "brickstone,magma",
 
 	"farmersdelight:shepherds_pie_block": "organic",
 	"farmersdelight:stuffed_pumpkin_block": "organic_solid",
@@ -2014,6 +2024,8 @@
 	"spelunkery:white_inkcap_mushroom_block": "mushroom",
 	"spelunkery:portabella_block": "mushroom",
 	"spelunkery:milly_bubcap_block": "mushroom",
+	
+	"spelunkery:cinnabar_block": "composite",
 	
 	"supplementaries:ash.carpet": "sand",
 	

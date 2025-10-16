@@ -1,7 +1,9 @@
 {
    "targets": [
 	"farmersdelight:organic_compost",
-	"culturaldelights:avocado_pit"
+	"culturaldelights:avocado_pit",
+	"minecraft:melon_stem",
+	"minecraft:pumpkin_stem"
    ],
    "sound_type": {
       "break_sound": "minecraft:block.hanging_roots.break",
