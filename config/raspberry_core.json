@@ -2,7 +2,7 @@
   "aftershock": true,
   "stoves_start_lit": false,
   "campfires_start_lit": false,
-  "braziers_start_lit": false,
+  "braziers_start_lit": true,
   "hide_world_version": true,
   "hide_tooltips": true,
   "thrown_item_particles": true,

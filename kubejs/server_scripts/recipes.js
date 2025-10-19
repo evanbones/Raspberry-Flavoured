@@ -21,6 +21,11 @@ ServerEvents.recipes(event => {
         event.shapeless('kubejs:'+colour+'_canvas_rug', ['minecraft:'+colour+'_dye', 'farmersdelight:canvas_rug'])
         event.shapeless('create:'+colour+'_seat', [['minecraft:'+colour+'_wool', 'kubejs:'+colour+'_cloth_scrap_block'], '#minecraft:wooden_slabs']).id('create:crafting/kinetics/'+colour+'_seat')
         event.shapeless('create:'+colour+'_toolbox', ['minecraft:'+colour+'_dye', '#create:toolboxes'])
+        event.shapeless('minecraft:'+colour+'_candle', ['minecraft:'+colour+'_dye', '#minecraft:candles'])
+        event.shapeless('supplementaries:candle_holder_'+colour, ['minecraft:'+colour+'_dye', '#raspberry_flavoured:metal_candle_holders'])
+        event.shapeless('suppsquared:gold_candle_holder_'+colour, ['minecraft:'+colour+'_dye', '#raspberry_flavoured:gold_candle_holders'])
+        event.shapeless('6x supplementaries:candle_holder_'+colour, [['#forge:nuggets/iron', '#forge:nuggets/lead'], ['#forge:nuggets/iron', '#forge:nuggets/lead'], '6x minecraft:'+colour+'_candle'])
+        event.shapeless('6x suppsquared:gold_candle_holder_'+colour, ['2x #forge:nuggets/gold', '6x minecraft:'+colour+'_candle'])
     })
 	
 	noWhiteAllColours.forEach(colour => {
@@ -163,8 +168,8 @@ ServerEvents.recipes(event => {
 	event.shapeless('create:chocolate_glazed_berries', ['sweet_berries', 'neapolitan:chocolate_bar'])
 	event.shapeless('create_confectionery:chocolate_glazed_marshmallow', ['create_confectionery:marshmallow', 'neapolitan:chocolate_bar'])
 	event.shapeless('2x mynethersdelight:sausage_and_potatoes', ['3x mynethersdelight:roasted_sausage', '2x cookscollection:fried_potato', 'bowl']).id('mynethersdelight:cooking/sausage_and_potatoes')
-	event.shapeless('2x quark:torch_arrow', ['#minecraft:coals', '2x arrow']).id('quark:tools/crafting/torch_arrow')
-	event.shapeless('8x quark:torch_arrow', ['modestmining:coke', '8x arrow'])
+	event.shapeless('quark:torch_arrow', ['2x #raspberry_flavoured:coal_lumps', 'arrow']).id('quark:tools/crafting/torch_arrow')
+	event.shapeless('4x quark:torch_arrow', ['2x modestmining:coke_chunk', '4x arrow'])
 	event.shapeless('8x caverns_and_chasms:large_arrow', ['#forge:ingots/steel', '8x arrow']).id('caverns_and_chasms:large_arrow')
 	event.shapeless('8x caverns_and_chasms:blunt_arrow', ['#forge:ingots/rose_gold', '8x arrow']).id('caverns_and_chasms:blunt_arrow')
 	event.shapeless('purple_dye', ['3x upgrade_aquatic:purple_pickerelweed']).id('upgrade_aquatic:purple_dye_from_pickerelweed')
@@ -176,6 +181,11 @@ ServerEvents.recipes(event => {
 	event.shapeless('8x raspberry:rose_gold_bomb', ['string', 'gunpowder', '#forge:ingots/rose_gold'])
 	event.shapeless('2x pink_dye', ['ecologics:azalea_flower'])
 	event.shapeless('2x kubejs:golden_worm', ['2x aquaculture:worm', '#forge:ingots/gold'])
+	
+	event.shapeless('6x supplementaries:candle_holder', [['#forge:nuggets/iron', '#forge:nuggets/lead'], ['#forge:nuggets/iron', '#forge:nuggets/lead'], '6x minecraft:candle'])
+	event.shapeless('6x suppsquared:gold_candle_holder', ['2x #forge:nuggets/gold', '6x minecraft:candle'])
+	event.shapeless('6x supplementaries:candle_holder_soul', [['#forge:nuggets/iron', '#forge:nuggets/lead'], ['#forge:nuggets/iron', '#forge:nuggets/lead'], '6x buzzier_bees:soul_candle'])
+	event.shapeless('6x suppsquared:gold_candle_holder_soul', ['2x #forge:nuggets/gold', '6x buzzier_bees:soul_candle'])
 	
 	event.shapeless('pink_dye', ['2x raspberry:pink_petals']).id('raspberry:pink_dye_from_pink_petals')
 	event.shapeless('yellow_dye', ['2x raspberry:cheery_wildflowers']).id('raspberry:yellow_dye_from_wildflowers')
@@ -492,10 +502,6 @@ ServerEvents.recipes(event => {
 	event.shaped('2x oreganized:exposer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: '#forge:nuggets/silver'}).id('oreganized:exposer')
 	event.shaped('2x supplementaries:relayer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: ['#forge:ingots/iron', '#forge:ingots/lead']}).id('supplementaries:relayer')
 	event.shaped('storagedrawers:controller', [' D ', 'BAB', ' C '], {A: 'storagedrawers:oak_full_drawers_1', B: 'comparator', C: 'ender_pearl', D: 'create:electron_tube'}).id('storagedrawers:controller')
-	event.shaped('24x torch', ['A', 'B'], {A: 'modestmining:coke', B: 'stick'})
-	event.shaped('24x soul_torch', ['A', 'B', 'C'], {A: 'modestmining:coke', B: 'stick', C: '#minecraft:soul_fire_base_blocks'})
-	event.shaped('24x endergetic:ender_torch', ['A', 'B', 'C'], {A: 'modestmining:coke', B: 'stick', C: '#endergetic:ender_fire_base_blocks'})
-	event.shaped('24x caverns_and_chasms:cupric_torch', ['A', 'B', 'C'], {A: 'modestmining:coke', B: 'stick', C: 'additionaladditions:copper_patina'})
 	event.shaped('6x quark:pipe', ['B', 'A', 'B'], {A: '#forge:ingots/brass', B: '#forge:plates/brass'}).id('quark:oddities/crafting/pipe')
 	event.shaped('6x quark:pipe', ['BAB'], {A: '#forge:ingots/brass', B: '#forge:plates/brass'})
 	event.shaped('6x create:fluid_pipe', ['B', 'A', 'B'], {A: '#forge:ingots/copper', B: '#forge:plates/copper'}).id('create:crafting/kinetics/fluid_pipe_vertical')
@@ -576,29 +582,80 @@ ServerEvents.recipes(event => {
 	event.shaped('8x create:controller_rail', ['A A', 'CBC', 'ADA'], {A: ['iron_nugget', 'oreganized:lead_nugget'], B: 'stick', C: 'copper_ingot', D: 'create:electron_tube'})
 	
 	event.shaped('6x torch', ['B', 'A'], {A: 'stick', B: '#minecraft:coals'}).id('minecraft:torch')
-	event.shaped('3x redstone_torch', ['B', 'A'], {A: 'stick', B: 'redstone'}).id('minecraft:redstone_torch')
+	event.shaped('6x redstone_torch', ['B', 'A', 'C'], {A: 'stick', B: '#minecraft:coals', C: 'redstone'}).id('minecraft:redstone_torch')
 	event.shaped('6x soul_torch', ['B', 'A', 'C'], {A: 'stick', B: '#minecraft:coals', C: '#minecraft:soul_fire_base_blocks'}).id('minecraft:soul_torch')
 	event.shaped('6x caverns_and_chasms:cupric_torch', ['B', 'A', 'C'], {A: 'stick', B: '#minecraft:coals', C: 'additionaladditions:copper_patina'}).id('caverns_and_chasms:cupric_torch')
 	event.shaped('6x endergetic:ender_torch', ['B', 'A', 'C'], {A: 'stick', B: '#minecraft:coals', C: '#endergetic:ender_fire_base_blocks'}).id('endergetic:ender_torch')
-	event.shaped('caverns_and_chasms:cupric_candle', ['A', 'B', 'C'], {A: 'string', B: 'honeycomb', C: 'additionaladditions:copper_patina'}).id('caverns_and_chasms:cupric_candle')
 	
-	event.shaped('caverns_and_chasms:cupric_lantern', [' B ', 'BAB', ' B '], {A: 'caverns_and_chasms:cupric_torch', B: 'iron_nugget'}).id('caverns_and_chasms:cupric_lantern')
-	event.shaped('supplementaries:brass_lantern', [' B ', 'BAB', ' B '], {A: 'caverns_and_chasms:cupric_torch', B: 'create:brass_nugget'}).id('supplementaries:brass_lantern')
-	event.shaped('supplementaries:copper_lantern', [' B ', 'BAB', ' B '], {A: 'caverns_and_chasms:cupric_torch', B: 'create:copper_nugget'}).id('supplementaries:copper_lantern')
-	event.shaped('endergetic:ender_lantern', [' B ', 'BAB', ' B '], {A: 'endergetic:ender_torch', B: 'iron_nugget'}).id('endergetic:ender_lantern')
-	event.shaped('3x twigs:lamp', ['AAA', 'BBB', 'AAA'], {A: '#brewinandchewin:iron_or_lead', B: 'torch'}).id('twigs:lamp')
-	event.shaped('3x twigs:soul_lamp', ['AAA', 'BBB', 'AAA'], {A: '#brewinandchewin:iron_or_lead', B: 'soul_torch'}).id('twigs:soul_lamp')
+	event.shaped('24x torch', ['B', 'A'], {A: 'stick', B: 'modestmining:coke'})
+	event.shaped('24x redstone_torch', ['B', 'A', 'C'], {A: 'stick', B: 'modestmining:coke', C: 'redstone'})
+	event.shaped('24x soul_torch', ['B', 'A', 'C'], {A: 'stick', B: 'modestmining:coke', C: '#minecraft:soul_fire_base_blocks'})
+	event.shaped('24x endergetic:ender_torch', ['B', 'A', 'C'], {A: 'stick', B: 'modestmining:coke', C: '#endergetic:ender_fire_base_blocks'})
+	event.shaped('24x caverns_and_chasms:cupric_torch', ['B', 'A', 'C'], {A: 'stick', B: 'modestmining:coke', C: 'additionaladditions:copper_patina'})
+	
+	event.shaped('6x supplementaries:sconce', ['CBC', ' A '], {A: 'stick', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce')
+	event.shaped('6x supplementaries:sconce_lever', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: 'redstone', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce_lever')
+	event.shaped('6x supplementaries:sconce_soul', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: '#minecraft:soul_fire_base_blocks', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce_soul')
+	event.shaped('6x supplementaries:sconce_green', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: 'additionaladditions:copper_patina', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce_green')
+	event.shaped('6x supplementaries:sconce_ender', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: '#endergetic:ender_fire_base_blocks', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce_ender')
+	
+	event.shaped('24x supplementaries:sconce', ['CBC', ' A '], {A: 'stick', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
+	event.shaped('24x supplementaries:sconce_lever', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: 'redstone', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
+	event.shaped('24x supplementaries:sconce_soul', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: '#minecraft:soul_fire_base_blocks', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
+	event.shaped('24x supplementaries:sconce_green', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: 'additionaladditions:copper_patina', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
+	event.shaped('24x supplementaries:sconce_ender', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: '#endergetic:ender_fire_base_blocks', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
+	
+	event.shaped('6x lantern', [' A ', 'CBC'], {A: 'chain', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('minecraft:lantern')
+	event.shaped('6x soul_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#minecraft:soul_fire_base_blocks'}).id('minecraft:soul_lantern')
+	event.shaped('6x caverns_and_chasms:cupric_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: 'additionaladditions:copper_patina'}).id('caverns_and_chasms:cupric_lantern')
+	event.shaped('6x endergetic:ender_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#endergetic:ender_fire_base_blocks'}).id('endergetic:ender_lantern')
+	event.shaped('6x supplementaries:copper_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#forge:nuggets/copper', D: 'additionaladditions:copper_patina'}).id('supplementaries:copper_lantern')
+	event.shaped('6x supplementaries:brass_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#forge:nuggets/brass', D: 'additionaladditions:copper_patina'}).id('supplementaries:brass_lantern')
+	event.shaped('6x supplementaries:silver_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#forge:nuggets/silver', D: '#minecraft:soul_fire_base_blocks'}).id('supplementaries:silver_lantern')
+	event.shaped('6x supplementaries:lead_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#forge:nuggets/lead', D: 'oreganized:molten_lead_bucket'}).id('supplementaries:lead_lantern')
+	
+	event.shaped('24x lantern', [' A ', 'CBC'], {A: 'chain', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
+	event.shaped('24x soul_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#minecraft:soul_fire_base_blocks'})
+	event.shaped('24x caverns_and_chasms:cupric_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: 'additionaladditions:copper_patina'})
+	event.shaped('24x endergetic:ender_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#endergetic:ender_fire_base_blocks'})
+	event.shaped('24x supplementaries:copper_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#forge:nuggets/copper', D: 'additionaladditions:copper_patina'})
+	event.shaped('24x supplementaries:brass_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#forge:nuggets/brass', D: 'additionaladditions:copper_patina'})
+	event.shaped('24x supplementaries:silver_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#forge:nuggets/silver', D: '#minecraft:soul_fire_base_blocks'})
+	event.shaped('24x supplementaries:lead_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#forge:nuggets/lead', D: 'oreganized:molten_lead_bucket'})
+	
+	event.shaped('6x upgrade_aquatic:tooth_lantern', [' A ', 'ABA', ' A '], {A: 'upgrade_aquatic:thrasher_tooth', B: 'prismarine_crystals'}).id('upgrade_aquatic:tooth_lantern')
+	event.shaped('6x quark:paper_lantern', [' A ', 'CBC', ' A '], {A: 'bamboo', B: 'glowstone_dust', C: 'paper'}).id('quark:building/crafting/paper_lantern')
+	event.shaped('6x supplementaries:crimson_lantern', [' A ', 'CBC', ' A '], {A: '#forge:nuggets/gold', B: 'nethersdelight:propelpearl', C: 'paper'}).id('supplementaries:crimson_lantern')
+	
+	event.shaped('twigs:lamp', ['AA', 'AA'], {A: 'lantern'}).id('twigs:lamp')
+	event.shaped('twigs:soul_lamp', ['AA', 'AA'], {A: 'soul_lantern'}).id('twigs:soul_lamp')
+	
+	event.shaped('6x caverns_and_chasms:brazier', ['BAB', ' B '], {A: '#minecraft:coals', B: '#forge:ingots/silver'}).id('caverns_and_chasms:brazier')
+	event.shaped('6x caverns_and_chasms:soul_brazier', [' A ', 'BCB', ' B '], {A: '#minecraft:coals', B: '#forge:ingots/silver', C: '#minecraft:soul_fire_base_blocks'}).id('caverns_and_chasms:soul_brazier')
+	event.shaped('6x caverns_and_chasms:cupric_brazier', [' A ', 'BCB', ' B '], {A: '#minecraft:coals', B: '#forge:ingots/silver', C: 'additionaladditions:copper_patina'}).id('caverns_and_chasms:cupric_brazier')
+	event.shaped('6x caverns_and_chasms:ender_brazier', [' A ', 'BCB', ' B '], {A: '#minecraft:coals', B: '#forge:ingots/silver', C: '#endergetic:ender_fire_base_blocks'}).id('caverns_and_chasms:ender_brazier')
+	
+	event.shaped('24x caverns_and_chasms:brazier', ['BAB', ' B '], {A: 'modestmining:coke', B: '#forge:ingots/silver'})
+	event.shaped('24x caverns_and_chasms:soul_brazier', [' A ', 'BCB', ' B '], {A: 'modestmining:coke', B: '#forge:ingots/silver', C: '#minecraft:soul_fire_base_blocks'})
+	event.shaped('24x caverns_and_chasms:cupric_brazier', [' A ', 'BCB', ' B '], {A: 'modestmining:coke', B: '#forge:ingots/silver', C: 'additionaladditions:copper_patina'})
+	event.shaped('24x caverns_and_chasms:ender_brazier', [' A ', 'BCB', ' B '], {A: 'modestmining:coke', B: '#forge:ingots/silver', C: '#endergetic:ender_fire_base_blocks'})
+	
+	event.shaped('6x candle', ['A', 'B'], {A: 'string', B: 'honeycomb'}).id('minecraft:candle')
+	event.shaped('6x buzzier_bees:soul_candle', ['A', 'B', 'C'], {A: 'string', B: 'honeycomb', C: '#minecraft:soul_fire_base_blocks'}).id('buzzier_bees:candles/soul_candle')
+	event.shaped('6x caverns_and_chasms:cupric_candle', ['A', 'B', 'C'], {A: 'string', B: 'honeycomb', C: 'additionaladditions:copper_patina'}).id('caverns_and_chasms:cupric_candle')
+	
+	event.shaped('6x supplementaries:candle_holder', [' A ', 'CBC'], {A: 'string', B: 'honeycomb', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
+	event.shaped('6x supplementaries:candle_holder_soul', [' A ', ' B ', 'CDC'], {A: 'string', B: 'honeycomb', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#minecraft:soul_fire_base_blocks'})
+	
+	event.shaped('6x suppsquared:gold_candle_holder', [' A ', 'CBC'], {A: 'string', B: 'honeycomb', C: '#forge:nuggets/gold'})
+	event.shaped('6x suppsquared:gold_candle_holder_soul', [' A ', ' B ', 'CDC'], {A: 'string', B: 'honeycomb', C: '#forge:nuggets/gold', D: '#minecraft:soul_fire_base_blocks'})
+	
 	event.shaped('3x twigs:crimson_shroomlamp', ['AAA', 'BBB', 'AAA'], {A: 'crimson_planks', B: 'nethersdelight:propelpearl'}).id('twigs:crimson_shroomlamp')
 	event.shaped('3x twigs:warped_shroomlamp', ['AAA', 'BBB', 'AAA'], {A: 'warped_planks', B: 'nethersdelight:propelpearl'}).id('twigs:warped_shroomlamp')
 	
 	event.shaped('3x supplementaries:stone_lamp', ['AAA', 'BBB', 'AAA'], {A: '#raspberry_flavoured:stone', B: 'nethersdelight:propelpearl'}).id('supplementaries:stone_lamp')
 	event.shaped('3x supplementaries:deepslate_lamp', ['AAA', 'BBB', 'AAA'], {A: '#raspberry_flavoured:deepslate', B: 'nethersdelight:propelpearl'}).id('supplementaries:deepslate_lamp')
 	event.shaped('3x supplementaries:blackstone_lamp', ['AAA', 'BBB', 'AAA'], {A: '#raspberry_flavoured:blackstone', B: 'nethersdelight:propelpearl'}).id('supplementaries:blackstone_lamp')
-	
-	event.shaped('caverns_and_chasms:brazier', ['BAB', 'BBB', ' B '], {A: '#minecraft:coals', B: 'oreganized:silver_nugget'}).id('caverns_and_chasms:brazier')
-	event.shaped('caverns_and_chasms:soul_brazier', ['BAB', 'BBB', ' B '], {A: '#minecraft:soul_fire_base_blocks', B: 'oreganized:silver_nugget'}).id('caverns_and_chasms:soul_brazier')
-	event.shaped('caverns_and_chasms:cupric_brazier', ['BAB', 'BBB', ' B '], {A: 'additionaladditions:copper_patina', B: 'oreganized:silver_nugget'}).id('caverns_and_chasms:cupric_brazier')
-	event.shaped('caverns_and_chasms:ender_brazier', ['BAB', 'BBB', ' B '], {A: '#endergetic:ender_fire_base_blocks', B: 'oreganized:silver_nugget'}).id('caverns_and_chasms:ender_brazier')
 	
 	event.shaped('4x minecraft:emerald_block', ['AA', 'AA'], {A: 'spelunkery:rough_lazurite_block'}).id('minecraft:lapis_block')
 	event.shaped('4x caverns_and_chasms:lapis_bricks', ['AA', 'AA'], {A: 'minecraft:emerald_block'}).id('caverns_and_chasms:lapis_bricks')
@@ -705,6 +762,9 @@ ServerEvents.recipes(event => {
 	event.smoking('kubejs:cooked_fish', '#raspberry_flavoured:full_raw_fish').cookingTime(100)
 	event.smoking('spelunkery:grilled_portabella', 'spelunkery:portabella').cookingTime(100)
 	event.smoking('ecologics:crab_meat', '#raspberry_flavoured:raw_crab_meat').cookingTime(100).id('ecologics:crab_meat_from_smoking')
+	
+// Blasting (used for bulk blasting)
+	event.blasting('supplementaries:ash', ['#minecraft:leaves', '#minecraft:small_flowers', '#minecraft:tall_flowers', '#minecraft:saplings']).cookingTime(100)
 
 // Campfire
 	event.campfireCooking('culturaldelights:smoked_eggplant', 'culturaldelights:eggplant').cookingTime(600)
@@ -1055,17 +1115,11 @@ ServerEvents.recipes(event => {
 	
 	// Ash
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [{tag: 'minecraft:saplings'}, {tag: 'minecraft:saplings'}, {tag: 'minecraft:saplings'}], 
-	result: {item: 'supplementaries:ash', count: 4}})
-	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [{tag: 'minecraft:small_flowers'}, {tag: 'minecraft:small_flowers'}, {tag: 'minecraft:small_flowers'}], 
-	result: {item: 'supplementaries:ash', count: 4}})
-	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [{tag: 'minecraft:tall_flowers'}, {tag: 'minecraft:tall_flowers'}, {tag: 'minecraft:tall_flowers'}], 
-	result: {item: 'supplementaries:ash', count: 6}})
-	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [{tag: 'minecraft:leaves'}, {tag: 'minecraft:leaves'}, {tag: 'minecraft:leaves'}], 
-	result: {item: 'supplementaries:ash', count: 4}})
+	ingredients: [
+	[{tag: 'minecraft:saplings'}, {tag: 'minecraft:small_flowers'}, {tag: 'minecraft:tall_flowers'}, {tag: 'minecraft:leaves'}],
+	[{tag: 'minecraft:saplings'}, {tag: 'minecraft:small_flowers'}, {tag: 'minecraft:tall_flowers'}, {tag: 'minecraft:leaves'}],
+	[{tag: 'minecraft:saplings'}, {tag: 'minecraft:small_flowers'}, {tag: 'minecraft:tall_flowers'}, {tag: 'minecraft:leaves'}]
+	], result: {item: 'supplementaries:ash', count: 4}})
 	
 	// Runes
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
@@ -1503,6 +1557,7 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('atmospheric:yellow_blossoms', '#forge:tools/knives', ['2x yellow_dye'])
 	event.recipes.farmersdelight.cutting('crimson_fungus', '#forge:tools/knives', ['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), Item.of('crimson_roots').withChance(0.75)])
 	event.recipes.farmersdelight.cutting('warped_fungus', '#forge:tools/knives', ['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), Item.of('warped_roots').withChance(0.75)])
+	event.recipes.farmersdelight.cutting('wheat', '#forge:tools/knives', ['create:wheat_flour', Item.of('create:wheat_flour').withChance(0.5)])
 	
 	event.recipes.farmersdelight.cutting('raspberry:clovers', '#forge:tools/knives', [Item.of('green_dye').withChance(0.25)])
 	event.recipes.farmersdelight.cutting('raspberry:hopeful_wildflowers', '#forge:tools/knives', ['light_blue_dye', Item.of('pink_dye').withChance(0.5), Item.of('white_dye').withChance(0.25)])
@@ -2236,6 +2291,9 @@ ServerEvents.recipes(event => {
 		event.recipes.create.mixing('8x kubejs:'+colour+'_cloth_scrap_block', ['minecraft:'+colour+'_dye', '8x kubejs:cloth_scrap_block'])
 		event.recipes.create.mixing('8x kubejs:'+colour+'_cloth_scrap_carpet', ['minecraft:'+colour+'_dye', '8x kubejs:cloth_scrap_carpet'])
 		event.recipes.create.mixing('8x kubejs:'+colour+'_canvas_rug', ['minecraft:'+colour+'_dye', '8x farmersdelight:canvas_rug'])
+		event.recipes.create.mixing('8x minecraft:'+colour+'_candle', ['minecraft:'+colour+'_dye', '8x #minecraft:candles'])
+		event.recipes.create.mixing('8x supplementaries:candle_holder_'+colour, ['minecraft:'+colour+'_dye', '8x #raspberry_flavoured:metal_candle_holders'])
+		event.recipes.create.mixing('8x suppsquared:gold_candle_holder_'+colour, ['minecraft:'+colour+'_dye', '8x #raspberry_flavoured:gold_candle_holders'])
     })
 	event.recipes.create.mixing('3x alloyed:steel_ingot', ['3x iron_ingot', '3x oreganized:lead_nugget', 'blaze_powder']).heated().id('alloyed:mixing/steel_ingot')
 	event.recipes.create.mixing('3x alloyed:steel_ingot', ['3x iron_ingot', '3x oreganized:lead_nugget']).superheated()
@@ -2264,8 +2322,11 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('additionaladditions:rose_gold_alloy', ['4x #forge:ingots/gold', '4x #forge:ingots/copper']).heated()
 	event.recipes.create.mixing('4x alloyed:bronze_ingot', ['3x #forge:ingots/copper', '2x #forge:ingots/zinc', '#forge:ingots/lead']).heated()
 	event.recipes.create.mixing('modestmining:coke', ['coal', '2x glowstone_dust', '3x create:cinder_flour']).heated()
-	event.recipes.create.mixing('6x farmersdelight:wheat_dough', ['2x #farmersdelight:wheat_or_flour', '#forge:eggs', 'spelunkery:salt', Fluid.of('minecraft:water',250)]).id('create:mixing/dough_by_mixing')
-	event.recipes.create.mixing('6x culturaldelights:corn_dough', ['2x #raspberry_flavoured:corn_dough_ingredients', '#forge:eggs', 'spelunkery:salt', Fluid.of('minecraft:water',250)])
+	
+	event.recipes.create.mixing('3x farmersdelight:wheat_dough', ['3x #farmersdelight:wheat_or_flour', Fluid.of('minecraft:water',250)]).id('create:mixing/dough_by_mixing')
+	event.recipes.create.mixing('3x culturaldelights:corn_dough', ['3x #raspberry_flavoured:corn_dough_ingredients', Fluid.of('minecraft:water',250)])
+	event.recipes.create.mixing('6x farmersdelight:wheat_dough', ['3x #farmersdelight:wheat_or_flour', '#forge:eggs', 'spelunkery:salt', Fluid.of('minecraft:water',250)])
+	event.recipes.create.mixing('6x culturaldelights:corn_dough', ['3x #raspberry_flavoured:corn_dough_ingredients', '#forge:eggs', 'spelunkery:salt', Fluid.of('minecraft:water',250)])
 	
 	event.recipes.create.mixing(['6x glowstone_dust', Item.of('glowstone_dust', 3).withChance(0.35)], ['4x nethersdelight:propelpearl', '#forge:gems/quartz', '#mynethersdelight:hot_spice']).heated()
 	

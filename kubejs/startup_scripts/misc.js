@@ -232,6 +232,15 @@ ItemEvents.modification(event => {
 	event.modify('ecologics:coconut_slice', item => {
 		item.craftingRemainder = Item.of('ecologics:coconut_husk').item
 	})
+	event.modify('spelunkery:portal_fluid_bottle', item => {
+		item.craftingRemainder = Item.of('minecraft:glass_bottle').item
+	})
+	event.modify('spelunkery:portal_fluid_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
+	event.modify('oreganized:molten_lead_bucket', item => {
+		item.craftingRemainder = Item.of('minecraft:bucket').item
+	})
 })
 // Enchantments
 StartupEvents.registry('enchantment', event => {

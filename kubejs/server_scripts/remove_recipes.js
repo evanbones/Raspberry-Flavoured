@@ -1982,7 +1982,9 @@ ServerEvents.recipes(event => {
 	'ecologics:cooked_prickly_pear',
 	'storagedrawers:drawer_key',
 	'create:builders_tea',
-	'naturalist:glow_goop'
+	'naturalist:glow_goop',
+	'#minecraft:candles',
+	'#supplementaries:candle_holders'
 	]})
 
 // Removing by ID

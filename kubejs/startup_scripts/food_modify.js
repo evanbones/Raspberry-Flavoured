@@ -438,7 +438,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('minecraft:rabbit_stew', item => {
         item.foodProperties = food => {
-            food.hunger(12).saturation(0.65).effect('health_boost', 6000, 0, 1)
+            food.hunger(13).saturation(0.65).effect('health_boost', 6000, 0, 1)
         }
     })
 	event.modify('minecraft:glistering_melon_slice', item => {
