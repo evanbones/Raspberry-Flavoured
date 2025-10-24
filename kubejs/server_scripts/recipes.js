@@ -89,8 +89,6 @@ ServerEvents.recipes(event => {
 	event.shapeless('endergetic:ender_campfire', ['campfire', '#endergetic:ender_fire_base_blocks']).id('endergetic:ender_campfire')
 	event.shapeless('etched:album_jukebox', ['note_block', 'diamond']).id('etched:album_jukebox')
 	event.shapeless('supplementaries:speaker_block', ['note_block', 'hopper']).id('supplementaries:speaker_block')
-	event.shapeless('ecologics:coconut_chest_boat', ['#forge:chests/wooden', 'ecologics:coconut_boat']).id('ecologics:coconut_chest_boat')
-	event.shapeless('ecologics:azalea_chest_boat', ['#forge:chests/wooden', 'ecologics:azalea_boat']).id('ecologics:azalea_chest_boat')
 	event.shapeless('2x mynethersdelight:hoglin_sausage', ['bone_meal', ['minecraft:water_bucket', Item.of('minecraft:potion',{Potion:"minecraft:water"}).strongNBT()], 'nethersdelight:hoglin_loin'])
 	event.shapeless('gray_dye', ['2x supplementaries:ash'])
 	event.shapeless('6x fire_charge', ['gunpowder', '#minecraft:coals']).id('minecraft:fire_charge')
@@ -205,33 +203,33 @@ ServerEvents.recipes(event => {
 	event.shapeless('raspberry:coffee_cake', ['7x farmersrespite:coffee_cake_slice'])
 	event.shapeless('raspberry:magma_cake', ['7x mynethersdelight:magma_cake_slice'])
 	
-	event.shapeless('chest', ['chest_minecart']).replaceIngredient('chest_minecart', 'minecart')
+	event.shapeless('barrel', ['chest_minecart']).replaceIngredient('chest_minecart', 'minecart')
 	event.shapeless('furnace', ['furnace_minecart']).replaceIngredient('furnace_minecart', 'minecart')
 	event.shapeless('tnt', ['tnt_minecart']).replaceIngredient('tnt_minecart', 'minecart')
 	event.shapeless('hopper', ['hopper_minecart']).replaceIngredient('hopper_minecart', 'minecart')
 	event.shapeless('oreganized:shrapnel_bomb', ['oreganized:shrapnel_bomb_minecart']).replaceIngredient('oreganized:shrapnel_bomb_minecart', 'minecart')
 	event.shapeless('dispenser', ['supplementaries:dispenser_minecart']).replaceIngredient('supplementaries:dispenser_minecart', 'minecart')
 	
-	event.shapeless('chest', ['oak_chest_boat']).replaceIngredient('oak_chest_boat', 'oak_boat')
-	event.shapeless('chest', ['spruce_chest_boat']).replaceIngredient('spruce_chest_boat', 'spruce_boat')
-	event.shapeless('chest', ['birch_chest_boat']).replaceIngredient('birch_chest_boat', 'birch_boat')
-	event.shapeless('chest', ['jungle_chest_boat']).replaceIngredient('jungle_chest_boat', 'jungle_boat')
-	event.shapeless('chest', ['acacia_chest_boat']).replaceIngredient('acacia_chest_boat', 'acacia_boat')
-	event.shapeless('chest', ['dark_oak_chest_boat']).replaceIngredient('dark_oak_chest_boat', 'dark_oak_boat')
-	event.shapeless('chest', ['mangrove_chest_boat']).replaceIngredient('mangrove_chest_boat', 'mangrove_boat')
-	event.shapeless('chest', ['boatload:crimson_chest_boat']).replaceIngredient('boatload:crimson_chest_boat', 'boatload:crimson_boat')
-	event.shapeless('chest', ['boatload:warped_chest_boat']).replaceIngredient('boatload:warped_chest_boat', 'boatload:warped_boat')
-	event.shapeless('chest', ['windswept:chestnut_chest_boat']).replaceIngredient('windswept:chestnut_chest_boat', 'windswept:chestnut_boat')
-	event.shapeless('chest', ['ecologics:coconut_chest_boat']).replaceIngredient('ecologics:coconut_chest_boat', 'ecologics:coconut_boat')
-	event.shapeless('chest', ['ecologics:azalea_chest_boat']).replaceIngredient('ecologics:azalea_chest_boat', 'ecologics:azalea_boat')
-	event.shapeless('chest', ['environmental:willow_chest_boat']).replaceIngredient('environmental:willow_chest_boat', 'environmental:willow_boat')
-	event.shapeless('chest', ['environmental:wisteria_chest_boat']).replaceIngredient('environmental:wisteria_chest_boat', 'environmental:wisteria_boat')
-	event.shapeless('chest', ['environmental:cherry_chest_boat']).replaceIngredient('environmental:cherry_chest_boat', 'environmental:cherry_boat')
-	event.shapeless('chest', ['upgrade_aquatic:driftwood_chest_boat']).replaceIngredient('upgrade_aquatic:driftwood_chest_boat', 'upgrade_aquatic:driftwood_boat')
-	event.shapeless('chest', ['autumnity:maple_chest_boat']).replaceIngredient('autumnity:maple_chest_boat', 'autumnity:maple_boat')
-	event.shapeless('chest', ['atmospheric:rosewood_chest_boat']).replaceIngredient('atmospheric:rosewood_chest_boat', 'atmospheric:rosewood_boat')
-	event.shapeless('chest', ['atmospheric:morado_chest_boat']).replaceIngredient('atmospheric:morado_chest_boat', 'atmospheric:morado_boat')
-	event.shapeless('chest', ['atmospheric:yucca_chest_boat']).replaceIngredient('atmospheric:yucca_chest_boat', 'atmospheric:yucca_boat')
+	event.shapeless('barrel', ['oak_chest_boat']).replaceIngredient('oak_chest_boat', 'oak_boat')
+	event.shapeless('barrel', ['spruce_chest_boat']).replaceIngredient('spruce_chest_boat', 'spruce_boat')
+	event.shapeless('barrel', ['birch_chest_boat']).replaceIngredient('birch_chest_boat', 'birch_boat')
+	event.shapeless('barrel', ['jungle_chest_boat']).replaceIngredient('jungle_chest_boat', 'jungle_boat')
+	event.shapeless('barrel', ['acacia_chest_boat']).replaceIngredient('acacia_chest_boat', 'acacia_boat')
+	event.shapeless('barrel', ['dark_oak_chest_boat']).replaceIngredient('dark_oak_chest_boat', 'dark_oak_boat')
+	event.shapeless('barrel', ['mangrove_chest_boat']).replaceIngredient('mangrove_chest_boat', 'mangrove_boat')
+	event.shapeless('barrel', ['boatload:crimson_chest_boat']).replaceIngredient('boatload:crimson_chest_boat', 'boatload:crimson_boat')
+	event.shapeless('barrel', ['boatload:warped_chest_boat']).replaceIngredient('boatload:warped_chest_boat', 'boatload:warped_boat')
+	event.shapeless('barrel', ['windswept:chestnut_chest_boat']).replaceIngredient('windswept:chestnut_chest_boat', 'windswept:chestnut_boat')
+	event.shapeless('barrel', ['ecologics:coconut_chest_boat']).replaceIngredient('ecologics:coconut_chest_boat', 'ecologics:coconut_boat')
+	event.shapeless('barrel', ['ecologics:azalea_chest_boat']).replaceIngredient('ecologics:azalea_chest_boat', 'ecologics:azalea_boat')
+	event.shapeless('barrel', ['environmental:willow_chest_boat']).replaceIngredient('environmental:willow_chest_boat', 'environmental:willow_boat')
+	event.shapeless('barrel', ['environmental:wisteria_chest_boat']).replaceIngredient('environmental:wisteria_chest_boat', 'environmental:wisteria_boat')
+	event.shapeless('barrel', ['environmental:cherry_chest_boat']).replaceIngredient('environmental:cherry_chest_boat', 'environmental:cherry_boat')
+	event.shapeless('barrel', ['upgrade_aquatic:driftwood_chest_boat']).replaceIngredient('upgrade_aquatic:driftwood_chest_boat', 'upgrade_aquatic:driftwood_boat')
+	event.shapeless('barrel', ['autumnity:maple_chest_boat']).replaceIngredient('autumnity:maple_chest_boat', 'autumnity:maple_boat')
+	event.shapeless('barrel', ['atmospheric:rosewood_chest_boat']).replaceIngredient('atmospheric:rosewood_chest_boat', 'atmospheric:rosewood_boat')
+	event.shapeless('barrel', ['atmospheric:morado_chest_boat']).replaceIngredient('atmospheric:morado_chest_boat', 'atmospheric:morado_boat')
+	event.shapeless('barrel', ['atmospheric:yucca_chest_boat']).replaceIngredient('atmospheric:yucca_chest_boat', 'atmospheric:yucca_boat')
 	
 	event.shapeless('furnace', ['boatload:oak_furnace_boat']).replaceIngredient('boatload:oak_furnace_boat', 'oak_boat')
 	event.shapeless('furnace', ['boatload:spruce_furnace_boat']).replaceIngredient('boatload:spruce_furnace_boat', 'spruce_boat')
@@ -656,6 +654,16 @@ ServerEvents.recipes(event => {
 	event.shaped('3x supplementaries:stone_lamp', ['AAA', 'BBB', 'AAA'], {A: '#raspberry_flavoured:stone', B: 'nethersdelight:propelpearl'}).id('supplementaries:stone_lamp')
 	event.shaped('3x supplementaries:deepslate_lamp', ['AAA', 'BBB', 'AAA'], {A: '#raspberry_flavoured:deepslate', B: 'nethersdelight:propelpearl'}).id('supplementaries:deepslate_lamp')
 	event.shaped('3x supplementaries:blackstone_lamp', ['AAA', 'BBB', 'AAA'], {A: '#raspberry_flavoured:blackstone', B: 'nethersdelight:propelpearl'}).id('supplementaries:blackstone_lamp')
+	
+	event.shaped('6x quark:red_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'red_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/red_crystal_lamp')
+	event.shaped('6x quark:orange_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'orange_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/orange_crystal_lamp')
+	event.shaped('6x quark:yellow_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'yellow_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/yellow_crystal_lamp')
+	event.shaped('6x quark:green_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'green_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/green_crystal_lamp')
+	event.shaped('6x quark:blue_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'cyan_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/blue_crystal_lamp')
+	event.shaped('6x quark:indigo_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'blue_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/indigo_crystal_lamp')
+	event.shaped('6x quark:violet_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'pink_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/violet_crystal_lamp')
+	event.shaped('6x quark:white_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'white_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/white_crystal_lamp')
+	event.shaped('6x quark:black_crystal_lamp', ['AAA', 'CBC', 'AAA'], {A: 'amethyst_shard', B: 'black_dye', C: 'nethersdelight:propelpearl'}).id('quark:building/crafting/lamps/black_crystal_lamp')
 	
 	event.shaped('4x minecraft:emerald_block', ['AA', 'AA'], {A: 'spelunkery:rough_lazurite_block'}).id('minecraft:lapis_block')
 	event.shaped('4x caverns_and_chasms:lapis_bricks', ['AA', 'AA'], {A: 'minecraft:emerald_block'}).id('caverns_and_chasms:lapis_bricks')
@@ -1698,7 +1706,7 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cooking(['culturaldelights:corn_cob', 'culturaldelights:corn_cob', '#forge:milk'], 'culturaldelights:creamed_corn', 0, 200, 'minecraft:bowl').id('culturaldelights:cooking/creamed_corn')
 	event.recipes.farmersdelight.cooking(['upgrade_aquatic:purple_pickerelweed', 'upgrade_aquatic:purple_pickerelweed', 'upgrade_aquatic:purple_pickerelweed', 'upgrade_aquatic:purple_pickerelweed', 'sugar'], 'kubejs:pickerelweed_juice', 0, 200, 'minecraft:glass_bottle')
 	event.recipes.farmersdelight.cooking(['farmersrespite:black_tea_leaves', 'farmersrespite:black_tea_leaves', '#forge:milk', 'sugar'], 'kubejs:builders_tea', 0, 200, 'minecraft:glass_bottle')
-	event.recipes.farmersdelight.cooking(['autumnity:foul_berries', 'autumnity:foul_berries', '#raspberry_flavoured:foul_ingredients', '#forge:vegetables'], 'autumnity:foul_soup', 0, 200, 'minecraft:bowl').id('abnormals_delight:autumnity/cooking/foul_soup')
+	event.recipes.farmersdelight.cooking(['autumnity:foul_berries', 'autumnity:foul_berries', '#raspberry_flavoured:foul_ingredients', '#forge:vegetables'], '2x autumnity:foul_soup', 0, 200, 'minecraft:bowl').id('abnormals_delight:autumnity/cooking/foul_soup')
 
 // Baking
 	// Cooking foods
@@ -1825,6 +1833,9 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
 		{item: 'cookscollection:lemon'}, {item: 'minecraft:poppy'}, {item: 'kubejs:batter'}
 	], result: {item: 'cookscollection:lemon_muffin', count: 2}}).id('cookscollection:lemon_muffin')
+	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
+		{tag: 'forge:crops/carrot'}, {item: 'kubejs:cinnamon'}, {item: 'kubejs:batter'}
+	], result: {item: 'kubejs:carrot_muffin', count: 2}})
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
 		{item: 'farmersdelight:wheat_dough'}, {item: 'farmersdelight:wheat_dough'}, {item: 'farmersdelight:wheat_dough'}, 
 		{item: 'kubejs:oats'}, {item: 'supplementaries:flax_seeds'}, {item: 'supplementaries:flax_seeds'}
@@ -2160,6 +2171,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.compacting(['2x cookscollection:chocolate_muffin'], ['neapolitan:chocolate_bar', Fluid.of('kubejs:batter',250)]).heated()
 	event.recipes.create.compacting(['2x cookscollection:chocolate_muffin'], [Fluid.of('create:chocolate',250), Fluid.of('kubejs:batter',250)]).heated()
 	event.recipes.create.compacting(['2x cookscollection:lemon_muffin'], ['cookscollection:lemon', 'poppy', Fluid.of('kubejs:batter',250)]).heated()
+	event.recipes.create.compacting(['2x kubejs:carrot_muffin'], ['#forge:crops/carrot', 'kubejs:cinnamon', Fluid.of('kubejs:batter',250)]).heated()
 	event.recipes.create.compacting(['2x farmersdelight:pie_crust'], ['3x #farmersdelight:wheat_or_flour', 'sugar', 'spelunkery:salt'])
 	event.recipes.create.compacting(['2x create_confectionery:cocoa_butter'], ['cocoa_beans', Fluid.of('minecraft:milk',250)])
 	event.recipes.create.compacting([Fluid.of('kubejs:cooking_oil',250)], ['sunflower'])
@@ -3090,6 +3102,7 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ input: 'upgrade_aquatic:mulberry' }, 'upgrade_aquatic:mulberry', 'minecraft:sweet_berries')
 	event.replaceInput({ input: 'architects_palette:sunmetal_brick' }, 'architects_palette:sunmetal_brick', 'alloyed:bronze_ingot')
 	event.replaceInput({ input: 'minecraft:bread' }, 'minecraft:bread', '#forge:bread/wheat')
+	
 	event.replaceInput({ output: 'create:steam_engine' }, 'minecraft:copper_block', 'copperandtuffbackport:chiseled_copper')
 	event.replaceInput({ output: 'minecraft:copper_ingot' }, 'minecraft:copper_block', 'copperandtuffbackport:chiseled_copper')
 	event.replaceInput({ output: 'minecraft:copper_ingot' }, 'minecraft:waxed_copper_block', 'copperandtuffbackport:waxed_chiseled_copper')
@@ -3108,7 +3121,11 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ output: 'caverns_and_chasms:sugilite' }, 'caverns_and_chasms:spinel', 'minecraft:amethyst_shard')
 	event.replaceInput({ output: 'another_furniture:service_bell' }, 'minecraft:iron_nugget', 'alloyed:bronze_nugget')
 	event.replaceInput({ output: 'another_furniture:service_bell' }, 'minecraft:iron_ingot', 'alloyed:bronze_ingot')
+	event.replaceInput({ output: '#minecraft:chest_boats' }, '#forge:chests/wooden', 'barrel')
+	event.replaceInput({ output: 'minecraft:chest_minecart' }, '#forge:chests/wooden', 'barrel')
+	
 	event.replaceInput({ not: { output: 'spelunkery:rough_quartz_block' }}, 'minecraft:quartz', '#forge:gems/quartz')
+	
 	event.replaceInput({ id: 'minecraft:crossbow' }, 'minecraft:tripwire_hook', 'minecraft:string')
 	event.replaceInput({ id: 'minecraft:crossbow' }, 'minecraft:iron_ingot', 'create:iron_sheet')
 	event.replaceInput({ id: 'quark:building/crafting/dirt_bricks' }, 'paletteblocks:cobblestone_bricks', 'minecraft:dirt')

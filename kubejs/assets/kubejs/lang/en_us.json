@@ -264,7 +264,7 @@
   "rf.jei.netherite_armor": "Netherite armor will provide good knockback resistance along with good protection against fire damage, and won't burn up when thrown into fire or lava.",
   
   "rf.jei.rose_gold_rapier": "Deals little damage, but can strike very quickly and will heal half a heart of health for every hit. Upgrading to this item will not keep the original item's enchantments.",
-  "rf.jei.steel_mace": "Heavy and won't deal a lot of damage upfront, but will deal increased damage depending on how many blocks the wielder has fallen before striking a target. Upgrading to this item will not keep the original item's enchantments.",
+  "rf.jei.steel_mace": "Heavy and won't deal a lot of damage upfront, but will deal increased damage depending on how many blocks the wielder has fallen before striking a target and will launch the wielder upwards after the falling strike. Upgrading to this item will not keep the original item's enchantments.",
   "rf.jei.electrum_spear": "Deals less damage, but can be charged to strike from further away and allow the wielder to dash in the direction they're moving when beginning the charge. Upgrading to this item will not keep the original item's enchantments.",
   "rf.jei.necromium_claymore": "Can be charged by holding right-click to unleash a big swipe attack, and striking with the hilt will cause targets to stagger and move backwards. Also causes mobs to drop their heads frequently. Upgrading to this item will not keep the original item's enchantments.",
   "rf.jei.netherite_broad_axe": "Will perform a wide sweep attack that deals its full damage to every target caught in the attack. Upgrading to this item will not keep the original item's enchantments.",

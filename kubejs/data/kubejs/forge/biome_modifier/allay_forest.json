@@ -4,9 +4,9 @@
   "spawners": [
     {
       "type": "minecraft:allay",
-      "maxCount": 12,
+      "maxCount": 16,
       "minCount": 12,
-      "weight": 7
+      "weight": 10
     }
   ]
 }

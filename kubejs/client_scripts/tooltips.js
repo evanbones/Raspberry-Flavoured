@@ -2927,7 +2927,8 @@ ItemEvents.tooltip(tooltip => {
   'kubejs:electrum_horse_armor',
   'mynethersdelight:plate_of_striderloaf',
   'mynethersdelight:magma_cake_slice',
-  'storagedrawers:oak_full_drawers_1'
+  'storagedrawers:oak_full_drawers_1',
+  'mace_backport:mace'
   ], (item, advanced, text) => {
 	text.remove(1)
   })

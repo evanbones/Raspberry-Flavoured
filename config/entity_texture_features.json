@@ -12,7 +12,7 @@
   "restrictMoonPhase": true,
   "enableEmissiveTextures": true,
   "enableEmissiveBlockEntities": true,
-  "emissiveRenderMode": "DULL",
+  "emissiveRenderMode": "BRIGHT",
   "specialEmissiveShield": true,
   "alwaysCheckVanillaEmissiveSuffix": true,
   "skinFeaturesEnabled": true,

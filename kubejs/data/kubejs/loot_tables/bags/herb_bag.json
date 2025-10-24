@@ -27,6 +27,26 @@
         {
           "type": "minecraft:item",
           "weight": 6,
+          "name": "autumnity:maple_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "autumnity:yellow_maple_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "autumnity:orange_maple_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "autumnity:red_maple_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
           "name": "windswept:chestnut_sapling"
         },
         {

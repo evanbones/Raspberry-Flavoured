@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:slow_falling"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'phantom_membrane', '2x miners_delight:bat_wing'
+		'phantom_membrane', 'neapolitan:white_strawberries'
 	]).heated()
 	// Thorns
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 

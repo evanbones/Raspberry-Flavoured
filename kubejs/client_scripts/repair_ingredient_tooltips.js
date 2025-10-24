@@ -193,10 +193,10 @@ ItemEvents.tooltip(event => {
     'minecraft:netherite_hoe': 'item.minecraft.netherite_ingot, block.minecraft.diamond_block',
     'farmersdelight:netherite_knife': 'item.minecraft.netherite_ingot, block.minecraft.diamond_block',
 	
-    'minecraft:netherite_helmet': 'item.minecraft.netherite_ingot',
-    'minecraft:netherite_chestplate': 'item.minecraft.netherite_ingot',
-    'minecraft:netherite_leggings': 'item.minecraft.netherite_ingot',
-    'minecraft:netherite_boots': 'item.minecraft.netherite_ingot',
+    'minecraft:netherite_helmet': 'item.minecraft.netherite_ingot, block.minecraft.diamond_block',
+    'minecraft:netherite_chestplate': 'item.minecraft.netherite_ingot, block.minecraft.diamond_block',
+    'minecraft:netherite_leggings': 'item.minecraft.netherite_ingot, block.minecraft.diamond_block',
+    'minecraft:netherite_boots': 'item.minecraft.netherite_ingot, block.minecraft.diamond_block',
 	
     'savage_and_ravage:griefer_helmet': 'item.savage_and_ravage.blast_proof_plating',
     'savage_and_ravage:griefer_chestplate': 'item.savage_and_ravage.blast_proof_plating',

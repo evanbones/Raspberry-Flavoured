@@ -1,7 +1,6 @@
 {
-  "parent": "emi:item/half_item",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "first": "minecraft:item/carrot",
-    "second": "culturaldelights:item/eggplant"
+    "layer0": "raspberry_flavoured:tag/raspberry_flavoured/raw_vegetables"
   }
 }

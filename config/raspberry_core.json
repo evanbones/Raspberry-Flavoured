@@ -15,6 +15,7 @@
   "create_blastproofing": true,
   "search_containers": true,
   "horses_no_wander": true,
+  "horses_no_buck": true,
   "horses_step_height": true,
   "emi_tablets": true,
   "toms_hide_beacon": true,
@@ -30,7 +31,8 @@
   "bannerless_raiders": true,
   "naturalist_stackable_items": true,
   "rose_gold_bomb_knockback": 1.5,
-  "rose_gold_arrow_knockback": 10,
-  "rose_gold_arrow_velocity": 1.75,
-  "unified_wrenches": false
+  "rose_gold_arrow_knockback": 4,
+  "rose_gold_arrow_velocity": 1.5,
+  "unified_wrenches": false,
+  "safer_knight_jump": true
 }

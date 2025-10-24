@@ -2,6 +2,8 @@
   "block.raspberry.cake": "Sweet Berry Cake",
   "block.raspberry.ash_block": "Ash",
   
+  "tag.item.farmersdelight.cabbage_roll_ingredients": "Fillings",
+  
   "advancements.rf.main.root.title": "Raspberry Flavoured",
   "advancements.rf.main.root.description": "Welcome to Raspberry Flavoured! This is the main progression tree, but after you've gathered some items, three other tabs will become available! For checklist advancements, you can hover over them and hold Shift to see what you're missing!",
   "advancements.rf.main.pickaxe.title": "It's in the Name",

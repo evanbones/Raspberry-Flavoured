@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "raspberry_flavoured:tag/forge/vegetables"
+    "layer0": "raspberry_flavoured:tag/forge/berries"
   }
 }

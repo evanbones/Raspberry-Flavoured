@@ -88,6 +88,8 @@
   "entity.minecraft.enderman": "Exokin",
   "entity.minecraft.endermite": "Exomite",
   "entity.minecraft.eye_of_ender": "Awoken Exopearl",
+  "entity.minecraft.chest_boat": "Boat with Barrel",
+  "entity.minecraft.chest_minecart": "Minecart with Barrel",
   
   "block.minecraft.cake": "Sweet Berry Cake",
   "block.minecraft.candle_cake": "Sweet Berry Cake with Candle",
@@ -223,6 +225,14 @@
   "item.minecraft.quartz": "Rough Quartz",
   "item.minecraft.phantom_membrane": "Aeromembrane",
   "item.minecraft.tnt_minecart": "Minecart with Dynamite",
+  "item.minecraft.oak_chest_boat": "Oak Boat with Barrel",
+  "item.minecraft.spruce_chest_boat": "Spruce Boat with Barrel",
+  "item.minecraft.birch_chest_boat": "Birch Boat with Barrel",
+  "item.minecraft.jungle_chest_boat": "Jungle Boat with Barrel",
+  "item.minecraft.acacia_chest_boat": "Acacia Boat with Barrel",
+  "item.minecraft.dark_oak_chest_boat": "Dark Oak Boat with Barrel",
+  "item.minecraft.mangrove_chest_boat": "Mangrove Boat with Barrel",
+  "item.minecraft.chest_minecart": "Minecart with Barrel",
   
   "item.minecraft.wither_skeleton_spawn_egg": "Withered Spawn Egg",
   "item.minecraft.enderman_spawn_egg": "Exokin Spawn Egg",
@@ -286,14 +296,6 @@
   "subtitles.entity.turtle.egg_break": "Egg breaks",
   "subtitles.entity.turtle.egg_crack": "Egg cracks",
   "subtitles.entity.turtle.egg_hatch": "Egg hatches",
-  "item.minecraft.oak_chest_boat": "Oak Boat with Barrel",
-  "item.minecraft.spruce_chest_boat": "Spruce Boat with Barrel",
-  "item.minecraft.birch_chest_boat": "Birch Boat with Barrel",
-  "item.minecraft.jungle_chest_boat": "Jungle Boat with Barrel",
-  "item.minecraft.acacia_chest_boat": "Acacia Boat with Barrel",
-  "item.minecraft.dark_oak_chest_boat": "Dark Oak Boat with Barrel",
-  "item.minecraft.mangrove_chest_boat": "Mangrove Boat with Barrel",
-  "item.minecraft.chest_minecart": "Minecart with Barrel",
-  "entity.minecraft.chest_boat": "Boat with Barrel",
-  "entity.minecraft.chest_minecart": "Minecart with Barrel"
+  
+  "description.resource_pack.unknown": "Brings back the old Redstone Torches! :)"
 }

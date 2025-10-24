@@ -77,6 +77,12 @@ StartupEvents.registry('item', event => {
 			.effect('farmersdelight:comfort', 400, 0, 0.1)
 			.fastToEat()
         	})
+	event.create('carrot_muffin').group('food').food(food => {
+		food
+    		.hunger(5)
+    		.saturation(0.6)
+			.effect('farmersdelight:comfort', 2400, 0, 1)
+        	})
 	event.create('sugar_cookie').group('food').food(food => {
 		food
     		.hunger(1)

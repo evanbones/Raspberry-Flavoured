@@ -1088,7 +1088,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('autumnity:foul_soup', item => {
         item.foodProperties = food => {
-            food.hunger(6).removeEffect('autumnity:foul_taste').effect('autumnity:foul_taste', 1200, 2, 1).effect('nausea', 600, 0, 0.5)
+            food.hunger(5).removeEffect('autumnity:foul_taste').effect('autumnity:foul_taste', 1200, 2, 1).effect('nausea', 600, 0, 0.5)
         }
     })
 	event.modify('miners_delight:improvised_barbecue_stick', item => {

@@ -44,6 +44,8 @@
 	  "minecraft:endermite": "362A00",
 	  "minecraft:creeper": "56A02E",
 	  "minecraft:turtle": "3FA442",
+	  "minecraft:vex": "71C6C6",
+	  "minecraft:allay": "93DCF9",
 	  "dungeons_mobs:jungle_zombie": "3F562A",
 	  "naturalist:zebra": "949388"
 	},
@@ -52,6 +54,8 @@
 	  "minecraft:endermite": "912755",
 	  "minecraft:creeper": "112910",
 	  "minecraft:turtle": "CAD091",
+	  "minecraft:vex": "8E3939",
+	  "minecraft:allay": "F9B6D0",
 	  "dungeons_mobs:jungle_zombie": "62894B",
 	  "naturalist:zebra": "2F2B2A"
 	}
