@@ -361,7 +361,6 @@
 		"kubejs:cooking_oil_bucket" = "misc"
 		"kubejs:lead_ore" = "building_blocks"
 		"kubejs:butterscotch_cinnamon_pie" = "food"
-		"kubejs:eggplant_parmesan_block" = "food"
 		"kubejs:wheat_flour_bag" = "decorations"
 		"kubejs:cinder_flour_bag" = "decorations"
 		"kubejs:corn_flour_bag" = "decorations"
@@ -960,7 +959,6 @@
 		"create_confectionery:chocolate_bricks_stairs" = "building_blocks"
 		"create_confectionery:chocolate_bricks_slab" = "building_blocks"
 		"create_confectionery:candy_cane_block" = "building_blocks"
-		"create_confectionery:cocoa_butter" = "misc"
 		"create_confectionery:marshmallow_on_a_stick" = "food"
 		"create_confectionery:marshmallow" = "food"
 		"create_confectionery:chocolate_glazed_marshmallow" = "food"
@@ -2098,6 +2096,7 @@
 		"upgrade_aquatic:purple_pickerelweed" = "decorations"
 		"raspberry:firefly" = "misc"
 		"nethersdelight:propelpearl" = "misc"
+		"culturaldelights:eggplant_parmesan_block" = "food"
 
 	#Set this value to true to make an item fire resistant (like netherite is), or set it to false to make it burn in fire and lava. Example (without the leading #):
 	#"minecraft:netherite_ingot" = false
@@ -2744,6 +2743,7 @@
 		"minecraft:shroomlight" = 0.8
 		"nethersdelight:propelpearl" = 0.2
 		"architects_palette:twisted_sapling" = 0.7
+		"supplementaries:cake" = 0.8
 
 #Set the values for axe stripping.
 [stripping]

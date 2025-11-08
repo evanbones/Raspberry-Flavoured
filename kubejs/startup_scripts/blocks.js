@@ -41,8 +41,6 @@ StartupEvents.registry('block', event => {
 	event.create('chiseled_exolite').soundType('netherrack').hardness(2).resistance(9).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
 	event.create('chiseled_exolite_tiles').soundType('deepslate_tiles').hardness(2).resistance(9).tagBlock('minecraft:mineable/pickaxe').requiresTool(true)
 	
-	event.create('eggplant_parmesan_block', 'farmersdelight:feast').servingItems('kubejs:eggplant_parmesan').hasLeftovers(true).box(0, 0, 0, 16, 5, 16, true)
-	
 	event.create('butterscotch_cinnamon_pie', 'farmersdelight:pie').soundType('wool').sliceItem('kubejs:butterscotch_cinnamon_pie_slice')
 	event.create('prickly_pear_pie', 'farmersdelight:pie').soundType('wool').sliceItem('kubejs:prickly_pear_pie_slice')
 	event.create('pumpkin_pie', 'farmersdelight:pie').soundType('wool').sliceItem('create_central_kitchen:pumpkin_pie_slice')

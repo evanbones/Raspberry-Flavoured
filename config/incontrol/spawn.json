@@ -106,18 +106,6 @@
     "result": "deny"
   },
   {
-    "mob": "caverns_and_chasms:deeper",
-    "onjoin": true,
-    "random": 0.1,
-    "result": "deny"
-  },
-  {
-    "mob": "caverns_and_chasms:peeper",
-    "onjoin": true,
-    "random": 0.25,
-    "result": "deny"
-  },
-  {
     "mob": "minecraft:zombie",
     "onjoin": true,
 	"maxheight": -15,
@@ -180,18 +168,6 @@
     "armorhelmet": ["create:copper_diving_helmet"],
     "armorboots": ["create:copper_diving_boots"],
     "result": "allow"
-  },
-  {
-    "mob": "naturalist:bear",
-    "onjoin": true,
-    "biome": "environmental:blossom_woods",
-    "result": "deny"
-  },
-  {
-    "mob": "naturalist:bear",
-    "onjoin": true,
-    "biome": "environmental:blossom_valleys",
-    "result": "deny"
   },
   {
     "mob": "minecraft:goat",

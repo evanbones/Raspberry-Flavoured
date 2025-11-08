@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:farming/all_cookies",
+  "parent": "raspberry_flavoured:farming/all_pies",
   "criteria": {
     "Obtain Sweet Berry Cake": {
       "conditions": {

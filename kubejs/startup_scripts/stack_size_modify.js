@@ -19,7 +19,7 @@ ItemEvents.modification(event => {
 	'create:red_toolbox',
 	'create:black_toolbox',
 	'domesticationinnovation:collar_tag',
-	'kubejs:eggplant_parmesan_block',
+	'culturaldelights:eggplant_parmesan_block',
 	'storagedrawers:oak_full_drawers_1',
 	'naturalist:butterfly'
 	], item => {item.maxStackSize = 1})

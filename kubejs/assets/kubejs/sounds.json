@@ -111,6 +111,14 @@
             }
         ]
     },
+	"music.music_disc_pancake": {
+        "sounds": [
+            {
+                "name": "kubejs:discs/music_disc_pancake",
+                "stream": true
+            }
+        ]
+    },
 	"music.music_disc_exostep": {
         "sounds": [
             {

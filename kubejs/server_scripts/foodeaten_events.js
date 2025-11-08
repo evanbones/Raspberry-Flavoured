@@ -4,9 +4,6 @@
 ItemEvents.foodEaten('minecraft:glistering_melon_slice', event =>{
 	event.player.heal(2)
 })
-ItemEvents.foodEaten('kubejs:mixed_oatmeal', event =>{
-	event.player.heal(3)
-})
 ItemEvents.foodEaten('kubejs:golden_strawberries', event =>{
 	event.player.heal(4)
 })
@@ -149,10 +146,9 @@ ItemEvents.foodEaten([
 	'kubejs:pasta_with_turkey',
 	'kubejs:mutton_udon',
 	'kubejs:cinnamon_mint_curry',
-	'kubejs:eggplant_parmesan',
 	'kubejs:prismatic_ice_cream',
 	'kubejs:cat_food',
-//	'kubejs:stoup',
+	'kubejs:batter',
 	'kubejs:takoyaki',
 	'kubejs:glow_ink_pasta',
 	'kubejs:white_fish_soup',
@@ -161,7 +157,8 @@ ItemEvents.foodEaten([
 	'kubejs:pasta_with_tuna',
 	'kubejs:rollmops',
 	'kubejs:spicy_crab_cakes',
-	'kubejs:coconut_crusted_gar'
+	'kubejs:coconut_crusted_gar',
+	'kubejs:coconut_pudding_with_jam'
 	], event => {
 		if (!event.player.isCreative()) {
 			event.server.schedule(1, callback => {

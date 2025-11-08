@@ -18,6 +18,8 @@
 	"farmersdelight:straw_from_tall_sporophyte",
 	"farmersdelight:straw_from_arid_sprouts",
 	"farmersdelight:straw_from_cave_grass",
+	"farmersdelight:straw_from_cave_vines",
+	"farmersdelight:straw_from_cave_vines_plant",
 	
 	"farmersdelight:seeds_from_grass",
 	"farmersdelight:seeds_from_tall_grass",
@@ -28,6 +30,9 @@
 	"farmersdelight:seeds_from_tall_sporophyte",
 	"farmersdelight:seeds_from_sandy_shrub",
 	"farmersdelight:seeds_from_arid_sprouts",
+	
+	"farmersdelight:cattail_seeds_from_cattail",
+	"farmersdelight:cattail_seeds_from_tall_cattail",
 	
 	"farmersdelight:music_disc_droopy1",
 	"farmersdelight:music_disc_death",

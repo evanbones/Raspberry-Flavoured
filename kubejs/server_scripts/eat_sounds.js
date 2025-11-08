@@ -117,6 +117,8 @@ ServerEvents.tags('item', event => {
 		.add('mynethersdelight:hot_cream')
 		.add('mynethersdelight:hot_cream_cone')
 		.add('berry_good:glowgurt')
+		.add('kubejs:butter')
+		.add('kubejs:coconut_pudding_with_jam')
 		
 	event.get('raspberry:sounds/vegetable')
 		.add('minecraft:potato')
@@ -180,4 +182,5 @@ ServerEvents.tags('item', event => {
 		.add('mynethersdelight:spicy_curry')
 		.add('kubejs:white_fish_soup')
 		.add('kubejs:tambaqui_curry')
+		.add('kubejs:batter')
 })

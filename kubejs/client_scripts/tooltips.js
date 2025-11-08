@@ -65,7 +65,6 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add(['neapolitan:milk_bottle'], Text.translate("rf.tooltip.clears_1_effect"))
     tooltip.add(['ecologics:coconut_slice'], Text.translate("rf.tooltip.clears_1_effect"))
     tooltip.add(['ecologics:tropical_stew'], Text.translate("rf.tooltip.clears_all_effects"))
-    tooltip.add(['kubejs:mixed_oatmeal'], Text.translate("rf.tooltip.minor_instant_health"))
     tooltip.add(['kubejs:golden_strawberries'], Text.translate("rf.tooltip.instant_health"))
     tooltip.add(['kubejs:sporedough'], Text.translate("rf.tooltip.sporedough"))
     tooltip.add(['caverns_and_chasms:bejeweled_apple'], Text.translate("rf.tooltip.bejeweled_apple"))
@@ -112,7 +111,6 @@ ItemEvents.tooltip(tooltip => {
 	"create_confectionery:caramel_bricks_stairs",
 	"create_confectionery:caramel_bricks_slab",
 	"farmersdelight:fried_egg",
-	"supplementaries:pancake",
 	"oreganized:electrum_machete",
 	"oreganized:bush_hammer",
 	"quark:beetroot_crate",
@@ -2044,7 +2042,6 @@ ItemEvents.tooltip(tooltip => {
     "twigs:waxed_oxidized_copper_pillar",	
 	"atmospheric:stripped_grimwood_log",
 	"atmospheric:stripped_grimwood",
-	"culturaldelights:poached_eggplants",
     "aquaculturedelight:cooked_small_turtle_meat",
     "aquaculturedelight:small_turtle_meat",
     "aquaculturedelight:turtle_meat_dish",
@@ -2784,7 +2781,9 @@ ItemEvents.tooltip(tooltip => {
 	"upgrade_aquatic:boiled_blue_pickerelweed",
 	"abnormals_delight:pickerelweed_juice",
 	"create:builders_tea",
-	"architects_palette:algal_blend"
+	"architects_palette:algal_blend",
+	"autumnity:pancake",
+	"create_confectionery:cocoa_butter"
 	], Text.translate("rf.tooltip.unobtainable"))
   
 // snowball
@@ -2991,7 +2990,8 @@ ItemEvents.tooltip(tooltip => {
   })
   
   tooltip.addAdvanced([
-  'farmersrespite:tea_curry'
+  'farmersrespite:tea_curry',
+  'farmersdelight:pasta_with_mutton_chop'
   ], (item, advanced, text) => {
 	text.remove(3)
 	text.remove(3)

@@ -12,7 +12,6 @@ StartupEvents.registry('item', event => {
 	event.create('corn_flour').group('misc')
 	event.create('cloth_scrap').group('misc')
 	event.create('latex_bottle').group('misc')
-	event.create('batter').group('misc')
 	event.create('rubber').group('misc')
 	event.create('copper_brush').maxStackSize(1).maxDamage(200).group('tools')
 	event.create('charcoal_lump').burnTime(200).group('misc')
@@ -58,6 +57,11 @@ StartupEvents.registry('item', event => {
     		.saturation(0.4)
 			.effect('blindness', 900, 0, 0.5)
 			.effect('autumnity:foul_taste', 140, 0, 1)
+        	})
+	event.create('butter').group('food').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.1)
         	})
 	event.create('cinnamon').group('food').food(food => {
 		food
@@ -179,6 +183,12 @@ StartupEvents.registry('item', event => {
     		.saturation(0.7)
 			.effect('resistance', 340, 0, 1)
         	})
+	event.create('buttered_toast').group('food').food(food => {
+		food
+    		.hunger(3)
+    		.saturation(0.7)
+			.effect('farmersdelight:comfort', 600, 0, 1)
+        	})
 	event.create('cheesy_chip_wrap').group('food').food(food => {
 		food
     		.hunger(10)
@@ -220,6 +230,12 @@ StartupEvents.registry('item', event => {
         	})
 	
 	// Bowl
+	event.create('batter').group('food').food(food => {
+		food
+    		.hunger(3)
+    		.saturation(0.2)
+			.effect('hunger', 600, 0, 0.3)
+        	})
 	event.create('corn_fritters').group('food').maxStackSize(16).food(food => {
 		food
     		.hunger(6)
@@ -234,9 +250,9 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('mixed_oatmeal').group('food').maxStackSize(16).food(food => {
 		food
-    		.hunger(10)
-    		.saturation(0.85)
-			.effect('farmersdelight:comfort', 6000, 0, 1)
+    		.hunger(11)
+    		.saturation(0.8)
+			.effect('regeneration', 600, 0, 1)
         	})
 	event.create('turkey_stew').group('food').maxStackSize(16).food(food => {
 		food
@@ -283,12 +299,6 @@ StartupEvents.registry('item', event => {
 			.effect('mynethersdelight:b_pungent', 900, 0, 1)
 			.effect('kubejs:satiation', 4800, 0, 1)
         	})
-	event.create('eggplant_parmesan').group('food').containerItem('minecraft:bowl').maxStackSize(16).food(food => {
-		food
-    		.hunger(14)
-    		.saturation(0.75)
-			.effect('kubejs:satiation', 6000, 0, 1)
-        	})
 	event.create('takoyaki').group('food').maxStackSize(16).food(food => {
 		food
     		.hunger(13)
@@ -331,6 +341,12 @@ StartupEvents.registry('item', event => {
     		.hunger(14)
     		.saturation(0.6)
 			.effect('kubejs:satiation', 2400, 0, 1)
+        	})
+	event.create('coconut_pudding_with_jam').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(8)
+    		.saturation(0.7)
+			.effect('regeneration', 400, 0, 1)
         	})
 	event.create('prismatic_ice_cream').group('food').containerItem('minecraft:bowl').maxStackSize(16).food(food => {
 		food

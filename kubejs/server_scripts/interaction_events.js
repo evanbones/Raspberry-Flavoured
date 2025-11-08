@@ -476,7 +476,7 @@ BlockEvents.rightClicked(event => {
 
 // flax harvesting from top block (script by Grom PE)
 BlockEvents.rightClicked(event => {
-	if (event.block.id == "supplementaries:flax") {
+	if (event.block.id == "supplementaries:flax" && !event.player.isCrouching()) {
 		if (event.block.properties.half == "upper" && event.block.properties.age == "7") {
 			// make it as if event.block.down is right-clicked by player
 			event.block.pos.y--;
@@ -611,19 +611,4 @@ ItemEvents.rightClicked('raspberry:ashball', event => {
 })
 ItemEvents.rightClicked('raspberry:rose_gold_bomb', event => {
     event.player.addItemCooldown('raspberry:rose_gold_bomb', 10)
-})
-
-// advancements
-ItemEvents.rightClicked(event => {
-    if (event.item.id === 'savage_and_ravage:creeper_spores') {
-		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/creeper_spores`)
-    }
-    if (event.item.hasTag('raspberry_flavoured:bombs')) {
-		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/bomb`)
-    }
-})
-BlockEvents.broken(event => {
-    if (event.block.hasTag('raspberry_flavoured:fragile_blocks')) {
-		event.server.runCommandSilent(`advancement grant ${event.player.username} only raspberry_flavoured:exploration/fragile_stone`)
-    }
 })

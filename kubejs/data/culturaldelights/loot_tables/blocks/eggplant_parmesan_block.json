@@ -7,13 +7,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kubejs:eggplant_parmesan_block"
+          "name": "culturaldelights:eggplant_parmesan_block"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "kubejs:eggplant_parmesan_block",
+          "block": "culturaldelights:eggplant_parmesan_block",
           "properties": {
             "servings": "4"
           }
@@ -34,7 +34,7 @@
           "condition": "minecraft:inverted",
           "term": {
             "condition": "minecraft:block_state_property",
-            "block": "kubejs:eggplant_parmesan_block",
+            "block": "culturaldelights:eggplant_parmesan_block",
             "properties": {
               "servings": "4"
             }

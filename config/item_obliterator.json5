@@ -57,7 +57,6 @@
     "create_confectionery:caramel_bricks_stairs",
     "create_confectionery:caramel_bricks_slab",
     "farmersdelight:fried_egg",
-    "supplementaries:pancake",
     "oreganized:electrum_machete",
     "oreganized:bush_hammer",
     "quark:beetroot_crate",
@@ -1540,7 +1539,6 @@
 	"lucky:lucky_potion", 
 	"lucky:lucky_sword", 
 	"lucky:lucky_bow", 
-    "culturaldelights:poached_eggplants",
     "toms_storage:ts.inventory_cable",
     "toms_storage:ts.inventory_cable_connector",
     "toms_storage:ts.trim",
@@ -2347,7 +2345,9 @@
     "modestmining:mangrove_board_stairs",
     "modestmining:mangrove_board_wall",
 	"raspberry:red_moss_block",
-	"raspberry:red_moss_carpet"
+	"raspberry:red_moss_carpet",
+	"autumnity:pancake",
+	"create_confectionery:cocoa_butter"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

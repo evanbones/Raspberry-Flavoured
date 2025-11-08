@@ -61,10 +61,6 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
-      "stack": "item:minecraft:potion{Potion:\"quark:resilience\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
       "stack": "item:minecraft:potion{Potion:\"caverns_and_chasms:rewind\"}",
       "after": "item:minecraft:glass_bottle"
     },
@@ -109,6 +105,18 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
+      "stack": "item:minecraft:potion{Potion:\"oreganized:stunning\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"upgrade_aquatic:insomnia\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:potion{Potion:\"atmospheric:worsening\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
       "stack": "item:minecraft:potion{Potion:\"kubejs:blindness\"}",
       "after": "item:minecraft:glass_bottle"
     },
@@ -121,15 +129,7 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
-      "stack": "item:minecraft:potion{Potion:\"oreganized:stunning\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
-      "stack": "item:minecraft:potion{Potion:\"upgrade_aquatic:insomnia\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
-      "stack": "item:minecraft:potion{Potion:\"atmospheric:worsening\"}",
+      "stack": "item:minecraft:potion{Potion:\"kubejs:mad_prospector\"}",
       "after": "item:minecraft:glass_bottle"
     },
 	{
@@ -193,10 +193,6 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
-      "stack": "item:minecraft:splash_potion{Potion:\"quark:resilience\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
       "stack": "item:minecraft:splash_potion{Potion:\"caverns_and_chasms:rewind\"}",
       "after": "item:minecraft:glass_bottle"
     },
@@ -241,6 +237,18 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
+      "stack": "item:minecraft:splash_potion{Potion:\"oreganized:stunning\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"upgrade_aquatic:insomnia\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:splash_potion{Potion:\"atmospheric:worsening\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
       "stack": "item:minecraft:splash_potion{Potion:\"kubejs:blindness\"}",
       "after": "item:minecraft:glass_bottle"
     },
@@ -253,15 +261,7 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
-      "stack": "item:minecraft:splash_potion{Potion:\"oreganized:stunning\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
-      "stack": "item:minecraft:splash_potion{Potion:\"upgrade_aquatic:insomnia\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
-      "stack": "item:minecraft:splash_potion{Potion:\"atmospheric:worsening\"}",
+      "stack": "item:minecraft:splash_potion{Potion:\"kubejs:mad_prospector\"}",
       "after": "item:minecraft:glass_bottle"
     },
 	{
@@ -325,10 +325,6 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
-      "stack": "item:minecraft:lingering_potion{Potion:\"quark:resilience\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
       "stack": "item:minecraft:lingering_potion{Potion:\"caverns_and_chasms:rewind\"}",
       "after": "item:minecraft:glass_bottle"
     },
@@ -373,6 +369,18 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"oreganized:stunning\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"upgrade_aquatic:insomnia\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:lingering_potion{Potion:\"atmospheric:worsening\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
       "stack": "item:minecraft:lingering_potion{Potion:\"kubejs:blindness\"}",
       "after": "item:minecraft:glass_bottle"
     },
@@ -385,15 +393,7 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
-      "stack": "item:minecraft:lingering_potion{Potion:\"oreganized:stunning\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
-      "stack": "item:minecraft:lingering_potion{Potion:\"upgrade_aquatic:insomnia\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
-      "stack": "item:minecraft:lingering_potion{Potion:\"atmospheric:worsening\"}",
+      "stack": "item:minecraft:lingering_potion{Potion:\"kubejs:mad_prospector\"}",
       "after": "item:minecraft:glass_bottle"
     },
 	{
@@ -457,10 +457,6 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
-      "stack": "item:minecraft:tipped_arrow{Potion:\"quark:resilience\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
       "stack": "item:minecraft:tipped_arrow{Potion:\"caverns_and_chasms:rewind\"}",
       "after": "item:minecraft:glass_bottle"
     },
@@ -505,6 +501,18 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"oreganized:stunning\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"upgrade_aquatic:insomnia\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
+      "stack": "item:minecraft:tipped_arrow{Potion:\"atmospheric:worsening\"}",
+      "after": "item:minecraft:glass_bottle"
+    },
+	{
       "stack": "item:minecraft:tipped_arrow{Potion:\"kubejs:blindness\"}",
       "after": "item:minecraft:glass_bottle"
     },
@@ -517,15 +525,7 @@
       "after": "item:minecraft:glass_bottle"
     },
 	{
-      "stack": "item:minecraft:tipped_arrow{Potion:\"oreganized:stunning\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
-      "stack": "item:minecraft:tipped_arrow{Potion:\"upgrade_aquatic:insomnia\"}",
-      "after": "item:minecraft:glass_bottle"
-    },
-	{
-      "stack": "item:minecraft:tipped_arrow{Potion:\"atmospheric:worsening\"}",
+      "stack": "item:minecraft:tipped_arrow{Potion:\"kubejs:mad_prospector\"}",
       "after": "item:minecraft:glass_bottle"
     }
   ]

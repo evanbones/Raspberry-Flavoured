@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:farming/oven",
+  "parent": "raspberry_flavoured:farming/all_pancakes",
   "criteria": {
     "Obtain Chocolate Chip Cookie": {
       "conditions": {
@@ -37,7 +37,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "Obtain Sweet Berry Cookie": {
+    "Obtain Jam Cookie": {
       "conditions": {
         "items": [
           {
@@ -141,7 +141,7 @@
       "Obtain Honey Cookie"
     ],
     [
-      "Obtain Sweet Berry Cookie"
+      "Obtain Jam Cookie"
     ],
     [
       "Obtain Cherry Cookie"

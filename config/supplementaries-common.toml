@@ -199,7 +199,7 @@
 	sconce = true
 	sconce_lever = true
 	sconce_green = true
-	pancake = false
+	pancake = true
 	netherite_door = true
 	netherite_trapdoor = true
 	silver_door = true

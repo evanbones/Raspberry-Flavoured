@@ -29,7 +29,9 @@
    "kubejs:butterscotch_cinnamon_pie",
    "brewinandchewin:quiche",
    "brewinandchewin:pizza",
-   "brewinandchewin:flaxen_cheese_wheel"
+   "brewinandchewin:flaxen_cheese_wheel",
+   "supplementaries:pancake",
+   "raspberry:lemon_pancake"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.squishy.break",

@@ -8,7 +8,7 @@
       "tag": "forge:cooked_beef"
     },
     {
-      "tag": "forge:milk"
+      "item": "kubejs:butter"
     }
   ],
   "result": {

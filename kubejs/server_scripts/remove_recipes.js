@@ -2365,7 +2365,6 @@ ServerEvents.recipes(event => {
 	'spelunkery:sandpaper_polishing/cinnabar_block',
 	'supplementaries:dispenser_minecart_quark',
 	'supplementaries:item_shelf',
-	'supplementaries:pancake',
 	'windswept:sweet_berry_bowl',
 	'windswept:sweet_berry_bowl_revert',
 	'windswept:wild_berry_bowl',
@@ -2845,7 +2844,9 @@ ServerEvents.recipes(event => {
 	'create_central_kitchen:crafting/adzuki_bun_from_dough',
 	'create_central_kitchen:crafting/adzuki_cake_from_dough',
 	'create_central_kitchen:crafting/banana_bread_from_dough',
-	'create_central_kitchen:crafting/banana_cake_from_dough'
+	'create_central_kitchen:crafting/banana_cake_from_dough',
+	'create:filling/glowstone',
+	'minecraft:magma_block'
 	]
     
     removedIds.forEach(removedId => {

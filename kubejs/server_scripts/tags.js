@@ -1316,7 +1316,6 @@ ServerEvents.tags('item', event => {
 		.add('minecraft:fire_charge')
 		.add('alloyed:bronze_ingot')
 		.add('farmersdelight:pie_crust')
-		.add('create_confectionery:cocoa_butter')
 		.add('minecraft:white_carpet')
 		.add('minecraft:orange_carpet')
 		.add('minecraft:magenta_carpet')
@@ -1379,6 +1378,13 @@ ServerEvents.tags('item', event => {
 		.add('#minecraft:candles')
 		.add('#raspberry_flavoured:metal_candle_holders')
 		.add('#raspberry_flavoured:gold_candle_holders')
+		.add('kubejs:butter')
+		.add('kubejs:buttered_toast')
+		
+	event.get('raspberry_flavoured:jam_fruit')
+		.add('minecraft:sweet_berries')
+		.add('neapolitan:strawberries')
+		.add('environmental:cherries')
 		
 	event.get('raspberry_flavoured:gold_candle_holders')
 		.add('suppsquared:gold_candle_holder')
@@ -1655,7 +1661,7 @@ ServerEvents.tags('item', event => {
 		.add('farmersdelight:honey_glazed_ham_block')
 		.add('farmersdelight:shepherds_pie_block')
 		.add('farmersdelight:rice_roll_medley_block')
-		.add('kubejs:eggplant_parmesan_block')
+		.add('culturaldelights:eggplant_parmesan_block')
 		.add('miners_delight:stuffed_squid')
 		.add('brewinandchewin:fiery_fondue_pot')
 		.add('mynethersdelight:roast_stuffed_hoglin')
@@ -1872,7 +1878,6 @@ ServerEvents.tags('item', event => {
 		.add('upgrade_aquatic:prismarine_rod')
 		.add('environmental:yak_hair')
 		.add('environmental:duck_egg')
-		.add('create_confectionery:cocoa_butter')
 		.add('create:precision_mechanism')
 		.add('create:electron_tube')
 		.add('create:sturdy_sheet')
@@ -2988,6 +2993,7 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:music_disc_raveyard')
 		.add('kubejs:music_disc_one')
 		.add('kubejs:music_disc_artisan')
+		.add('kubejs:music_disc_pancake')
 		.add('sullysmod:music_disc_scour')
 		.add('trickytrialspaintingsplusmusic:music_disc_creator')
 		.add('trickytrialspaintingsplusmusic:music_disc_precipice')
@@ -3117,7 +3123,6 @@ ServerEvents.tags('item', event => {
 })
 
 // Block tags
-
 ServerEvents.tags('block', event => {
 	event.removeAllTagsFrom([
 	'windswept:bluebells',
@@ -4196,7 +4201,7 @@ ServerEvents.tags('block', event => {
 	    .add('culturaldelights:exotic_roll_medley')
 	    .add('nethersdelight:stuffed_hoglin')
 	    .add('miners_delight:stuffed_squid')
-	    .add('kubejs:eggplant_parmesan_block')
+	    .add('culturaldelights:eggplant_parmesan_block')
 	    .add('mynethersdelight:stuffed_hoglin')
 	    .add('mynethersdelight:striderloaf_block')
 	    .add('mynethersdelight:cold_striderloaf_block')
@@ -4684,6 +4689,10 @@ ServerEvents.tags('block', event => {
 		.add('supplementaries:flax')
 		.add('culturaldelights:corn')
 		.add('farmersdelight:rice')
+		.add('#supplementaries:presents')
+		.add('supplementaries:pancake')
+		.add('raspberry:lemon_pancake')
+		.add('culturaldelights:eggplant_parmesan_block')
 	
 	event.get('minecraft:needs_stone_tool')
 		.add('create_confectionery:candy_cane_block')
@@ -5027,7 +5036,6 @@ ServerEvents.tags('block', event => {
 })
 
 // Fluid tags
-
 ServerEvents.tags('fluid', event => {
 	event.get('minecraft:water')
 		.remove('create_confectionery:black_chocolate')
@@ -5043,7 +5051,6 @@ ServerEvents.tags('fluid', event => {
 })
 
 // Entity type tags
-
 ServerEvents.tags('entity_type', event => {
 	event.get('spelunkery:hurt_by_salt')
 		.add('autumnity:snail')
@@ -5055,7 +5062,6 @@ ServerEvents.tags('entity_type', event => {
 })
 
 // Painting tags
-
 ServerEvents.tags('painting_variant', event => {
 	event.get('minecraft:placeable')
 		.remove('portfolio:traders')
@@ -5065,14 +5071,28 @@ ServerEvents.tags('painting_variant', event => {
 		.remove('trickytrialspaintingsplusmusic:baroque')
 })
 
-// Worldgen tags
-
+// Biome tags
 ServerEvents.tags('worldgen/biome', event => {
 	event.get('caverns_and_chasms:has_feature/silver_ore').removeAll()
 	event.get('caverns_and_chasms:has_feature/extra_silver_ore').removeAll()
 	event.get('caverns_and_chasms:has_feature/soul_silver_ore').removeAll()
 	event.get('caverns_and_chasms:has_feature/spinel_ore').removeAll()
 	event.get('sullysmod:tortoises_spawn_in').removeAll()
+		
+	event.get('naturalist:has_bear').removeAll()
+		.add('minecraft:forest')
+		.add('minecraft:flower_forest')
+		.add('minecraft:birch_forest')
+		.add('minecraft:old_growth_birch_forest')
+		.add('minecraft:dark_forest')
+		.add('minecraft:grove')
+		.add('windswept:chestnut_forest')
+		.add('windswept:snowy_chestnut_forest')
+		.add('autumnity:maple_forest')
+		.add('minecraft:taiga')
+		.add('minecraft:snowy_taiga')
+		.add('minecraft:old_growth_pine_taiga')
+		.add('minecraft:old_growth_spruce_taiga')
 		
 	event.get('upgrade_aquatic:has_feature/pickerelweed_extra')
 		.add('#upgrade_aquatic:has_feature/pickerelweed')
@@ -5268,6 +5288,7 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('minecraft:swamp')
 })
 
+// Structure tags
 ServerEvents.tags('worldgen/structure', event => {
 	event.get('minecraft:dolphin_located')
 		.add('minecraft:buried_treasure')
@@ -5309,7 +5330,6 @@ ServerEvents.tags('worldgen/structure', event => {
 })
 
 // Effect tags
-
 ServerEvents.tags('mob_effect', event => {
 	event.get('caverns_and_chasms:bejeweled_apple_cannot_inflict')
 		.add('kubejs:satiation')
@@ -5340,4 +5360,76 @@ ServerEvents.tags('mob_effect', event => {
 		.add('friendsandfoes:reach')
 		.add('modestmining:prismarite_speed')
 		.add('modestmining:prismarite_strength')
+		.add('dungeons_mobs:warped')
+})
+
+// Potion tags
+ServerEvents.tags('potion', event => {
+	event.get('supplementaries:quiver_blacklist')
+		.add('minecraft:thick')
+		.add('minecraft:mundane')
+		.add('ecologics:sliding')
+		.add('ecologics:long_sliding')
+		.add('naturalist:glowing')
+		.add('naturalist:long_glowing')
+		.add('buzzier_bees:unluck')
+		.add('buzzier_bees:long_unluck')
+		.add('buzzier_bees:strong_unluck')
+		.add('additionaladditions:glow_potion')
+		.add('additionaladditions:long_glow_potion')
+		.add('additionaladditions:haste_potion')
+		.add('additionaladditions:long_haste_potion')
+		.add('additionaladditions:strong_haste_potion')
+		.add('sullysmod:unluck')
+		.add('friendsandfoes:reaching')
+		.add('friendsandfoes:long_reaching')
+		.add('friendsandfoes:strong_reaching')
+		.add('minecraft:luck')
+		.add('buzzier_bees:long_luck')
+		.add('buzzier_bees:strong_luck')
+		.add('minecraft:long_night_vision')
+		.add('minecraft:long_invisibility')
+		.add('minecraft:long_leaping')
+		.add('minecraft:strong_leaping')
+		.add('minecraft:long_fire_resistance')
+		.add('minecraft:long_swiftness')
+		.add('minecraft:strong_swiftness')
+		.add('minecraft:long_turtle_master')
+		.add('minecraft:strong_turtle_master')
+		.add('minecraft:long_water_breathing')
+		.add('minecraft:strong_healing')
+		.add('minecraft:long_poison')
+		.add('minecraft:strong_poison')
+		.add('minecraft:long_regeneration')
+		.add('minecraft:strong_regeneration')
+		.add('minecraft:long_strength')
+		.add('minecraft:strong_strength')
+		.add('minecraft:long_slow_falling')
+		.add('windswept:strong_thorns')
+		.add('windswept:long_thorns')
+		.add('naturalist:strong_forest_dasher')
+		.add('naturalist:long_forest_dasher')
+		.add('quark:resilience')
+		.add('quark:strong_resilience')
+		.add('quark:long_resilience')
+		.add('caverns_and_chasms:long_rewind')
+		.add('environmental:vitality_strong')
+		.add('upgrade_aquatic:restfulness_strong')
+		.add('upgrade_aquatic:repellence_strong')
+		.add('upgrade_aquatic:repellence_long')
+		.add('upgrade_aquatic:vibing_strong')
+		.add('upgrade_aquatic:vibing_long')
+		.add('atmospheric:relief_strong')
+		.add('atmospheric:relief_long')
+		.add('minecraft:long_slowness')
+		.add('minecraft:strong_slowness')
+		.add('minecraft:strong_harming')
+		.add('minecraft:long_poison')
+		.add('minecraft:strong_poison')
+		.add('minecraft:long_weakness')
+		.add('oreganized:long_stunning')
+		.add('oreganized:strong_stunning')
+		.add('upgrade_aquatic:insomnia_strong')
+		.add('atmospheric:worsening_strong')
+		.add('atmospheric:worsening_long')
 })

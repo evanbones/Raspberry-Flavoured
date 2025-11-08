@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:farming/all_cakes",
+  "parent": "raspberry_flavoured:farming/all_cookies",
   "criteria": {
     "Obtain Pumpkin Pie": {
       "conditions": {

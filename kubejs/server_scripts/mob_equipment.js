@@ -79,20 +79,7 @@ EntityEvents.spawned(event => {
 
 // misc. mob equipment
 EntityEvents.spawned(event => {
-	// give skeletons quivers
     const entity = event.entity
-	const quiverWearers = ['minecraft:skeleton', 'minecraft:stray', 'dungeons_mobs:mossy_skeleton', 'dungeons_mobs:sunken_skeleton']
-	
-    if (quiverWearers.includes(entity.type)) {
-        if (Math.floor(Math.random() * (5 - 1 + 1) + 1) === 1) {
-            event.server.schedule(1, callback => {
-            if (entity.mainHandItem === 'minecraft:bow') {
-                entity.mergeNbt({Quiver: {ForgeCaps: {Parent: {Size: 6, Items: [{Slot: 0, id: "minecraft:arrow", Count: 1}], SelectedSlot: 0}}, id: "supplementaries:quiver", Count: 1}})
-                }
-            })
-        }
-    }
-	
 	// replace drowned's tridents with prismarine shard
     if (entity.type === 'minecraft:drowned') {
         if (entity.mainHandItem === 'minecraft:trident') {

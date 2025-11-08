@@ -45,7 +45,7 @@
     },
 	"Place down Eggplant Parmesan": {
       "conditions": {
-        "block": "kubejs:eggplant_parmesan_block"
+        "block": "culturaldelights:eggplant_parmesan_block"
       },
       "trigger": "minecraft:placed_block"
     },
