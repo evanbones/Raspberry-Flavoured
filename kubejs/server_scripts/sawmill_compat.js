@@ -9,49 +9,54 @@ when there's an array, it means "try every single one of these in order til one 
 
 /**
  * documenting it so it gets hinted properly
- * @type {[ material: string, outputCount: number, outputItem: string | string[], mods: string[] ][]}
+ * id is required in case two mods add the same block
+ * @type {[ id: string, material: string, outputCount: number, outputItem: string | string[], mods: string[] ][]}
  */
 let outputTypes = [
-  ["log",4,"WOOD_trapdoor",["MOD:"]],
-  ["log",4,"WOOD_door",["MOD:"]],
-  ["log",4,["WOOD_stairs","WOOD_planks_stairs"],["MOD:"]],
-  ["log",8,["WOOD_slab","WOOD_planks_slab"],["MOD:"]],
-  ["log",4,"WOOD_sign",["MOD:"],"incomplete"],
-  ["log",3,"WOOD_post",["everycomp:q/MOD/","quark:","MOD:"]],
-  ["log",8,"WOOD_fence",["MOD:"]],
-  ["log",8,"WOOD_railing",["architects_palette:","everycomp:ap/MOD/"]],
+  ["trapdoor", "log", 4, "WOOD_trapdoor", ["MOD:"]],
+  ["door", "log", 4, "WOOD_door", ["MOD:"]],
+  ["stairs", "log", 4, ["WOOD_stairs", "WOOD_planks_stairs"], ["MOD:"]],
+  ["slab", "log", 8, ["WOOD_slab", "WOOD_planks_slab"], ["MOD:"]],
+  ["sign", "log", 4, "WOOD_sign", ["MOD:"], "incomplete"],
+  ["post", "log", 3, "WOOD_post", ["quark:", "MOD:", "everycomp:q/MOD/"]],
+  ["fence", "log", 8, "WOOD_fence", ["MOD:"]],
+  ["railing", "log", 8, "WOOD_railing", ["architects_palette:", "everycomp:ap/MOD/"]],
 
-  //god is dead.
-  //["log",4,"WOOD_boards",["architects_palette:","everycomp:ap/MOD/"],"incomplete"],
-  
-  //these ones look nicer, and some wierd bug is making these two not able to register at once.
-  ["log",4,"WOOD_boards",["woodworks:","MOD:","everycomp:abnww/MOD/"],"incomplete"],
+  ["parquetry", "log", 4, "WOOD_boards", ["architects_palette:", "everycomp:ap/MOD/"]],
+  ["parquetry_slab", "log", 8, "WOOD_board_slab", ["architects_palette:", "everycomp:ap/MOD/"]],
+  ["parquetry_stairs", "log", 4, "WOOD_board_stairs", ["architects_palette:", "everycomp:ap/MOD/"]],
+  ["parquetry_wall", "log", 4, "WOOD_board_wall", ["architects_palette:", "everycomp:ap/MOD/"]],
+  ["parquetry_slab", "parquetry", 2, "WOOD_board_slab", ["architects_palette:", "everycomp:ap/MOD/"]],
+  ["parquetry_stairs", "parquetry", 1, "WOOD_board_stairs", ["architects_palette:", "everycomp:ap/MOD/"]],
+  ["parquetry_wall", "parquetry", 1, "WOOD_board_wall", ["architects_palette:", "everycomp:ap/MOD/"]],
 
-  ["log",4,"WOOD_fence_gate",["MOD:"]],
-  ["log",1,"WOOD_boat",["MOD:","boatload:"],"incomplete"],
-  ["log",8,"sign_post_WOOD",["supplementaries:","supplementaries:MOD/"]],
-  ["log",1,"hollow_WOOD_log",["everycomp:q/MOD/","quark:"],"incomplete"],
-  ["log",1,"WOOD_cabinet",["everycomp:fd/MOD/","farmersdelight:","MOD:","abnormals_delight:"]],
+  ["boards", "log", 4, "WOOD_boards", ["woodworks:", "MOD:", "everycomp:abnww/MOD/"]],
+
+  ["fence_gate", "log", 4, "WOOD_fence_gate", ["MOD:"]],
+  ["boat", "log", 1, "WOOD_boat", ["MOD:", "boatload:"], "incomplete"],
+  ["sign_post", "log", 8, "sign_post_WOOD", ["supplementaries:", "supplementaries:MOD/"]],
+  ["hollow_log", "log", 1, "hollow_WOOD_log", ["quark:", "everycomp:q/MOD/"], "incomplete"],
+  ["cabinet", "log", 1, "WOOD_cabinet", ["farmersdelight:", "MOD:", "abnormals_delight:", "everycomp:fd/MOD/"]],
   
   //this bit's nice. no conficts here!
-  ["log",1,"WOOD_drawer",["another_furniture:","everycomp:af/MOD/"]],
-  ["log",2,"WOOD_table",["another_furniture:","everycomp:af/MOD/"]],
-  ["log",4,"WOOD_shutter",["another_furniture:","everycomp:af/MOD/"]],
-  ["log",4,"WOOD_shelf",["another_furniture:","everycomp:af/MOD/"]],
-  ["log",4,"WOOD_chair",["another_furniture:","everycomp:af/MOD/"]],
-  ["log",2,"WOOD_bench",["another_furniture:","everycomp:af/MOD/"]]
+  ["drawer", "log", 1, "WOOD_drawer", ["another_furniture:", "everycomp:af/MOD/"]],
+  ["table", "log", 2, "WOOD_table", ["another_furniture:", "everycomp:af/MOD/"]],
+  ["shutter", "log", 4, "WOOD_shutter", ["another_furniture:", "everycomp:af/MOD/"]],
+  ["shelf", "log", 4, "WOOD_shelf", ["another_furniture:", "everycomp:af/MOD/"]],
+  ["chair", "log", 4, "WOOD_chair", ["another_furniture:", "everycomp:af/MOD/"]],
+  ["bench", "log", 2, "WOOD_bench", ["another_furniture:", "everycomp:af/MOD/"]]
 ]
 
 for(let recipe of outputTypes){
   //convert single strings into arrays with a single element, so we can always use a for loop to iterate over them.
-  if(typeof recipe[2] == "string") recipe[2] = [recipe[2]]
+  if (typeof recipe[3] === "string") recipe[3] = [recipe[3]]
 
   //log recipes with output counts divisible by 4 can be pretty easily converted to plank recipes.
-  if(recipe[0] == "log" && recipe[1]%4 == 0){
+  if (recipe[1] === "log" && recipe[2]%4 === 0){
     //Object.assign is the easiest way to clone an array in this version of javascript.
     let editedRecipe = Object.assign([],recipe)
-    editedRecipe[0] = "plank"
-    editedRecipe[1] /= 4
+    editedRecipe[1] = "plank"
+    editedRecipe[2] /= 4
     outputTypes.push(editedRecipe)
   }
 }
@@ -67,7 +72,7 @@ woodtypes = woodtypes.map(i=>{
 
 // used to catch bugs early, and give clearer error messages. Causes a kubejs error if passed a falsey argument.
 function assert(condition,message){
-  if(!condition){
+  if (!condition){
     throw new Error(message)
   }
 }
@@ -93,30 +98,38 @@ ServerEvents.recipes(e=>{
   
   woodtypes.forEach(([originMod,woodType])=>{
     //console.log(`wood type! ${originMod}:${woodType}`)
-    for(let [material,outputCount,outputs,mods,incomplete] of outputTypes){
+    for(let [id,material,outputCount,outputs,mods,incomplete] of outputTypes){
       //stores the ingredient ultimately being used for the sawing recipe.
       let inputItem
       //tracks if the log is a "stem", like the warped and crimson fungus logs.
       let isStem
   
-      if(material=="log"){
+      if (material === "log"){
         //for logs, generate the "#mod:wood_logs" tag, which is mercifully standardized across all *mods* in RF.
         inputItem = Ingredient.of(`#${originMod}:${woodType}_logs`)
-        if(inputItem.itemIds.length == 0){
+        if (inputItem.itemIds.length === 0){
           //wait. CURSE YOU MOJANG. there's also "stems".
           inputItem = Ingredient.of(`#${originMod}:${woodType}_stems`)
           isStem = true;
         }
-      }else if(material=="plank"){
+      } else if (material === "plank"){
         //same for the planks
         inputItem = Ingredient.of(`${originMod}:${woodType}_planks`)
+      } else if (material === "parquetry") {
+        // if its a vanilla wood type, it will be a part of architect's palette.
+        inputItem = Ingredient.of(`architects_palette:${woodType}_boards`);
+
+        if (inputItem.itemIds.length === 0 || inputItem.itemIds[0] === "minecraft:barrier") {
+          // Otherwise, everycompat will have created it.
+          inputItem = Ingredient.of(`everycomp:ap/${originMod}/${woodType}_boards`);
+        }
       }
       //console.log(inputItem.itemIds)
   
       //invalid tags show up as an empty list of valid ingredients.
       assert(inputItem.itemIds.length > 0,`empty tag for mod "${originMod}", wood type "${woodType}", did you mistype something?`)
       //single invalid item ingredients show up as a barrier, for whatever reason.
-      assert(inputItem.itemIds[0] != "minecraft:barrier",`mod "${originMod}" has no wood type "${woodType}", did you mistype something?`)
+      assert(inputItem.itemIds[0] !== "minecraft:barrier",`mod "${originMod}" has no wood type "${woodType}", did you mistype something?`)
   
       let result;
 
@@ -127,26 +140,20 @@ ServerEvents.recipes(e=>{
           let id = mod.replace("MOD",originMod)+output.replace("WOOD",woodType).replace("log",isStem?"stem":"log")
           result = Item.of(id)
           //if it's not air, it's a valid item, we can stop looking
-          if(result.id != "minecraft:air") break
+          if (result.id !== "minecraft:air") break
         }
         //if it's not air, it's a valid item, we can stop looking
-        if(result.id != "minecraft:air") break
+        if (result.id !== "minecraft:air") break
       }
 
-
-      if(result.id == "minecraft:air"){
-        console.log(`result item [${outputs.join("|")}] doesn't seem to exist for "${originMod}:${woodType}", did you mistype something, or is someone else to blame?`)        
-        //if "incomplete" mode is enabled, skip it entirely.
-        if(incomplete) continue;
-
-        throw new Error("missing item, either check your id options or mark this shape as incomplete!")
-      } 
-        
-      //otherwise it means that some part was wrong, and an error is displayed.
+      //if it is still air after all that searching, and that product was supposed to be complete, it means that some part was wrong.
+      if (!incomplete){
+        assert(result.id !== "minecraft:air", `result item "${outputs.join(",")}" doesn't seem to exist for "${originMod}:${woodType}", did you mistype something?`)
+      }
   
       //create the sawmill recipe.
       addSawmill(inputItem,outputCount,result)
-        .id(`raspberry_flavoured:sawmill_${woodType}_${outputs[0].toLowerCase()}_${material}`)
+        .id(`raspberry_flavoured:sawmill_${woodType}_${id}_from_${material}`)
     }
   })
 })
