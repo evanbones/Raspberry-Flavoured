@@ -103,9 +103,13 @@
 	"item.create.honey_bucket": "Bucket of Honey",
 	"item.create.chocolate_bucket": "Bucket of Chocolate",
 	"item.create.polished_rose_quartz": "Quartz",
+	"item.create.powdered_obsidian": "Obsidian Shard",
 	"item.create.wrench": "Engineer's Wrench",
 	"item.create.builders_tea.tooltip.summary": "The perfect drink to get the day started - _motivating_ and _saturating!_ Grants the _Haste_ effect for _3 minutes_ and _restores_ a little bit of the _food bar_.",
+	
 	"create.recipe.automatic_brewing": "Brewing",
+	"create.recipe.sawing": "Mechanical Sawing",
+	"create.recipe.block_cutting": "Automated Sawing",
 	
 	"create.gui.contraptions.network_overstressed": "It appears that this contraption is _overstressed_. Add more _Rotational_ _Force_ sources or _slow_ _down_ the components with a high _Kinetic_ _Stress_ _Impact_.",
 	

@@ -213,7 +213,8 @@ ItemEvents.modification(event => {
 	'caverns_and_chasms:barometer',
 	'sullysmod:cave_chum_bucket',
 	'mynethersdelight:hot_wings_bucket',
-	'mynethersdelight:hot_cream'
+	'mynethersdelight:hot_cream',
+	'raspberry:cat_food'
 	], item => {item.maxStackSize = 16})
 	
 // Stack to 64
@@ -358,6 +359,9 @@ ItemEvents.modification(event => {
 	'upgrade_aquatic:driftwood_sign',
 	'upgrade_aquatic:river_sign',
 	'windswept:chestnut_sign',
+	'mynethersdelight:powdery_sign',
+	'supplementaries:mynethersdelight/hanging_sign_powdery',
+	'supplementaries:mynethersdelight/sign_post_powdery',
 	'minecraft:armor_stand',
 	'minecraft:white_banner',
 	'minecraft:orange_banner',
@@ -395,6 +399,19 @@ ItemEvents.modification(event => {
 	'mynethersdelight:magma_cake_slice',
 	'cookscollection:cooking_oil',
 	'cookscollection:lemonade',
-	'mynethersdelight:hot_cream_cone'
+	'mynethersdelight:hot_cream_cone',
+	'minecraft:flower_banner_pattern',
+	'minecraft:creeper_banner_pattern',
+	'minecraft:skull_banner_pattern',
+	'minecraft:mojang_banner_pattern',
+	'minecraft:globe_banner_pattern',
+	'minecraft:piglin_banner_pattern',
+	'windswept:snow_golem_banner_pattern',
+	'windswept:snow_charge_banner_pattern',
+	'windswept:rose_flower_banner_pattern',
+	'neapolitan:chimpanzee_banner_pattern',
+	'autumnity:maple_leaf_banner_pattern',
+	'autumnity:swirl_banner_pattern',
+	'buzzier_bees:honeycomb_banner_pattern'
 	], item => {item.maxStackSize = 64})
 })

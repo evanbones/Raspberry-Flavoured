@@ -2034,5 +2034,19 @@
 	"create:rose_quartz_tiles": "marble",
 	
 	"modestmining:coke_block": "rough_slate,crumblystone",
-	"modestmining:forge": "stonemachine"
+	"modestmining:forge": "stonemachine",
+
+	"kubejs:lachryte": "obsidian,glass,glowstone",
+	"kubejs:lachryte_slab": "obsidian,glass,glowstone",
+	"kubejs:lachryte_stairs": "obsidian,glass,glowstone",
+	"kubejs:lachryte_wall": "obsidian,glass,glowstone",
+	"kubejs:polished_lachryte": "obsidian,glass,glowstone",
+	"kubejs:polished_lachryte_slab": "obsidian,glass,glowstone",
+	"kubejs:polished_lachryte_stairs": "obsidian,glass,glowstone",
+	"kubejs:polished_lachryte_wall": "obsidian,glass,glowstone",
+	"kubejs:chiseled_lachryte": "obsidian,glass,glowstone",
+	"kubejs:lachryte_bricks": "obsidian,glass,glowstone",
+	"kubejs:lachryte_brick_slab": "obsidian,glass,glowstone",
+	"kubejs:lachryte_brick_stairs": "obsidian,glass,glowstone",
+	"kubejs:lachryte_brick_wall": "obsidian,glass,glowstone"
 }	

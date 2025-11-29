@@ -617,9 +617,7 @@
       "twigs:block/rocky_dirt/light1",
       "twigs:block/rocky_dirt/light2",
       "twigs:block/rocky_dirt/light3",
-      "twigs:block/rocky_dirt/light4",
-      "twigs:block/rocky_dirt/light5",
-      "twigs:block/rocky_dirt/light6"
+      "twigs:block/rocky_dirt/light4"
     ],
     "subtitle": "subtitles.block.generic.hit"
   },

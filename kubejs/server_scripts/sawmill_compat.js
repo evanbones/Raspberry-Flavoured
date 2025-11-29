@@ -17,9 +17,10 @@ let outputTypes = [
   ["log",4,["WOOD_stairs","WOOD_planks_stairs"],["MOD:"]],
   ["log",8,["WOOD_slab","WOOD_planks_slab"],["MOD:"]],
   ["log",4,"WOOD_sign",["MOD:"],"incomplete"],
-  ["log",3,"WOOD_post",["everycomp:q/MOD/","quark:","MOD:"]],
+  ["log",3,"WOOD_post",["quark:","MOD:","everycomp:q/MOD/"]],
   ["log",8,"WOOD_fence",["MOD:"]],
   ["log",8,"WOOD_railing",["architects_palette:","everycomp:ap/MOD/"]],
+  ["log",4,"WOOD_ladder",["MOD:","everycomp:q/MOD/","quark:"],"incomplete"],
 
   //god is dead.
   //["log",4,"WOOD_boards",["architects_palette:","everycomp:ap/MOD/"],"incomplete"],
@@ -79,7 +80,7 @@ ServerEvents.recipes(e=>{
   //event.custom basically acts like json recipes, pretty convenient if there's no addon.
   function addSawmill(material,count,result){
     let recipe = {
-      "type": "woodworks:sawmill",
+      "type": "minecraft:stonecutting",
       "count": count,
       "ingredient": material.toJson(),
       "result": result.id
@@ -90,6 +91,17 @@ ServerEvents.recipes(e=>{
   //these ones aren't wood-dependant, so they're done without the larger system
   addSawmill(Ingredient.of("#minecraft:logs"),8,Item.of("minecraft:stick"))
   addSawmill(Ingredient.of("#minecraft:planks"),2,Item.of("minecraft:stick"))
+  addSawmill(Ingredient.of("#minecraft:logs"),4,Item.of("minecraft:bowl"))
+  addSawmill(Ingredient.of("#minecraft:planks"),1,Item.of("minecraft:bowl"))
+  
+  // oak ladders separately bc they don't have "oak" in their id
+  addSawmill(Ingredient.of("#minecraft:oak_logs"),4,Item.of("minecraft:ladder"))
+  addSawmill(Ingredient.of("minecraft:oak_planks"),1,Item.of("minecraft:ladder"))
+  
+  // fine wood
+  addSawmill(Ingredient.of("raspberry:fine_wood"),1,Item.of("raspberry:fine_wood_stairs"))
+  addSawmill(Ingredient.of("raspberry:fine_wood"),2,Item.of("raspberry:fine_wood_slab"))
+  addSawmill(Ingredient.of("raspberry:fine_wood"),2,Item.of("raspberry:fine_wood_wall"))
   
   woodtypes.forEach(([originMod,woodType])=>{
     //console.log(`wood type! ${originMod}:${woodType}`)
@@ -133,6 +145,7 @@ ServerEvents.recipes(e=>{
         if(result.id != "minecraft:air") break
       }
 
+      if(result.id == "everycomp:q/mynethersdelight/hollow_powdery_log") continue
 
       if(result.id == "minecraft:air"){
         console.log(`result item [${outputs.join("|")}] doesn't seem to exist for "${originMod}:${woodType}", did you mistype something, or is someone else to blame?`)        

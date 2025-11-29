@@ -133,15 +133,15 @@
   "block.naturalist.shellstone_brick_slab": "Shellstone Brick Slab",
   "block.naturalist.shellstone_brick_wall": "Shellstone Brick Wall",
 
-  "block.naturalist.cut_shellstone": "Cut Shellstone",
-  "block.naturalist.cut_shellstone_stairs": "Cut Shellstone Stairs",
-  "block.naturalist.cut_shellstone_slab": "Cut Shellstone Slab",
-  "block.naturalist.cut_shellstone_wall": "Cut Shellstone Wall",
+  "block.naturalist.cut_shellstone": "Shellstone Tiles",
+  "block.naturalist.cut_shellstone_stairs": "Shellstone Tile Stairs",
+  "block.naturalist.cut_shellstone_slab": "Shellstone Tile Slab",
+  "block.naturalist.cut_shellstone_wall": "Shellstone Tile Wall",
 
-  "block.naturalist.smooth_shellstone": "Smooth Shellstone",
-  "block.naturalist.smooth_shellstone_stairs": "Smooth Shellstone Stairs",
-  "block.naturalist.smooth_shellstone_slab": "Smooth Shellstone Slab",
-  "block.naturalist.smooth_shellstone_wall": "Smooth Shellstone Wall",
+  "block.naturalist.smooth_shellstone": "Polished Shellstone",
+  "block.naturalist.smooth_shellstone_stairs": "Polished Shellstone Stairs",
+  "block.naturalist.smooth_shellstone_slab": "Polished Shellstone Slab",
+  "block.naturalist.smooth_shellstone_wall": "Polished Shellstone Wall",
 
   
   "item.minecraft.tipped_arrow.effect.forest_dasher": "Arrow of the Forest Dasher",

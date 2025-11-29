@@ -37,7 +37,9 @@ StartupEvents.registry('sound_event', (event) => {
 	'nether_hanging_sign',
 	'tnt',
 	'obsidian',
-	'iron'
+	'iron',
+	'arid_sand',
+	'monkey_brush'
 	]
 	blockSounds.forEach(block => {
 		event.create('sound.'+block+'.break')
@@ -60,6 +62,11 @@ StartupEvents.registry('sound_event', (event) => {
 	event.create('copper_brush.brush')
 	event.create('copper_patina.apply')
 	event.create('sound.swing')
+	event.create('sound.hammer.crack')
+	event.create('sound.lachryte.extract')
+	event.create('sound.loot_bag.open')
+	event.create('sound.witch_bag.open')
+	event.create('sound.bait_can.open')
 	
 // Advancement sounds
 	event.create('advancement.regular')

@@ -25,18 +25,6 @@
         ]
       }
     },
-	"Obtain Vegetable Soup": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "farmersdelight:vegetable_soup"
-            ]
-          }
-        ]
-      }
-    },
 	"Obtain Turkey Stew": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -68,18 +56,6 @@
           {
             "items": [
               "brewinandchewin:scarlet_pierogies"
-            ]
-          }
-        ]
-      }
-    },
-	"Obtain Beef Stew": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "farmersdelight:beef_stew"
             ]
           }
         ]
@@ -128,18 +104,6 @@
           {
             "items": [
               "brewinandchewin:strongroot_ale"
-            ]
-          }
-        ]
-      }
-    },
-	"Obtain Spicy Hoglin Stew": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "mynethersdelight:spicy_hoglin_stew"
             ]
           }
         ]
@@ -228,6 +192,18 @@
           }
         ]
       }
+    },
+	"Obtain Fried Potatoes with Chili": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:fried_potato_with_chili"
+            ]
+          }
+        ]
+      }
     }
   },
   "display": {
@@ -257,9 +233,6 @@
 	"Obtain Truffle Mash"
 	],
 	[
-	"Obtain Vegetable Soup"
-	],
-	[
 	"Obtain Turkey Stew"
 	],
 	[
@@ -267,9 +240,6 @@
 	],
 	[
 	"Obtain Scarlet Pierogi"
-	],
-	[
-	"Obtain Beef Stew"
 	],
 	[
 	"Obtain Stuffed Pumpkin"
@@ -282,9 +252,6 @@
 	],
 	[
 	"Obtain Strongroot Ale"
-	],
-	[
-	"Obtain Spicy Hoglin Stew"
 	],
 	[
 	"Obtain Sausage and Potatoes"
@@ -306,6 +273,9 @@
 	],
 	[
 	"Obtain Fish and Chips"
+	],
+	[
+	"Obtain Fried Potatoes with Chili"
 	]
   ]
 }

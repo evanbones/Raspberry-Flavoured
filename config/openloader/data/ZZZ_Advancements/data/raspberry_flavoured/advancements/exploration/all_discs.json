@@ -504,6 +504,18 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+	"Hlzfss - Pancake Song": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_pancake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
@@ -652,6 +664,9 @@
     ],
 	[
 	  "Kayla_the_Bee - artisan"
+	],
+	[
+	  "Hlzfss - Pancake Song"
 	]
   ]
 }

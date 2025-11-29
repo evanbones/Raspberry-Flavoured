@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:exploration/sack",
+  "parent": "raspberry_flavoured:exploration/adventure_tools",
   "criteria": {
     "Summon Tuff Golem": {
       "conditions": {

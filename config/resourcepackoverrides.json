@@ -7,6 +7,7 @@
     "pack_overrides": {
       "1": [
         "file/Quark Programmer Art.zip",
+		"file/§dReincarnation.zip",
         "file/aquaculture_fished_up.zip",
         "file/Authentic Shadows_1.19+.zip",
         "file/Bagel's Animal Tweaks.zip",
@@ -85,6 +86,7 @@
         "resources/28_GoldenCrit",
         "resources/29_AdditionalResources",
         "resources/30_BrushJuice",
+        "resources/31_Reincarnation",
         "resources/99_RaspberryResources"
       ],
       "$1": {

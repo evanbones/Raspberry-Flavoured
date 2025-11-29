@@ -21,16 +21,7 @@
                     "half": "lower"
                   }
                 },
-                "weight": 10
-              },
-              {
-                "data": {
-                  "Name": "environmental:giant_tall_grass",
-                  "Properties": {
-                    "half": "lower"
-                  }
-                },
-                "weight": 1
+                "weight": 8
               },
               {
                 "data": {
@@ -45,7 +36,7 @@
                     "half": "lower"
                   }
                 },
-                "weight": 5
+                "weight": 3
               }
             ]
           }

@@ -30,7 +30,7 @@
 	#Range: 0.0 ~ 1.0
 	eye_of_ender_break_chance = 0.85
 	#Horses struck by lightning become Zombie Horses
-	zombie_horse_transmutation = true
+	zombie_horse_transmutation = false
 	#Zombie Horses are rideable
 	rideable_zombie_horses = true
 	#Amount of xp to drop on death

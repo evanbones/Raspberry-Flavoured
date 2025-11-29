@@ -4,7 +4,6 @@ StartupEvents.registry('item', event => {
 // Incomplete items
 	const incompleteItems = [
 	'incomplete_redstone_link',
-	'incomplete_glue',
 	'incomplete_pizza',
 	'incomplete_respiteful_ice_cream',
 	'incomplete_prismatic_ice_cream',
@@ -51,7 +50,12 @@ StartupEvents.registry('item', event => {
 	'incomplete_neapolitan_ice_cream_sandwich',
 	'incomplete_respiteful_ice_cream_sandwich',
 	'incomplete_prismatic_ice_cream_sandwich',
-	'incomplete_sporedough'
+	'incomplete_sporedough',
+	'incomplete_chilidog',
+	'incomplete_cheesy_chip_wrap',
+	'incomplete_squid_sandwich',
+	'incomplete_cave_burger',
+	'incomplete_popcorn_bucket'
 	]
     
     incompleteRegularFoods.forEach(item => {

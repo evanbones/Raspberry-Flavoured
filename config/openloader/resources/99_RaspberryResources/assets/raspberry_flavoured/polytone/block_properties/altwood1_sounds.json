@@ -259,7 +259,9 @@
    "woodworks:birch_boards",
    "woodworks:birch_beehive",
    "woodworks:birch_chest",
-   "woodworks:birch_trapped_chest"
+   "woodworks:birch_trapped_chest",
+   "atmospheric:aspen_hedge",
+   "atmospheric:grimwood_hedge"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.altwood1.break",

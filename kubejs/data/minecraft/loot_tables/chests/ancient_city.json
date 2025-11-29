@@ -257,8 +257,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:crying_obsidian",
-          "weight": 3
+          "name": "minecraft:ghast_tear",
+          "weight": 7
         },
         {
           "type": "minecraft:item",

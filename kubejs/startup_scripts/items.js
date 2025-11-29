@@ -5,6 +5,7 @@ StartupEvents.registry('item', event => {
 	event.create('rose_gold_knife', 'farmersdelight:knife').group('combat').tier('rosegold').attackDamageBaseline(1.5).speedBaseline(-2.0)
 	event.create('copper_knife', 'farmersdelight:knife').group('combat').tier('copper').attackDamageBaseline(0).speedBaseline(-2.0)
 	event.create('bone_knife', 'farmersdelight:knife').group('combat').tier('bone').attackDamageBaseline(0).speedBaseline(-2.0)
+	event.create('copper_brush').maxStackSize(1).maxDamage(200).group('tools')
 	
 // Items
 	event.create('raw_ammonite').group('misc')
@@ -13,13 +14,14 @@ StartupEvents.registry('item', event => {
 	event.create('cloth_scrap').group('misc')
 	event.create('latex_bottle').group('misc')
 	event.create('rubber').group('misc')
-	event.create('copper_brush').maxStackSize(1).maxDamage(200).group('tools')
 	event.create('charcoal_lump').burnTime(200).group('misc')
 	event.create('rose_gold_nugget').group('misc')
 	event.create('rough_quartz_shard').group('misc')
 	event.create('quartz_shard').group('misc')
-	event.create('stardust').glow(true).rarity('rare').group('misc')
+	event.create('ancient_nugget').group('misc')
+	
 	event.create('golden_worm').rarity('uncommon').group('misc')
+	event.create('stardust').glow(true).rarity('rare').group('misc')
 	
 	event.create('dwarf_geode').group('misc')
 	event.create('deepslate_dwarf_geode').group('misc')
@@ -125,14 +127,14 @@ StartupEvents.registry('item', event => {
 		food
     		.hunger(12)
     		.saturation(0.8)
-			.effect('water_breathing', 1200, 0, 1)
+			.effect('dolphins_grace', 1000, 0, 1)
 			.effect('kubejs:satiation', 1200, 0, 1)
         	})
 	event.create('squid_sandwich').group('food').food(food => {
 		food
-    		.hunger(11)
+    		.hunger(12)
     		.saturation(0.6)
-			.effect('kubejs:satiation', 600, 0, 1)
+			.effect('kubejs:satiation', 2400, 0, 1)
         	})
 	event.create('cave_burger').group('food').food(food => {
 		food
@@ -185,8 +187,8 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('buttered_toast').group('food').food(food => {
 		food
-    		.hunger(3)
-    		.saturation(0.7)
+    		.hunger(4)
+    		.saturation(0.8)
 			.effect('farmersdelight:comfort', 600, 0, 1)
         	})
 	event.create('cheesy_chip_wrap').group('food').food(food => {
@@ -194,6 +196,18 @@ StartupEvents.registry('item', event => {
     		.hunger(10)
     		.saturation(0.8)
 			.effect('kubejs:satiation', 600, 0, 1)
+        	})
+	event.create('hotdog_with_coleslaw').group('food').food(food => {
+		food
+    		.hunger(10)
+    		.saturation(0.7)
+			.effect('kubejs:satiation', 900, 0, 1)
+        	})
+	event.create('fried_potato_with_chili').group('food').food(food => {
+		food
+    		.hunger(5)
+    		.saturation(0.7)
+			.effect('mynethersdelight:b_pungent', 900, 1, 1)
         	})
 	event.create('smore').group('food').food(food => {
 		food
@@ -236,9 +250,15 @@ StartupEvents.registry('item', event => {
     		.saturation(0.2)
 			.effect('hunger', 600, 0, 0.3)
         	})
+	event.create('coleslaw').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(5)
+    		.saturation(0.65)
+			.effect('regeneration', 80, 0, 1)
+        	})
 	event.create('corn_fritters').group('food').maxStackSize(16).food(food => {
 		food
-    		.hunger(6)
+    		.hunger(7)
     		.saturation(0.7)
 			.effect('kubejs:satiation', 1800, 0, 1)
         	})
@@ -250,7 +270,7 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('mixed_oatmeal').group('food').maxStackSize(16).food(food => {
 		food
-    		.hunger(11)
+    		.hunger(12)
     		.saturation(0.8)
 			.effect('regeneration', 600, 0, 1)
         	})
@@ -357,11 +377,6 @@ StartupEvents.registry('item', event => {
 			.effect('neapolitan:berserking', 1200, 0, 1)
 			.effect('cofh_core:chilled', 140, 0, 1)
         	})
-	event.create('cat_food').group('food').maxStackSize(16).food(food => {
-		food
-    		.hunger(3)
-    		.saturation(0.3)
-        	})
 	
 	// Stick
 	event.create('caramelized_marshmellow_on_a_stick').group('food').maxStackSize(16).food(food => {
@@ -373,9 +388,9 @@ StartupEvents.registry('item', event => {
         	})
 	event.create('preserved_skewer').group('food').food(food => {
 		food
-    		.hunger(12)
-			.saturation(0.8)
-			.effect('water_breathing', 900, 0, 1)
+    		.hunger(13)
+			.saturation(0.85)
+			.effect('dolphins_grace', 1000, 0, 1)
 			.effect('mynethersdelight:b_pungent', 400, 1, 1)
         	})
 	
@@ -440,6 +455,14 @@ StartupEvents.registry('item', event => {
 			.alwaysEdible()
         	})
 		.useAnimation("drink")
+	
+	// Bucket
+	event.create('popcorn_bucket').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(8)
+			.saturation(0.4)
+			.effect('farmersdelight:comfort', 600, 0, 1)
+        	})
 			
 	// Joke
 	event.create('raspberry_sprite').rarity('epic').food(food => {
@@ -466,11 +489,4 @@ StartupEvents.registry('item', event => {
 			.effect('cofh_core:magic_resistance', 6000, 0, 1)
 			.effect('savage_and_ravage:weight', 6000, 0, 1)
         	})
-//	event.create('stoup').maxStackSize(16).rarity('rare').food(food => {
-//		food
-//    		.hunger(2)
-//    		.saturation(1.2)
-//			.effect('instant_damage', 1, 1, 1)
-//			.effect('savage_and_ravage:weight', 600, 5, 1)
-//        	})
 })

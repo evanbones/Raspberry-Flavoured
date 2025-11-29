@@ -350,6 +350,104 @@ BlockEvents.rightClicked(event => {
     }
 })
 
+// right click crying obby for lachryte
+BlockEvents.rightClicked(event => {
+    // set which block turns into what
+    global.lachryteMap = {
+        'minecraft:crying_obsidian': 'minecraft:obsidian',
+        'frame_changer:crying_polished_obsidian': 'frame_changer:polished_obsidian',
+        'frame_changer:crying_polished_obsidian_stairs': 'frame_changer:polished_obsidian_stairs',
+        'frame_changer:crying_polished_obsidian_wall': 'frame_changer:polished_obsidian_wall',
+        'frame_changer:crying_obsidian_bricks': 'frame_changer:obsidian_bricks',
+        'frame_changer:crying_obsidian_brick_stairs': 'frame_changer:obsidian_brick_stairs',
+        'frame_changer:crying_obsidian_brick_wall': 'frame_changer:obsidian_brick_wall',
+        'frame_changer:crying_obsidian_pillar': 'frame_changer:obsidian_pillar',
+        'frame_changer:crying_chiseled_obsidian': 'frame_changer:chiseled_obsidian'
+    }
+    Object.keys(global.lachryteMap).forEach((value) => {
+        let playerOffhand = event.player.getOffHandItem()
+        if (event.item.hasTag('forge:tools/pickaxes') && playerOffhand === null) {
+            if (event.block.id === value) {
+                // damage pickaxe
+                if (!event.player.isCreative()) {
+			    event.player.damageHeldItem(event.hand, 1)
+                }
+                
+                let props = event.block.getProperties()
+
+                // swing hand, play sounds, make particles and transform block
+                event.player.swing(event.hand, true)
+                event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'kubejs:sound.lachryte.extract', 'players', 1, 1)
+                event.level.spawnParticles('minecraft:reverse_portal', true, event.block.x+0.5, event.block.y+0.5, event.block.z+0.5, 0.25, 0.25, 0.25, 25, 1)
+                event.level.spawnParticles('minecraft:falling_obsidian_tear', true, event.block.x+0.5, event.block.y+0.5, event.block.z+0.5, 0.35, 0.35, 0.35, 15, 1)
+                event.block.set(global.lachryteMap[event.block.id], props)
+                
+                // spawn item
+		        let itemEntity = event.level.createEntity("item")
+			    itemEntity.item = ('minecraft:ghast_tear')
+			    itemEntity.y = event.block.y + 0.5
+			    itemEntity.x = event.block.x + 0.5
+			    itemEntity.z = event.block.z + 0.5
+			    itemEntity.motionY = 0.3
+			    itemEntity.spawn()
+            }  
+        }
+    })
+})
+
+// right click block with hammer to crack
+BlockEvents.rightClicked(event => {
+    // set which block turns into what
+    global.crackingMap = {
+        'minecraft:stone': 'minecraft:cobblestone',
+        'minecraft:stone_slab': 'minecraft:cobblestone_slab',
+        'minecraft:stone_stairs': 'minecraft:cobblestone_stairs',
+        'minecraft:deepslate': 'minecraft:cobbled_deepslate',
+        'minecraft:blackstone': 'kubejs:cobbled_blackstone',
+        'minecraft:blackstone_slab': 'kubejs:cobbled_blackstone_slab',
+        'minecraft:blackstone_stairs': 'kubejs:cobbled_blackstone_stairs',
+        'minecraft:blackstone_wall': 'kubejs:cobbled_blackstone_wall',
+        'kubejs:exolite': 'kubejs:cobbled_exolite',
+        'architects_palette:myonite_slab': 'architects_palette:myonite_brick_slab',
+        'architects_palette:myonite_stairs': 'architects_palette:myonite_brick_stairs',
+        'architects_palette:myonite_wall': 'architects_palette:myonite_brick_wall',
+        'minecraft:stone_bricks': 'minecraft:cracked_stone_bricks',
+        'minecraft:deepslate_bricks': 'minecraft:cracked_deepslate_bricks',
+        'minecraft:deepslate_tiles': 'minecraft:cracked_deepslate_tiles',
+        'minecraft:nether_bricks': 'minecraft:cracked_nether_bricks',
+        'minecraft:polished_blackstone_bricks': 'minecraft:cracked_polished_blackstone_bricks',
+        'quark:midori_block': 'kubejs:cracked_midori_block',
+        'minecraft:purpur_block': 'endergetic:cracked_purpur_block',
+        'architects_palette:algal_bricks': 'architects_palette:cracked_algal_bricks',
+        'architects_palette:heavy_stone_bricks': 'architects_palette:heavy_cracked_stone_bricks',
+        'architects_palette:basalt_tiles': 'architects_palette:cracked_basalt_tiles',
+        'architects_palette:moonshale_bricks': 'architects_palette:cracked_moonshale_bricks',
+        'minecraft:bricks': 'twigs:cracked_bricks',
+        'twigs:polished_bloodstone_bricks': 'twigs:cracked_polished_bloodstone_bricks',
+        'twigs:silt_bricks': 'twigs:cracked_silt_bricks',
+        'paletteblocks:cobblestone_bricks': 'paletteblocks:cracked_cobblestone_bricks',
+        'modestmining:adobe_bricks': 'modestmining:cracked_adobe_bricks'
+    }
+    Object.keys(global.crackingMap).forEach((value) => {
+        if (event.item.hasTag('another_furniture:furniture_hammers')) {
+            if (event.block.id === value) {
+                // damage hammer
+                if (!event.player.isCreative()) {
+			    event.player.damageHeldItem(event.hand, 1)
+                }
+                
+                let props = event.block.getProperties()
+
+                // swing hand, play sounds, make particles and transform block
+                event.player.swing(event.hand, true)
+                event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'kubejs:sound.hammer.crack', 'players', 1, 1)
+                event.level.spawnParticles(`minecraft:item ${event.block.id}`, true, event.block.x+0.5, event.block.y+0.5, event.block.z+0.5, 0.3, 0.3, 0.3, 25, 0.1)
+                event.block.set(global.crackingMap[event.block.id], props)
+            }  
+        }
+    })
+})
+
 // latex wood stripping
 BlockEvents.rightClicked([
     'minecraft:jungle_log',

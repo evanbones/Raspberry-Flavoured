@@ -36,7 +36,7 @@ ItemEvents.tooltip(event => {
     'another_furniture:furniture_hammer': 'item.minecraft.copper_ingot, item.create.copper_sheet',
     'kubejs:copper_brush': 'item.minecraft.feather',
     'kubejs:copper_brush_wax': 'item.minecraft.honeycomb',
-    'create:super_glue': 'item.minecraft.slimeball',
+    'create:super_glue': 'item.minecraft.slime_ball',
     'naturalist:bug_net': 'block.minecraft.bamboo, block.quark.bamboo_planks',
     'supplementaries:flute': 'block.minecraft.bamboo, block.quark.bamboo_planks',
     'vc_gliders:paraglider_wood': 'block.create.white_sail, item.minecraft.phantom_membrane',

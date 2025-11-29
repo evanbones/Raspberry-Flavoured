@@ -348,6 +348,11 @@ to make editing this file much easier.
 			"minecraft:blast_furnace": "minecraft:furnace",
 			"clayworks:kiln": "minecraft:furnace",
 			"nethersdelight:nether_brick_smoker": "quark:blackstone_furnace",
-			"nethersdelight:blackstone_blast_furnace": "quark:blackstone_furnace"
+			"nethersdelight:blackstone_blast_furnace": "quark:blackstone_furnace",
+			"atmospheric:aspen_log": "minecraft:birch_log",
+			"atmospheric:aspen_wood": "minecraft:birch_wood",
+			"atmospheric:stripped_aspen_log": "minecraft:stripped_birch_log",
+			"atmospheric:stripped_aspen_wood": "minecraft:stripped_birch_wood",
+			"atmospheric:watchful_aspen_log": "minecraft:birch_log"
 	   	}
 }

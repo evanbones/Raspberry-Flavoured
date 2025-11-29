@@ -21,7 +21,14 @@
 	  "entries": [
 		{
           "type": "minecraft:item",
-          "name": "minecraft:crying_obsidian"
+          "functions": [
+            {
+              "add": false,
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ghast_tear"
         }
 	  ],
       "rolls": 1.0
@@ -36,14 +43,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:obsidian",
-          "weight": 40
+          "name": "create:powdered_obsidian",
+          "weight": 45
         },
 		{
           "type": "minecraft:item",
@@ -58,8 +65,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:crying_obsidian",
-          "weight": 22
+          "name": "minecraft:ghast_tear",
+          "weight": 30
         },
         {
           "type": "minecraft:item",

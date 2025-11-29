@@ -71,11 +71,7 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
 	{item: 'kubejs:blank_tablet'}, 
-	{item: 'aquaculture:goldfish'}, {item: 'minecraft:nautilus_shell'}
-	], result: {item: 'kubejs:aquatic_tablet'}})
-	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [
-	{item: 'kubejs:blank_tablet'}, {item: 'kubejs:crystalfish'}
+	{item: 'minecraft:nautilus_shell'}, {item: 'ecologics:seashell'}, {item: 'ecologics:seashell'}
 	], result: {item: 'kubejs:aquatic_tablet'}})
 	// Beastly
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
@@ -100,7 +96,7 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
 	{item: 'kubejs:blank_tablet'}, 
-	{item: 'kubejs:stardust'}, {item: 'create:powdered_obsidian'}, {item: 'create:powdered_obsidian'}
+	{item: 'kubejs:stardust'}, {tag: 'forge:gems/obsidian'}, {tag: 'forge:gems/obsidian'}
 	], result: {item: 'kubejs:everlasting_tablet'}})
 	// Flinging
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
@@ -189,9 +185,9 @@ ServerEvents.recipes(event => {
 		Item.of('kubejs:aquatic_tablet'),
 	],'kubejs:blank_tablet',[
 		event.recipes.createDeploying('kubejs:incomplete_aquatic_tablet',['kubejs:incomplete_aquatic_tablet', 'nautilus_shell']),
-		event.recipes.createDeploying('kubejs:incomplete_aquatic_tablet',['kubejs:incomplete_aquatic_tablet', 'aquaculture:goldfish'])
+		event.recipes.createDeploying('kubejs:incomplete_aquatic_tablet',['kubejs:incomplete_aquatic_tablet', 'ecologics:seashell']),
+		event.recipes.createDeploying('kubejs:incomplete_aquatic_tablet',['kubejs:incomplete_aquatic_tablet', 'ecologics:seashell'])
 	]).transitionalItem('kubejs:incomplete_aquatic_tablet').loops(1).id('kubejs:assembly/aquatic_tablet')
-	event.recipes.create.deploying('kubejs:aquatic_tablet', ['kubejs:blank_tablet', 'kubejs:crystalfish'])
 	// Beastly
 	event.recipes.createSequencedAssembly([
 		Item.of('kubejs:beastly_tablet'),
@@ -220,8 +216,8 @@ ServerEvents.recipes(event => {
 		Item.of('kubejs:everlasting_tablet'),
 	],'kubejs:blank_tablet',[
 		event.recipes.createDeploying('kubejs:incomplete_everlasting_tablet',['kubejs:incomplete_everlasting_tablet', 'kubejs:stardust']),
-		event.recipes.createDeploying('kubejs:incomplete_everlasting_tablet',['kubejs:incomplete_everlasting_tablet', 'create:powdered_obsidian']),
-		event.recipes.createDeploying('kubejs:incomplete_everlasting_tablet',['kubejs:incomplete_everlasting_tablet', 'create:powdered_obsidian'])
+		event.recipes.createDeploying('kubejs:incomplete_everlasting_tablet',['kubejs:incomplete_everlasting_tablet', '#forge:gems/obsidian']),
+		event.recipes.createDeploying('kubejs:incomplete_everlasting_tablet',['kubejs:incomplete_everlasting_tablet', '#forge:gems/obsidian'])
 	]).transitionalItem('kubejs:incomplete_everlasting_tablet').loops(1).id('kubejs:assembly/everlasting_tablet')
 	// Flinging
 	event.recipes.createSequencedAssembly([
@@ -346,7 +342,6 @@ ServerEvents.recipes(event => {
 	
 	smithEnchanting('kubejs:hallowed_tablet', ['minecraft:smite'])
 	smithEnchanting('kubejs:hallowed_tablet', ['minecraft:channeling'])
-	smithEnchanting('kubejs:hallowed_tablet', ['usefulspyglass:marking'])
 	
 	smithEnchanting('kubejs:haunted_tablet', ['additional_enchantments:homing'])
 	smithEnchanting('kubejs:haunted_tablet', ['minecraft:soul_speed'])

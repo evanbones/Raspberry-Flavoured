@@ -22,7 +22,10 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -53,6 +56,16 @@
           "type": "minecraft:item",
           "weight": 4,
           "name": "environmental:cherry_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "atmospheric:aspen_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "atmospheric:grimwood_sapling"
         },
         {
           "type": "minecraft:item",

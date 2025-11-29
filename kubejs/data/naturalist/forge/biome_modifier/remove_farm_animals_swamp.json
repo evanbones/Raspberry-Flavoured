@@ -1,11 +1,6 @@
 {
-  "conditions": [
-    {
-      "type": "forge:false"
-    }
-  ],
   "type": "forge:remove_spawns",
-  "biomes": "#forge:is_swamp",
+  "biomes": "#minecraft:is_end",
   "entity_types": [
     "minecraft:sheep",
     "minecraft:pig",

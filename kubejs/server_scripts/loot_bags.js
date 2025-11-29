@@ -9,7 +9,7 @@ ItemEvents.rightClicked(event => {
 			event.item.count --
 		}
 		event.player.swing(event.hand, true)
-		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
+		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'kubejs:sound.loot_bag.open', 'players', 1, 1)
 		
 		// loot
 		let items = Utils.rollChestLoot('kubejs:bags/loot_bag')
@@ -26,7 +26,7 @@ ItemEvents.rightClicked(event => {
 			event.item.count --
 		}
 		event.player.swing(event.hand, true)
-		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
+		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'kubejs:sound.witch_bag.open', 'players', 1, 1)
 		
 		// loot
 		let items = Utils.rollChestLoot('kubejs:bags/witch_bag')
@@ -43,7 +43,7 @@ ItemEvents.rightClicked(event => {
 			event.item.count --
 		}
 		event.player.swing(event.hand, true)
-		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
+		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'kubejs:sound.loot_bag.open', 'players', 1, 1)
 		
 		// loot
 		let items = Utils.rollChestLoot('kubejs:bags/herb_bag')
@@ -60,7 +60,7 @@ ItemEvents.rightClicked(event => {
 			event.item.count --
 		}
 		event.player.swing(event.hand, true)
-		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'item.bundle.drop_contents', 'players', 1, 1)
+		event.level.playSound(null, event.player.x, event.player.y, event.player.z, 'kubejs:sound.bait_can.open', 'players', 1, 1)
 		
 		// loot
 		let items = Utils.rollChestLoot('kubejs:bags/bait_can')

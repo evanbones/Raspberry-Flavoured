@@ -8,7 +8,7 @@
       "hit_sound": "minecraft:block.pointed_dripstone.hit",
       "fall_sound": "minecraft:block.pointed_dripstone.fall",
       "step_sound": "minecraft:block.pointed_dripstone.step",
-      "pitch": 1.5,
+      "pitch": 1.55,
       "volume": 1
    } 
 }
