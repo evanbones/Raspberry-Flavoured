@@ -20,6 +20,33 @@ EntityEvents.spawned(event => {
             entity.discard()
         })
     }
+    const catVariants = [
+    "minecraft:white",
+    "minecraft:black",
+    "minecraft:red",
+    "minecraft:siamese",
+    "minecraft:british_shorthair",
+    "minecraft:calico",
+    "minecraft:persian",
+    "minecraft:ragdoll",
+    "minecraft:tabby",
+    "minecraft:all_black",
+    "minecraft:jellie",
+    "moremobvariants:doug",
+    "moremobvariants:gray_tabby",
+    "moremobvariants:tortoiseshell"
+    ]
+    const randomCat = Math.floor(Math.random() * catVariants.length)
+
+	// replace ocelots with cats as a fallback
+    if (entity.type == 'minecraft:ocelot') {
+        let cat = entity.block.createEntity('minecraft:cat')
+        cat.mergeNbt({VariantID: catVariants[randomCat]})
+        cat.spawn()
+        event.server.schedule(1, callback => {
+            entity.discard()
+        })
+    }
 })
 
 // spawner sounds & particles
@@ -28,13 +55,6 @@ EntityEvents.checkSpawn(event => {
 		event.level.spawnParticles('minecraft:flame', true, event.entity.x, event.entity.y, event.entity.z, 0, 0, 0, 20, 0.075)
 		event.level.playSound(null, event.entity.x, event.entity.y, event.entity.z, 'kubejs:spawner.spawn', 'players', 1, 1)
 	}
-})
-
-// make wrenches apply wrenched to mobs
-EntityEvents.hurt(event => {
-    if (event.source.player && event.source.player.mainHandItem.id == 'supplementaries:wrench') {
-		event.entity.potionEffects.add('cofh_core:wrenched', 10, 9, false, false)
-    }
 })
 
 // add sound to boats & minecarts that are missing

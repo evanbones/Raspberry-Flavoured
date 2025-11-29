@@ -1,5 +1,5 @@
 {
-  "parent": "raspberry_flavoured:exploration/sack",
+  "parent": "raspberry_flavoured:exploration/summon_tuff_golem",
   "criteria": {
     "Summon Iron Golem": {
       "conditions": {

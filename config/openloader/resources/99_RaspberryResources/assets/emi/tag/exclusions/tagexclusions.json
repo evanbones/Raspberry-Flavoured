@@ -157,7 +157,8 @@
 	"raspberry:trowel_blacklist",
 	"shieldexp:shields",
 	"tactical_fishing:fishing_rods",
-	"quark:pipes"
+	"quark:pipes",
+	"raspberry_flavoured:work_in_progress"
   ],
   "fluid": [
 	"create:bottomless/allow",

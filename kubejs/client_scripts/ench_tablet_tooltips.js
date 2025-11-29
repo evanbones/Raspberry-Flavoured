@@ -53,7 +53,7 @@ ItemEvents.tooltip(event => {
 	event.addAdvanced('kubejs:beastly_tablet', (item, advanced, text) => {
         tablet_tooltip(event, text, [
             ["ensorcellation:cavalier", 3, ["rf.ench.melee_weapons"], 1],
-            ["miningmaster:knight_jump", 3, ["rf.ench.leggings"], 2],
+            ["miningmaster:knight_jump", 3, ["rf.ench.leggings"], 3],
             ["domesticationinnovation:intimidation", 2, ["item.domesticationinnovation.collar_tag"], 2]
         ])
 	})
@@ -97,8 +97,7 @@ ItemEvents.tooltip(event => {
 	event.addAdvanced('kubejs:hallowed_tablet', (item, advanced, text) => {
         tablet_tooltip(event, text, [
             ["minecraft:smite", 5, ["rf.ench.melee_weapons"], 1],
-            ["minecraft:channeling", 1, ["item.minecraft.trident"], 2],
-            ["usefulspyglass:marking", 3, ["item.minecraft.spyglass"], 2]
+            ["minecraft:channeling", 1, ["item.minecraft.trident"], 2]
         ])
 	})
 	

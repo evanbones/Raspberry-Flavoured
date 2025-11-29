@@ -172,3 +172,19 @@
 			half_drawers_2 = false
 			full_drawers_1 = false
 
+		[entries.wood_type.modestmining]
+			tile_stairs = true
+			carved_plank_slab = true
+			boards = true
+			carved_plank_wall = true
+			board_slab = true
+			board_stairs = true
+			carved_planks = true
+			board_wall = true
+			pillar = true
+			tile_wall = true
+			tiles = true
+			tile_slab = true
+			carved_plank_stairs = true
+			chiseled_planks = true
+

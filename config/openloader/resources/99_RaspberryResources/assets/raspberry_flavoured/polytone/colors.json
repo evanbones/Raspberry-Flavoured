@@ -41,7 +41,7 @@
   "egg": {
     "shell": {
 	  "minecraft:enderman": "362A00",
-	  "minecraft:endermite": "362A00",
+	  "minecraft:endermite": "3B1188",
 	  "minecraft:creeper": "56A02E",
 	  "minecraft:turtle": "3FA442",
 	  "minecraft:vex": "71C6C6",
@@ -51,7 +51,7 @@
 	},
     "spots": {
 	  "minecraft:enderman": "8C00AF",
-	  "minecraft:endermite": "912755",
+	  "minecraft:endermite": "8A0FEB",
 	  "minecraft:creeper": "112910",
 	  "minecraft:turtle": "CAD091",
 	  "minecraft:vex": "8E3939",

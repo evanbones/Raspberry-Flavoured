@@ -65,6 +65,9 @@
     },
 	{
       "category": "miningmaster:forging"
+    },
+	{
+      "category": "woodworks:sawing"
     }
   ]
 }

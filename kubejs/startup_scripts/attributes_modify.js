@@ -13,10 +13,10 @@ const electrumChestplateSpeed = new $AttributeModifier("f7f3feb2-3099-4c1c-8ee2-
 const electrumLeggingsSpeed = new $AttributeModifier("c4822ccc-635c-42de-b667-2d9684a13aac", "generic.movement_speed", 0.1, "MULTIPLY_BASE")
 const electrumBootsSpeed = new $AttributeModifier("6bebb8d2-f3a0-4fe0-9ceb-ac6179061994", "generic.movement_speed", 0.12, "MULTIPLY_BASE")
 
-const roseGoldHelmetMagProt = new $AttributeModifier("1df33c7e-aac7-4c2d-8e14-8a4540f80766", "caverns_and_chasms:magic_protection", 0.125, "ADDITION")
+const roseGoldHelmetMagProt = new $AttributeModifier("1df33c7e-aac7-4c2d-8e14-8a4540f80766", "caverns_and_chasms:magic_protection", 0.15, "ADDITION")
 const roseGoldChestplateMagProt = new $AttributeModifier("28eaeebe-88dc-4b93-bce0-71f7805b8b76", "caverns_and_chasms:magic_protection", 0.2, "ADDITION")
 const roseGoldLeggingsMagProt = new $AttributeModifier("197274db-98d0-4dfb-ab36-b452acb600ef", "caverns_and_chasms:magic_protection", 0.2, "ADDITION")
-const roseGoldBootsMagProt = new $AttributeModifier("acb332d4-14ce-45bf-b653-b814cb457b02", "caverns_and_chasms:magic_protection", 0.125, "ADDITION")
+const roseGoldBootsMagProt = new $AttributeModifier("acb332d4-14ce-45bf-b653-b814cb457b02", "caverns_and_chasms:magic_protection", 0.15, "ADDITION")
 
 const sanguineHelmetLifesteal = new $AttributeModifier("4e857af6-37cf-4d9e-82bf-2e78a8156cdd", "caverns_and_chasms:lifesteal", 0.05, "ADDITION")
 const sanguineChestplateLifesteal = new $AttributeModifier("7e817302-aa59-4a51-81e9-0559866d66e6", "caverns_and_chasms:lifesteal", 0.15, "ADDITION")
@@ -30,6 +30,14 @@ const necromiumBootsWeakness = new $AttributeModifier("75d266c2-dde4-4a4f-9f7a-6
 
 const necromiumSlowness1 = new $AttributeModifier("2f11b25f-2d5f-403d-a07d-e91bb41e79ad", "caverns_and_chasms:slowness_infliction", 1, "ADDITION")
 const necromiumSlowness2 = new $AttributeModifier("2fb2a85b-9d2f-4e4b-b3b2-d5a47ed3d07e", "caverns_and_chasms:slowness_infliction", 3, "ADDITION")
+
+const roseGoldSword = new $AttributeModifier("32dcd9ab-dc6e-440b-9a3c-c565687fcd0b", "caverns_and_chasms:magic_damage", 5, "ADDITION")
+const roseGoldAxe = new $AttributeModifier("1a47aa6f-1e12-4892-9cee-e6e4dbc37e64", "caverns_and_chasms:magic_damage", 6, "ADDITION")
+const roseGoldHoe = new $AttributeModifier("67ed911f-9df9-4282-a201-1f8fa985c377", "caverns_and_chasms:magic_damage", 4, "ADDITION")
+const roseGoldShovel = new $AttributeModifier("09b61208-9749-453e-8b76-19e357240b73", "caverns_and_chasms:magic_damage", 4, "ADDITION")
+const roseGoldPickaxe = new $AttributeModifier("efd8173c-9b1f-4a44-a14c-3dee38cdb3a6", "caverns_and_chasms:magic_damage", 4.5, "ADDITION")
+const roseGoldKnife = new $AttributeModifier("cd332c70-efeb-4617-a5b4-435e8f209244", "caverns_and_chasms:magic_damage", 4, "ADDITION")
+const roseGoldRapier = new $AttributeModifier("7e73c909-9ced-4b71-b019-edc52b47be7b", "caverns_and_chasms:magic_damage", 3, "ADDITION")
 
 const steelKnockback1 = new $AttributeModifier("0d592c6c-b2e2-438c-acc8-f21d078ae50c", "generic.attack_knockback", 1, "ADDITION")
 const steelKnockback2 = new $AttributeModifier("a8cac253-08ff-4f8a-900e-0a5500922124", "generic.attack_knockback", 2, "ADDITION")
@@ -174,6 +182,29 @@ ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (even
 	}
 	if (event.itemStack.id == "abnormals_delight:necromium_knife" && event.slotType == "mainhand") {
 		event.addModifier("caverns_and_chasms:slowness_infliction", necromiumSlowness1)
+	}
+
+// Rose gold magic
+	if (event.itemStack.id == "additionaladditions:rose_gold_sword" && event.slotType == "mainhand") {
+		event.addModifier("caverns_and_chasms:magic_damage", roseGoldSword)
+	}
+	if (event.itemStack.id == "additionaladditions:rose_gold_axe" && event.slotType == "mainhand") {
+		event.addModifier("caverns_and_chasms:magic_damage", roseGoldAxe)
+	}
+	if (event.itemStack.id == "additionaladditions:rose_gold_hoe" && event.slotType == "mainhand") {
+		event.addModifier("caverns_and_chasms:magic_damage", roseGoldHoe)
+	}
+	if (event.itemStack.id == "additionaladditions:rose_gold_shovel" && event.slotType == "mainhand") {
+		event.addModifier("caverns_and_chasms:magic_damage", roseGoldShovel)
+	}
+	if (event.itemStack.id == "additionaladditions:rose_gold_pickaxe" && event.slotType == "mainhand") {
+		event.addModifier("caverns_and_chasms:magic_damage", roseGoldPickaxe)
+	}
+	if (event.itemStack.id == "kubejs:rose_gold_knife" && event.slotType == "mainhand") {
+		event.addModifier("caverns_and_chasms:magic_damage", roseGoldKnife)
+	}
+	if (event.itemStack.id == "kubejs:rose_gold_rapier" && event.slotType == "mainhand") {
+		event.addModifier("caverns_and_chasms:magic_damage", roseGoldRapier)
 	}
 
 // Steel knockback

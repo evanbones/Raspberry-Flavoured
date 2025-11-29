@@ -112,5 +112,6 @@
     "kubejs:sound.stickywood.step": "wood,mud",
     "kubejs:sound.stoneore.step": "ore",
     "kubejs:sound.tnt.step": "equipment",
-    "kubejs:sound.cobweb.step": "rug"
+    "kubejs:sound.cobweb.step": "rug",
+    "kubejs:sound.arid_sand.step": "sand"
 }

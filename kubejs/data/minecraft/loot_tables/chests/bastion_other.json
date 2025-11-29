@@ -311,14 +311,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:crying_obsidian",
-          "weight": 2
+          "name": "minecraft:ghast_tear",
+          "weight": 4
         }
       ],
       "rolls": 2.0
@@ -410,13 +410,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 4.0
+                "max": 16.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:obsidian"
+          "name": "create:powdered_obsidian"
         },
         {
           "type": "minecraft:item",

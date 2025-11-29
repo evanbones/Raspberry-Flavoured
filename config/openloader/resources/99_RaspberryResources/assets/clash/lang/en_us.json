@@ -27,13 +27,16 @@
   "enchantment.clash.rampage": "Rampaging",
   "enchantment.clash.rampage.desc": "On kill, gain a stacking attack speed boost.",
   "effect.clash.rampaging": "Rampaging",
+  "effect.clash.rampaging.description": "Increases attack speed. Effect level increases with every kill. Granted by the Netherite Broad Axe.",
   "enchantment.clash.retaliation": "Retaliation",
   "enchantment.clash.retaliation.desc": "Upon taking damage, gain a stacking attack damage boost.",
   "effect.clash.retaliation": "Retaliation",
+  "effect.clash.retaliation.description": "Increases attack damage. Effect level increases each time damage is taken, up to V. Effect is removed upon striking. Granted by the Netherite Broad Axe.",
 
   "item.clash.greatblade": "Necromium Claymore",
   "item.clash.greatblade.bonus_damage": "Bonus Damage",
   "effect.clash.staggered": "Staggered",
+  "effect.clash.staggered.description": "Causes targets to move backwards. Inflicted by the Necromium Claymore.",
 
   "enchantment.clash.sailing": "Sailing",
   "enchantment.clash.sailing.desc": "Rush forward while charging a swing.",

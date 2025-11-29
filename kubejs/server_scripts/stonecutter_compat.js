@@ -95,7 +95,8 @@ ServerEvents.recipes(event => {
 	'#raspberry_flavoured:black_terracotta',
 	'#raspberry_flavoured:steel',
 	'#raspberry_flavoured:obsidian',
-	'#raspberry_flavoured:crying_obsidian'
+	'#raspberry_flavoured:crying_obsidian',
+	'#raspberry_flavoured:lachryte'
 	]
     
     removedRecipes.forEach(recipe => {
@@ -106,60 +107,61 @@ ServerEvents.recipes(event => {
     blockTags.forEach(tag => {
 		event.remove({input: tag, type: 'minecraft:stonecutting'})
 		event.remove({output: tag, type: 'minecraft:stonecutting'})
-		event.remove({input: tag + '_slab', type: 'minecraft:stonecutting'})
-		event.remove({output: tag + '_slab', type: 'minecraft:stonecutting'})
+		event.remove({input: tag + '_half', type: 'minecraft:stonecutting'})
+		event.remove({output: tag + '_half', type: 'minecraft:stonecutting'})
 		Ingredient.of(tag).itemIds.forEach(id => {
 			event.stonecutting('1x ' + id, tag)
 		})
-		Ingredient.of(tag + '_slab').itemIds.forEach(id => {
+		Ingredient.of(tag + '_half').itemIds.forEach(id => {
 			event.stonecutting('2x ' + id, tag)
-			event.stonecutting('1x ' + id, tag + '_slab')
+			event.stonecutting('1x ' + id, tag + '_half')
 		})
     })	
 	
 	// Copycats
-	Ingredient.of('#raspberry_flavoured:copycats').itemIds.forEach(id => {
-		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycats')
+	Ingredient.of('#raspberry_flavoured:copycat').itemIds.forEach(id => {
+		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat')
     })
-	Ingredient.of('#raspberry_flavoured:half_copycats').itemIds.forEach(id => {
-		event.stonecutting('2x ' + id, '#raspberry_flavoured:copycats')
-		event.stonecutting('1x ' + id, '#raspberry_flavoured:half_copycats')
+	Ingredient.of('#raspberry_flavoured:copycat_half').itemIds.forEach(id => {
+		event.stonecutting('2x ' + id, '#raspberry_flavoured:copycat')
+		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat_half')
     })
-	Ingredient.of('#raspberry_flavoured:quarter_copycats').itemIds.forEach(id => {
+	Ingredient.of('#raspberry_flavoured:copycat_quarter').itemIds.forEach(id => {
 		event.stonecutting('4x ' + id, '#raspberry_flavoured:copycats')
-		event.stonecutting('2x ' + id, '#raspberry_flavoured:half_copycats')
-		event.stonecutting('1x ' + id, '#raspberry_flavoured:quarter_copycats')
+		event.stonecutting('2x ' + id, '#raspberry_flavoured:copycat_half')
+		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat_quarter')
     })
+	event.stonecutting('2x copycats:copycat_wall', '#forge:ingots/zinc').id('copycats:stonecutting/copycat_wall')
 	
 	// Sand -> Sandstone
 	Ingredient.of('#raspberry_flavoured:sandstone').itemIds.forEach(id => {
 		event.stonecutting('1x ' + id, 'sand')
     })
-	Ingredient.of('#raspberry_flavoured:sandstone_slab').itemIds.forEach(id => {
+	Ingredient.of('#raspberry_flavoured:sandstone_half').itemIds.forEach(id => {
 		event.stonecutting('2x ' + id, 'sand')
     })
 	Ingredient.of('#raspberry_flavoured:red_sandstone').itemIds.forEach(id => {
 		event.stonecutting('1x ' + id, 'red_sand')
     })
-	Ingredient.of('#raspberry_flavoured:red_sandstone_slab').itemIds.forEach(id => {
+	Ingredient.of('#raspberry_flavoured:red_sandstone_half').itemIds.forEach(id => {
 		event.stonecutting('2x ' + id, 'red_sand')
     })
 	Ingredient.of('#raspberry_flavoured:soul_sandstone').itemIds.forEach(id => {
 		event.stonecutting('1x ' + id, 'soul_sand')
     })
-	Ingredient.of('#raspberry_flavoured:soul_sandstone_slab').itemIds.forEach(id => {
+	Ingredient.of('#raspberry_flavoured:soul_sandstone_half').itemIds.forEach(id => {
 		event.stonecutting('2x ' + id, 'soul_sand')
     })
 	Ingredient.of('#raspberry_flavoured:arid_sandstone').itemIds.forEach(id => {
 		event.stonecutting('1x ' + id, 'atmospheric:arid_sand')
     })
-	Ingredient.of('#raspberry_flavoured:arid_sandstone_slab').itemIds.forEach(id => {
+	Ingredient.of('#raspberry_flavoured:arid_sandstone_half').itemIds.forEach(id => {
 		event.stonecutting('2x ' + id, 'atmospheric:arid_sand')
     })
 	Ingredient.of('#raspberry_flavoured:red_arid_sandstone').itemIds.forEach(id => {
 		event.stonecutting('1x ' + id, 'atmospheric:red_arid_sand')
     })
-	Ingredient.of('#raspberry_flavoured:red_arid_sandstone_slab').itemIds.forEach(id => {
+	Ingredient.of('#raspberry_flavoured:red_arid_sandstone_half').itemIds.forEach(id => {
 		event.stonecutting('2x ' + id, 'atmospheric:red_arid_sand')
     })
 })

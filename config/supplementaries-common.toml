@@ -165,7 +165,7 @@
 			enabled = true
 			#Attempts at every patch to spawn 1 block. Increases average patch size
 			#Range: 1 ~ 100
-			attempts_per_patch = 4
+			attempts_per_patch = 6
 			#Spawn attempts per chunk. Increases spawn frequency
 			#Range: 0 ~ 100
 			spawn_attempts = 7
@@ -293,7 +293,7 @@
 		stick_pole = true
 		#Maximum allowed pole length
 		#Range: 0 ~ 256
-		pole_length = 16
+		pole_length = 24
 
 	[building.goblet]
 		enabled = true
@@ -382,7 +382,7 @@
 		explosion_radius = 2.0
 		#Do bombs break blocks like tnt?
 		#Allowed Values: ALL, WEAK, NONE
-		break_blocks = "WEAK"
+		break_blocks = "NONE"
 		#Put here any number other than 0 to have your bombs explode after a certaom amount of ticks instead than on contact
 		#Range: 0 ~ 100000
 		bomb_fuse = 0

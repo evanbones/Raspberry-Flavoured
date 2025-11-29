@@ -20,7 +20,7 @@
       "hit_sound": "minecraft:block.dripstone_block.hit",
       "fall_sound": "minecraft:block.dripstone_block.fall",
       "step_sound": "minecraft:block.dripstone_block.step",
-      "pitch": 1.375,
+      "pitch": 1.35,
       "volume": 1
    } 
 }

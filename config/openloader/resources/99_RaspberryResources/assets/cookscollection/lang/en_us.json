@@ -12,6 +12,9 @@
   "recipe.cookscollection.shapeless_baking": "Baking",
   "recipe.cookscollection.shaped_baking": "Shaped Baking",
 
+  "emi.category.cookscollection.shapeless_baking": "Baking",
+  "emi.category.cookscollection.shaped_baking": "Shaped Baking",
+
   "cookscollection.subtitles.oven.crackle": "Oven crackles",
   "cookscollection.subtitles.oven.open": "Oven opens",
   "cookscollection.subtitles.oven.close": "Oven closes",

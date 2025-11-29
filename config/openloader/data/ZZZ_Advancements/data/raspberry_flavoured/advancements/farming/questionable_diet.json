@@ -56,7 +56,7 @@
       "conditions": {
         "item": {
           "items": [
-            "kubejs:cat_food"
+            "raspberry:cat_food"
           ]
         }
       }

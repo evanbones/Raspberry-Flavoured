@@ -38,6 +38,9 @@ StartupEvents.registry('fluid', event =>
 	event.create('latex').stillTexture('kubejs:fluid/latex_still').flowingTexture('kubejs:fluid/latex_flow')
 	event.create('cooking_oil').stillTexture('kubejs:fluid/cooking_oil_still').flowingTexture('kubejs:fluid/cooking_oil_flow')
 	
+	event.create('butter').stillTexture('kubejs:fluid/butter_still').flowingTexture('kubejs:fluid/butter_flow').noBucket().noBlock()
+	event.create('coleslaw').stillTexture('kubejs:fluid/coleslaw').flowingTexture('kubejs:fluid/coleslaw').noBucket().noBlock()
+	event.create('blazing_chili').stillTexture('kubejs:fluid/blazing_chili').flowingTexture('kubejs:fluid/blazing_chili').noBucket().noBlock()
 	event.create('strawberry_banana_smoothie').stillTexture('kubejs:fluid/strawberry_banana_smoothie_still').flowingTexture('kubejs:fluid/strawberry_banana_smoothie_flow').noBucket().noBlock()
 	event.create('cherry_cream_soda').stillTexture('kubejs:fluid/cherry_cream_soda_still').flowingTexture('kubejs:fluid/cherry_cream_soda_flow').noBucket().noBlock()
 	
@@ -48,7 +51,7 @@ StartupEvents.registry('fluid', event =>
 	event.create('pickerelweed_juice').thinTexture(0x519991).noBucket().noBlock()
 	
 	// don't ask
-	event.create('wooden_pickaxe').displayName('Wooden Pickaxe Fluid').stillTexture('kubejs:fluid/wooden_pickaxe').flowingTexture('kubejs:fluid/wooden_pickaxe')
+	event.create('wooden_pickaxe').stillTexture('kubejs:fluid/wooden_pickaxe').flowingTexture('kubejs:fluid/wooden_pickaxe')
 })
 
 ItemEvents.modification(event => {
@@ -178,7 +181,8 @@ ItemEvents.modification(event => {
 	'supplementaries:bomb_spiky_projectile',
 	'aquaculture:goldfish',
 	'kubejs:spirited_exopearl',
-	'moyai:moyai'
+	'moyai:moyai',
+	'minecraft:piglin_banner_pattern'
 	], item => {
         item.rarity = 'uncommon'
     })
@@ -226,6 +230,9 @@ ItemEvents.modification(event => {
 	event.modify('kubejs:batter', item => {
 		item.craftingRemainder = Item.of('minecraft:bowl').item
 	})
+	event.modify('kubejs:coleslaw', item => {
+		item.craftingRemainder = Item.of('minecraft:bowl').item
+	})
 	event.modify('kubejs:caramelized_marshmellow_on_a_stick', item => {
 		item.craftingRemainder = Item.of('minecraft:stick').item
 	})
@@ -270,6 +277,7 @@ StartupEvents.registry('painting_variant', event => {
     event.create('epiphany').width(32).height(32).tag('minecraft:placeable')
     event.create('fool_me_twice').width(48).height(64).tag('minecraft:placeable')
     event.create('four_pixels').width(48).height(32).tag('minecraft:placeable')
+    event.create('grimbly').width(64).height(64).tag('minecraft:placeable')
     event.create('investigation').width(64).height(64).tag('minecraft:placeable')
     event.create('miniature').width(48).height(48).tag('minecraft:placeable')
     event.create('mirror_mirror').width(32).height(32).tag('minecraft:placeable')
@@ -341,6 +349,9 @@ EntityJSEvents.attributes(event => {
     })
     event.modify('naturalist:rhino', attribute => {
         attribute.add("minecraft:generic.max_health", 60)
+    })
+    event.modify('naturalist:boar', attribute => {
+        attribute.add("minecraft:generic.max_health", 20)
     })
     event.modify('naturalist:butterfly', attribute => {
         attribute.add("minecraft:generic.max_health", 6)

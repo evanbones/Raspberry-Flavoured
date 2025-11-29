@@ -40,11 +40,6 @@
     "result": "deny"
   },
   {
-    "mob": "savage_and_ravage:griefer",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
     "mob": "savage_and_ravage:iceologer",
     "onjoin": true,
     "result": "deny"
@@ -183,6 +178,24 @@
   },
   {
     "mob": "minecraft:goat",
+    "dimension": "minecraft:overworld",
+    "incontrol": true,
+    "result": "deny"
+  },
+  {
+    "mob": "naturalist:boar",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:savanna",
+    "result": "default"
+  },
+  {
+    "mob": "naturalist:boar",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:savanna_plateau",
+    "result": "default"
+  },
+  {
+    "mob": "naturalist:boar",
     "dimension": "minecraft:overworld",
     "incontrol": true,
     "result": "deny"

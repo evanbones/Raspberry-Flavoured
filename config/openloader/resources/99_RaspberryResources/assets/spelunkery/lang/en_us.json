@@ -16,8 +16,12 @@
   "block.spelunkery.rough_lazurite_block": "Lazurite",
   "item.spelunkery.magnetite_chunk": "Magnetite Chunk",
   "item.spelunkery.raw_magnetite_nugget": "Magnetite Nugget",
-  "item.spelunkery.portal_fluid_bottle": "Bottle of Dimensional Tears",
-  "item.spelunkery.portal_fluid_bucket": "Bucket of Dimensional Tears",
+  
+  "item.spelunkery.portal_fluid_bottle": "Bottle of Liquefied Lachryte",
+  "item.spelunkery.portal_fluid_bucket": "Bucket of Liquefied Lachryte",
+  "fluid.spelunkery.portal_fluid": "Liquefied Lachryte",
+  "fluid_type.spelunkery.portal_fluid": "Liquefied Lachryte",
+  
   "tooltip.spelunkery.depth_gauge_depth": "Altitude: %1$s",
   "tooltip.spelunkery.magnetite_pos": "Magnetic interference's latitude & longitude: %1$s, %2$s",
   "tooltip.spelunkery.player_pos": "Latitude: %1$s, Longitude: %2$s"

@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:regeneration"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'ghast_tear', 'farmersrespite:rose_hips'
+		'2x farmersrespite:rose_hips', 'mynethersdelight:ghasta'
 	]).heated()
 	// Strength
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"caverns_and_chasms:rewind"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x architects_palette:twisted_sapling', 'echo_shard'
+		'2x architects_palette:twisted_sapling', 'ender_pearl'
 	]).heated()
 	// Health boost
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"oreganized:stunning"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x create:crushed_raw_lead'
+		'create:crushed_raw_lead', '2x spelunkery:rough_cinnabar_shard'
 	]).heated()
 	// Insomnia
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 

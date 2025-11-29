@@ -26,7 +26,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crying_obsidian"
+		  "functions": [
+            {
+              "add": false,
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 2,
+          "name": "minecraft:ghast_tear"
         },
         {
           "type": "minecraft:item",
@@ -35,8 +43,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 2.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -48,7 +56,7 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 2,
         "max": 3
       },
       "entries": [
@@ -199,7 +207,7 @@
     },
     {
       "rolls": {
-        "min": 2,
+        "min": 3,
         "max": 4
       },
       "entries": [
@@ -210,7 +218,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
@@ -226,14 +234,30 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 3.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "weight": 2,
           "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 4,
+          "name": "spelunkery:rough_cinnabar"
         },
         {
           "type": "minecraft:item",
@@ -274,7 +298,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
+                "max": 8.0,
                 "min": 4.0
               },
               "function": "minecraft:set_count"
@@ -338,6 +362,22 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3,
+          "name": "kubejs:latex_bottle"
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 2.0,
                 "min": 1.0
               },
@@ -388,8 +428,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 3.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -433,8 +473,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -449,14 +489,30 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "weight": 2,
           "name": "kubejs:cinnamon"
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 6,
+          "name": "ecologics:seashell"
         }
       ]
     }

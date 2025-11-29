@@ -24,8 +24,8 @@ ServerEvents.recipes(event => {
         event.shapeless('minecraft:'+colour+'_candle', ['minecraft:'+colour+'_dye', '#minecraft:candles'])
         event.shapeless('supplementaries:candle_holder_'+colour, ['minecraft:'+colour+'_dye', '#raspberry_flavoured:metal_candle_holders'])
         event.shapeless('suppsquared:gold_candle_holder_'+colour, ['minecraft:'+colour+'_dye', '#raspberry_flavoured:gold_candle_holders'])
-        event.shapeless('6x supplementaries:candle_holder_'+colour, [['#forge:nuggets/iron', '#forge:nuggets/lead'], ['#forge:nuggets/iron', '#forge:nuggets/lead'], '6x minecraft:'+colour+'_candle'])
-        event.shapeless('6x suppsquared:gold_candle_holder_'+colour, ['2x #forge:nuggets/gold', '6x minecraft:'+colour+'_candle'])
+        event.shapeless('3x supplementaries:candle_holder_'+colour, ['#raspberry_flavoured:iron_or_lead_nuggets', '3x minecraft:'+colour+'_candle'])
+        event.shapeless('3x suppsquared:gold_candle_holder_'+colour, ['#forge:nuggets/gold', '3x minecraft:'+colour+'_candle'])
     })
 	
 	noWhiteAllColours.forEach(colour => {
@@ -50,6 +50,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('9x kubejs:rough_quartz_shard', ['quartz'])
 	event.shapeless('9x kubejs:quartz_shard', ['create:polished_rose_quartz'])
 	event.shapeless('9x netherrack', ['kubejs:sturdy_netherrack'])
+	event.shapeless('9x kubejs:ancient_nugget', ['netherite_scrap'])
 	
 	event.shapeless('charcoal', ['8x kubejs:charcoal_lump'])
 	event.shapeless('8x kubejs:charcoal_lump', ['charcoal'])
@@ -102,7 +103,6 @@ ServerEvents.recipes(event => {
 	event.shapeless('create:gearshift', ['create:andesite_casing', 'create:shaft', '#minecraft:planks', 'redstone'])
 	event.shapeless('create:gearshift', ['create:clutch', '#minecraft:planks'])
 	event.shapeless('twigs:twig', ['#raspberry_flavoured:saplings_with_twigs'])
-	event.shapeless('8x create:controller_rail', ['8x powered_rail', 'create:electron_tube'])
 	event.shapeless('8x dark_prismarine', ['ink_sac', '8x prismarine']).id('minecraft:dark_prismarine')
 	event.shapeless('8x upgrade_aquatic:luminous_prismarine', ['glow_ink_sac', '8x prismarine']).id('upgrade_aquatic:luminous_prismarine')
 	event.shapeless('mynethersdelight:breakfast_sampler', ['mynethersdelight:roasted_sausage', '2x incubation:fried_egg', '#raspberry_flavoured:breakfast_condiments', '2x supplementaries:pancake', 'bowl']).id('mynethersdelight:crafting/breakfast_sampler')
@@ -119,10 +119,8 @@ ServerEvents.recipes(event => {
 	event.shapeless('culturaldelights:corn_kernels', ['culturaldelights:corn_cob'])
 	event.shapeless('2x tuff', ['cobblestone', ['cobbled_deepslate', 'basalt', 'smooth_basalt']]).id('caverns_and_chasms:tuff')
 	event.shapeless('3x kubejs:cobbled_blackstone', ['3x create:scorchia', 'black_dye'])
-	event.shapeless('kubejs:squid_sandwich', ['#forge:bread/wheat', 'miners_delight:baked_squid'])
 	event.shapeless('kubejs:cave_burger', ['#forge:bread/wheat', 'miners_delight:baked_tentacles', 'miners_delight:smoked_bat_wing', '#raspberry_flavoured:cave_scrap_ingredients', '#raspberry_flavoured:cave_scrap_ingredients'])
 	event.shapeless('kubejs:preserved_skewer', ['brewinandchewin:kippers', 'brewinandchewin:jerky', '2x brewinandchewin:kimchi', 'stick'])
-	event.shapeless('spelunkery:portal_fluid_bottle', ['crying_obsidian', 'glass_bottle']).replaceIngredient('crying_obsidian', 'obsidian')
 	event.shapeless('aquaculture:double_hook', ['aquaculture:light_hook', 'aquaculture:heavy_hook']).id('aquaculture:double_hook')
 	event.shapeless('domesticationinnovation:deed_of_ownership', ['domesticationinnovation:deed_of_ownership']).id('kubejs:deed_of_ownership_clear')
 	event.shapeless('farmersdelight:fruit_salad', ['#raspberry_flavoured:apples', '#forge:berries', '#forge:fruits', '#forge:fruits', 'bowl']).id('farmersdelight:fruit_salad')
@@ -168,8 +166,11 @@ ServerEvents.recipes(event => {
 	event.shapeless('2x mynethersdelight:sausage_and_potatoes', ['3x mynethersdelight:roasted_sausage', '2x cookscollection:fried_potato', 'bowl']).id('mynethersdelight:cooking/sausage_and_potatoes')
 	event.shapeless('quark:torch_arrow', ['2x #raspberry_flavoured:coal_lumps', 'arrow']).id('quark:tools/crafting/torch_arrow')
 	event.shapeless('4x quark:torch_arrow', ['2x modestmining:coke_chunk', '4x arrow'])
+	event.shapeless('8x spectral_arrow', ['#forge:gems/glowstone', '8x arrow']).id('minecraft:spectral_arrow')
+	event.shapeless('8x savage_and_ravage:mischief_arrow', ['savage_and_ravage:creeper_spores', '8x arrow']).id('savage_and_ravage:mischief_arrow')
 	event.shapeless('8x caverns_and_chasms:large_arrow', ['#forge:ingots/steel', '8x arrow']).id('caverns_and_chasms:large_arrow')
 	event.shapeless('8x caverns_and_chasms:blunt_arrow', ['#forge:ingots/rose_gold', '8x arrow']).id('caverns_and_chasms:blunt_arrow')
+	event.shapeless('8x raspberry:swap_arrow', ['ghast_tear', '8x arrow'])
 	event.shapeless('purple_dye', ['3x upgrade_aquatic:purple_pickerelweed']).id('upgrade_aquatic:purple_dye_from_pickerelweed')
 	event.shapeless('flint', ['2x twigs:pebble'])
 	event.shapeless('spelunkery:salt', ['2x spelunkery:rock_salt'])
@@ -181,12 +182,29 @@ ServerEvents.recipes(event => {
 	event.shapeless('2x kubejs:golden_worm', ['2x aquaculture:worm', '#forge:ingots/gold'])
 	event.shapeless('2x kubejs:batter', ['#farmersdelight:wheat_or_flour', '#forge:eggs', 'kubejs:butter', 'sugar', '2x bowl'])
 	event.shapeless('8x supplementaries:candy', ['kubejs:butter', 'sugar', 'paper'])
-	event.shapeless('3x kubejs:buttered_toast', ['kubejs:butter', '#forge:bread/wheat'])
+	event.shapeless('2x kubejs:buttered_toast', ['kubejs:butter', '#forge:bread/wheat'])
+	event.shapeless('kubejs:popcorn_bucket', ['bucket', 'kubejs:butter', '6x culturaldelights:popcorn'])
+	event.shapeless('8x raspberry:fine_wood', ['honeycomb', '8x #minecraft:logs']).id('raspberry:fine_wood')
+	event.shapeless('5x kubejs:fried_potato_with_chili', ['5x cookscollection:fried_potato', 'farmersrespite:blazing_chili'])
 	
-	event.shapeless('6x supplementaries:candle_holder', [['#forge:nuggets/iron', '#forge:nuggets/lead'], ['#forge:nuggets/iron', '#forge:nuggets/lead'], '6x minecraft:candle'])
-	event.shapeless('6x suppsquared:gold_candle_holder', ['2x #forge:nuggets/gold', '6x minecraft:candle'])
-	event.shapeless('6x supplementaries:candle_holder_soul', [['#forge:nuggets/iron', '#forge:nuggets/lead'], ['#forge:nuggets/iron', '#forge:nuggets/lead'], '6x buzzier_bees:soul_candle'])
-	event.shapeless('6x suppsquared:gold_candle_holder_soul', ['2x #forge:nuggets/gold', '6x buzzier_bees:soul_candle'])
+	event.shapeless('2x kubejs:coleslaw', ['#forge:eggs', 'cookscollection:cooking_oil', 'cookscollection:lemon', '#raspberry_flavoured:coleslaw_ingredients', '2x bowl'])
+	event.shapeless('2x kubejs:hotdog_with_coleslaw', ['2x mynethersdelight:hotdog', 'kubejs:coleslaw'])
+	event.shapeless('kubejs:squid_sandwich', ['#forge:bread/wheat', 'miners_delight:baked_squid', 'kubejs:coleslaw'])
+	
+	event.shapeless('crying_obsidian', ['obsidian', 'ghast_tear'])
+	event.shapeless('frame_changer:crying_obsidian_bricks', ['frame_changer:obsidian_bricks', 'ghast_tear'])
+	event.shapeless('frame_changer:crying_obsidian_brick_stairs', ['frame_changer:obsidian_brick_stairs', 'ghast_tear'])
+	event.shapeless('frame_changer:crying_obsidian_brick_wall', ['frame_changer:obsidian_brick_wall', 'ghast_tear'])
+	event.shapeless('frame_changer:crying_polished_obsidian', ['frame_changer:polished_obsidian', 'ghast_tear'])
+	event.shapeless('frame_changer:crying_polished_obsidian_stairs', ['frame_changer:polished_obsidian_stairs', 'ghast_tear'])
+	event.shapeless('frame_changer:crying_polished_obsidian_wall', ['frame_changer:polished_obsidian_wall', 'ghast_tear'])
+	event.shapeless('frame_changer:crying_obsidian_pillar', ['frame_changer:obsidian_pillar', 'ghast_tear'])
+	event.shapeless('frame_changer:crying_chiseled_obsidian', ['frame_changer:chiseled_obsidian', 'ghast_tear'])
+	
+	event.shapeless('3x supplementaries:candle_holder', ['#raspberry_flavoured:iron_or_lead_nuggets', '3x minecraft:candle'])
+	event.shapeless('3x suppsquared:gold_candle_holder', ['#forge:nuggets/gold', '3x minecraft:candle'])
+	event.shapeless('3x supplementaries:candle_holder_soul', ['#raspberry_flavoured:iron_or_lead_nuggets', '3x buzzier_bees:soul_candle'])
+	event.shapeless('3x suppsquared:gold_candle_holder_soul', ['#forge:nuggets/gold', '3x buzzier_bees:soul_candle'])
 	
 	event.shapeless('pink_dye', ['2x raspberry:pink_petals']).id('raspberry:pink_dye_from_pink_petals')
 	event.shapeless('yellow_dye', ['2x raspberry:cheery_wildflowers']).id('raspberry:yellow_dye_from_wildflowers')
@@ -336,6 +354,14 @@ ServerEvents.recipes(event => {
 	twoByTwo('nethersdelight:propelpearl', 'shroomlight', 1)
 	twoByTwo('architects_palette:polished_packed_ice', 'windswept:packed_ice_bricks', 4)
 	twoByTwo('paletteblocks:polished_netherrack', 'quark:netherrack_bricks', 4)
+	twoByTwo('create:powdered_obsidian', 'obsidian', 1)
+	twoByTwo('ghast_tear', 'kubejs:lachryte', 2)
+	twoByTwo('kubejs:lachryte', 'kubejs:polished_lachryte', 4)
+	twoByTwo('kubejs:polished_lachryte', 'kubejs:lachryte_bricks', 4)
+	twoByTwo('paletteblocks:polished_basalt', 'twigs:smooth_basalt_bricks', 4)
+	twoByTwo('naturalist:shellstone', 'naturalist:smooth_shellstone', 4)
+	twoByTwo('naturalist:smooth_shellstone', 'naturalist:shellstone_bricks', 4)
+	twoByTwo('naturalist:shellstone_bricks', 'naturalist:cut_shellstone', 4)
 	
 	threeByThree('amethyst_shard', 'twigs:polished_amethyst', 1)
 	threeByThree('string', 'architects_palette:spool', 1)
@@ -357,6 +383,7 @@ ServerEvents.recipes(event => {
 	threeByThree('kubejs:rough_quartz_shard', 'quartz', 1)
 	threeByThree('kubejs:quartz_shard', 'create:polished_rose_quartz', 1)
 	threeByThree('netherrack', 'kubejs:sturdy_netherrack', 1)
+	threeByThree('kubejs:ancient_nugget', 'netherite_scrap', 1)
 	
 	event.shaped('minecraft:white_bed', ['CCC', 'AAA', 'BBB'], {A: ['minecraft:white_wool', 'kubejs:cloth_scrap_block', 'kubejs:white_cloth_scrap_block', 'supplementaries:feather_block'], B: '#minecraft:planks', C: 'kubejs:cloth_scrap'}).id('minecraft:white_bed')
     event.shaped('3x minecraft:white_banner', ['AAA', 'AAA', ' B '], {A: ['minecraft:white_wool', 'kubejs:cloth_scrap_block', 'kubejs:white_cloth_scrap_block', 'supplementaries:feather_block'], B: 'stick'}).id('minecraft:white_banner')
@@ -381,9 +408,8 @@ ServerEvents.recipes(event => {
 	event.shaped('8x architects_palette:tuff_bricks', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:tuff', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:tuff_bricks')
 	event.shaped('8x architects_palette:calcite_bricks', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:calcite', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:calcite_bricks')
 	event.shaped('8x architects_palette:dripstone_bricks', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:dripstone_block', B: 'paletteblocks:cobblestone_bricks'}).id('architects_palette:dripstone_bricks')
-	event.shaped('8x twigs:smooth_basalt_bricks', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:smooth_basalt', B: 'paletteblocks:cobblestone_bricks'}).id('twigs:smooth_basalt_bricks')
 	event.shaped('4x architects_palette:sunstone', ['AB', 'BA'], {A: 'minecraft:basalt', B: 'alloyed:bronze_ingot'}).id('architects_palette:sunstone')
-	event.shaped('8x architects_palette:plating_block', [' B ', 'BAB', ' B '], {A: ['#forge:ingots/iron', '#forge:ingots/lead'], B: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('architects_palette:plating_block')
+	event.shaped('8x architects_palette:plating_block', [' B ', 'BAB', ' B '], {A: '#raspberry_flavoured:iron_or_lead_ingots', B: '#raspberry_flavoured:iron_or_lead_nuggets'}).id('architects_palette:plating_block')
 	event.shaped('incubation:twig_nest', ['A A', 'AAA'], {A: 'twigs:twig'})
 	event.shaped('etched:blank_music_disc', ['AAA', 'A A', 'AAA'], {A: 'minecraft:disc_fragment_5'})
 	event.shaped('create:peculiar_bell', [' B ', 'BAB', ' B '], {A: 'minecraft:bell', B: 'create:brass_ingot'}).id('create:crafting/curiosities/peculiar_bell')
@@ -391,7 +417,6 @@ ServerEvents.recipes(event => {
 	event.shaped('8x supplementaries:slice_map', ['AAA', 'ABA', 'AAA'], {A: 'minecraft:map', B: 'caverns_and_chasms:depth_gauge'}).id('supplementaries:slice_map')
 	event.shaped('4x note_block', ['CAC', 'ABA', 'CAC'], {A: '#minecraft:planks', B: 'redstone', C: 'alloyed:bronze_ingot'}).id('minecraft:note_block')
 	event.shaped('etched:boombox', [' C ', 'BAB'], {A: 'etched:album_jukebox', B: 'alloyed:bronze_ingot', C: 'alloyed:bronze_ingot'}).id('etched:boombox')
-	event.shaped('12x spectral_arrow', ['A', 'B', 'C'], {A: 'glowstone_dust', B: 'stick', C: 'feather'}).id('minecraft:spectral_arrow')
 	event.shaped('2x upgrade_aquatic:prismarine_rod', ['A', 'A'], {A: 'prismarine_shard'}).id('upgrade_aquatic:prismarine_rod')
 	event.shaped('2x architects_palette:entwine_rod', ['ABA'], {A: 'additionaladditions:copper_patina', B: 'upgrade_aquatic:prismarine_rod'}).id('architects_palette:entwine_rod')
 	event.shaped('architects_palette:gilded_sandstone', ['AB', 'BA'], {A: 'sandstone', B: ['spelunkery:raw_gold_nugget', 'gold_nugget']}).id('architects_palette:gilded_sandstone')
@@ -403,14 +428,12 @@ ServerEvents.recipes(event => {
 	event.shaped('6x exposure:color_film', ['ABB', 'ACC', 'ADD'], {A: 'gold_ingot', B: 'amethyst_shard', C: 'spelunkery:cinnabar', D: 'kubejs:rubber'}).id('exposure:color_film')
 	event.shaped('vc_gliders:paraglider_wood', ['ABA', 'ABA', 'BCB'], {A: 'create:white_sail', B: 'stick', C: 'phantom_membrane'}).id('vc_gliders:paraglider_wood')
 	event.shaped('8x minecraft:scaffolding', ['ABA', 'A A', 'A A'], {A: '#raspberry_flavoured:bamboolikes', B: ['string', 'farmersdelight:canvas']}).id('minecraft:scaffolding')
-	event.shaped('6x hopper', ['A A', 'ABA', ' A '], {A: 'iron_ingot', B: ['#forge:chests/wooden', '#forge:barrels/wooden']}).id('minecraft:hopper')
-	event.shaped('3x hopper', ['A A', 'ABA', ' A '], {A: 'oreganized:lead_ingot', B: ['#forge:chests/wooden', '#forge:barrels/wooden']})
 	event.shaped('upgrade_aquatic:bedroll', ['BB', 'AA'], {A: 'farmersdelight:canvas', B: 'kubejs:cloth_scrap'}).id('upgrade_aquatic:bedroll')
 	event.shaped('8x caverns_and_chasms:amethyst_block', ['AAA', 'ABA', 'AAA'], {A: 'amethyst_block', B: 'amethyst_shard'}).id('caverns_and_chasms:amethyst_block')
 	event.shaped('8x caverns_and_chasms:cut_amethyst', ['AAA', 'A A', 'AAA'], {A: 'amethyst_block'}).id('caverns_and_chasms:cut_amethyst')
 	event.shaped('6x twigs:cut_amethyst', ['ABA', 'BAB', 'ABA'], {A: 'amethyst_block', B: 'amethyst_shard'}).id('twigs:cut_amethyst')
-	event.shaped('minecraft:smithing_table', ['AA', 'BB', 'BB'], {A: ['iron_ingot', 'oreganized:lead_ingot'], B: '#minecraft:planks'}).id('minecraft:smithing_table')
-	event.shaped('supplementaries:spring_launcher', ['BBB', 'ACA', 'ADA'], {A: ['iron_ingot', 'oreganized:lead_ingot'], B: '#minecraft:planks', C: 'kubejs:rubber', D: 'piston'}).id('supplementaries:spring_launcher')
+	event.shaped('smithing_table', ['AA', 'BB', 'BB'], {A: '#raspberry_flavoured:iron_or_lead_ingots', B: '#minecraft:planks'}).id('minecraft:smithing_table')
+	event.shaped('supplementaries:spring_launcher', ['BBB', 'ACA', 'ADA'], {A: '#raspberry_flavoured:iron_or_lead_ingots', B: '#minecraft:planks', C: 'kubejs:rubber', D: 'piston'}).id('supplementaries:spring_launcher')
 	event.shaped('2x name_tag', [' BA', 'BBB', 'BB '], {A: 'chain', B: ['paper', 'farmersdelight:canvas', 'kubejs:cloth_scrap']})
 	event.shaped('saddle', ['BBB', ' A '], {A: 'chain', B: '#minecraft:leather_cuts'})
 	event.shaped('2x chain', ['A', 'A', 'A'], {A: 'iron_nugget'}).id('minecraft:chain')
@@ -427,7 +450,7 @@ ServerEvents.recipes(event => {
 	event.shaped('4x prismarine_bricks', ['AA', 'AA'], {A: 'prismarine'}).id('minecraft:prismarine_bricks')
 	event.shaped('4x sea_lantern', ['ABA', 'BBB', 'ABA'], {A: 'prismarine_shard', B: 'prismarine_crystals'}).id('minecraft:sea_lantern')
 	event.shaped('4x quark:blaze_lantern', ['ABA', 'BBB', 'ABA'], {A: 'blaze_rod', B: 'blaze_powder'}).id('quark:building/crafting/blaze_lantern')
-	event.shaped('5x quark:framed_glass', ['ABA', 'BAB', 'ABA'], {A: ['glass', 'create:tiled_glass', 'create:framed_glass', 'create:horizontal_framed_glass', 'create:vertical_framed_glass'], B: ['iron_nugget', 'oreganized:lead_nugget']}).id('quark:building/crafting/framed_glass')
+	event.shaped('2x quark:framed_glass', ['ABA'], {A: ['glass', 'create:tiled_glass', 'create:framed_glass', 'create:horizontal_framed_glass', 'create:vertical_framed_glass'], B: ['iron_nugget', 'oreganized:lead_nugget']}).id('quark:building/crafting/framed_glass')
 	event.shaped('supplementaries:quiver', ['BB', 'AA', 'AA'], {A: '#minecraft:leather_cuts', B: 'kubejs:cloth_scrap'})
 	event.shaped('4x create:track', ['ABA', 'ABA', 'ABA'], {A: ['iron_nugget', 'create:zinc_nugget', 'oreganized:lead_nugget'], B: 'create:andesite_alloy'})
 	event.shaped('farmersdelight:stove', ['A', 'C', 'B'], {A: 'iron_ingot', B: 'bricks', C: 'campfire'})
@@ -444,11 +467,12 @@ ServerEvents.recipes(event => {
 	event.shaped('create:elevator_pulley', [' A ', 'DBD', ' C '], {A: 'create:brass_casing', B: 'create:shaft', C: 'create:iron_sheet', D: 'kubejs:rubber'}).id('create:crafting/kinetics/elevator_pulley')
 	event.shaped('2x architects_palette:pipe', ['A', 'A'], {A: 'architects_palette:plating_block'}).id('architects_palette:pipe')
 	event.shaped('bundle', ['A', 'B'], {A: 'string', B: '#minecraft:leather_cuts'})
-	event.shaped('kubejs:glance_pillar', ['A', 'A'], {A: 'oreganized:polished_glance_slab'}).id('oreganized:quark/glance_pillar')
 	event.shaped('4x lodestone', ['AAA', 'ABA', 'AAA'], {A: '#forge:stone', B: ['iron_ingot', 'spelunkery:raw_magnetite_nugget']})
 	event.shaped('8x create:chute', ['B', 'A', 'B'], {A: 'alloyed:steel_ingot', B: 'alloyed:steel_sheet'})
-	event.shaped('8x create:metal_bracket', ['BBB', 'ACA'], {A: 'alloyed:steel_ingot', B: 'alloyed:steel_nugget', C: 'create:andesite_alloy'})
-	event.shaped('16x create:industrial_iron_block', ['BA', 'AB'], {A: 'alloyed:steel_ingot', B: '#brewinandchewin:iron_or_lead'})
+	event.shaped('8x create:wooden_bracket', ['BBB', 'ACA'], {A: '#minecraft:planks', B: 'stick', C: 'create:andesite_alloy'}).id('create:crafting/kinetics/wooden_bracket')
+	event.shaped('8x create:metal_bracket', ['BBB', 'ACA'], {A: '#raspberry_flavoured:iron_or_lead_ingots', B: '#raspberry_flavoured:iron_or_lead_nuggets', C: 'create:andesite_alloy'}).id('create:crafting/kinetics/metal_bracket')
+	event.shaped('16x create:metal_bracket', ['BBB', 'ACA'], {A: 'alloyed:steel_ingot', B: 'alloyed:steel_nugget', C: 'create:andesite_alloy'})
+	event.shaped('16x create:industrial_iron_block', ['BA', 'AB'], {A: 'alloyed:steel_ingot', B: '#raspberry_flavoured:iron_or_lead_ingots'})
 	event.shaped('8x create:item_vault', ['AAA', 'A A', 'AAA'], {A: '#forge:plates/iron'}).id('create:crafting/kinetics/item_vault')
 	event.shaped('16x create:item_vault', ['AAA', 'A A', 'AAA'], {A: '#forge:plates/steel'})
 	event.shaped('16x create:metal_girder', ['AAA', 'BBB'], {A: 'alloyed:steel_sheet', B: 'create:andesite_alloy'})
@@ -460,11 +484,7 @@ ServerEvents.recipes(event => {
 	event.shaped('4x kubejs:ice_crate', ['ABA', 'ACA', 'ACA'], {A: '#minecraft:planks', B: 'farmersdelight:canvas', C: 'packed_ice'})
 	event.shaped('2x create:rose_quartz_lamp', ['ABA', 'BCB', 'ABA'], {A: 'create:zinc_ingot', B: 'spelunkery:cinnabar', C: 'redstone'}).id('create:crafting/kinetics/rose_quartz_lamp')
 	event.shaped('aquaculture:tackle_box', ['CCC', 'BAB', 'BBB'], {A: 'string', B: 'iron_ingot', C: 'create:zinc_ingot'}).id('aquaculture:tackle_box')
-	event.shaped('2x twigs:chiseled_bricks', ['A', 'A'], {A: 'bricks'}).id('twigs:chiseled_bricks')
-	event.shaped('2x twigs:chiseled_silt_bricks', ['A', 'A'], {A: 'twigs:silt_bricks'}).id('twigs:chiseled_silt_bricks')
 	event.shaped('2x kubejs:trimmed_ash_bricks', ['A', 'A'], {A: 'supplementaries:ash_bricks'})
-	event.shaped('kubejs:chiseled_silt_bricks', ['A', 'A'], {A: 'twigs:silt_brick_slab'})
-	event.shaped('kubejs:chiseled_ash_bricks', ['A', 'A'], {A: 'supplementaries:ash_bricks_slab'})
 	event.shaped('echochest:echo_chest', ['ABA', 'B B', 'ABA'], {A: '#raspberry_flavoured:deepslate', B: 'echo_shard'}).id('echochest:echo_chest')
 	event.shaped('2x create:electron_tube', ['AB', 'CC'], {A: '#forge:gems/quartz', B: 'spelunkery:cinnabar', C: 'create:iron_sheet'}).id('create:crafting/materials/electron_tube')
 	event.shaped('8x create:nixie_tube', ['BB', 'AA', 'BB'], {A: 'create:electron_tube', B: '#forge:gems/quartz'}).id('create:crafting/kinetics/nixie_tube')
@@ -494,24 +514,39 @@ ServerEvents.recipes(event => {
 	event.shaped('create:portable_fluid_interface', [' C ', 'DBD', ' A '], {A: 'create:copper_casing', B: 'create:chute', C: 'create:copper_sheet', D: 'redstone'}).id('create:crafting/kinetics/portable_fluid_interface')
 	event.shaped('moss_carpet', ['AA'], {A: 'ecologics:surface_moss'}).id('minecraft:moss_carpet')
 	event.shaped('4x moss_carpet', ['AA'], {A: 'moss_block'})
-	event.shaped('farmersdelight:cutting_board', ['AA'], {A: '#minecraft:planks'}).id('farmersdelight:cutting_board')
+	event.shaped('farmersdelight:cutting_board', ['AA'], {A: '#minecraft:wooden_slabs'}).id('farmersdelight:cutting_board')
 	event.shaped('2x supplementaries:cog_block', [' A ', 'ABA', ' A '], {A: '#forge:stone', B: 'redstone'}).id('supplementaries:cog_block')
-	event.shaped('2x piston', ['AAA', 'BCB', 'BDB'], {A: '#minecraft:planks', B: '#forge:cobblestone', C: ['#forge:ingots/iron', '#forge:ingots/lead'], D: 'redstone'}).id('minecraft:piston')
+	event.shaped('2x piston', ['AAA', 'BCB', 'BDB'], {A: '#minecraft:planks', B: '#forge:cobblestone', C: '#raspberry_flavoured:iron_or_lead_ingots', D: 'redstone'}).id('minecraft:piston')
 	event.shaped('2x dispenser', ['AAA', 'ACA', 'ABA'], {A: '#forge:cobblestone', B: 'redstone', C: 'gunpowder'}).id('minecraft:dispenser')
 	event.shaped('2x dropper', ['AAA', 'A A', 'ABA'], {A: '#forge:cobblestone', B: 'redstone'}).id('minecraft:dropper')
 	event.shaped('2x observer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: '#forge:gems/quartz'}).id('minecraft:observer')
 	event.shaped('2x oreganized:exposer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: '#forge:nuggets/silver'}).id('oreganized:exposer')
-	event.shaped('2x supplementaries:relayer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: ['#forge:ingots/iron', '#forge:ingots/lead']}).id('supplementaries:relayer')
+	event.shaped('2x supplementaries:relayer', ['AAA', 'BBC', 'AAA'], {A: '#forge:cobblestone', B: 'redstone', C: '#raspberry_flavoured:iron_or_lead_ingots'}).id('supplementaries:relayer')
 	event.shaped('storagedrawers:controller', [' D ', 'BAB', ' C '], {A: 'storagedrawers:oak_full_drawers_1', B: 'comparator', C: 'ender_pearl', D: 'create:electron_tube'}).id('storagedrawers:controller')
+	event.shaped('storagedrawers:oak_full_drawers_1', ['ABA'], {A: 'create:item_vault', B: 'redstone'}).id('storagedrawers:oak_full_drawers_1')
 	event.shaped('6x quark:pipe', ['B', 'A', 'B'], {A: '#forge:ingots/brass', B: '#forge:plates/brass'}).id('quark:oddities/crafting/pipe')
 	event.shaped('6x quark:pipe', ['BAB'], {A: '#forge:ingots/brass', B: '#forge:plates/brass'})
 	event.shaped('6x create:fluid_pipe', ['B', 'A', 'B'], {A: '#forge:ingots/copper', B: '#forge:plates/copper'}).id('create:crafting/kinetics/fluid_pipe_vertical')
 	event.shaped('6x create:fluid_pipe', ['BAB'], {A: '#forge:ingots/copper', B: '#forge:plates/copper'}).id('create:crafting/kinetics/fluid_pipe')
-	event.shaped('modestmining:forge', ['BBB', 'B B', 'AAA'], {A: ['#forge:ingots/iron', '#forge:ingots/lead'], B: ['#raspberry_flavoured:deepslate', '#raspberry_flavoured:blackstone']}).id('modestmining:forge')
+	event.shaped('modestmining:forge', ['BBB', 'B B', 'AAA'], {A: '#raspberry_flavoured:iron_or_lead_ingots', B: ['#raspberry_flavoured:deepslate', '#raspberry_flavoured:blackstone']}).id('modestmining:forge')
 	event.shaped('grindstone', ['CBC', 'A A'], {A: '#minecraft:planks', B: '#raspberry_flavoured:blackstone', C: 'stick'}).id('minecraft:grindstone')
 	event.shaped('16x spelunkery:glowstick', ['A', 'B', 'C'], {A: 'slime_ball', B: '#raspberry_flavoured:glowstick_materials', C: 'upgrade_aquatic:prismarine_rod'}).id('spelunkery:glowstick')
 	event.shaped('create:minecart_coupling', ['  A', ' B ', 'A  '], {A: 'create:andesite_alloy', B: 'chain'}).id('create:crafting/curiosities/minecart_coupling')
-	event.shaped('storagedrawers:oak_full_drawers_1', ['ABA'], {A: 'create:item_vault', B: 'spelunkery:cinnabar'}).id('storagedrawers:oak_full_drawers_1')
+	event.shaped('2x supplementaries:bellows', ['AAA', 'BCB', 'AAA'], {A: '#minecraft:wooden_slabs', B: '#minecraft:leather_cuts', C: '#forge:dusts/redstone'}).id('supplementaries:bellows')
+	event.shaped('3x bowl', ['A A', ' A '], {A: '#minecraft:planks'}).id('minecraft:bowl')
+	event.shaped('12x bowl', ['A A', ' A '], {A: '#minecraft:logs'})
+	event.shaped('2x atmospheric:aspen_hedge', ['A', 'B'], {A: 'atmospheric:aspen_leaves', B: '#minecraft:birch_logs'}).id('atmospheric:aspen_hedge')
+	event.shaped('2x atmospheric:grimwood_hedge', ['A', 'B'], {A: 'atmospheric:grimwood_leaves', B: '#minecraft:birch_logs'}).id('atmospheric:grimwood_hedge')
+	event.shaped('stonecutter', [' A ', 'BCB'], {A: '#forge:plates/iron', B: '#raspberry_flavoured:iron_or_lead_ingots', C: '#minecraft:planks'}).id('minecraft:stonecutter')
+	event.shaped('4x architects_palette:basalt_tiles', ['AA', 'AA'], {A: ['twigs:smooth_basalt_bricks', 'twigs:polished_basalt_bricks']})
+	
+	event.shaped('6x hopper', ['A A', 'ABA', ' A '], {A: '#forge:ingots/iron', B: ['#forge:chests/wooden', '#forge:barrels/wooden']}).id('minecraft:hopper')
+	event.shaped('12x hopper', ['A A', 'ABA', ' A '], {A: '#forge:ingots/steel', B: ['#forge:chests/wooden', '#forge:barrels/wooden']})
+	event.shaped('3x hopper', ['A A', 'ABA', ' A '], {A: '#forge:ingots/lead', B: ['#forge:chests/wooden', '#forge:barrels/wooden']})
+	
+	event.shaped('2x cauldron', ['A A', 'A A', 'AAA'], {A: '#forge:ingots/steel'})
+	
+	event.shaped('2x anvil', ['BBB', ' A ', 'AAA'], {A: '#forge:ingots/steel', B: '#forge:storage_blocks/steel'})
 	
 	event.shaped('golden_pickaxe', ['AAA', ' B ', ' B '], {A: '#forge:ingots/gold', B: 'stick'})
 	event.shaped('golden_shovel', ['A', 'B', 'B'], {A: '#forge:ingots/gold', B: 'stick'})
@@ -543,29 +578,19 @@ ServerEvents.recipes(event => {
 	event.shaped('4x kubejs:straw_thatch', ['AAA', 'AAA'], {A: 'farmersdelight:straw'})
 	event.shaped('4x kubejs:flax_thatch', ['AAA', 'AAA'], {A: 'supplementaries:flax'})
 	
-	event.shaped('6x kubejs:straw_thatch_slab', ['AAA'], {A: 'kubejs:straw_thatch'})
-	event.shaped('4x kubejs:straw_thatch_stairs', ['A  ', 'AA ', 'AAA'], {A: 'kubejs:straw_thatch'})
-	event.shaped('6x kubejs:flax_thatch_slab', ['AAA'], {A: 'kubejs:flax_thatch'})
-	event.shaped('4x kubejs:flax_thatch_stairs', ['A  ', 'AA ', 'AAA'], {A: 'kubejs:flax_thatch'})
-	event.shaped('4x kubejs:bamboo_thatch_stairs', ['A  ', 'AA ', 'AAA'], {A: 'twigs:bamboo_thatch'})
+	event.shaped('2x twigs:chiseled_bricks', ['A', 'A'], {A: 'bricks'}).id('twigs:chiseled_bricks')
+	event.shaped('2x twigs:chiseled_silt_bricks', ['A', 'A'], {A: 'twigs:silt_bricks'}).id('twigs:chiseled_silt_bricks')
 	
-	event.shaped('4x kubejs:deepslate_gravel_brick_stairs', ['A  ', 'AA ', 'AAA'], {A: 'kubejs:deepslate_gravel_bricks'})
-	event.shaped('6x kubejs:deepslate_gravel_brick_wall', ['AAA', 'AAA'], {A: 'kubejs:deepslate_gravel_bricks'})
-	event.shaped('6x kubejs:deepslate_gravel_brick_slab', ['AAA'], {A: 'kubejs:deepslate_gravel_bricks'})
+	event.shaped('2x kubejs:chiseled_lachryte', ['AA', 'AA'], {A: 'kubejs:polished_lachryte_slab'})
+	event.shaped('2x kubejs:chiseled_silt_bricks', ['AA', 'AA'], {A: 'twigs:silt_brick_slab'})
+	event.shaped('2x kubejs:chiseled_ash_bricks', ['AA', 'AA'], {A: 'supplementaries:ash_bricks_slab'})
+	event.shaped('2x kubejs:chiseled_exolite', ['AA', 'AA'], {A: 'architects_palette:cerebral_slab'})
+	event.shaped('2x kubejs:chiseled_exolite_tiles', ['AA', 'AA'], {A: 'architects_palette:cerebral_tile_slab'})
 	
-	event.shaped('4x kubejs:blackstone_gravel_brick_stairs', ['A  ', 'AA ', 'AAA'], {A: 'kubejs:blackstone_gravel_bricks'})
-	event.shaped('6x kubejs:blackstone_gravel_brick_wall', ['AAA', 'AAA'], {A: 'kubejs:blackstone_gravel_bricks'})
-	event.shaped('6x kubejs:blackstone_gravel_brick_slab', ['AAA'], {A: 'kubejs:blackstone_gravel_bricks'})
-	
-	event.shaped('4x kubejs:cobbled_blackstone_stairs', ['A  ', 'AA ', 'AAA'], {A: 'kubejs:cobbled_blackstone'})
-	event.shaped('6x kubejs:cobbled_blackstone_wall', ['AAA', 'AAA'], {A: 'kubejs:cobbled_blackstone'})
-	event.shaped('6x kubejs:cobbled_blackstone_slab', ['AAA'], {A: 'kubejs:cobbled_blackstone'})
+	event.shaped('3x quark:carved_mud_bricks', ['AB', 'BA'], {A: 'mud_bricks', B: 'mud_brick_slab'}).id('quark:building/crafting/carved_mud_bricks')
 	
 	event.shaped('shieldexp:wooden_shield', [' A ', 'ABA', ' A '], {A: '#minecraft:planks', B: 'stick'}).id('shieldexp:wooden_shield')
 	event.shaped('shieldexp:golden_shield', [' A ', 'ABA', ' A '], {A: 'create:copper_sheet', B: 'stick'}).id('shieldexp:golden_shield')
-	
-	event.shaped('kubejs:chiseled_exolite', ['A', 'A'], {A: 'architects_palette:cerebral_slab'})
-	event.shaped('kubejs:chiseled_exolite_tiles', ['A', 'A'], {A: 'architects_palette:cerebral_tile_slab'})
 	
 	event.shaped('leather_horse_armor', ['  A', 'ABA', 'CAC'], {A: '#minecraft:leather_cuts', B: 'kubejs:cloth_scrap', C: 'farmersdelight:straw'}).id('minecraft:leather_horse_armor')
 	event.shaped('kubejs:copper_horse_armor', ['  A', 'ABA', 'AAA'], {A: 'create:copper_sheet', B: 'kubejs:cloth_scrap'})
@@ -576,18 +601,29 @@ ServerEvents.recipes(event => {
 	event.shaped('leather_leggings', ['BAB', 'A A', 'A A'], {A: '#minecraft:leather_cuts', B: 'farmersdelight:straw'}).id('minecraft:leather_leggings')
 	event.shaped('leather_boots', ['B B', 'A A'], {A: '#minecraft:leather_cuts', B: 'farmersdelight:straw'}).id('minecraft:leather_boots')
 	
-	event.shaped('minecart', ['A A', 'AAA'], {A: '#brewinandchewin:iron_or_lead'}).id('minecraft:minecart')
+	event.shaped('minecart', ['A A', 'AAA'], {A: '#raspberry_flavoured:iron_or_lead_ingots'}).id('minecraft:minecart')
+	event.shaped('2x minecart', ['A A', 'AAA'], {A: '#forge:ingots/steel'})
 	event.shaped('oreganized:shrapnel_bomb_minecart', ['A', 'B'], {A: 'oreganized:shrapnel_bomb', B: 'minecart'}).id('oreganized:shrapnel_bomb_minecart')
-	event.shaped('oreganized:shrapnel_bomb_minecart', ['ABA', 'AAA'], {A: '#brewinandchewin:iron_or_lead', B: 'oreganized:shrapnel_bomb'})
-	event.shaped('supplementaries:dispenser_minecart', ['ABA', 'AAA'], {A: '#brewinandchewin:iron_or_lead', B: 'dispenser'})
-	event.shaped('8x rail', ['A A', 'ABA', 'A A'], {A: ['iron_nugget', 'oreganized:lead_nugget'], B: 'stick'}).id('minecraft:rail')
-	event.shaped('8x powered_rail', ['A A', 'CBC', 'A A'], {A: ['iron_nugget', 'oreganized:lead_nugget'], B: 'stick', C: 'gold_nugget'}).id('minecraft:powered_rail')
-	event.shaped('8x powered_rail', ['A A', 'CBC', 'A A'], {A: ['iron_nugget', 'oreganized:lead_nugget'], B: 'stick', C: 'copper_ingot'})
-	event.shaped('8x detector_rail', ['ACA', 'ABA', 'ADA'], {A: ['iron_nugget', 'oreganized:lead_nugget'], B: 'stick', C: 'stone_pressure_plate', D: 'redstone'}).id('minecraft:detector_rail')
-	event.shaped('8x activator_rail', ['ACA', 'ABA', 'ACA'], {A: ['iron_nugget', 'oreganized:lead_nugget'], B: 'stick', C: 'redstone'}).id('minecraft:activator_rail')
-	event.shaped('8x caverns_and_chasms:spiked_rail', ['D D', 'ABA', 'DCD'], {A: 'oreganized:silver_nugget', B: 'stick', C: 'redstone', D: ['iron_nugget', 'oreganized:lead_nugget']}).id('caverns_and_chasms:spiked_rail')
-	event.shaped('8x create:controller_rail', ['A A', 'CBC', 'ADA'], {A: ['iron_nugget', 'oreganized:lead_nugget'], B: 'stick', C: 'gold_nugget', D: 'create:electron_tube'}).id('create:crafting/kinetics/controller_rail')
-	event.shaped('8x create:controller_rail', ['A A', 'CBC', 'ADA'], {A: ['iron_nugget', 'oreganized:lead_nugget'], B: 'stick', C: 'copper_ingot', D: 'create:electron_tube'})
+	event.shaped('oreganized:shrapnel_bomb_minecart', ['ABA', 'AAA'], {A: '#raspberry_flavoured:iron_or_lead_ingots', B: 'oreganized:shrapnel_bomb'})
+	event.shaped('supplementaries:dispenser_minecart', ['ABA', 'AAA'], {A: '#raspberry_flavoured:iron_or_lead_ingots', B: 'dispenser'})
+	
+	event.shaped('12x rail', ['A A', 'ABA', 'A A'], {A: '#raspberry_flavoured:iron_or_lead_nuggets', B: 'stick'}).id('minecraft:rail')
+	event.shaped('24x rail', ['A A', 'ABA', 'A A'], {A: '#forge:nuggets/steel', B: 'stick'})
+	
+	event.shaped('6x powered_rail', ['A A', 'CBC', 'ADA'], {A: '#raspberry_flavoured:iron_or_lead_nuggets', B: 'stick', C: '#forge:ingots/copper', D: 'redstone'}).id('minecraft:powered_rail')
+	event.shaped('12x powered_rail', ['A A', 'CBC', 'ADA'], {A: '#forge:nuggets/steel', B: 'stick', C: '#forge:ingots/copper', D: 'redstone'})
+	
+	event.shaped('6x create:controller_rail', ['A A', 'CBC', 'ADA'], {A: '#raspberry_flavoured:iron_or_lead_nuggets', B: 'stick', C: '#forge:ingots/copper', D: 'create:electron_tube'}).id('create:crafting/kinetics/controller_rail')
+	event.shaped('12x create:controller_rail', ['A A', 'CBC', 'ADA'], {A: '#forge:nuggets/steel', B: 'stick', C: '#forge:ingots/copper', D: 'create:electron_tube'})
+	
+	event.shaped('8x detector_rail', ['ACA', 'ABA', 'ADA'], {A: '#raspberry_flavoured:iron_or_lead_nuggets', B: 'stick', C: 'stone_pressure_plate', D: 'redstone'}).id('minecraft:detector_rail')
+	event.shaped('16x detector_rail', ['ACA', 'ABA', 'ADA'], {A: '#forge:nuggets/steel', B: 'stick', C: 'stone_pressure_plate', D: 'redstone'})
+	
+	event.shaped('8x activator_rail', ['ACA', 'ABA', 'ACA'], {A: '#raspberry_flavoured:iron_or_lead_nuggets', B: 'stick', C: 'redstone'}).id('minecraft:activator_rail')
+	event.shaped('16x activator_rail', ['ACA', 'ABA', 'ACA'], {A: '#forge:nuggets/steel', B: 'stick', C: 'redstone'})
+	
+	event.shaped('8x caverns_and_chasms:spiked_rail', ['A A', 'DBD', 'ACA'], {A: '#raspberry_flavoured:iron_or_lead_nuggets', B: 'stick', C: 'redstone', D: '#forge:nuggets/silver'}).id('caverns_and_chasms:spiked_rail')
+	event.shaped('16x caverns_and_chasms:spiked_rail', ['A A', 'DBD', 'ACA'], {A: '#forge:nuggets/steel', B: 'stick', C: 'redstone', D: '#forge:nuggets/silver'})
 	
 	event.shaped('6x torch', ['B', 'A'], {A: 'stick', B: '#minecraft:coals'}).id('minecraft:torch')
 	event.shaped('6x redstone_torch', ['B', 'A', 'C'], {A: 'stick', B: '#minecraft:coals', C: 'redstone'}).id('minecraft:redstone_torch')
@@ -601,31 +637,31 @@ ServerEvents.recipes(event => {
 	event.shaped('24x endergetic:ender_torch', ['B', 'A', 'C'], {A: 'stick', B: 'modestmining:coke', C: '#endergetic:ender_fire_base_blocks'})
 	event.shaped('24x caverns_and_chasms:cupric_torch', ['B', 'A', 'C'], {A: 'stick', B: 'modestmining:coke', C: 'additionaladditions:copper_patina'})
 	
-	event.shaped('6x supplementaries:sconce', ['CBC', ' A '], {A: 'stick', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce')
-	event.shaped('6x supplementaries:sconce_lever', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: 'redstone', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce_lever')
-	event.shaped('6x supplementaries:sconce_soul', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: '#minecraft:soul_fire_base_blocks', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce_soul')
-	event.shaped('6x supplementaries:sconce_green', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: 'additionaladditions:copper_patina', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce_green')
-	event.shaped('6x supplementaries:sconce_ender', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: '#endergetic:ender_fire_base_blocks', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('supplementaries:sconce_ender')
+	event.shaped('6x supplementaries:sconce', ['CBC', ' A '], {A: 'stick', B: '#minecraft:coals', C: '#raspberry_flavoured:iron_or_lead_nuggets'}).id('supplementaries:sconce')
+	event.shaped('6x supplementaries:sconce_lever', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: 'redstone', D: '#raspberry_flavoured:iron_or_lead_nuggets'}).id('supplementaries:sconce_lever')
+	event.shaped('6x supplementaries:sconce_soul', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: '#minecraft:soul_fire_base_blocks', D: '#raspberry_flavoured:iron_or_lead_nuggets'}).id('supplementaries:sconce_soul')
+	event.shaped('6x supplementaries:sconce_green', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: 'additionaladditions:copper_patina', D: '#raspberry_flavoured:iron_or_lead_nuggets'}).id('supplementaries:sconce_green')
+	event.shaped('6x supplementaries:sconce_ender', ['DBD', ' A ', ' C '], {A: 'stick', B: '#minecraft:coals', C: '#endergetic:ender_fire_base_blocks', D: '#raspberry_flavoured:iron_or_lead_nuggets'}).id('supplementaries:sconce_ender')
 	
-	event.shaped('24x supplementaries:sconce', ['CBC', ' A '], {A: 'stick', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
-	event.shaped('24x supplementaries:sconce_lever', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: 'redstone', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
-	event.shaped('24x supplementaries:sconce_soul', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: '#minecraft:soul_fire_base_blocks', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
-	event.shaped('24x supplementaries:sconce_green', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: 'additionaladditions:copper_patina', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
-	event.shaped('24x supplementaries:sconce_ender', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: '#endergetic:ender_fire_base_blocks', D: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
+	event.shaped('24x supplementaries:sconce', ['CBC', ' A '], {A: 'stick', B: 'modestmining:coke', C: '#raspberry_flavoured:iron_or_lead_nuggets'})
+	event.shaped('24x supplementaries:sconce_lever', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: 'redstone', D: '#raspberry_flavoured:iron_or_lead_nuggets'})
+	event.shaped('24x supplementaries:sconce_soul', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: '#minecraft:soul_fire_base_blocks', D: '#raspberry_flavoured:iron_or_lead_nuggets'})
+	event.shaped('24x supplementaries:sconce_green', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: 'additionaladditions:copper_patina', D: '#raspberry_flavoured:iron_or_lead_nuggets'})
+	event.shaped('24x supplementaries:sconce_ender', ['DBD', ' A ', ' C '], {A: 'stick', B: 'modestmining:coke', C: '#endergetic:ender_fire_base_blocks', D: '#raspberry_flavoured:iron_or_lead_nuggets'})
 	
-	event.shaped('6x lantern', [' A ', 'CBC'], {A: 'chain', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']}).id('minecraft:lantern')
-	event.shaped('6x soul_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#minecraft:soul_fire_base_blocks'}).id('minecraft:soul_lantern')
-	event.shaped('6x caverns_and_chasms:cupric_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: 'additionaladditions:copper_patina'}).id('caverns_and_chasms:cupric_lantern')
-	event.shaped('6x endergetic:ender_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#endergetic:ender_fire_base_blocks'}).id('endergetic:ender_lantern')
+	event.shaped('6x lantern', [' A ', 'CBC'], {A: 'chain', B: '#minecraft:coals', C: '#raspberry_flavoured:iron_or_lead_nuggets'}).id('minecraft:lantern')
+	event.shaped('6x soul_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#raspberry_flavoured:iron_or_lead_nuggets', D: '#minecraft:soul_fire_base_blocks'}).id('minecraft:soul_lantern')
+	event.shaped('6x caverns_and_chasms:cupric_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#raspberry_flavoured:iron_or_lead_nuggets', D: 'additionaladditions:copper_patina'}).id('caverns_and_chasms:cupric_lantern')
+	event.shaped('6x endergetic:ender_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#raspberry_flavoured:iron_or_lead_nuggets', D: '#endergetic:ender_fire_base_blocks'}).id('endergetic:ender_lantern')
 	event.shaped('6x supplementaries:copper_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#forge:nuggets/copper', D: 'additionaladditions:copper_patina'}).id('supplementaries:copper_lantern')
 	event.shaped('6x supplementaries:brass_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#forge:nuggets/brass', D: 'additionaladditions:copper_patina'}).id('supplementaries:brass_lantern')
 	event.shaped('6x supplementaries:silver_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#forge:nuggets/silver', D: '#minecraft:soul_fire_base_blocks'}).id('supplementaries:silver_lantern')
 	event.shaped('6x supplementaries:lead_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: '#minecraft:coals', C: '#forge:nuggets/lead', D: 'oreganized:molten_lead_bucket'}).id('supplementaries:lead_lantern')
 	
-	event.shaped('24x lantern', [' A ', 'CBC'], {A: 'chain', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
-	event.shaped('24x soul_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#minecraft:soul_fire_base_blocks'})
-	event.shaped('24x caverns_and_chasms:cupric_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: 'additionaladditions:copper_patina'})
-	event.shaped('24x endergetic:ender_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#endergetic:ender_fire_base_blocks'})
+	event.shaped('24x lantern', [' A ', 'CBC'], {A: 'chain', B: 'modestmining:coke', C: '#raspberry_flavoured:iron_or_lead_nuggets'})
+	event.shaped('24x soul_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#raspberry_flavoured:iron_or_lead_nuggets', D: '#minecraft:soul_fire_base_blocks'})
+	event.shaped('24x caverns_and_chasms:cupric_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#raspberry_flavoured:iron_or_lead_nuggets', D: 'additionaladditions:copper_patina'})
+	event.shaped('24x endergetic:ender_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#raspberry_flavoured:iron_or_lead_nuggets', D: '#endergetic:ender_fire_base_blocks'})
 	event.shaped('24x supplementaries:copper_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#forge:nuggets/copper', D: 'additionaladditions:copper_patina'})
 	event.shaped('24x supplementaries:brass_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#forge:nuggets/brass', D: 'additionaladditions:copper_patina'})
 	event.shaped('24x supplementaries:silver_lantern', [' A ', 'CBC', ' D '], {A: 'chain', B: 'modestmining:coke', C: '#forge:nuggets/silver', D: '#minecraft:soul_fire_base_blocks'})
@@ -652,8 +688,8 @@ ServerEvents.recipes(event => {
 	event.shaped('6x buzzier_bees:soul_candle', ['A', 'B', 'C'], {A: 'string', B: 'honeycomb', C: '#minecraft:soul_fire_base_blocks'}).id('buzzier_bees:candles/soul_candle')
 	event.shaped('6x caverns_and_chasms:cupric_candle', ['A', 'B', 'C'], {A: 'string', B: 'honeycomb', C: 'additionaladditions:copper_patina'}).id('caverns_and_chasms:cupric_candle')
 	
-	event.shaped('6x supplementaries:candle_holder', [' A ', 'CBC'], {A: 'string', B: 'honeycomb', C: ['#forge:nuggets/iron', '#forge:nuggets/lead']})
-	event.shaped('6x supplementaries:candle_holder_soul', [' A ', ' B ', 'CDC'], {A: 'string', B: 'honeycomb', C: ['#forge:nuggets/iron', '#forge:nuggets/lead'], D: '#minecraft:soul_fire_base_blocks'})
+	event.shaped('6x supplementaries:candle_holder', [' A ', 'CBC'], {A: 'string', B: 'honeycomb', C: '#raspberry_flavoured:iron_or_lead_nuggets'})
+	event.shaped('6x supplementaries:candle_holder_soul', [' A ', ' B ', 'CDC'], {A: 'string', B: 'honeycomb', C: '#raspberry_flavoured:iron_or_lead_nuggets', D: '#minecraft:soul_fire_base_blocks'})
 	
 	event.shaped('6x suppsquared:gold_candle_holder', [' A ', 'CBC'], {A: 'string', B: 'honeycomb', C: '#forge:nuggets/gold'})
 	event.shaped('6x suppsquared:gold_candle_holder_soul', [' A ', ' B ', 'CDC'], {A: 'string', B: 'honeycomb', C: '#forge:nuggets/gold', D: '#minecraft:soul_fire_base_blocks'})
@@ -677,18 +713,6 @@ ServerEvents.recipes(event => {
 	
 	event.shaped('4x minecraft:emerald_block', ['AA', 'AA'], {A: 'spelunkery:rough_lazurite_block'}).id('minecraft:lapis_block')
 	event.shaped('4x caverns_and_chasms:lapis_bricks', ['AA', 'AA'], {A: 'minecraft:emerald_block'}).id('caverns_and_chasms:lapis_bricks')
-	event.shaped('6x kubejs:lapis_slab', ['AAA'], {A: 'minecraft:emerald_block'})
-	event.shaped('4x kubejs:lapis_stairs', ['A  ', 'AA ', 'AAA'], {A: 'minecraft:emerald_block'})
-	event.shaped('6x kubejs:lapis_wall', ['AAA', 'AAA'], {A: 'minecraft:emerald_block'})
-	event.shaped('6x kubejs:lazurite_slab', ['AAA'], {A: 'spelunkery:rough_lazurite_block'})
-	event.shaped('4x kubejs:lazurite_stairs', ['A  ', 'AA ', 'AAA'], {A: 'spelunkery:rough_lazurite_block'})
-	event.shaped('6x kubejs:lazurite_wall', ['AAA', 'AAA'], {A: 'spelunkery:rough_lazurite_block'})
-	
-	event.shaped('6x oreganized:polished_glance_slab', ['AAA'], {A: 'oreganized:polished_glance'})
-	event.shaped('4x oreganized:polished_glance_stairs', ['A  ', 'AA ', 'AAA'], {A: 'oreganized:polished_glance'})
-	
-	event.shaped('4x kubejs:smooth_stone_stairs', ['A  ', 'AA ', 'AAA'], {A: 'smooth_stone'})
-	event.shaped('6x kubejs:smooth_stone_wall', ['AAA', 'AAA'], {A: 'smooth_stone'})
 	
 	event.shaped('beehive', ['CCC', 'ABA', 'AAA'], {A: 'oak_planks', B: 'honeycomb', C: 'oak_slab'}).id('woodworks:oak_beehive')
 	event.shaped('woodworks:spruce_beehive', ['CCC', 'ABA', 'AAA'], {A: 'spruce_planks', B: 'honeycomb', C: 'spruce_slab'}).id('woodworks:spruce_beehive')
@@ -715,12 +739,6 @@ ServerEvents.recipes(event => {
 	event.shaped('everycomp:abnww/ecologics/azalea_beehive', ['CCC', 'ABA', 'AAA'], {A: 'ecologics:azalea_planks', B: 'honeycomb', C: 'ecologics:azalea_slab'}).id('everycomp:abnww/ecologics/azalea_beehive')
 	event.shaped('everycomp:abnww/ecologics/coconut_beehive', ['CCC', 'ABA', 'AAA'], {A: 'ecologics:coconut_planks', B: 'honeycomb', C: 'ecologics:coconut_slab'}).id('everycomp:abnww/ecologics/coconut_beehive')
 	event.shaped('everycomp:abnww/mynethersdelight/powdery_beehive', ['CCC', 'ABA', 'AAA'], {A: 'mynethersdelight:powdery_planks', B: 'honeycomb', C: 'mynethersdelight:powdery_slab'}).id('everycomp:abnww/mynethersdelight/powdery_beehive')
-	
-	event.shaped('everycomp:q/ecologics/azalea_bookshelf', ['AAA', 'BBB', 'AAA'], {A: 'ecologics:azalea_planks', B: 'book'})
-	event.shaped('everycomp:q/ecologics/coconut_bookshelf', ['AAA', 'BBB', 'AAA'], {A: 'ecologics:coconut_planks', B: 'book'})
-	event.shaped('everycomp:q/mynethersdelight/powdery_bookshelf', ['AAA', 'BBB', 'AAA'], {A: 'mynethersdelight:powdery_planks', B: 'book'})
-	event.shaped('everycomp:q/architects_palette/twisted_bookshelf', ['AAA', 'BBB', 'AAA'], {A: 'architects_palette:twisted_planks', B: 'book'})
-	event.shaped('quark:bamboo_bookshelf', ['AAA', 'BBB', 'AAA'], {A: 'quark:bamboo_planks', B: 'book'})
 	
 	event.shaped('another_furniture:spruce_drawer', ['AAA', 'BCB', 'AAA'], {A: 'spruce_planks', B: 'spruce_slab', C: 'stick'}).id('another_furniture:spruce_drawer')
 	event.shaped('another_furniture:birch_drawer', ['AAA', 'BCB', 'AAA'], {A: 'birch_planks', B: 'birch_slab', C: 'stick'}).id('another_furniture:birch_drawer')
@@ -861,8 +879,8 @@ ServerEvents.recipes(event => {
 	ingredients: [{item: 'minecraft:cobbled_deepslate'}, {item: 'minecraft:cobbled_deepslate'}, {item: 'minecraft:cobbled_deepslate'}], 
 	result: {item: 'minecraft:deepslate', count: 3}})
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [{item: 'minecraft:basalt'}, {item: 'minecraft:basalt'}, {item: 'minecraft:basalt'}], 
-	result: {item: 'minecraft:smooth_basalt', count: 3}})
+	ingredients: [{item: 'kubejs:cobbled_blackstone'}, {item: 'kubejs:cobbled_blackstone'}, {item: 'kubejs:cobbled_blackstone'}], 
+	result: {item: 'minecraft:blackstone', count: 3}})
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [{item: 'kubejs:cobbled_exolite'}, {item: 'kubejs:cobbled_exolite'}, {item: 'kubejs:cobbled_exolite'}], 
 	result: {item: 'kubejs:exolite', count: 3}})
@@ -1198,6 +1216,14 @@ ServerEvents.recipes(event => {
 	ingredients: [
 	{item: 'minecraft:slime_ball'}, {item: 'minecraft:slime_ball'}, {item: 'minecraft:lava_bucket'}
 	], result: {item: 'minecraft:magma_cream', count: 2}}).id('minecraft:magma_cream')
+	event.custom({type: 'modestmining:forging', cooktime: 200, 
+	ingredients: [
+	{tag: 'forge:gems/obsidian'}, {tag: 'minecraft:sand'}, {tag: 'minecraft:sand'}, {tag: 'minecraft:sand'}, {tag: 'minecraft:sand'}
+	], result: {item: 'quark:framed_glass', count: 4}}).id('quark:building/crafting/framed_glass')
+	event.custom({type: 'modestmining:forging', cooktime: 200, 
+	ingredients: [
+	{item: 'minecraft:ghast_tear'}, {item: 'minecraft:ghast_tear'}, {item: 'minecraft:glass_bottle'}
+	], result: {item: 'spelunkery:portal_fluid_bottle'}})
 
 // Shaped forging
 	event.custom({type: 'modestmining:forging_shaped', cooktime: 200, 
@@ -1313,22 +1339,12 @@ ServerEvents.recipes(event => {
 	event.stonecutting('kubejs:chiseled_ash_bricks', 'supplementaries:ash_bricks')
 	event.stonecutting('kubejs:trimmed_ash_bricks', 'supplementaries:ash_bricks')
 	
-// Sawing	
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'minecraft:pumpkin'}, result: 'minecraft:carved_pumpkin', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'minecraft:pumpkin'}, result: 'autumnity:large_pumpkin_slice', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'minecraft:pumpkin'}, result: 'autumnity:carved_large_pumpkin_slice', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'autumnity:large_pumpkin_slice'}, result: 'minecraft:pumpkin', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'autumnity:large_pumpkin_slice'}, result: 'minecraft:carved_pumpkin', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'autumnity:large_pumpkin_slice'}, result: 'autumnity:carved_large_pumpkin_slice', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'minecraft:carved_pumpkin'}, result: 'autumnity:carved_large_pumpkin_slice', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'autumnity:carved_large_pumpkin_slice'}, result: 'minecraft:carved_pumpkin', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'autumnity:sappy_maple_log'}, result: 'autumnity:sappy_maple_wood', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'autumnity:sappy_maple_wood'}, result: 'autumnity:sappy_maple_log', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'kubejs:latex_jungle_log'}, result: 'kubejs:latex_jungle_wood', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'kubejs:latex_jungle_log'}, result: 'kubejs:latex_jungle_wood', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'kubejs:latex_jungle_wood'}, result: 'kubejs:latex_jungle_log', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'kubejs:latex_rosewood_log'}, result: 'kubejs:latex_rosewood', count: 1})
-	event.custom({type: 'woodworks:sawmill', ingredient: {item: 'kubejs:latex_rosewood'}, result: 'kubejs:latex_rosewood_log', count: 1})
+	event.stonecutting('carved_pumpkin', 'pumpkin')
+	event.stonecutting('autumnity:carved_large_pumpkin_slice', 'pumpkin')
+	event.stonecutting('carved_pumpkin', 'autumnity:large_pumpkin_slice')
+	event.stonecutting('autumnity:carved_large_pumpkin_slice', 'autumnity:large_pumpkin_slice')
+	event.stonecutting('autumnity:carved_large_pumpkin_slice', 'carved_pumpkin')
+	event.stonecutting('carved_pumpkin', 'autumnity:carved_large_pumpkin_slice')
 
 // Cutting board
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'minecraft:dripstone_block'}], tool: {tag: 'forge:tools/pickaxes'}, 
@@ -1384,7 +1400,7 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'architects_palette:withered_bone'}], tool: {item: 'another_furniture:furniture_hammer'}, 
 	result: [{item: 'minecraft:bone_meal', count: 3}, {item: 'minecraft:bone_meal', count: 2, chance: 0.25}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'ecologics:seashell'}], tool: {item: 'another_furniture:furniture_hammer'}, 
-	result: [{item: 'minecraft:bone_meal', count: 1}, {item: 'minecraft:bone_meal', count: 1, chance: 0.2}]})
+	result: [{item: 'minecraft:bone_meal', count: 1}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'kubejs:cloth_scrap'}], tool: {tag: 'forge:shears'}, 
 	result: [{item: 'minecraft:string', count: 1, chance: 0.425}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{tag: 'raspberry_flavoured:saplings_with_twigs'}], tool: {tag: 'forge:tools/knives'}, 
@@ -1397,8 +1413,6 @@ ServerEvents.recipes(event => {
 	result: [{item: 'minecraft:rabbit_hide', count: 3}, {item: 'kubejs:cloth_scrap', count: 1}]}).id('dolt_mod_how:cutting/quiver')
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'minecraft:wheat'}], tool: {item: 'another_furniture:furniture_hammer'}, 
 	result: [{item: 'kubejs:oats', count: 1}]})
-	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'spelunkery:rock_salt_block'}], tool: {item: 'another_furniture:furniture_hammer'}, 
-	result: [{item: 'spelunkery:rock_salt', count: 1}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'spelunkery:rock_salt'}], tool: {item: 'another_furniture:furniture_hammer'}, 
 	result: [{item: 'spelunkery:salt', count: 1}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'minecraft:sugar_cane'}], tool: {item: 'another_furniture:furniture_hammer'}, 
@@ -1581,6 +1595,11 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('crimson_fungus', '#forge:tools/knives', ['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), Item.of('crimson_roots').withChance(0.75)])
 	event.recipes.farmersdelight.cutting('warped_fungus', '#forge:tools/knives', ['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), Item.of('warped_roots').withChance(0.75)])
 	event.recipes.farmersdelight.cutting('wheat', '#forge:tools/knives', ['create:wheat_flour', Item.of('create:wheat_flour').withChance(0.5)])
+	event.recipes.farmersdelight.cutting('miners_delight:bat_wing', '#forge:tools/knives', [Item.of('phantom_membrane').withChance(0.35)])
+	event.recipes.farmersdelight.cutting('ender_pearl', 'another_furniture:furniture_hammer', [Item.of('ghast_tear').withChance(0.5)])
+	event.recipes.farmersdelight.cutting('#forge:bookshelves', '#forge:tools/axes', ['book', '4x stick'])
+	
+	event.recipes.farmersdelight.cutting('atmospheric:grimwood_leaves', '#forge:tools/hoes', [Item.of('atmospheric:grimwood_sapling').withChance(0.25)])
 	
 	event.recipes.farmersdelight.cutting('raspberry:clovers', '#forge:tools/knives', [Item.of('green_dye').withChance(0.25)])
 	event.recipes.farmersdelight.cutting('raspberry:hopeful_wildflowers', '#forge:tools/knives', ['light_blue_dye', Item.of('pink_dye').withChance(0.5), Item.of('white_dye').withChance(0.25)])
@@ -1590,15 +1609,15 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('raspberry:playful_wildflower_garland', '#forge:tools/knives', ['3x raspberry:pink_petals'])
 	event.recipes.farmersdelight.cutting('raspberry:hopeful_wildflower_garland', '#forge:tools/knives', ['3x raspberry:hopeful_wildflowers'])
 	
-	event.recipes.farmersdelight.cutting('miners_delight:squid', '#forge:tools/knives', ['4x miners_delight:tentacles', '4x ink_sac', Item.of('miners_delight:tentacles').withChance(0.5)]).id('miners_delight:cutting/squid')
-	event.recipes.farmersdelight.cutting('miners_delight:glow_squid', '#forge:tools/knives', ['4x miners_delight:tentacles', '4x glow_ink_sac', Item.of('miners_delight:tentacles').withChance(0.5)]).id('miners_delight:cutting/glow_squid')
-	event.recipes.farmersdelight.cutting('miners_delight:baked_squid', '#forge:tools/knives', ['4x miners_delight:baked_tentacles', Item.of('miners_delight:baked_tentacles').withChance(0.5)])
+	event.recipes.farmersdelight.cutting('miners_delight:squid', '#forge:tools/knives', ['3x miners_delight:tentacles', '4x ink_sac', Item.of('miners_delight:tentacles').withChance(0.5)]).id('miners_delight:cutting/squid')
+	event.recipes.farmersdelight.cutting('miners_delight:glow_squid', '#forge:tools/knives', ['3x miners_delight:tentacles', '4x glow_ink_sac', Item.of('miners_delight:tentacles').withChance(0.5)]).id('miners_delight:cutting/glow_squid')
+	event.recipes.farmersdelight.cutting('miners_delight:baked_squid', '#forge:tools/knives', ['3x miners_delight:baked_tentacles', Item.of('miners_delight:baked_tentacles').withChance(0.5)])
 	
 	event.recipes.farmersdelight.cutting('moss_block', '#forge:tools/hoes', ['3x ecologics:surface_moss', Item.of('ecologics:surface_moss').withChance(0.5)]).id('ecologics:surface_moss')
 	event.recipes.farmersdelight.cutting('sculk', '#forge:tools/hoes', ['3x sculk_vein', Item.of('sculk_vein').withChance(0.5)])
 	
-	event.recipes.farmersdelight.cutting('aquaculture:goldfish', '#forge:tools/knives', ['aquaculture:fish_fillet_raw', Item.of('aquaculture:fish_fillet_raw').withChance(0.5), '12x spelunkery:raw_gold_nugget'])
-	event.recipes.farmersdelight.cutting('kubejs:crystalfish', '#forge:tools/knives', ['2x aquaculture:fish_fillet_raw', Item.of('aquaculture:fish_fillet_raw').withChance(0.5), '6x spelunkery:rough_diamond_shard'])
+	event.recipes.farmersdelight.cutting('aquaculture:goldfish', '#forge:tools/knives', ['aquaculture:fish_fillet_raw', Item.of('aquaculture:fish_fillet_raw').withChance(0.5), '14x spelunkery:raw_gold_nugget'])
+	event.recipes.farmersdelight.cutting('kubejs:crystalfish', '#forge:tools/knives', ['2x aquaculture:fish_fillet_raw', Item.of('aquaculture:fish_fillet_raw').withChance(0.5), '7x spelunkery:rough_diamond_shard'])
 	
 	event.recipes.farmersdelight.cutting('windswept:red_rose', '#forge:tools/knives', ['2x red_dye', Item.of('farmersrespite:rose_hips').withChance(0.75)]).id('windswept:cutting/red_rose')
 	event.recipes.farmersdelight.cutting('windswept:pink_rose', '#forge:tools/knives', ['2x pink_dye', Item.of('farmersrespite:rose_hips').withChance(0.75)]).id('windswept:cutting/pink_rose')
@@ -1617,9 +1636,9 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.farmersdelight.cutting('farmersrespite:rose_hips', '#forge:tools/knives', ['red_dye', Item.of('red_dye').withChance(0.25)])
 	
-	event.recipes.farmersdelight.cutting('kubejs:dwarf_geode', 'another_furniture:furniture_hammer', ['4x spelunkery:raw_copper_nugget', Item.of('spelunkery:raw_zinc_nugget', 4).withChance(0.75), Item.of('spelunkery:raw_iron_nugget', 3).withChance(0.5), Item.of('spelunkery:raw_gold_nugget', 2).withChance(0.25)], 'kubejs:sound.stoneore.break')
-	event.recipes.farmersdelight.cutting('kubejs:deepslate_dwarf_geode', 'another_furniture:furniture_hammer', ['4x spelunkery:raw_iron_nugget', Item.of('spelunkery:raw_lead_nugget', 4).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 2).withChance(0.25), Item.of('spelunkery:raw_silver_nugget', 2).withChance(0.15)], 'minecraft:block.deepslate.break')
-	event.recipes.farmersdelight.cutting('kubejs:blackstone_dwarf_geode', 'another_furniture:furniture_hammer', ['4x spelunkery:raw_lead_nugget', Item.of('spelunkery:raw_gold_nugget', 2).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 2).withChance(0.5), Item.of('kubejs:rough_quartz_shard', 6).withChance(0.25)], 'kubejs:sound.blackstone.break')
+	event.recipes.farmersdelight.cutting('kubejs:dwarf_geode', 'another_furniture:furniture_hammer', ['6x spelunkery:raw_copper_nugget', Item.of('spelunkery:raw_zinc_nugget', 6).withChance(0.75), Item.of('spelunkery:raw_iron_nugget', 4).withChance(0.5), Item.of('spelunkery:raw_gold_nugget', 3).withChance(0.25)], 'kubejs:sound.stoneore.break')
+	event.recipes.farmersdelight.cutting('kubejs:deepslate_dwarf_geode', 'another_furniture:furniture_hammer', ['6x spelunkery:raw_iron_nugget', Item.of('spelunkery:raw_lead_nugget', 6).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 3).withChance(0.25), Item.of('spelunkery:raw_silver_nugget', 2).withChance(0.25)], 'minecraft:block.deepslate.break')
+	event.recipes.farmersdelight.cutting('kubejs:blackstone_dwarf_geode', 'another_furniture:furniture_hammer', ['6x spelunkery:raw_lead_nugget', Item.of('spelunkery:raw_gold_nugget', 4).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 3).withChance(0.5), Item.of('kubejs:ancient_nugget').withChance(0.25)], 'kubejs:sound.blackstone.break')
 	
 	event.recipes.farmersdelight.cutting('upgrade_aquatic:bubble_coralstone', '#forge:tools/hoes', ['upgrade_aquatic:coralstone', 'bubble_coral'], 'item.hoe.till')
 	event.recipes.farmersdelight.cutting('upgrade_aquatic:horn_coralstone', '#forge:tools/hoes', ['upgrade_aquatic:coralstone', 'horn_coral'], 'item.hoe.till')
@@ -1638,6 +1657,12 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('upgrade_aquatic:chrome_coralstone', '#forge:tools/hoes', ['upgrade_aquatic:coralstone', 'upgrade_aquatic:chrome_coral'], 'item.hoe.till')
 	event.recipes.farmersdelight.cutting('upgrade_aquatic:prismarine_coralstone', '#forge:tools/hoes', ['upgrade_aquatic:coralstone', 'upgrade_aquatic:prismarine_coral'], 'item.hoe.till')
 	event.recipes.farmersdelight.cutting('upgrade_aquatic:elder_prismarine_coralstone', '#forge:tools/hoes', ['upgrade_aquatic:coralstone', 'upgrade_aquatic:elder_prismarine_coral'], 'item.hoe.till')
+	
+	event.recipes.farmersdelight.cutting('#raspberry_flavoured:rock_salt', '#forge:tools/pickaxes', ['4x spelunkery:rock_salt'])
+	event.recipes.farmersdelight.cutting('#raspberry_flavoured:amethyst', '#forge:tools/pickaxes', ['4x amethyst_shard'])
+	event.recipes.farmersdelight.cutting('glowstone', '#forge:tools/pickaxes', ['4x glowstone_dust'])
+	event.recipes.farmersdelight.cutting('#raspberry_flavoured:obsidian', '#raspberry_flavoured:diamond_tier_pickaxes', ['4x create:powdered_obsidian'])
+	event.recipes.farmersdelight.cutting('#raspberry_flavoured:crying_obsidian', '#raspberry_flavoured:diamond_tier_pickaxes', ['4x create:powdered_obsidian', 'ghast_tear'])
 	
 	function mushCapCutting(capItem, resultItem) {
 		event.custom({type: 'farmersdelight:cutting', ingredients: [{item: capItem}], tool: {tag: 'forge:tools/hoes'}, result: [{item: resultItem, count: 1}]})
@@ -1671,8 +1696,8 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cooking(['neapolitan:dried_vanilla_pods', 'farmersrespite:yellow_tea_leaves', '#forge:milk'], 'respiteful:vanilla_milk_tea', 0, 300, 'minecraft:glass_bottle').id('respiteful:brewing/vanilla_milk_tea')
 	event.recipes.farmersdelight.cooking(['neapolitan:mint_leaves', 'farmersrespite:green_tea_leaves'], 'respiteful:mint_green_tea', 0, 300, 'minecraft:glass_bottle').id('respiteful:brewing/mint_green_tea')
 	event.recipes.farmersdelight.cooking(['#culturaldelights:regular_eggplants', 'farmersdelight:tomato_sauce', '#forge:eggs', '#forge:crops/onion'], 'culturaldelights:poached_eggplants', 0, 200, 'minecraft:bowl').id('culturaldelights:cooking/poached_eggplants')
-	event.recipes.farmersdelight.cooking([['#raspberry_flavoured:raw_fish', 'aquaculture:fish_bones'], ['#raspberry_flavoured:raw_fish', 'aquaculture:fish_bones'], '#raspberry_flavoured:cat_prey', '#forge:eggs'], 'kubejs:cat_food', 0, 200, 'minecraft:bowl')
-	event.recipes.farmersdelight.cooking(['#forge:raw_chicken', '#forge:raw_chicken', '#mynethersdelight:hot_spice', '#forge:crops/onion'], 'mynethersdelight:hot_wings_bucket', 0, 300, 'minecraft:bucket')
+	event.recipes.farmersdelight.cooking([['#raspberry_flavoured:raw_fish', 'aquaculture:fish_bones'], ['#raspberry_flavoured:raw_fish', 'aquaculture:fish_bones'], '#raspberry_flavoured:cat_prey', '#forge:eggs'], 'raspberry:cat_food', 0, 200, 'minecraft:bowl')
+	event.recipes.farmersdelight.cooking(['#forge:raw_chicken', '#forge:raw_chicken', '#mynethersdelight:hot_spice', '#forge:raw_chicken', '#forge:crops/onion'], 'mynethersdelight:hot_wings_bucket', 0, 300, 'minecraft:bucket')
 	event.recipes.farmersdelight.cooking(['miners_delight:tentacles', 'miners_delight:tentacles', '#raspberry_flavoured:dough', '#forge:crops/onion', 'cookscollection:cooking_oil'], 'kubejs:takoyaki', 0, 200, 'minecraft:bowl')
 	event.recipes.farmersdelight.cooking([['#brewinandchewin:bone_or_withered_bone', 'aquaculture:fish_bones'], ['#raspberry_flavoured:cave_scrap_ingredients', 'miners_delight:bat_wing']], 'farmersdelight:bone_broth', 0, 200, 'minecraft:bowl').id('farmersdelight:cooking/bone_broth')
 	event.recipes.farmersdelight.cooking(['culturaldelights:corn_dough', 'brewinandchewin:flaxen_cheese_wedge', '#forge:eggs', 'cookscollection:cooking_oil'], '2x kubejs:corn_fritters', 0, 200, 'minecraft:bowl')
@@ -1693,7 +1718,7 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cooking(['windswept:roasted_chestnuts', '#forge:raw_duck', '#forge:crops/rice', 'brewinandchewin:flaxen_cheese_wedge'], 'windswept:chestnut_risotto', 0, 200, 'minecraft:bowl').id('windswept:cooking/chestnut_risotto')
 	event.recipes.farmersdelight.cooking(['#mynethersdelight:hot_spice', '#forge:eggs', 'magma_cream'], 'mynethersdelight:hot_cream', 0, 200, 'minecraft:bucket').id('mynethersdelight:cooking/hotcream')
 	event.recipes.farmersdelight.cooking(['#forge:crops/onion', '#forge:crops/onion', 'brewinandchewin:flaxen_cheese_wedge', '#forge:bread/wheat'], 'brewinandchewin:creamy_onion_soup', 0, 200, 'minecraft:bowl').id('brewinandchewin:cooking/creamy_onion_soup')
-	event.recipes.farmersdelight.cooking(['#forge:crops/rice', 'cookscollection:cooking_oil', '#forge:eggs', '#forge:crops/carrot', ['#forge:crops/onion', '#culturaldelights:corn_or_kernels']], 'farmersdelight:fried_rice', 0, 200, 'minecraft:bowl').id('farmersdelight:cooking/fried_rice')
+	event.recipes.farmersdelight.cooking(['#forge:crops/rice', 'cookscollection:cooking_oil', '#forge:eggs', '#culturaldelights:corn_or_kernels'], 'farmersdelight:fried_rice', 0, 200, 'minecraft:bowl').id('farmersdelight:cooking/fried_rice')
 	event.recipes.farmersdelight.cooking(['brewinandchewin:flaxen_cheese_wedge', '#forge:pasta', '#forge:crops/tomato', '#forge:crops/cabbage', 'cookscollection:cooking_oil'], 'brewinandchewin:cheesy_pasta', 0, 200, 'minecraft:bowl').id('brewinandchewin:cooking/cheesy_pasta')
 	event.recipes.farmersdelight.cooking(['berry_good:sweet_berry_mince', '#forge:pasta', 'farmersdelight:tomato_sauce', 'cookscollection:cooking_oil'], 'farmersdelight:pasta_with_meatballs', 0, 200, 'minecraft:bowl').id('farmersdelight:cooking/pasta_with_meatballs')
 	event.recipes.farmersdelight.cooking(['neapolitan:mint_chops', '#forge:pasta', 'farmersdelight:tomato_sauce', 'cookscollection:cooking_oil'], 'farmersdelight:pasta_with_mutton_chop', 0, 200, 'minecraft:bowl').id('farmersdelight:cooking/pasta_with_mutton_chop')
@@ -1703,12 +1728,12 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cooking(['aquaculture:tuna', '#forge:pasta', 'farmersdelight:tomato_sauce', 'cookscollection:cooking_oil'], 'kubejs:pasta_with_tuna', 0, 200, 'minecraft:bowl')
 	event.recipes.farmersdelight.cooking(['#forge:raw_rabbit', '#forge:vegetables', '#forge:crops/carrot', 'environmental:truffle'], 'rabbit_stew', 0, 200, 'minecraft:bowl').id('farmersdelight:cooking/rabbit_stew')
 	event.recipes.farmersdelight.cooking(['environmental:truffle', '#forge:crops/potato', '#forge:crops/potato', 'kubejs:butter'], 'environmental:truffle_mash', 0, 200, 'minecraft:bowl').id('environmental:truffle_mash')
-	event.recipes.farmersdelight.cooking(['autumnity:turkey_piece', ['#culturaldelights:corn_or_kernels', 'kubejs:corn_flour'], '#forge:crops/potato', '#forge:vegetables'], 'kubejs:turkey_stew', 0, 200, 'minecraft:bowl')
+	event.recipes.farmersdelight.cooking(['#forge:raw_turkey', ['#culturaldelights:corn_or_kernels', 'kubejs:corn_flour'], '#forge:crops/potato', '#forge:vegetables'], 'kubejs:turkey_stew', 0, 200, 'minecraft:bowl')
 	event.recipes.farmersdelight.cooking(['kubejs:cinnamon', 'neapolitan:mint_leaves', '#mynethersdelight:curry_meats', '#forge:crops/rice'], 'kubejs:cinnamon_mint_curry', 0, 200, 'minecraft:bowl')
 	event.recipes.farmersdelight.cooking(['farmersrespite:yellow_tea_leaves', 'farmersrespite:yellow_tea_leaves', '#mynethersdelight:curry_meats', '#forge:crops/rice', '#forge:crops/cabbage'], 'farmersrespite:tea_curry', 0, 200, 'minecraft:bowl').id('farmersrespite:cooking/tea_curry')
 	event.recipes.farmersdelight.cooking(['#mynethersdelight:curry_meats', '#forge:crops/rice', '#mynethersdelight:hot_spice', 'brewinandchewin:kimchi'], 'mynethersdelight:spicy_curry', 0, 200, 'minecraft:bowl').id('mynethersdelight:cooking/spicy_curry')
-	event.recipes.farmersdelight.cooking(['#mynethersdelight:chili_meats', '#mynethersdelight:hot_spice', 'farmersrespite:coffee_beans', 'crimson_fungus'], 'farmersrespite:blazing_chili', 0, 200, 'minecraft:bowl').id('farmersrespite:cooking/blazing_chili')
-	event.recipes.farmersdelight.cooking(['nethersdelight:hoglin_loin', '#forge:crops/potato', '#forge:crops/carrot', '#mynethersdelight:hot_spice'], 'mynethersdelight:spicy_hoglin_stew', 0, 200, 'minecraft:bowl').id('mynethersdelight:cooking/spicy_hoglin_stew')
+	event.recipes.farmersdelight.cooking(['#mynethersdelight:chili_meats', '#mynethersdelight:hot_spice', '#mynethersdelight:hot_spice', 'crimson_fungus', 'farmersrespite:coffee_beans', 'kubejs:cinnamon'], '2x farmersrespite:blazing_chili', 0, 200, 'minecraft:bowl').id('farmersrespite:cooking/blazing_chili')
+	event.recipes.farmersdelight.cooking(['nethersdelight:hoglin_loin', '#forge:crops/carrot', '#forge:vegetables', '#mynethersdelight:hot_spice'], 'mynethersdelight:spicy_hoglin_stew', 0, 200, 'minecraft:bowl').id('mynethersdelight:cooking/spicy_hoglin_stew')
 	event.recipes.farmersdelight.cooking(['windswept:roasted_chestnuts', 'windswept:roasted_chestnuts', '#forge:vegetables'], 'windswept:chestnut_soup', 0, 200, 'minecraft:bowl').id('windswept:cooking/chestnut_soup')
 	event.recipes.farmersdelight.cooking(['slime_ball', 'sugar', 'sugar', '#raspberry_flavoured:corn'], '8x create_confectionery:marshmallow', 0, 200)
 	event.recipes.farmersdelight.cooking(['#forge:crops/beetroot', '#forge:crops/beetroot', '#forge:crops/onion'], 'beetroot_soup', 0, 200, 'minecraft:bowl').id('farmersdelight:cooking/beetroot_soup')
@@ -1729,6 +1754,7 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cooking(['#raspberry_flavoured:jam_fruit', '#raspberry_flavoured:jam_fruit', 'sugar'], 'upgrade_aquatic:mulberry_jam_bottle', 0, 200, 'minecraft:glass_bottle').id('upgrade_aquatic:mulberry_jam_bottle')
 	event.recipes.farmersdelight.cooking(['neapolitan:white_strawberries', 'neapolitan:white_strawberries', 'sugar'], '2x upgrade_aquatic:mulberry_jam_bottle', 0, 200, 'minecraft:glass_bottle')
 	event.recipes.farmersdelight.cooking(['ecologics:coconut_slice', 'upgrade_aquatic:mulberry_jam_bottle', '#forge:eggs', 'sugar'], 'kubejs:coconut_pudding_with_jam', 0, 200, 'minecraft:bowl')
+	event.recipes.farmersdelight.cooking(['#forge:raw_chicken', '#forge:crops/cabbage', '#forge:vegetables'], 'farmersdelight:chicken_soup', 0, 200, 'minecraft:bowl').id('farmersdelight:cooking/chicken_soup')
 
 // Baking
 	// Cooking foods
@@ -1988,9 +2014,8 @@ ServerEvents.recipes(event => {
 		{item: 'minecraft:sugar'}, {tag: 'forge:milk'}
 	], result: {item: 'neapolitan:chocolate_bar', count: 2}})
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
-		{item: 'minecraft:honey_bottle'}, {tag: 'farmersdelight:wheat_or_flour'}, 
-		{item: 'minecraft:sugar'}, {item: 'minecraft:sugar'}
-	], result: {item: 'create_confectionery:honey_candy', count: 6}})
+		{item: 'minecraft:honey_bottle'}, {tag: 'farmersdelight:wheat_or_flour'}, {item: 'minecraft:sugar'}
+	], result: {item: 'create_confectionery:honey_candy', count: 4}})
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
 		{item: 'aquaculture:gar'}, {item: 'ecologics:coconut_slice'}, {tag: 'forge:eggs'}, 
 		{tag: 'forge:bread/wheat'}, {item: 'brewinandchewin:kimchi'}, {item: 'minecraft:bowl'}
@@ -2004,6 +2029,11 @@ ServerEvents.recipes(event => {
 		{item: 'culturaldelights:corn_cob'}, {item: 'culturaldelights:corn_cob'}, {tag: 'forge:eggs'}, 
 		{item: 'minecraft:stick'}, {item: 'minecraft:stick'}, {item: 'kubejs:butter'}
 	], result: {item: 'culturaldelights:elote', count: 2}}).id('culturaldelights:cooking/elote')
+	event.custom({type: 'cookscollection:baking', cooktime: 600, ingredients: [
+		{item: 'mynethersdelight:ghasta'}, {item: 'mynethersdelight:ghasta'}, {item: 'mynethersdelight:ghasta'}, 
+		{item: 'brewinandchewin:scarlet_cheese_wedge'}, {item: 'minecraft:magma_cream'}, {item: 'brewinandchewin:scarlet_cheese_wedge'}, 
+		{item: 'mynethersdelight:ghasta'}, {item: 'minecraft:bowl'}, {item: 'mynethersdelight:ghasta'}
+	], result: {item: 'mynethersdelight:ghasta_with_cream'}}).id('mynethersdelight:ghasta_with_cream')
 	
 	// Cakes
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
@@ -2341,10 +2371,9 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('2x architects_palette:gilded_sandstone', ['2x sandstone', ['spelunkery:raw_gold_nugget', 'gold_nugget'], ['spelunkery:raw_gold_nugget', 'gold_nugget']])
 	event.recipes.create.mixing('caverns_and_chasms:necromium_ingot', ['3x netherite_scrap', '3x oreganized:silver_ingot']).superheated().id('caverns_and_chasms:necromium_ingot')
 	event.recipes.create.mixing('12x create:andesite_alloy', ['#raspberry_flavoured:sturdy_stone', 'create:zinc_ingot']).id('create:mixing/andesite_alloy_from_zinc')
-	event.recipes.create.mixing('3x caverns_and_chasms:sanguine_plating', ['5x rotten_flesh', '2x oreganized:silver_ingot', '2x ghast_tear']).heated().id('caverns_and_chasms:sanguine_plating')
+	event.recipes.create.mixing('2x caverns_and_chasms:sanguine_plating', ['4x rotten_flesh', '3x oreganized:silver_ingot', '2x mynethersdelight:ghasta']).heated().id('caverns_and_chasms:sanguine_plating')
 	event.recipes.create.mixing('12x fire_charge', ['gunpowder', '#minecraft:coals']).heated()
 	event.recipes.create.mixing('8x kubejs:cobbled_exolite', ['4x #forge:cobblestone', '4x #minecraft:soul_fire_base_blocks', 'ender_pearl']).heated()
-	event.recipes.create.mixing(Fluid.of('spelunkery:portal_fluid',250), ['3x create:powdered_obsidian', 'ender_pearl', Fluid.of('oreganized:molten_lead',250)]).superheated()
 	event.recipes.create.mixing(Fluid.of('oreganized:molten_lead',125), [['kubejs:lead_ore', 'kubejs:nether_lead_ore']]).heated()
 	event.recipes.create.mixing(Fluid.of('oreganized:molten_lead',250), ['oreganized:deepslate_lead_ore']).heated()
 	event.recipes.create.mixing(Fluid.of('create_central_kitchen:purulent_tea',500), ['crimson_fungus', 'warped_fungus', 'autumnity:snail_goo']).heated().id('create_central_kitchen:mixing/purulent_tea')
@@ -2359,6 +2388,16 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('4x alloyed:bronze_ingot', ['3x #forge:ingots/copper', '2x #forge:ingots/zinc', '#forge:ingots/lead']).heated()
 	event.recipes.create.mixing('modestmining:coke', ['coal', '2x glowstone_dust', '3x create:cinder_flour']).heated()
 	event.recipes.create.mixing('2x magma_cream', ['2x slime_ball', Fluid.of('minecraft:lava',250)]).heated()
+	event.recipes.create.mixing('4x quark:framed_glass', ['#forge:gems/obsidian', '4x #minecraft:sand']).heated()
+	event.recipes.create.mixing(Fluid.of('kubejs:butter',250), ['kubejs:butter'])
+	event.recipes.create.mixing('8x raspberry:fine_wood', ['honeycomb', '8x #minecraft:logs'])
+	event.recipes.create.mixing('2x tuff', ['#raspberry_flavoured:stone', '#raspberry_flavoured:basalt']).heated().id('caverns_and_chasms:tuff')
+	
+	event.recipes.create.mixing(Fluid.of('kubejs:coleslaw',500), [Fluid.of('kubejs:cooking_oil',250), '#forge:eggs', 'cookscollection:lemon', '#raspberry_flavoured:coleslaw_ingredients'])
+	event.recipes.create.mixing(Fluid.of('kubejs:blazing_chili',500), ['2x #mynethersdelight:hot_spice', '#mynethersdelight:chili_meats', 'crimson_fungus', 'farmersrespite:coffee_beans', 'kubejs:cinnamon']).heated()
+	
+	event.recipes.create.mixing(Fluid.of('spelunkery:portal_fluid',125), ['ghast_tear']).heated()
+	
 	event.recipes.create.mixing(Fluid.of('create_central_kitchen:mulberry_jam',500), ['3x #raspberry_flavoured:jam_fruit', 'sugar']).id('create_central_kitchen:mixing/mulberry_jam')
 	event.recipes.create.mixing(Fluid.of('create_central_kitchen:mulberry_jam',750), ['3x neapolitan:white_strawberries', 'sugar'])
 	
@@ -2407,7 +2446,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['kubejs:corn_flour', Item.of('minecraft:wheat_seeds').withChance(0.5), Item.of('farmersdelight:straw').withChance(0.35)], 'culturaldelights:wild_corn')
 	event.recipes.create.milling(['culturaldelights:eggplant_seeds', 'light_gray_dye'], 'culturaldelights:wild_eggplants')
 	event.recipes.create.milling(['farmersrespite:coffee_beans', 'black_dye'], 'farmersrespite:wild_coffee_bush')
-	event.recipes.create.milling(['2x bone_meal', Item.of('minecraft:bone_meal',1).withChance(0.2)], 'ecologics:seashell')
+	event.recipes.create.milling(['bone_meal', Item.of('minecraft:bone_meal',1).withChance(0.5)], 'ecologics:seashell')
 	event.recipes.create.milling(['sugar', 'red_dye', Item.of('minecraft:beetroot_seeds').withChance(0.1)], 'beetroot').id('create:milling/beetroot')
 	event.recipes.create.milling(['black_dye', Item.of('minecraft:black_dye').withChance(0.35)], 'spelunkery:inkcap_mushroom')
 	event.recipes.create.milling(['white_dye', Item.of('minecraft:white_dye').withChance(0.35)], 'spelunkery:white_inkcap_mushroom')
@@ -2437,7 +2476,6 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['culturaldelights:eggplant_seeds', Item.of('minecraft:purple_dye').withChance(0.15)], '#culturaldelights:all_eggplants')
 	event.recipes.create.milling(['14x create:zinc_nugget', Item.of('iron_nugget',7).withChance(0.5)], 'aquaculture:tin_can')
 	event.recipes.create.milling(['spelunkery:salt'], 'spelunkery:rock_salt')
-	event.recipes.create.milling(['spelunkery:rock_salt'], 'spelunkery:rock_salt_block')
 	event.recipes.create.milling(['pointed_dripstone', Item.of('pointed_dripstone').withChance(0.25), 'clay_ball'], 'dripstone_block').id('create:milling/dripstone_block')
 	event.recipes.create.milling(['3x farmersdelight:tree_bark'], '#raspberry_flavoured:regular_logs')
 	event.recipes.create.milling(['2x farmersdelight:tree_bark', 'kubejs:cinnamon'], '#raspberry_flavoured:cinnamon_logs')
@@ -2446,15 +2484,20 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['amethyst_shard'], '#raspberry_flavoured:smithing_templates')
 	event.recipes.create.milling(['2x stick', Item.of('farmersdelight:straw').withChance(0.75)], 'dead_bush')
 	event.recipes.create.milling(['create:cinder_flour'], 'netherrack')
-	event.recipes.create.milling([Item.of('phantom_membrane').withChance(0.5)], 'miners_delight:bat_wing')
+	event.recipes.create.milling([Item.of('phantom_membrane').withChance(0.7)], 'miners_delight:bat_wing')
 	event.recipes.create.milling(['3x naturalist:glow_goop',Item.of('naturalist:glow_goop', 2).withChance(0.75)], 'raspberry:firefly')
 	event.recipes.create.milling(['naturalist:glow_goop'], 'glow_berries')
 	event.recipes.create.milling(['3x pink_dye',Item.of('pink_dye', 2).withChance(0.25),Item.of('magenta_dye').withChance(0.5)], 'ecologics:azalea_flower')
 	event.recipes.create.milling(['3x yellow_dye'], 'atmospheric:yellow_blossoms')
-	event.recipes.create.milling(['3x glowstone_dust', Item.of('glowstone_dust').withChance(0.5)], 'glowstone').id('create:crushing/glowstone')
 	event.recipes.create.milling(['3x nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5)], 'shroomlight')
 	event.recipes.create.milling(['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), 'crimson_roots'], 'crimson_fungus')
 	event.recipes.create.milling(['nethersdelight:propelpearl', Item.of('nethersdelight:propelpearl').withChance(0.5), 'warped_roots'], 'warped_fungus')
+	event.recipes.create.milling(['ghast_tear'], 'ender_pearl')
+	event.recipes.create.milling(['3x paper', '4x stick'], '#forge:bookshelves')
+	
+	event.recipes.create.milling(['4x glowstone_dust'], 'glowstone').id('create:crushing/glowstone')
+	event.recipes.create.milling(['4x amethyst_shard'], 'amethyst_block')
+	event.recipes.create.milling(['4x spelunkery:rock_salt'], 'spelunkery:rock_salt_block')
 	
 	event.recipes.create.milling(['2x pink_dye'], 'raspberry:pink_petals').id('raspberry:milling/pink_dye_from_pink_petals')
 	event.recipes.create.milling(['yellow_dye', 'white_dye', Item.of('orange_dye').withChance(0.25)], 'raspberry:cheery_wildflowers').id('raspberry:milling/yellow_dye_from_wildflowers')
@@ -2476,15 +2519,15 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.create.milling(['2x red_dye'], 'farmersrespite:rose_hips')
 	
-	event.recipes.create.milling(['4x spelunkery:raw_copper_nugget', Item.of('spelunkery:raw_zinc_nugget', 4).withChance(0.75), Item.of('spelunkery:raw_iron_nugget', 3).withChance(0.5), Item.of('spelunkery:raw_gold_nugget', 2).withChance(0.25)], 'kubejs:dwarf_geode')
-	event.recipes.create.milling(['4x spelunkery:raw_iron_nugget', Item.of('spelunkery:raw_lead_nugget', 4).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 2).withChance(0.25), Item.of('spelunkery:raw_silver_nugget', 2).withChance(0.15)], 'kubejs:deepslate_dwarf_geode')
-	event.recipes.create.milling(['4x spelunkery:raw_lead_nugget', Item.of('spelunkery:raw_gold_nugget', 2).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 2).withChance(0.5), Item.of('kubejs:rough_quartz_shard', 6).withChance(0.25)], 'kubejs:blackstone_dwarf_geode')
+	event.recipes.create.milling(['6x spelunkery:raw_copper_nugget', Item.of('spelunkery:raw_zinc_nugget', 6).withChance(0.75), Item.of('spelunkery:raw_iron_nugget', 4).withChance(0.5), Item.of('spelunkery:raw_gold_nugget', 3).withChance(0.25)], 'kubejs:dwarf_geode')
+	event.recipes.create.milling(['6x spelunkery:raw_iron_nugget', Item.of('spelunkery:raw_lead_nugget', 6).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 3).withChance(0.25), Item.of('spelunkery:raw_silver_nugget', 2).withChance(0.25)], 'kubejs:deepslate_dwarf_geode')
+	event.recipes.create.milling(['6x spelunkery:raw_lead_nugget', Item.of('spelunkery:raw_gold_nugget', 4).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 3).withChance(0.5), Item.of('kubejs:ancient_nugget').withChance(0.15)], 'kubejs:blackstone_dwarf_geode')
 
 // Crushing
 	event.recipes.create.crushing(['2x spelunkery:rough_cinnabar', Item.of('redstone').withChance(0.5), Item.of('twigs:pebble',4).withChance(0.12)], 'redstone_ore').id('create:crushing/redstone_ore')
 	event.recipes.create.crushing(['create:crushed_raw_lead', Item.of('create:crushed_raw_lead').withChance(0.75), Item.of('twigs:pebble',4).withChance(0.12)], 'kubejs:lead_ore').id('create:crushing/lead_ore')
 	event.recipes.create.crushing(['spelunkery:rough_diamond', Item.of('spelunkery:rough_diamond').withChance(0.75), Item.of('twigs:pebble',4).withChance(0.12)], 'diamond_ore').id('create:crushing/diamond_ore')
-	event.recipes.create.crushing(['create:crushed_raw_copper', Item.of('create:crushed_raw_copper'), Item.of('twigs:pebble',4).withChance(0.12)], 'copper_ore').id('create:crushing/copper_ore')
+	event.recipes.create.crushing(['create:crushed_raw_copper', Item.of('create:crushed_raw_copper').withChance(0.25), Item.of('twigs:pebble',4).withChance(0.12)], 'copper_ore').id('create:crushing/copper_ore')
 	event.recipes.create.crushing(['create:crushed_raw_silver', Item.of('create:crushed_raw_silver'), Item.of('twigs:pebble',4).withChance(0.12)], 'oreganized:silver_ore').id('create:crushing/silver_ore')
 	event.recipes.create.crushing(['coal', Item.of('coal').withChance(0.75), Item.of('twigs:pebble',4).withChance(0.12)], 'coal_ore').id('create:crushing/coal_ore')
 	event.recipes.create.crushing(['create:crushed_raw_iron', Item.of('create:crushed_raw_iron').withChance(0.75), Item.of('twigs:pebble',4).withChance(0.12)], 'iron_ore').id('create:crushing/iron_ore')
@@ -2502,20 +2545,8 @@ ServerEvents.recipes(event => {
 	event.recipes.create.crushing(['2x quartz', Item.of('netherrack').withChance(0.125)], 'nether_quartz_ore').id('create:crushing/nether_quartz_ore')
 	event.recipes.create.crushing(['create:crushed_raw_gold', Item.of('create:crushed_raw_gold').withChance(0.5), Item.of('netherrack').withChance(0.125)], 'nether_gold_ore').id('create:crushing/nether_gold_ore')
 	event.recipes.create.crushing(['create:crushed_raw_lead', Item.of('create:crushed_raw_lead').withChance(0.5), Item.of('netherrack').withChance(0.125)], 'kubejs:nether_lead_ore')
-	event.recipes.create.crushing(['9x create:crushed_raw_copper'], 'raw_copper_block').id('create:crushing/raw_copper_block')
-	event.recipes.create.crushing(['9x create:crushed_raw_iron'], 'raw_iron_block').id('create:crushing/raw_iron_block')
-	event.recipes.create.crushing(['9x create:crushed_raw_gold'], 'raw_gold_block').id('create:crushing/raw_gold_block')
-	event.recipes.create.crushing(['9x create:crushed_raw_zinc'], 'create:raw_zinc_block').id('create:crushing/raw_zinc_block')
-	event.recipes.create.crushing(['9x create:crushed_raw_silver'], 'oreganized:raw_silver_block').id('create:crushing/raw_silver_block')
-	event.recipes.create.crushing(['9x create:crushed_raw_lead'], 'oreganized:raw_lead_block').id('create:crushing/raw_lead_block')
-	event.recipes.create.crushing(['create:crushed_raw_copper'], 'raw_copper').id('create:crushing/raw_copper')
-	event.recipes.create.crushing(['create:crushed_raw_iron'], 'raw_iron').id('create:crushing/raw_iron')
-	event.recipes.create.crushing(['create:crushed_raw_gold'], 'raw_gold').id('create:crushing/raw_gold')
-	event.recipes.create.crushing(['create:crushed_raw_zinc'], 'create:raw_zinc').id('create:crushing/raw_zinc')
-	event.recipes.create.crushing(['create:crushed_raw_silver'], 'oreganized:raw_silver').id('create:crushing/raw_silver_ore')
-	event.recipes.create.crushing(['create:crushed_raw_lead'], 'oreganized:raw_lead').id('create:crushing/raw_lead_ore')
+	event.recipes.create.crushing(['2x create:crushed_raw_gold', Item.of('create:crushed_raw_gold').withChance(0.5), Item.of('kubejs:cobbled_blackstone').withChance(0.125)], 'gilded_blackstone')
 	event.recipes.create.crushing(['gravel', Item.of('twigs:pebble',2).withChance(0.5)], 'cobblestone')
-	event.recipes.create.crushing(['18x spelunkery:raw_gold_nugget', Item.of('kubejs:cobbled_blackstone').withChance(0.125)], 'gilded_blackstone')
 	event.recipes.create.crushing(['spelunkery:raw_gold_nugget', Item.of('minecraft:sandstone').withChance(0.5)], 'architects_palette:gilded_sandstone')
 	event.recipes.create.crushing(['spelunkery:raw_gold_nugget', Item.of('minecraft:sandstone').withChance(0.5)], 'architects_palette:gilded_sandstone_stairs')
 	event.recipes.create.crushing(['spelunkery:raw_gold_nugget', Item.of('minecraft:sandstone').withChance(0.5)], 'architects_palette:gilded_sandstone_pillar')
@@ -2528,7 +2559,6 @@ ServerEvents.recipes(event => {
 	event.recipes.create.crushing(['3x redstone', Item.of('minecraft:redstone',2).withChance(0.375), Item.of('spelunkery:cinnabar').withChance(0.5)], 'spelunkery:cinnabar').id('spelunkery:crushing/polished_cinnabar')
 	event.recipes.create.crushing(['prismarine_shard', Item.of('minecraft:prismarine_shard').withChance(0.5)], 'prismarine')
 	event.recipes.create.crushing(['prismarine_crystals', Item.of('minecraft:prismarine_crystals',2).withChance(0.5)], 'prismarine_shard')
-	event.recipes.create.crushing(['amethyst_shard', Item.of('minecraft:amethyst_shard').withChance(0.15)], 'amethyst_block')
 	event.recipes.create.crushing([Item.of('minecraft:string').withChance(0.9)], 'kubejs:cloth_scrap')
 	event.recipes.create.crushing(['raspberry:deepslate_gravel', Item.of('minecraft:flint',2).withChance(0.5)], 'cobbled_deepslate')
 	event.recipes.create.crushing(['raspberry:blackstone_gravel', Item.of('minecraft:flint',2).withChance(0.5)], 'kubejs:cobbled_blackstone')
@@ -2536,7 +2566,6 @@ ServerEvents.recipes(event => {
 	event.recipes.create.crushing(['2x spelunkery:salt'], 'spelunkery:rock_salt').id('spelunkery:crushing/salt')
 	event.recipes.create.crushing(['3x farmersdelight:tree_bark', Item.of('farmersdelight:tree_bark',2).withChance(0.5)], '#raspberry_flavoured:regular_logs')
 	event.recipes.create.crushing(['2x farmersdelight:tree_bark', Item.of('farmersdelight:tree_bark',2).withChance(0.5), 'kubejs:cinnamon'], '#raspberry_flavoured:cinnamon_logs')
-	event.recipes.create.crushing(['2x spelunkery:rock_salt'], '#raspberry_flavoured:rock_salt').id('spelunkery:crushing/salt_from_rock_salt_block')
 	event.recipes.create.crushing(['4x kubejs:rough_quartz_shard', Item.of('spelunkery:raw_magnetite_nugget').withChance(0.1)], 'twigs:bloodstone')
 	event.recipes.create.crushing(['6x kubejs:rough_quartz_shard', 'glowstone_dust'], 'prismarine_crystals').id('create:crushing/prismarine_crystals')
 	event.recipes.create.crushing(['3x kubejs:dwarf_geode'], 'kubejs:deposit')
@@ -2544,25 +2573,37 @@ ServerEvents.recipes(event => {
 	event.recipes.create.crushing(['3x kubejs:blackstone_dwarf_geode'], 'kubejs:blackstone_deposit')
 	event.recipes.create.crushing(['soul_sand', Item.of('twigs:silt_ball',2).withChance(0.625)], '#create:stone_types/scoria')
 	
-	event.recipes.create.crushing(['supplementaries:ash', Item.of('supplementaries:ash', 2).withChance(0.25), Item.of('spelunkery:coal_lump').withChance(0.5), Item.of('minecraft:flint').withChance(0.1)], '#raspberry_flavoured:tuff')
+	event.recipes.create.crushing(['4x create:powdered_obsidian'], '#raspberry_flavoured:obsidian').id('create:crushing/obsidian')
+	event.recipes.create.crushing(['4x create:powdered_obsidian', 'ghast_tear'], '#raspberry_flavoured:crying_obsidian')
+	
+	event.recipes.create.crushing(['2x supplementaries:ash', Item.of('spelunkery:coal_lump').withChance(0.7), Item.of('minecraft:flint').withChance(0.1)], '#raspberry_flavoured:tuff')
 	event.recipes.create.crushing(['red_dye', Item.of('spelunkery:raw_iron_nugget').withChance(0.4)], '#create:stone_types/crimsite').id('create:crushing/crimsite_recycling')
 	event.recipes.create.crushing(['yellow_dye', Item.of('spelunkery:raw_gold_nugget').withChance(0.2)], '#create:stone_types/ochrum').id('create:crushing/ochrum_recycling')
 	event.recipes.create.crushing(['light_blue_dye', Item.of('spelunkery:raw_zinc_nugget').withChance(0.8)], '#create:stone_types/asurine').id('create:crushing/asurine_recycling')
 	event.recipes.create.crushing(['additionaladditions:copper_patina', 'spelunkery:raw_copper_nugget'], '#create:stone_types/veridium').id('create:crushing/veridium_recycling')
 	event.recipes.create.crushing(['purple_dye', Item.of('spelunkery:raw_lead_nugget').withChance(0.6)], '#oreganized:stone_types/glance').id('oreganized:create/crushing/glance_recycling')
 	
-	event.recipes.create.crushing(['5x spelunkery:raw_copper_nugget', Item.of('spelunkery:raw_zinc_nugget', 5).withChance(0.75), Item.of('spelunkery:raw_iron_nugget', 4).withChance(0.5), Item.of('spelunkery:raw_gold_nugget', 3).withChance(0.25)], 'kubejs:dwarf_geode')
-	event.recipes.create.crushing(['5x spelunkery:raw_iron_nugget', Item.of('spelunkery:raw_lead_nugget', 5).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 2).withChance(0.35), Item.of('spelunkery:raw_silver_nugget', 2).withChance(0.25)], 'kubejs:deepslate_dwarf_geode')
-	event.recipes.create.crushing(['5x spelunkery:raw_lead_nugget', Item.of('spelunkery:raw_gold_nugget', 3).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 3).withChance(0.65), Item.of('kubejs:rough_quartz_shard', 8).withChance(0.25)], 'kubejs:blackstone_dwarf_geode')
+	event.recipes.create.crushing(['9x create:crushed_raw_copper'], 'raw_copper_block').id('create:crushing/raw_copper_block')
+	event.recipes.create.crushing(['9x create:crushed_raw_iron'], 'raw_iron_block').id('create:crushing/raw_iron_block')
+	event.recipes.create.crushing(['9x create:crushed_raw_gold'], 'raw_gold_block').id('create:crushing/raw_gold_block')
+	event.recipes.create.crushing(['9x create:crushed_raw_zinc'], 'create:raw_zinc_block').id('create:crushing/raw_zinc_block')
+	event.recipes.create.crushing(['9x create:crushed_raw_silver'], 'oreganized:raw_silver_block').id('create:crushing/raw_silver_block')
+	event.recipes.create.crushing(['9x create:crushed_raw_lead'], 'oreganized:raw_lead_block').id('create:crushing/raw_lead_block')
+	event.recipes.create.crushing(['create:crushed_raw_copper'], 'raw_copper').id('create:crushing/raw_copper')
+	event.recipes.create.crushing(['create:crushed_raw_iron'], 'raw_iron').id('create:crushing/raw_iron')
+	event.recipes.create.crushing(['create:crushed_raw_gold'], 'raw_gold').id('create:crushing/raw_gold')
+	event.recipes.create.crushing(['create:crushed_raw_zinc'], 'create:raw_zinc').id('create:crushing/raw_zinc')
+	event.recipes.create.crushing(['create:crushed_raw_silver'], 'oreganized:raw_silver').id('create:crushing/raw_silver_ore')
+	event.recipes.create.crushing(['create:crushed_raw_lead'], 'oreganized:raw_lead').id('create:crushing/raw_lead_ore')
+	
+	event.recipes.create.crushing(['7x spelunkery:raw_copper_nugget', Item.of('spelunkery:raw_zinc_nugget', 7).withChance(0.75), Item.of('spelunkery:raw_iron_nugget', 5).withChance(0.5), Item.of('spelunkery:raw_gold_nugget', 4).withChance(0.25)], 'kubejs:dwarf_geode')
+	event.recipes.create.crushing(['7x spelunkery:raw_iron_nugget', Item.of('spelunkery:raw_lead_nugget', 7).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 3).withChance(0.35), Item.of('spelunkery:raw_silver_nugget', 3).withChance(0.25)], 'kubejs:deepslate_dwarf_geode')
+	event.recipes.create.crushing(['7x spelunkery:raw_lead_nugget', Item.of('spelunkery:raw_gold_nugget', 5).withChance(0.75), Item.of('spelunkery:raw_magnetite_nugget', 4).withChance(0.65), Item.of('kubejs:ancient_nugget', 2).withChance(0.15)], 'kubejs:blackstone_dwarf_geode')
 	
 // Splashing
 	event.recipes.create.splashing([Item.of('minecraft:flint').withChance(0.25), Item.of('spelunkery:raw_zinc_nugget').withChance(0.8)], 'gravel').id('create:splashing/gravel')
 	event.recipes.create.splashing([Item.of('minecraft:flint',2).withChance(0.25), Item.of('spelunkery:raw_iron_nugget').withChance(0.4)], 'raspberry:deepslate_gravel')
 	event.recipes.create.splashing([Item.of('minecraft:flint',2).withChance(0.25), Item.of('spelunkery:raw_lead_nugget').withChance(0.6)], 'raspberry:blackstone_gravel')
-	event.recipes.create.splashing(['9x create:copper_nugget', Item.of('additionaladditions:copper_patina').withChance(0.875)], 'create:crushed_raw_copper').id('create:splashing/crushed_raw_copper')
-	event.recipes.create.splashing(['9x iron_nugget', Item.of('spelunkery:rough_cinnabar_shard').withChance(0.5)], 'create:crushed_raw_iron').id('create:splashing/crushed_raw_iron')
-	event.recipes.create.splashing(['9x oreganized:silver_nugget', Item.of('minecraft:glowstone_dust',5).withChance(0.75)], 'create:crushed_raw_silver').id('oreganized:create/splashing/crushed_silver_ore')
-	event.recipes.create.splashing(['9x oreganized:lead_nugget', Item.of('spelunkery:coal_lump', 2).withChance(0.5)], 'create:crushed_raw_lead').id('oreganized:create/splashing/crushed_lead_ore')
 	event.recipes.create.splashing('culturaldelights:corn_dough', 'kubejs:corn_flour')
 	event.recipes.create.splashing('kubejs:cloth_scrap_block', '#raspberry_flavoured:cloth_blocks')
 	event.recipes.create.splashing(['spelunkery:raw_copper_nugget', Item.of('spelunkery:raw_copper_nugget').withChance(0.25)], 'additionaladditions:patina_block')
@@ -2571,7 +2612,13 @@ ServerEvents.recipes(event => {
 	event.recipes.create.splashing(['clay', Item.of('atmospheric:aloe_kernels').withChance(0.05)], 'atmospheric:arid_sand').id('create:compat/atmospheric/splashing/arid_sand')
 	event.recipes.create.splashing(['clay', Item.of('atmospheric:aloe_kernels').withChance(0.05)], 'atmospheric:red_arid_sand')
 	event.recipes.create.splashing(['4x kubejs:rough_quartz_shard', Item.of('spelunkery:raw_gold_nugget').withChance(0.02)], 'soul_sand').id('create:splashing/soul_sand')
-	event.recipes.create.splashing(['9x gold_nugget', '5x kubejs:rough_quartz_shard'], 'create:crushed_raw_gold').id('create:splashing/crushed_raw_gold')
+	
+	event.recipes.create.splashing(['12x create:copper_nugget', 'additionaladditions:copper_patina'], 'create:crushed_raw_copper').id('create:splashing/crushed_raw_copper')
+	event.recipes.create.splashing(['12x create:zinc_nugget', Item.of('gunpowder').withChance(0.25)], 'create:crushed_raw_zinc').id('create:splashing/crushed_raw_zinc')
+	event.recipes.create.splashing(['12x iron_nugget', Item.of('spelunkery:rough_cinnabar_shard').withChance(0.5)], 'create:crushed_raw_iron').id('create:splashing/crushed_raw_iron')
+	event.recipes.create.splashing(['12x gold_nugget', '3x kubejs:rough_quartz_shard'], 'create:crushed_raw_gold').id('create:splashing/crushed_raw_gold')
+	event.recipes.create.splashing(['12x oreganized:lead_nugget', Item.of('spelunkery:coal_lump').withChance(0.5)], 'create:crushed_raw_lead').id('oreganized:create/splashing/crushed_lead_ore')
+	event.recipes.create.splashing(['12x oreganized:silver_nugget', '3x glowstone_dust'], 'create:crushed_raw_silver').id('oreganized:create/splashing/crushed_silver_ore')
 	
 // Haunting
 	event.recipes.create.haunting(['architects_palette:twisted_log'], '#raspberry_flavoured:logs')
@@ -2617,11 +2664,10 @@ ServerEvents.recipes(event => {
 	event.recipes.create.haunting(['architects_palette:nebulite'], 'diorite')
 	event.recipes.create.haunting(['architects_palette:esoterrack'], 'andesite')
 	event.recipes.create.haunting(['netherrack'], 'terracotta')
+	event.recipes.create.haunting(['buzzier_bees:endermite_bottle'], 'buzzier_bees:silverfish_bottle')
 	
 // Filling
 	event.recipes.create.filling('map', [Fluid.of('kubejs:ink',10), 'paper'])
-	event.recipes.create.filling('spelunkery:portal_fluid_bottle', [Fluid.of('spelunkery:portal_fluid',250), 'glass_bottle'])
-	event.recipes.create.filling('crying_obsidian', [Fluid.of('spelunkery:portal_fluid',250), 'obsidian'])
 	event.recipes.create.filling('kubejs:latex_bottle', [Fluid.of('kubejs:latex',250), 'minecraft:glass_bottle'])
 	event.recipes.create.filling('kubejs:latex_jungle_log', [Fluid.of('kubejs:latex',250), 'minecraft:stripped_jungle_log'])
 	event.recipes.create.filling('kubejs:latex_jungle_wood', [Fluid.of('kubejs:latex',250), 'minecraft:stripped_jungle_wood'])
@@ -2629,8 +2675,18 @@ ServerEvents.recipes(event => {
 	event.recipes.create.filling('kubejs:latex_rosewood', [Fluid.of('kubejs:latex',250), 'atmospheric:stripped_rosewood'])
 	event.recipes.create.filling('kubejs:batter', [Fluid.of('kubejs:batter',250), 'bowl'])
 	event.recipes.create.filling('cookscollection:cooking_oil', [Fluid.of('kubejs:cooking_oil',250), 'glass_bottle'])
-	event.recipes.create.filling('2x kubejs:maple_toast', [Fluid.of('create_central_kitchen:syrup',250), '#forge:bread/wheat'])
 	event.recipes.create.filling('kubejs:maple_glazed_chestnuts', [Fluid.of('create_central_kitchen:syrup',125), 'windswept:roasted_chestnuts'])
+	
+	event.recipes.create.filling('farmersrespite:blazing_chili', [Fluid.of('kubejs:blazing_chili',250), 'minecraft:bowl'])
+	event.recipes.create.filling('kubejs:coleslaw', [Fluid.of('kubejs:coleslaw',250), 'minecraft:bowl'])
+	
+	event.recipes.create.filling('kubejs:fried_potato_with_chili', [Fluid.of('kubejs:blazing_chili',50), 'cookscollection:fried_potato'])
+	event.recipes.create.filling('kubejs:hotdog_with_coleslaw', [Fluid.of('kubejs:coleslaw',125), 'mynethersdelight:hotdog'])
+	
+	event.recipes.create.filling('2x kubejs:maple_toast', [Fluid.of('create_central_kitchen:syrup',250), '#forge:bread/wheat'])
+	event.recipes.create.filling('2x kubejs:buttered_toast', [Fluid.of('kubejs:butter',250), '#forge:bread/wheat'])
+	
+	event.recipes.create.filling('spelunkery:portal_fluid_bottle', [Fluid.of('spelunkery:portal_fluid',250), 'glass_bottle'])
 	
 	event.recipes.create.filling('kubejs:cactus_juice', [Fluid.of('kubejs:cactus_juice',250), 'glass_bottle'])
 	event.recipes.create.filling('kubejs:cherry_cream_soda', [Fluid.of('kubejs:cherry_cream_soda',250), 'glass_bottle'])
@@ -2644,9 +2700,6 @@ ServerEvents.recipes(event => {
 // Emptying
 	event.recipes.create.emptying([Fluid.of('kubejs:ink',1000), 'minecraft:glass_bottle'], 'supplementaries:antique_ink')
 	event.recipes.create.emptying([Fluid.of('kubejs:ink',250)], 'ink_sac')
-	event.recipes.create.emptying([Fluid.of('spelunkery:portal_fluid',250), 'minecraft:obsidian'], 'crying_obsidian')
-	event.recipes.create.emptying([Fluid.of('spelunkery:portal_fluid',250), 'minecraft:glass_bottle'], 'spelunkery:portal_fluid_bottle')
-	event.recipes.create.emptying([Fluid.of('spelunkery:portal_fluid',1000), 'minecraft:bucket'], 'spelunkery:portal_fluid_bucket')
 	event.recipes.create.emptying([Fluid.of('kubejs:latex',250), 'minecraft:glass_bottle'], 'kubejs:latex_bottle')
 	event.recipes.create.emptying([Fluid.of('kubejs:latex',250), 'minecraft:stripped_jungle_log'], 'kubejs:latex_jungle_log')
 	event.recipes.create.emptying([Fluid.of('kubejs:latex',250), 'minecraft:stripped_jungle_wood'], 'kubejs:latex_jungle_wood')
@@ -2658,6 +2711,16 @@ ServerEvents.recipes(event => {
 	event.recipes.create.emptying([Fluid.of('kubejs:cooking_oil',250), 'glass_bottle'], 'cookscollection:cooking_oil')
 	event.recipes.create.emptying([Fluid.of('create_central_kitchen:sap',250), 'autumnity:stripped_maple_log'], 'autumnity:sappy_maple_log')
 	event.recipes.create.emptying([Fluid.of('create_central_kitchen:sap',250), 'autumnity:stripped_maple_wood'], 'autumnity:sappy_maple_wood')
+	event.recipes.create.emptying([Fluid.of('kubejs:butter',250)], 'kubejs:butter')
+	
+	event.recipes.create.emptying([Fluid.of('kubejs:blazing_chili',250), 'bowl'], 'farmersrespite:blazing_chili')
+	event.recipes.create.emptying([Fluid.of('kubejs:coleslaw',250), 'bowl'], 'kubejs:coleslaw')
+	
+	event.recipes.create.emptying([Fluid.of('kubejs:flaxen_cheese',250)], 'brewinandchewin:flaxen_cheese_wedge')
+	event.recipes.create.emptying([Fluid.of('kubejs:scarlet_cheese',250)], 'brewinandchewin:scarlet_cheese_wedge')
+	
+	event.recipes.create.emptying([Fluid.of('spelunkery:portal_fluid',250), 'minecraft:glass_bottle'], 'spelunkery:portal_fluid_bottle')
+	event.recipes.create.emptying([Fluid.of('spelunkery:portal_fluid',1000), 'minecraft:bucket'], 'spelunkery:portal_fluid_bucket')
 	
 	event.recipes.create.emptying([Fluid.of('kubejs:cactus_juice',250), 'glass_bottle'], 'kubejs:cactus_juice')
 	event.recipes.create.emptying([Fluid.of('kubejs:cherry_cream_soda',250), 'glass_bottle'], 'kubejs:cherry_cream_soda')
@@ -2677,8 +2740,20 @@ ServerEvents.recipes(event => {
 	event.recipes.create.deploying('golden_carrot', ['carrot', 'gold_ingot'])
 	event.recipes.create.deploying('kubejs:golden_strawberries', ['neapolitan:strawberries', 'gold_ingot'])
 	event.recipes.create.deploying('caverns_and_chasms:bejeweled_apple', ['apple', 'additionaladditions:rose_gold_alloy'])
-	event.recipes.create.deploying('3x culturaldelights:avocado_toast', ['#forge:bread/wheat', '#culturaldelights:avocados'])
-	event.recipes.create.deploying('3x kubejs:buttered_toast', ['#forge:bread/wheat', 'kubejs:butter'])
+	event.recipes.create.deploying('mynethersdelight:hotdog', ['#forge:bread/wheat', 'mynethersdelight:roasted_sausage'])
+	
+	event.recipes.create.deploying('2x culturaldelights:avocado_toast', ['#forge:bread/wheat', '#culturaldelights:avocados'])
+	event.recipes.create.deploying('2x kubejs:buttered_toast', ['#forge:bread/wheat', 'kubejs:butter'])
+	
+	event.recipes.create.deploying('crying_obsidian', ['obsidian', 'ghast_tear'])
+	event.recipes.create.deploying('frame_changer:crying_obsidian_bricks', ['frame_changer:obsidian_bricks', 'ghast_tear'])
+	event.recipes.create.deploying('frame_changer:crying_obsidian_brick_stairs', ['frame_changer:obsidian_brick_stairs', 'ghast_tear'])
+	event.recipes.create.deploying('frame_changer:crying_obsidian_brick_wall', ['frame_changer:obsidian_brick_wall', 'ghast_tear'])
+	event.recipes.create.deploying('frame_changer:crying_polished_obsidian', ['frame_changer:polished_obsidian', 'ghast_tear'])
+	event.recipes.create.deploying('frame_changer:crying_polished_obsidian_stairs', ['frame_changer:polished_obsidian_stairs', 'ghast_tear'])
+	event.recipes.create.deploying('frame_changer:crying_polished_obsidian_wall', ['frame_changer:polished_obsidian_wall', 'ghast_tear'])
+	event.recipes.create.deploying('frame_changer:crying_obsidian_pillar', ['frame_changer:obsidian_pillar', 'ghast_tear'])
+	event.recipes.create.deploying('frame_changer:crying_chiseled_obsidian', ['frame_changer:chiseled_obsidian', 'ghast_tear'])
 	
 // Sequenced assembly
 	event.recipes.createSequencedAssembly([
@@ -2744,7 +2819,7 @@ ServerEvents.recipes(event => {
 	],'#forge:bread/wheat',[
 		event.recipes.createDeploying('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich','farmersdelight:smoked_ham']),
 		event.recipes.createFilling('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich',Fluid.of('kubejs:flaxen_cheese',250)]),
-		event.recipes.createDeploying('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich','kubejs:butter']),
+		event.recipes.createFilling('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich',Fluid.of('kubejs:butter',250)]),
 		event.recipes.createDeploying('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich','#forge:bread/wheat'])
 	]).transitionalItem('kubejs:incomplete_ham_and_cheese_sandwich').loops(1).id('kubejs:ham_and_cheese_sandwich_assembly')
 
@@ -2770,7 +2845,7 @@ ServerEvents.recipes(event => {
 		Item.of('farmersdelight:stuffed_potato'),
 	],'minecraft:baked_potato',[
 		event.recipes.createDeploying('kubejs:incomplete_stuffed_potato',['kubejs:incomplete_stuffed_potato','#forge:cooked_beef']),
-		event.recipes.createDeploying('kubejs:incomplete_stuffed_potato',['kubejs:incomplete_stuffed_potato','kubejs:butter'])
+		event.recipes.createFilling('kubejs:incomplete_stuffed_potato',['kubejs:incomplete_stuffed_potato',Fluid.of('kubejs:butter',250)])
 	]).transitionalItem('kubejs:incomplete_stuffed_potato').loops(1).id('kubejs:stuffed_potato_assembly')
 
 	event.recipes.createSequencedAssembly([
@@ -2892,6 +2967,64 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying('kubejs:incomplete_marshmallow_stick',['kubejs:incomplete_marshmallow_stick','create_confectionery:marshmallow']),
 		event.recipes.createDeploying('kubejs:incomplete_marshmallow_stick',['kubejs:incomplete_marshmallow_stick','create_confectionery:marshmallow'])
 	]).transitionalItem('kubejs:incomplete_marshmallow_stick').loops(1).id('kubejs:marshmallow_stick_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('mynethersdelight:spicy_skewer'),
+	],'minecraft:blaze_rod',[
+		event.recipes.createDeploying('kubejs:incomplete_spicy_skewer',['kubejs:incomplete_spicy_skewer','#mynethersdelight:strider_meats']),
+		event.recipes.createDeploying('kubejs:incomplete_spicy_skewer',['kubejs:incomplete_spicy_skewer','mynethersdelight:bullet_pepper']),
+		event.recipes.createDeploying('kubejs:incomplete_spicy_skewer',['kubejs:incomplete_spicy_skewer','mynethersdelight:bullet_pepper'])
+	]).transitionalItem('kubejs:incomplete_spicy_skewer').loops(1).id('kubejs:spicy_skewer_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:preserved_skewer'),
+	],'minecraft:stick',[
+		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','brewinandchewin:kippers']),
+		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','brewinandchewin:jerky']),
+		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','brewinandchewin:kimchi']),
+		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','brewinandchewin:kimchi'])
+	]).transitionalItem('kubejs:incomplete_preserved_skewer').loops(1).id('kubejs:preserved_skewer_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:popcorn_bucket'),
+	],'minecraft:bucket',[
+		event.recipes.createDeploying('kubejs:incomplete_popcorn_bucket',['kubejs:incomplete_popcorn_bucket','culturaldelights:popcorn']),
+		event.recipes.createDeploying('kubejs:incomplete_popcorn_bucket',['kubejs:incomplete_popcorn_bucket','culturaldelights:popcorn']),
+		event.recipes.createDeploying('kubejs:incomplete_popcorn_bucket',['kubejs:incomplete_popcorn_bucket','culturaldelights:popcorn']),
+		event.recipes.createFilling('kubejs:incomplete_popcorn_bucket',['kubejs:incomplete_popcorn_bucket',Fluid.of('kubejs:butter',125)])
+	]).transitionalItem('kubejs:incomplete_popcorn_bucket').loops(2).id('kubejs:popcorn_bucket_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:cheesy_chip_wrap'),
+	],'culturaldelights:tortilla',[
+		event.recipes.createDeploying('kubejs:incomplete_cheesy_chip_wrap',['kubejs:incomplete_cheesy_chip_wrap','culturaldelights:tortilla_chips']),
+		event.recipes.createDeploying('kubejs:incomplete_cheesy_chip_wrap',['kubejs:incomplete_cheesy_chip_wrap','culturaldelights:tortilla_chips']),
+		event.recipes.createDeploying('kubejs:incomplete_cheesy_chip_wrap',['kubejs:incomplete_cheesy_chip_wrap','culturaldelights:tortilla_chips']),
+		event.recipes.createFilling('kubejs:incomplete_cheesy_chip_wrap',['kubejs:incomplete_cheesy_chip_wrap',Fluid.of('kubejs:flaxen_cheese',250)])
+	]).transitionalItem('kubejs:incomplete_cheesy_chip_wrap').loops(1).id('kubejs:cheesy_chip_wrap_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:squid_sandwich'),
+	],'#forge:bread/wheat',[
+		event.recipes.createDeploying('kubejs:incomplete_squid_sandwich',['kubejs:incomplete_squid_sandwich','miners_delight:baked_squid']),
+		event.recipes.createFilling('kubejs:incomplete_squid_sandwich',['kubejs:incomplete_squid_sandwich',Fluid.of('kubejs:coleslaw',250)])
+	]).transitionalItem('kubejs:incomplete_squid_sandwich').loops(1).id('kubejs:squid_sandwich_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('kubejs:cave_burger'),
+	],'#forge:bread/wheat',[
+		event.recipes.createDeploying('kubejs:incomplete_cave_burger',['kubejs:incomplete_cave_burger','miners_delight:baked_tentacles']),
+		event.recipes.createDeploying('kubejs:incomplete_cave_burger',['kubejs:incomplete_cave_burger','miners_delight:smoked_bat_wing']),
+		event.recipes.createDeploying('kubejs:incomplete_cave_burger',['kubejs:incomplete_cave_burger','#raspberry_flavoured:cave_scrap_ingredients']),
+		event.recipes.createDeploying('kubejs:incomplete_cave_burger',['kubejs:incomplete_cave_burger','#raspberry_flavoured:cave_scrap_ingredients'])
+	]).transitionalItem('kubejs:incomplete_cave_burger').loops(1).id('kubejs:cave_burger_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('mynethersdelight:chilidog'),
+	],'mynethersdelight:hotdog',[
+		event.recipes.createFilling('kubejs:incomplete_chilidog',['kubejs:incomplete_chilidog',Fluid.of('kubejs:blazing_chili',125)]),
+		event.recipes.createFilling('kubejs:incomplete_chilidog',['kubejs:incomplete_chilidog',Fluid.of('kubejs:scarlet_cheese',125)])
+	]).transitionalItem('kubejs:incomplete_chilidog').loops(1).id('kubejs:chilidog_assembly')
 
 	event.recipes.createSequencedAssembly([
 		Item.of('create:blaze_cake',2),
@@ -3183,12 +3316,12 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ id: 'everycomp:q/architects_palette/twisted_hedge' }, '#minecraft:oak_logs', '#architects_palette:twisted_logs')
 	event.replaceInput({ id: 'mynethersdelight:hoglin_trophy_cure' }, 'minecraft:ghast_tear', 'minecraft:golden_apple')
 	event.replaceInput({ id: 'architects_palette:cerebral_tiles' }, 'architects_palette:cerebral_block', 'architects_palette:mushy_myonite_bricks')
-	event.replaceInput({ id: 'quark:tweaks/crafting/utility/misc/chest_minecart' }, 'minecraft:iron_ingot', '#brewinandchewin:iron_or_lead')
-	event.replaceInput({ id: 'quark:tweaks/crafting/utility/misc/furnace_minecart' }, 'minecraft:iron_ingot', '#brewinandchewin:iron_or_lead')
-	event.replaceInput({ id: 'quark:tweaks/crafting/utility/misc/tnt_minecart' }, 'minecraft:iron_ingot', '#brewinandchewin:iron_or_lead')
-	event.replaceInput({ id: 'quark:tweaks/crafting/utility/misc/hopper_minecart' }, 'minecraft:iron_ingot', '#brewinandchewin:iron_or_lead')
-	event.replaceInput({ id: 'quark:building/crafting/furnaces/deepslate_minecart_tweaked' }, 'minecraft:iron_ingot', '#brewinandchewin:iron_or_lead')
-	event.replaceInput({ id: 'quark:building/crafting/furnaces/blackstone_minecart_tweaked' }, 'minecraft:iron_ingot', '#brewinandchewin:iron_or_lead')
+	event.replaceInput({ id: 'quark:tweaks/crafting/utility/misc/chest_minecart' }, 'minecraft:iron_ingot', '#raspberry_flavoured:iron_or_lead_ingots')
+	event.replaceInput({ id: 'quark:tweaks/crafting/utility/misc/furnace_minecart' }, 'minecraft:iron_ingot', '#raspberry_flavoured:iron_or_lead_ingots')
+	event.replaceInput({ id: 'quark:tweaks/crafting/utility/misc/tnt_minecart' }, 'minecraft:iron_ingot', '#raspberry_flavoured:iron_or_lead_ingots')
+	event.replaceInput({ id: 'quark:tweaks/crafting/utility/misc/hopper_minecart' }, 'minecraft:iron_ingot', '#raspberry_flavoured:iron_or_lead_ingots')
+	event.replaceInput({ id: 'quark:building/crafting/furnaces/deepslate_minecart_tweaked' }, 'minecraft:iron_ingot', '#raspberry_flavoured:iron_or_lead_ingots')
+	event.replaceInput({ id: 'quark:building/crafting/furnaces/blackstone_minecart_tweaked' }, 'minecraft:iron_ingot', '#raspberry_flavoured:iron_or_lead_ingots')
 	event.replaceInput({ id: 'naturalist:teddy_bear' }, '#minecraft:wool', ['#minecraft:wool', '#raspberry_flavoured:cloth_blocks'])
 	event.replaceInput({ id: 'create:crafting/kinetics/nozzle' }, '#minecraft:wool', ['#minecraft:wool', '#raspberry_flavoured:cloth_blocks'])
 	event.replaceInput({ id: 'create:crafting/kinetics/white_sail' }, '#minecraft:wool', ['#minecraft:wool', '#raspberry_flavoured:cloth_blocks'])
@@ -3203,8 +3336,8 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ id: 'create:crafting/logistics/brass_tunnel' }, 'minecraft:dried_kelp', 'kubejs:rubber')
 	event.replaceInput({ id: 'quark:building/crafting/blackstone_bricks' }, 'minecraft:blackstone', 'kubejs:cobbled_blackstone')
 	event.replaceInput({ id: 'quark:building/crafting/blackstone_bricks' }, 'paletteblocks:cobblestone_bricks', 'kubejs:cobbled_blackstone')
-	event.replaceInput({ id: 'minecraft:beacon' }, 'minecraft:glass', '#raspberry_flavoured:obsidian')
-	event.replaceInput({ id: 'minecraft:beacon' }, 'minecraft:obsidian', '#quark:framed_glasses')
+	event.replaceInput({ id: 'minecraft:beacon' }, 'minecraft:glass', '#quark:framed_glasses')
+	event.replaceInput({ id: 'minecraft:beacon' }, 'minecraft:obsidian', '#raspberry_flavoured:obsidian')
 	event.replaceInput({ id: 'create:mechanical_crafting/crushing_wheel' }, '#forge:stone', 'create:shaft')
 	event.replaceInput({ id: 'create:mechanical_crafting/crushing_wheel' }, '#minecraft:planks', '#forge:ingots/steel')
 	event.replaceInput({ id: 'farmersdelight:apple_pie' }, 'minecraft:apple', '#raspberry_flavoured:apples')
@@ -3213,7 +3346,6 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ id: 'quark:tools/crafting/trowel' }, 'minecraft:iron_ingot', 'additionaladditions:rose_gold_alloy')
 	event.replaceInput({ id: 'quark:automation/crafting/redstone_randomizer' }, 'minecraft:prismarine_crystals', 'additionaladditions:rose_gold_alloy')
 	event.replaceInput({ id: 'create:crafting/kinetics/crafter_slot_cover' }, '#forge:nuggets/brass', '#forge:nuggets/zinc')
-	event.replaceInput({ id: 'minecraft:stonecutter' }, 'minecraft:iron_ingot', 'create:iron_sheet')
 	event.replaceInput({ id: 'woodworks:sawmill' }, 'minecraft:iron_ingot', 'create:iron_sheet')
 	event.replaceInput({ id: 'create:crafting/logistics/display_link' }, 'create:copper_sheet', 'additionaladditions:rose_gold_alloy')
 	event.replaceInput({ id: 'supplementaries:checker' }, 'blackstone', 'kubejs:cobbled_blackstone')
