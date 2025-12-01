@@ -17,12 +17,12 @@ There are no Stone tools in RF - only Copper tools.
 Chainmail armor, Horse armor, Saddles and Name Tags are craftable in RF.
 Creeper Spores can be thrown to spawn a horde of friendly Creepies.
 Creepers won't damage terrain, but they will spawn Creepies.
-The crosshair indicates your tool's effectiveness on the block in front of you.
-Use bottles on Crying Obsidian to obtain Dimensional Tears.
+Use a Pickaxe on Crying Obsidian to extract a Lachryte Tear.
+Lachryte Tears can be melted down into Liquefied Lachryte.
 Upon death, a totem will appear at your death point which holds your items.
 Discs can be smashed into fragments, which can be crafted into other discs.
 Diving gear and Backtanks will let you traverse underwater more easily.
-Dunes are rare luscious deserts with Yucca trees and various other flora.
+Dunes are lush deserts with Yucca trees and various other flora.
 Leather armor protects against fall damage.
 Chainmail armor damages attackers.
 Copper armor has a unique effect when struck by lightning.
@@ -92,6 +92,9 @@ You can find Wild Tea in Swamps and Wild Coffee in Basalt Deltas.
 You can find Wild Eggplants in Jungles and Rainforests.
 Thrashers roam Deep Frozen Oceans and will attack if they locate you.
 Torch Arrows place Torches where they land or light mobs they hit on fire.
+Rose Gold Arrows fly far and knock mobs away.
+Steel Arrows are heavy and deal more damage.
+Lachryte Arrows swap you and your target's places.
 Trains allow for mass item transport and highly stylish travel.
 Both types of Water Wheels are cheap sources of Rotational Power.
 The wood type of Water Wheels can be changed by right-clicking with Planks.
@@ -109,8 +112,8 @@ Paragliders allow for slower descension.
 Smoke from fires will boost you up when using a Paraglider.
 Koi fish will reduce hostile mob spawns in an area.
 Large Obsidian spikes in the Nether are easy sources of Blazes.
-Blaze spawners will also fill empty Blaze Burners when right-clicked.
-Cages allow you to capture small to medium-sized mobs.
+Blaze Spawners will also fill empty Blaze Burners when right-clicked.
+Cages allow you to capture smaller mobs.
 The Nether is a lot taller and denser than normal.
 Bronze has musical properties.
 Use Display Boards to display specific information about your machinery.
@@ -139,16 +142,16 @@ Brushes will allow you to brush some animals for drops.
 Glue Brushes can glue blocks together.
 Wax Brushes can wax loads of blocks at once.
 Pressing Shift + T while hovering over an item will share it in chat.
-Tackle Boxes can customise Reinforced Fishing Rods.
+Feeding a Golden Carrot to a Pig will make it find Truffles.
+Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find Worms.
 Worms will shorten the time it takes to catch a fish.
 Spider Eyes will shorten the time it takes to catch a fish.
 Fireflies will decently shorten the time it takes to catch a fish.
 Caterpillars will significantly shorten the time it takes to catch a fish.
-Feeding Corn Kernels to Chickens, Ducks or Turkeys will make them find Worms.
+Tackle Boxes can customise Reinforced Fishing Rods.
 Different Hooks have a different impact on the fishing experience.
 Holding a Bucket of Water in the offhand will make caught fish go in it.
 Copper and Gold can be hammered into Sheets, with a chance of breaking.
-A Storage Interface and Terminal allow for a more unified storage system.
 Fortresses have received reinforcements and a refreshed layout.
 Copper Golems can be created with a Carved Pumpkin and a Lightning Rod.
 Tuff Golems can be created with a Carved Pumpkin, any Wool and a Tuff block.
