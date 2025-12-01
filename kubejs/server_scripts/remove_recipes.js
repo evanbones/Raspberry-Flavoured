@@ -23,7 +23,9 @@ ServerEvents.recipes(event => {
 	"oreganized:netherite_nugget",
 	"upgrade_aquatic:blue_pickerelweed",
 	"woodworks:flowering_azalea_leaf_pile",
-	"atmospheric:flowering_morado_leaf_pile"
+	"atmospheric:flowering_morado_leaf_pile",
+	"architects_palette:myonite",
+	"architects_palette:myonite_bricks"
 	]})
 	
 // Removing by output
@@ -34,8 +36,7 @@ ServerEvents.recipes(event => {
 	"ecologics:walnut_door", 
 	"ecologics:walnut_trapdoor", 
 	"ecologics:walnut_boat", 
-	"ecologics:walnut", 
-	"ecologics:walnut_leaves", 
+	"ecologics:walnut",
 	"ecologics:stripped_walnut_wood", 
 	"ecologics:walnut_wood", 
 	"ecologics:walnut_fence", 
@@ -44,8 +45,7 @@ ServerEvents.recipes(event => {
 	"ecologics:walnut_slab", 
 	"ecologics:walnut_log", 
 	"ecologics:walnut_button", 
-	"ecologics:walnut_pressure_plate", 
-	"ecologics:walnut_sapling", 
+	"ecologics:walnut_pressure_plate",
 	"supplementaries:ecologics/sign_post_walnut", 
 	"supplementaries:ecologics/hanging_sign_walnut", 
 	"ecologics:walnut_chest_boat", 
@@ -59,11 +59,9 @@ ServerEvents.recipes(event => {
 	"everycomp:c/ecologics/walnut_window", 
 	"everycomp:af/ecologics/walnut_shutter", 
 	"everycomp:q/ecologics/walnut_ladder", 
-	"everycomp:abnww/ecologics/walnut_leaf_pile", 
 	"everycomp:abnww/ecologics/walnut_boards", 
 	"everycomp:q/ecologics/stripped_walnut_post", 
 	"everycomp:q/ecologics/walnut_post", 
-	"everycomp:q/ecologics/walnut_hedge", 
 	"everycomp:ap/ecologics/walnut_board_stairs", 
 	"everycomp:ap/ecologics/walnut_boards", 
 	"everycomp:ap/ecologics/walnut_board_wall", 
@@ -1444,7 +1442,6 @@ ServerEvents.recipes(event => {
 	"upgrade_aquatic:river_log",
 	"upgrade_aquatic:river_wood",
 	"upgrade_aquatic:river_leaves",
-	"upgrade_aquatic:river_sapling",
 	"upgrade_aquatic:river_planks",
 	"upgrade_aquatic:river_stairs",
 	"upgrade_aquatic:river_slab",
@@ -2447,7 +2444,18 @@ ServerEvents.recipes(event => {
 	"everycomp:q/atmospheric/grimwood_chest",
 	"everycomp:q/atmospheric/kousa_trapped_chest",
 	"everycomp:q/atmospheric/grimwood_trapped_chest",
-	"woodworks:sawmill"
+	"woodworks:sawmill",
+	"architects_palette:myonite_slab",
+	"architects_palette:myonite_stairs",
+	"architects_palette:myonite_wall",
+	"architects_palette:myonite_brick_slab",
+	"architects_palette:myonite_brick_stairs",
+	"architects_palette:myonite_brick_wall",
+    "atmospheric:grimwood_leaves",
+    "atmospheric:grimwood_sapling",
+    "atmospheric:grimwood_leaf_pile",
+    "atmospheric:grimwood_hedge",
+	"ecologics:walnut_sapling"
 	]})
 
 // Removing by ID

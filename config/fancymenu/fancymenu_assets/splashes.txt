@@ -1680,6 +1680,14 @@ Have another!
 And another!
 How about two!
 One more!
+Electric slam-a-roo!
+pringle chip in your ps2 memory card slot
+Error reading disc
+You fight evil, stop powerful bad guys!
+November 2nd!
+December 1st!
+Reaching far across these new frontiers!
+With a stroke of luck, you might become a monster truck!
 Justice for seagulls!
 Justice for crabs!
 Justice for tuff golems!
@@ -1865,6 +1873,7 @@ Shoutout to &lbeb!
 Shoutout to &lJameslice!
 Shoutout to &ljaybees!
 Shoutout to &lmintynoura!
+Shoutout to &levanbones!
 Shoutout to &lSarahIsWeird!
 Shoutout to &lGrom PE!
 Shoutout to &lWaterOre!
@@ -1888,5 +1897,5 @@ Shoutout to &lScrap Sorra!
 Shoutout to &lSpncr!
 Shoutout to &lThe Sonic Hangout!
 Shoutout to &lthe RF Discord server!
-241 mods!
-This splash has a &l1 &rin &l1892 &rchance of showing up!
+240 mods!
+This splash has a &l1 &rin &l1893 &rchance of showing up!

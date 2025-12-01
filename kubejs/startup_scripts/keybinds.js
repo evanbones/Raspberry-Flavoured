@@ -1,8 +1,8 @@
 // priority: 0
 
 KeyBindEvents.modify(event => {
-	event.remove('Reload Menu | CTRL + ALT + ');
-	event.remove('Toggle Customization Overlay | CTRL + ALT + ');
+//	event.remove('Reload Menu | CTRL + ALT + ');
+//	event.remove('Toggle Customization Overlay | CTRL + ALT + ');
 	
 	event.remove('key.jei.nextCategory');
 	event.remove('key.jei.showRecipe2');
@@ -65,6 +65,12 @@ KeyBindEvents.modify(event => {
 	event.remove('key.presencefootsteps.settings');
 	event.remove('quark.keybind.variant_selector');
 	event.remove('quark.keybind.change_hotbar');
+	event.remove('key.jade.config');
+	event.remove('key.jade.toggle_liquid');
+	event.remove('key.jade.show_recipes');
+	event.remove('key.jade.show_uses');
+	event.remove('key.jade.narrate');
+	event.remove('key.immersiveoverlays.toggle');
 	
 	event.modifyCategory('quark.keybind.autorun', 'key.categories.movement');
 	
@@ -78,6 +84,8 @@ KeyBindEvents.modify(event => {
 	event.modifyCategory('quark.keybind.lock_rotation', 'key.categories.gameplay');
 	event.modifyCategory('key.spyglass-improvements.use', 'key.categories.gameplay');
 	event.modifyCategory('supplementaries.keybind.quiver', 'key.categories.gameplay');
+	event.modifyCategory('key.jade.show_overlay', 'key.categories.gameplay');
+	event.modifyCategory('key.jade.show_details', 'key.categories.gameplay');
 	
 	event.modifyCategory('create.keyinfo.ponder', 'key.categories.inventory');
 	event.modifyCategory('quark.keybind.sort_player', 'key.categories.inventory');

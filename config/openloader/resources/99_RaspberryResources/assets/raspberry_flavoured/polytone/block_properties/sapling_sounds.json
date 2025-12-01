@@ -28,7 +28,8 @@
     "atmospheric:aspen_sapling",
     "atmospheric:grimwood_sapling",
     "ecologics:coconut_seedling",
-    "mynethersdelight:powdery_chubby_sapling"
+    "mynethersdelight:powdery_chubby_sapling",
+    "ecologics:walnut_sapling"
    ],
    "sound_type": "bamboo_sapling"
 }

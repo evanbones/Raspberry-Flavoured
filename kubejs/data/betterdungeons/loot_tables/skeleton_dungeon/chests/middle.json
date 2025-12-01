@@ -30,64 +30,103 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-			{
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.6
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:bow"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 30,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
+                "min": 12.0,
                 "max": 36.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "kubejs:charcoal_lump"
+          "name": "minecraft:stick"
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:leather"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "kubejs:cloth_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12.0,
+                "max": 24.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:flint"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 2.0,
-                "max": 36.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "spelunkery:coal_lump"
+          "name": "spelunkery:rough_diamond"
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 2.0,
-                "max": 4.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:torch"
+          "name": "oreganized:raw_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:music_disc_ward"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:music_disc_mellohi"
         },
         {
           "type": "minecraft:item",
@@ -97,77 +136,12 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 3.0,
-                "max": 15.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:stick"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
                 "max": 4.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "quark:stick_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 25,
-          "name": "spelunkery:rough_diamond"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:music_disc_ward"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:music_disc_mellohi"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "kubejs:flinging_tablet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "kubejs:piercing_tablet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "kubejs:swift_tablet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
           "name": "farmersdelight:bone_broth"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "supplementaries:quiver"
         },
         {
           "type": "minecraft:item",
@@ -177,8 +151,8 @@
               "add": false,
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 0.4,
-                "min": 0.2
+                "max": 0.8,
+                "min": 0.6
               },
               "function": "minecraft:set_damage"
             }
@@ -186,6 +160,39 @@
           "name": "savage_and_ravage:wand_of_freezing"
         }
       ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "kubejs:tablets"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "kubejs:flinging_tablet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "kubejs:piercing_tablet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "kubejs:swift_tablet"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 2.0
+      }
     }
   ]
 }

@@ -333,6 +333,7 @@ ServerEvents.recipes(event => {
 	twoByTwo('soul_sand', 'quark:soul_sandstone', 4)
 	twoByTwo('everycomp:abnww/ecologics/coconut_leaf_pile', 'ecologics:coconut_leaves', 1)
 	twoByTwo('everycomp:abnww/culturaldelights/avocado_leaf_pile', 'culturaldelights:avocado_leaves', 1)
+	twoByTwo('everycomp:abnww/ecologics/walnut_leaf_pile', 'ecologics:walnut_leaves', 1)
 	twoByTwo('raspberry:deepslate_gravel', 'kubejs:deepslate_gravel_bricks', 4)
 	twoByTwo('stone', 'smooth_stone', 4)
 	twoByTwo('neapolitan:banana_bunch', 'neapolitan:banana_bundle', 1)
@@ -536,7 +537,7 @@ ServerEvents.recipes(event => {
 	event.shaped('3x bowl', ['A A', ' A '], {A: '#minecraft:planks'}).id('minecraft:bowl')
 	event.shaped('12x bowl', ['A A', ' A '], {A: '#minecraft:logs'})
 	event.shaped('2x atmospheric:aspen_hedge', ['A', 'B'], {A: 'atmospheric:aspen_leaves', B: '#minecraft:birch_logs'}).id('atmospheric:aspen_hedge')
-	event.shaped('2x atmospheric:grimwood_hedge', ['A', 'B'], {A: 'atmospheric:grimwood_leaves', B: '#minecraft:birch_logs'}).id('atmospheric:grimwood_hedge')
+	event.shaped('2x everycomp:q/ecologics/walnut_hedge', ['A', 'B'], {A: 'ecologics:walnut_leaves', B: '#minecraft:birch_logs'}).id('everycomp:q/ecologics/walnut_hedge')
 	event.shaped('stonecutter', [' A ', 'BCB'], {A: '#forge:plates/iron', B: '#raspberry_flavoured:iron_or_lead_ingots', C: '#minecraft:planks'}).id('minecraft:stonecutter')
 	event.shaped('4x architects_palette:basalt_tiles', ['AA', 'AA'], {A: ['twigs:smooth_basalt_bricks', 'twigs:polished_basalt_bricks']})
 	
@@ -1599,7 +1600,7 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('ender_pearl', 'another_furniture:furniture_hammer', [Item.of('ghast_tear').withChance(0.5)])
 	event.recipes.farmersdelight.cutting('#forge:bookshelves', '#forge:tools/axes', ['book', '4x stick'])
 	
-	event.recipes.farmersdelight.cutting('atmospheric:grimwood_leaves', '#forge:tools/hoes', [Item.of('atmospheric:grimwood_sapling').withChance(0.25)])
+	event.recipes.farmersdelight.cutting('ecologics:walnut_leaves', '#forge:tools/hoes', [Item.of('upgrade_aquatic:river_sapling').withChance(0.25)])
 	
 	event.recipes.farmersdelight.cutting('raspberry:clovers', '#forge:tools/knives', [Item.of('green_dye').withChance(0.25)])
 	event.recipes.farmersdelight.cutting('raspberry:hopeful_wildflowers', '#forge:tools/knives', ['light_blue_dye', Item.of('pink_dye').withChance(0.5), Item.of('white_dye').withChance(0.25)])
@@ -1673,7 +1674,7 @@ ServerEvents.recipes(event => {
 	mushCapCutting('minecraft:warped_wart_block', 'minecraft:warped_fungus')
 	mushCapCutting('kubejs:choral_cap', 'architects_palette:twisted_sapling')
 	mushCapCutting('spelunkery:conk_fungus_block', 'spelunkery:conk_fungus')
-	mushCapCutting('spelunkery:portabella_block', 'spelunkery:portabella')
+	mushCapCutting('spelunkery:portabella_block', 'spelunkery:button_mushroom')
 	mushCapCutting('spelunkery:inkcap_mushroom_block', 'spelunkery:inkcap_mushroom')
 	mushCapCutting('spelunkery:white_inkcap_mushroom_block', 'spelunkery:white_inkcap_mushroom')
 	mushCapCutting('spelunkery:milly_bubcap_block', 'spelunkery:milly_bubcap')

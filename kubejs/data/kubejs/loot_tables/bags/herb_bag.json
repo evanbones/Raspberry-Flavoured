@@ -65,7 +65,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "atmospheric:grimwood_sapling"
+          "name": "upgrade_aquatic:river_sapling"
         },
         {
           "type": "minecraft:item",

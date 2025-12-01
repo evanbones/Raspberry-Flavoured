@@ -353,6 +353,14 @@ to make editing this file much easier.
 			"atmospheric:aspen_wood": "minecraft:birch_wood",
 			"atmospheric:stripped_aspen_log": "minecraft:stripped_birch_log",
 			"atmospheric:stripped_aspen_wood": "minecraft:stripped_birch_wood",
-			"atmospheric:watchful_aspen_log": "minecraft:birch_log"
+			"atmospheric:watchful_aspen_log": "minecraft:birch_log",
+			"ecologics:walnut_log": "minecraft:birch_log",
+			"ecologics:walnut_wood": "minecraft:birch_wood",
+			"ecologics:stripped_walnut_log": "minecraft:stripped_birch_log",
+			"ecologics:stripped_walnut_wood": "minecraft:stripped_birch_wood",
+			"upgrade_aquatic:river_log": "minecraft:birch_log",
+			"upgrade_aquatic:river_wood": "minecraft:birch_wood",
+			"upgrade_aquatic:stripped_river_log": "minecraft:stripped_birch_log",
+			"upgrade_aquatic:stripped_river_wood": "minecraft:stripped_birch_wood"
 	   	}
 }

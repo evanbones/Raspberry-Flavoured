@@ -1,10 +1,11 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Edited in Blockbench by ProbablyEkho",
 	"render_type": "cutout",
 	"textures": {
 		"0": "raspberry:block/wildflowers_stem",
 		"1": "raspberry:block/moody_wildflowers",
-		"particle": "raspberry:item/moody_wildflowers"
+		"particle": "#1"
 	},
 	"elements": [
 		{

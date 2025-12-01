@@ -1995,6 +1995,9 @@
 		"copperandtuffbackport:waxed_exposed_copper_trapdoor" = "redstone"
 		"copperandtuffbackport:waxed_weathered_copper_trapdoor" = "redstone"
 		"copperandtuffbackport:waxed_oxidized_copper_trapdoor" = "redstone"
+		"ecologics:walnut_leaves" = "decorations"
+		"everycomp:q/ecologics/walnut_hedge" = "decorations"
+		"everycomp:abnww/ecologics/walnut_leaf_pile" = "decorations"
 
 	#Set this value to true to make an item fire resistant (like netherite is), or set it to false to make it burn in fire and lava. Example (without the leading #):
 	#"minecraft:netherite_ingot" = false
@@ -2440,16 +2443,16 @@
 			"minecraft:diamond_axe" = 8.0
 			"minecraft:diamond_hoe" = 8.0
 			"farmersdelight:diamond_knife" = 8.0
-			"minecraft:netherite_shovel" = 9.0
-			"minecraft:netherite_pickaxe" = 9.0
-			"minecraft:netherite_axe" = 9.0
-			"minecraft:netherite_hoe" = 9.0
-			"farmersdelight:netherite_knife" = 9.0
-			"caverns_and_chasms:necromium_shovel" = 10
-			"caverns_and_chasms:necromium_pickaxe" = 10
-			"caverns_and_chasms:necromium_axe" = 10
-			"caverns_and_chasms:necromium_hoe" = 10
-			"abnormals_delight:necromium_knife" = 10
+			"minecraft:netherite_shovel" = 10
+			"minecraft:netherite_pickaxe" = 10
+			"minecraft:netherite_axe" = 10
+			"minecraft:netherite_hoe" = 10
+			"farmersdelight:netherite_knife" = 10
+			"caverns_and_chasms:necromium_shovel" = 13
+			"caverns_and_chasms:necromium_pickaxe" = 13
+			"caverns_and_chasms:necromium_axe" = 13
+			"caverns_and_chasms:necromium_hoe" = 13
+			"abnormals_delight:necromium_knife" = 13
 			"additionaladditions:rose_gold_axe" = 12
 			"additionaladditions:rose_gold_pickaxe" = 12
 			"additionaladditions:rose_gold_shovel" = 12

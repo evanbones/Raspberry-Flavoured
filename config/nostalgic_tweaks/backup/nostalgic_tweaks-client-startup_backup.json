@@ -83,7 +83,7 @@
     "oldLoadingScreens": true,
     "oldVersionOverlay": false,
     "oldOverlayCorner": "TOP_LEFT",
-    "oldOverlayText": "%dRaspberry %5Flavoured %63.0",
+    "oldOverlayText": "%dRaspberry %5Flavoured %63.2",
     "oldPauseMenu": "MODERN",
     "includeModsOnPause": false,
     "removeExtraPauseButtons": false,

@@ -681,7 +681,6 @@ ItemEvents.tooltip(tooltip => {
 	"ecologics:walnut_trapdoor",
 	"ecologics:walnut_boat",
 	"ecologics:walnut",
-	"ecologics:walnut_leaves",
 	"ecologics:stripped_walnut_wood",
 	"ecologics:walnut_wood",
 	"ecologics:walnut_fence",
@@ -691,7 +690,6 @@ ItemEvents.tooltip(tooltip => {
 	"ecologics:walnut_log",
 	"ecologics:walnut_button",
 	"ecologics:walnut_pressure_plate",
-	"ecologics:walnut_sapling",
 	"supplementaries:ecologics/sign_post_walnut",
 	"supplementaries:ecologics/hanging_sign_walnut",
 	"ecologics:walnut_chest_boat",
@@ -705,11 +703,9 @@ ItemEvents.tooltip(tooltip => {
 	"everycomp:c/ecologics/walnut_window",
 	"everycomp:af/ecologics/walnut_shutter",
 	"everycomp:q/ecologics/walnut_ladder",
-	"everycomp:abnww/ecologics/walnut_leaf_pile",
 	"everycomp:abnww/ecologics/walnut_boards",
 	"everycomp:q/ecologics/stripped_walnut_post",
 	"everycomp:q/ecologics/walnut_post",
-	"everycomp:q/ecologics/walnut_hedge",
 	"everycomp:ap/ecologics/walnut_board_stairs",
 	"everycomp:ap/ecologics/walnut_boards",
 	"everycomp:ap/ecologics/walnut_board_wall",
@@ -1892,7 +1888,6 @@ ItemEvents.tooltip(tooltip => {
 	"upgrade_aquatic:river_log",
 	"upgrade_aquatic:river_wood",
 	"upgrade_aquatic:river_leaves",
-	"upgrade_aquatic:river_sapling",
 	"upgrade_aquatic:river_planks",
 	"upgrade_aquatic:river_stairs",
 	"upgrade_aquatic:river_slab",
@@ -3238,7 +3233,12 @@ ItemEvents.tooltip(tooltip => {
 	"everycomp:q/atmospheric/kousa_chest",
 	"everycomp:q/atmospheric/grimwood_chest",
 	"everycomp:q/atmospheric/kousa_trapped_chest",
-	"everycomp:q/atmospheric/grimwood_trapped_chest"
+	"everycomp:q/atmospheric/grimwood_trapped_chest",
+    "atmospheric:grimwood_leaves",
+    "atmospheric:grimwood_sapling",
+    "atmospheric:grimwood_leaf_pile",
+    "atmospheric:grimwood_hedge",
+	"ecologics:walnut_sapling"
 	], Text.translate("rf.tooltip.unobtainable"))
   
 // snowball

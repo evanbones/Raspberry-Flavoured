@@ -3271,6 +3271,8 @@ ServerEvents.tags('block', event => {
 		.add('culturaldelights:wild_eggplants')
 		.add('farmersrespite:wild_tea_bush')
 		.add('farmersrespite:wild_coffee_bush')
+		.add('brewinandchewin:flaxen_cheese_wheel')
+		.add('brewinandchewin:scarlet_cheese_wheel')
 		.remove('nethersdelight:mimicarnation')
 		.remove('miners_delight:wild_cave_carrots')
 	
@@ -3391,6 +3393,9 @@ ServerEvents.tags('block', event => {
 		.remove('atmospheric:kousa_chest')
 		.remove('atmospheric:kousa_trapped_chest')
 		
+	event.get('allurement:mineable/bane_of_arthropods')
+		.add('raspberry:temporary_cobweb')
+		
 	event.get('minecraft:mineable/shovel')
 		.add('twigs:gravel_bricks')
 		.add('twigs:gravel_brick_slab')
@@ -3469,8 +3474,6 @@ ServerEvents.tags('block', event => {
 		.add('minecraft:cactus')
 		.add('atmospheric:barrel_cactus')
 		.add('minecraft:cocoa')
-		.add('atmospheric:kousa_chest')
-		.add('atmospheric:kousa_trapped_chest')
 		.add('minecraft:brown_mushroom_block')
 		.add('minecraft:red_mushroom_block')
 		.add('spelunkery:conk_fungus_block')
@@ -3725,6 +3728,7 @@ ServerEvents.tags('block', event => {
 		.add('supplementaries:pancake')
 		.add('raspberry:lemon_pancake')
 		.add('culturaldelights:eggplant_parmesan_block')
+		.add('raspberry:temporary_cobweb')
 	
 	event.get('minecraft:needs_stone_tool')
 		.add('create_confectionery:candy_cane_block')
@@ -4127,6 +4131,9 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('minecraft:old_growth_pine_taiga')
 		.add('minecraft:old_growth_spruce_taiga')
 		
+	event.get('windswept:has_feature/nightshades')
+		.add('#minecraft:is_overworld')
+		
 	event.get('upgrade_aquatic:has_feature/pickerelweed_extra')
 		.add('#upgrade_aquatic:has_feature/pickerelweed')
 		
@@ -4185,6 +4192,7 @@ ServerEvents.tags('worldgen/biome', event => {
 		
 	event.get('geophilic_reforged:gets/small_cobblestone_pillars')
 		.add('#atmospheric:is_rainforest')
+		.add('minecraft:stony_shore')
 		
 	event.get('geophilic_reforged:gets/rocks/mossy_cobblestone')
 		.add('#forge:is_wet')
@@ -4291,6 +4299,8 @@ ServerEvents.tags('worldgen/biome', event => {
 		
 	event.get('raspberry_flavoured:dense_grass_biomes')
 		.add('minecraft:taiga')
+		.add('environmental:blossom_woods')
+		.add('environmental:blossom_valleys')
 		
 	event.get('raspberry_flavoured:hopeful_wildflowers_biomes')
 		.add('minecraft:flower_forest')
@@ -4408,6 +4418,7 @@ ServerEvents.tags('mob_effect', event => {
 		.add('kubejs:satiation')
 		.add('kubejs:coughing')
 		.add('dungeons_mobs:ensnared')
+		.add('farmersdelight:comfort')
 		.add('farmersdelight:nourishment')
 		.add('clash:staggered')
 		.add('clash:retaliation')

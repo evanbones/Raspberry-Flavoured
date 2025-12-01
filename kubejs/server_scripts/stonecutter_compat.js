@@ -96,7 +96,9 @@ ServerEvents.recipes(event => {
 	'#raspberry_flavoured:steel',
 	'#raspberry_flavoured:obsidian',
 	'#raspberry_flavoured:crying_obsidian',
-	'#raspberry_flavoured:lachryte'
+	'#raspberry_flavoured:lachryte',
+	'#raspberry_flavoured:exolite',
+	'#raspberry_flavoured:glowstone'
 	]
     
     removedRecipes.forEach(recipe => {

@@ -4,5 +4,8 @@
   "block_type.architects_palette.board_wall": "%s Parquetry Wall",
   "block_type.architects_palette.board_stairs": "%s Parquetry Stairs",
   "block_type.architects_palette.board_slab": "%s Parquetry Slab",
-  "block.everycomp.q.architects_palette.hollow_twisted_log": "Hollow Choral Stem"
+  "block.everycomp.q.architects_palette.hollow_twisted_log": "Hollow Choral Stem",
+  
+  "block.everycomp.q.ecologics.walnut_hedge": "Silver Birch Leaf Hedge",
+  "block.everycomp.abnww.ecologics.walnut_leaf_pile": "Pile of Silver Birch Leaves"
 }

@@ -1,6 +1,7 @@
 {
    "targets": [
    "minecraft:cobweb",
+   "raspberry:temporary_cobweb",
    "farmersdelight:safety_net"
    ],
    "sound_type": {

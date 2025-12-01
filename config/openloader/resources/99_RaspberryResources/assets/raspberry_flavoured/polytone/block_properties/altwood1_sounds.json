@@ -261,7 +261,7 @@
    "woodworks:birch_chest",
    "woodworks:birch_trapped_chest",
    "atmospheric:aspen_hedge",
-   "atmospheric:grimwood_hedge"
+   "everycomp:q/ecologics/walnut_hedge"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.altwood1.break",

@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "raspberry:block/wildflowers_stem",
 		"1": "raspberry:block/pink_petals",
-		"particle": "raspberry:item/pink_petals"
+		"particle": "#1"
 	},
 	"elements": [
 		{

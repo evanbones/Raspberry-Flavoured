@@ -103,6 +103,54 @@
   {
     "mob": "minecraft:zombie",
     "onjoin": true,
+    "random": 0.1,
+    "biome": "environmental:blossom_woods",
+    "armorhelmet": ["raspberry:playful_wildflower_garland"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "onjoin": true,
+    "random": 0.1,
+    "biome": "environmental:blossom_woods",
+    "armorhelmet": ["raspberry:playful_wildflower_garland"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
+    "random": 0.1,
+    "biome": "environmental:blossom_valleys",
+    "armorhelmet": ["raspberry:playful_wildflower_garland"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "onjoin": true,
+    "random": 0.1,
+    "biome": "environmental:blossom_valleys",
+    "armorhelmet": ["raspberry:playful_wildflower_garland"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
+    "random": 0.1,
+    "biome": "minecraft:flower_forest",
+    "armorhelmet": ["raspberry:cheery_wildflower_garland", "raspberry:moody_wildflower_garland", "raspberry:hopeful_wildflower_garland"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "onjoin": true,
+    "random": 0.1,
+    "biome": "minecraft:flower_forest",
+    "armorhelmet": ["raspberry:cheery_wildflower_garland", "raspberry:moody_wildflower_garland", "raspberry:hopeful_wildflower_garland"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
 	"maxheight": -15,
     "random": 0.075,
     "armorchest": ["copperized:copper_chestplate", "minecraft:leather_chestplate"],

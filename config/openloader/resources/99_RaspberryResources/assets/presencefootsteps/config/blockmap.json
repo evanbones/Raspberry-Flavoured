@@ -24,7 +24,7 @@
 	"minecraft:coarse_dirt": "dirt,gravel",
 	"minecraft:rooted_dirt": "dirt,gravel",
 	"minecraft:dirt_path": "grass",
-	"minecraft:podzol": "dirt,straw",
+	"minecraft:podzol": "dirt,organic",
 	"minecraft:cobblestone": "stone",
 
 	"minecraft:raw_iron_block": "stone",
@@ -1846,7 +1846,7 @@
 	"create:deepslate_zinc_ore": "slate_ore",
 	
 	"environmental:mycelium_path": "grass",
-	"environmental:podzol_path": "dirt,straw",
+	"environmental:podzol_path": "dirt,organic",
 	
 	"create:oak_window": "wood,glass",
 	"create:spruce_window": "wood,glass",
@@ -2048,5 +2048,19 @@
 	"kubejs:lachryte_bricks": "obsidian,glass,glowstone",
 	"kubejs:lachryte_brick_slab": "obsidian,glass,glowstone",
 	"kubejs:lachryte_brick_stairs": "obsidian,glass,glowstone",
-	"kubejs:lachryte_brick_wall": "obsidian,glass,glowstone"
+	"kubejs:lachryte_brick_wall": "obsidian,glass,glowstone",
+	
+	"raspberry:clovers": "NOT_EMITTER",
+	"raspberry:clovers.foliage": "brush",
+	"raspberry:pink_petals": "NOT_EMITTER",
+	"raspberry:pink_petals.foliage": "brush",
+	"raspberry:cheery_wildflowers": "NOT_EMITTER",
+	"raspberry:cheery_wildflowers.foliage": "brush",
+	"raspberry:moody_wildflowers": "NOT_EMITTER",
+	"raspberry:moody_wildflowers.foliage": "brush",
+	"raspberry:hopeful_wildflowers": "NOT_EMITTER",
+	"raspberry:hopeful_wildflowers.foliage": "brush",
+	
+	"atmospheric:crustose": "dirt,organic",
+	"atmospheric:crustose_path": "dirt,organic"
 }	

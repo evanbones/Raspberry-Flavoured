@@ -217,7 +217,6 @@ ServerEvents.tags('item', event => {
 	"quark:azalea_fence_gate",
 	"quark:blossom_fence_gate",
 	"quark:ancient_fence_gate",
-	"ecologics:walnut_leaves",
 	"atmospheric:kousa_leaves",
 	"quark:blue_blossom_leaves",
 	"quark:lavender_blossom_leaves",
@@ -282,7 +281,6 @@ ServerEvents.tags('item', event => {
 	"quark:vertical_blossom_planks",
 	"quark:ancient_planks",
 	"quark:vertical_ancient_planks",
-	"ecologics:walnut_sapling",
 	"atmospheric:kousa_sapling",
 	"windswept:holly_sign",
 	"ecologics:walnut_sign",
@@ -479,7 +477,6 @@ ServerEvents.tags('item', event => {
 	"quark:blossom_pressure_plate",
 	"quark:ancient_pressure_plate",
 	"oreganized:bush_hammer",
-	"everycomp:q/ecologics/walnut_hedge",
 	"atmospheric:kousa_hedge",
 	"quark:flowering_azalea_hedge",
 	"quark:ancient_hedge",
@@ -725,7 +722,6 @@ ServerEvents.tags('item', event => {
 	"upgrade_aquatic:river_log",
 	"upgrade_aquatic:river_wood",
 	"upgrade_aquatic:river_leaves",
-	"upgrade_aquatic:river_sapling",
 	"upgrade_aquatic:river_planks",
 	"upgrade_aquatic:river_stairs",
 	"upgrade_aquatic:river_slab",
@@ -1718,7 +1714,12 @@ ServerEvents.tags('item', event => {
 	"everycomp:q/atmospheric/kousa_chest",
 	"everycomp:q/atmospheric/grimwood_chest",
 	"everycomp:q/atmospheric/kousa_trapped_chest",
-	"everycomp:q/atmospheric/grimwood_trapped_chest"
+	"everycomp:q/atmospheric/grimwood_trapped_chest",
+    "atmospheric:grimwood_leaves",
+    "atmospheric:grimwood_sapling",
+    "atmospheric:grimwood_leaf_pile",
+    "atmospheric:grimwood_hedge",
+	"ecologics:walnut_sapling"
 	])
 	
 	event.removeAll('createaddition:plant_foods')

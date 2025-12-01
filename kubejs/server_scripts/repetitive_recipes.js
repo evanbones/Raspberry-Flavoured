@@ -17,6 +17,8 @@ ServerEvents.recipes(event => {
 	stair('spelunkery:rough_lazurite_block','kubejs:lazurite_stairs')
 	stair('oreganized:polished_glance','oreganized:polished_glance_stairs')
 	stair('smooth_stone','kubejs:smooth_stone_stairs')
+	stair('kubejs:exolite','architects_palette:myonite_stairs')
+	stair('kubejs:cobbled_exolite','architects_palette:myonite_brick_stairs')
 	
 	// slabs
 	function slab(inputItem, resultItem) {
@@ -34,6 +36,8 @@ ServerEvents.recipes(event => {
 	slab('emerald_block','kubejs:lapis_slab')
 	slab('spelunkery:rough_lazurite_block','kubejs:lazurite_slab')
 	slab('oreganized:polished_glance','oreganized:polished_glance_slab')
+	slab('kubejs:exolite','architects_palette:myonite_slab')
+	slab('kubejs:cobbled_exolite','architects_palette:myonite_brick_slab')
 	
 	// walls
 	function wall(inputItem, resultItem) {
@@ -49,6 +53,8 @@ ServerEvents.recipes(event => {
 	wall('emerald_block','kubejs:lapis_wall')
 	wall('spelunkery:rough_lazurite_block','kubejs:lazurite_wall')
 	wall('smooth_stone','kubejs:smooth_stone_wall')
+	wall('kubejs:exolite','architects_palette:myonite_wall')
+	wall('kubejs:cobbled_exolite','architects_palette:myonite_brick_wall')
 	
 	// pillars
 	function pillar(inputItem, resultItem) {

@@ -213,6 +213,8 @@ key_keybind.additional_enchantments.cycle_explosive_tip:key.keyboard.unknown
 key_keybind.additional_enchantments.cycle_perception:key.keyboard.unknown
 key_keybind.additional_enchantments.ore_sight:key.keyboard.unknown
 key_keybind.additional_enchantments.voiding:key.keyboard.unknown
+key_key.jade.show_overlay:key.keyboard.right.control
+key_key.jade.show_details:key.keyboard.world.2
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
