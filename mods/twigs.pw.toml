@@ -1,0 +1,13 @@
+name = "Twigs"
+filename = "twigs-forge-1.19.2-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RG50cUrX/versions/3vp46egv/twigs-forge-1.19.2-3.0.1.jar"
+hash-format = "sha512"
+hash = "9a427ebde8b514b0a1fba88dd2c0c6b7d6b221d0c43d4cbb032da20414c12e3695aa20c66c6fe176a566769c448e40505d42f07ccfba3f6e3479909cd4623485"
+
+[update]
+[update.modrinth]
+mod-id = "RG50cUrX"
+version = "3vp46egv"

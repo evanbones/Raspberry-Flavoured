@@ -1,0 +1,13 @@
+name = "Improved Trident"
+filename = "ite-forge-1.20.x-v1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rJA65pFi/versions/1axJGTsZ/ite-forge-1.20.x-v1.0.jar"
+hash-format = "sha512"
+hash = "0349e7a784d8b7b9350394db260e60b92b5c3863e190be9b142c7342b4b9e076e3f6f9280681cd1db81c0c87c614bc1f4fd66e1f0d15b9c53783f77c7bd0bfca"
+
+[update]
+[update.modrinth]
+mod-id = "rJA65pFi"
+version = "1axJGTsZ"

@@ -1,0 +1,13 @@
+name = "LioLib"
+filename = "liolib-forge-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70a074e22e9dff974e0f5129b7b93d776dca175b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5104922
+project-id = 973100

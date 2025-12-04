@@ -1,0 +1,13 @@
+name = "Onion Onion"
+filename = "onion_onion-1.19.2-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vC6rKlKN/versions/vMR6rlr2/onion_onion-1.19.2-1.0.3.jar"
+hash-format = "sha512"
+hash = "e788dfd094c05aecdee205ecdbecb1b9e2277077d6da3a624c93183365d0e580c9f313eceb510ec2a5861c792c41a4c547212435e785076aea0efc9c0d9e74d4"
+
+[update]
+[update.modrinth]
+mod-id = "vC6rKlKN"
+version = "vMR6rlr2"

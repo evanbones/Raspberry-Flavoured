@@ -1,0 +1,13 @@
+name = "Let Sleeping Dogs Lie (Forge)"
+filename = "LetSleepingDogsLie-1.19.2-Forge-1.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nLlXyNIc/versions/NnVlP2Sl/LetSleepingDogsLie-1.19.2-Forge-1.2.0.jar"
+hash-format = "sha512"
+hash = "0f35bd42161736ea8fbe33e193801fba9429e7570a1edd734aa26313dc5389a721dd492998cc87d3fea653c93539f83f50c9a320b71487b6cbca50f90f3d3c5c"
+
+[update]
+[update.modrinth]
+mod-id = "nLlXyNIc"
+version = "NnVlP2Sl"

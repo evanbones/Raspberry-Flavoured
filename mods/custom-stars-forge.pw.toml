@@ -1,0 +1,13 @@
+name = "Custom Stars [Forge]"
+filename = "custom_stars-1.19.2-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b311456d1f79f139f5432ae5457e7e404141b7e2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4431062
+project-id = 818759

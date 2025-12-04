@@ -1,0 +1,13 @@
+name = "Frame Changer"
+filename = "frame_changer-1.19.2-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/597XsRkb/versions/fjkJvasy/frame_changer-1.19.2-1.0.1.jar"
+hash-format = "sha512"
+hash = "fbf93fcf6dc9a339b6b317c982f5d964c9e496908a3353b51b669acd7d5ddbc2d2e8354e0b2a99b7afe7e736bc7c1c7fc31e39646a5f24a6b4a90fc3acad9564"
+
+[update]
+[update.modrinth]
+mod-id = "597XsRkb"
+version = "fjkJvasy"

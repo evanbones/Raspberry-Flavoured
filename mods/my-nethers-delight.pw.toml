@@ -1,0 +1,13 @@
+name = "My Nether's Delight"
+filename = "MyNethersDelight-1.19-1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/O53VhQoZ/versions/u8pJaV2E/MyNethersDelight-1.19-1.7.jar"
+hash-format = "sha512"
+hash = "30259942ae01212053f1771b413bc4a268fa83607ea1e2f7fe29e34029c086fa09491be533677454c7eee0cfc89414f7ab1a4b112b76cf9b3268e118b998ab98"
+
+[update]
+[update.modrinth]
+mod-id = "O53VhQoZ"
+version = "u8pJaV2E"

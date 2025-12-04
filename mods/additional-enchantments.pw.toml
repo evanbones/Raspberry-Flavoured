@@ -1,0 +1,13 @@
+name = "Additional Enchantments"
+filename = "additional_enchantments-1.19.2-1.1.2-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TLbWK3hE/versions/4Gl9RwGf/additional_enchantments-1.19.2-1.1.2-all.jar"
+hash-format = "sha512"
+hash = "c60bb8325253dd167dcf1dbba128728b8b09aef59764d0406906ad770494371d92ec5438ac643ad7e75c069d885e76e8ff9584509a0ea3a65820543b4dfb4833"
+
+[update]
+[update.modrinth]
+mod-id = "TLbWK3hE"
+version = "4Gl9RwGf"

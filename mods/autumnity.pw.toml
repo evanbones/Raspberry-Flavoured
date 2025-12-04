@@ -1,0 +1,13 @@
+name = "Autumnity"
+filename = "autumnity-1.19.2-4.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cRh6MJ6n/versions/zukiG2Xb/autumnity-1.19.2-4.0.1.jar"
+hash-format = "sha512"
+hash = "79547ea463b411990e74f977ba90e3c0492967ba5c9169a6102ca9fea761dc187a74a9d3752d817a164c8504280acbfbc54ea27ac9b1a37b535bc6cb22043b0f"
+
+[update]
+[update.modrinth]
+mod-id = "cRh6MJ6n"
+version = "zukiG2Xb"

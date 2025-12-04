@@ -1,0 +1,13 @@
+name = "Personality"
+filename = "personality-1.19.2-3.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zrAMu1nt/versions/dpDeV1Xm/personality-1.19.2-3.0.2.jar"
+hash-format = "sha512"
+hash = "41a23665922c5fa5114b7943a6e2efc79c6944932e727ec0476aeca597c30affb05d827015d8330a9ee5ddca4f560a2c296bb5d2190a24170772d5a9ce9e9cf7"
+
+[update]
+[update.modrinth]
+mod-id = "zrAMu1nt"
+version = "dpDeV1Xm"

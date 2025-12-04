@@ -1,0 +1,13 @@
+name = "Cat Loaf"
+filename = "catloaf-1.1.1-1.19.x-FORGE.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b0b9fa0f0f3a74a3076eb5a8dd3f202469045919"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5218143
+project-id = 978666

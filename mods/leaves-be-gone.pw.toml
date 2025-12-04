@@ -1,0 +1,13 @@
+name = "Leaves Be Gone"
+filename = "LeavesBeGone-v4.0.1-1.19.2-Forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AVq17PqV/versions/6LsBcPWG/LeavesBeGone-v4.0.1-1.19.2-Forge.jar"
+hash-format = "sha512"
+hash = "db382ba951750277addc2be7d022bdb51fc34b574beb29da0c43c49853da8691a2409e29ec6f96b4969cf704071962c187cae491125ac1cd0a9fd43b878e85c0"
+
+[update]
+[update.modrinth]
+mod-id = "AVq17PqV"
+version = "6LsBcPWG"

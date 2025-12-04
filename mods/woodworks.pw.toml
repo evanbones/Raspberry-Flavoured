@@ -1,0 +1,13 @@
+name = "Woodworks"
+filename = "woodworks-1.19.2-2.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rv1sovni/versions/prgM2znB/woodworks-1.19.2-2.2.2.jar"
+hash-format = "sha512"
+hash = "8aa8661df9a04c9b1553f266f5d35cb9d6567c561c85e0f13f00a11fc5643891f7bd2d5e4e8cf19c271222373597790b67ca4416ab4f22d774118e609601fdc7"
+
+[update]
+[update.modrinth]
+mod-id = "rv1sovni"
+version = "prgM2znB"

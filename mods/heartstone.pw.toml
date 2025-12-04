@@ -1,0 +1,13 @@
+name = "Heartstone"
+filename = "heartstone-1.19.2-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NBY6AFje/versions/m2NRankd/heartstone-1.19.2-1.1.2.jar"
+hash-format = "sha512"
+hash = "d1fbd37f685ddd6eb9e4b724eb6cd17d0472203cc863920fa81a8b2c4cd07bc8615270db3b7923baebb2f47c53f3b30dbc0816b101e4b4c513c547757c9b320f"
+
+[update]
+[update.modrinth]
+mod-id = "NBY6AFje"
+version = "m2NRankd"

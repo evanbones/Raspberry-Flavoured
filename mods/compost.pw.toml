@@ -1,0 +1,13 @@
+name = "Compost"
+filename = "compost-forge-1.19.2-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1hn9SStW/versions/RHpQ5AEL/compost-forge-1.19.2-2.0.1.jar"
+hash-format = "sha512"
+hash = "e6050e55c6631ec2d42c501c28e8fc46cad092c3799bf0ac9fd25ad77965a2b47240568f99ffc8670060b20dff8bf55d629eea5643b4f09d04e4f95cbb825490"
+
+[update]
+[update.modrinth]
+mod-id = "1hn9SStW"
+version = "RHpQ5AEL"

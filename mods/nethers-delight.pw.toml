@@ -1,0 +1,13 @@
+name = "Nether's Delight"
+filename = "NethersDelight-1.19-3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vv0RM7WN/versions/coysmu7U/NethersDelight-1.19-3.0.jar"
+hash-format = "sha512"
+hash = "b45554c4d41337dfe87dec6145df96842b7863e0ff2cc846b55e12018dd8ecbcc51f7b205b88dd5b04293c62b9b1571a0047494160484e0f30ab2a0345eb932c"
+
+[update]
+[update.modrinth]
+mod-id = "Vv0RM7WN"
+version = "coysmu7U"

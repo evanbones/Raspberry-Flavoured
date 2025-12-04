@@ -1,0 +1,13 @@
+name = "Better Compatibility Checker"
+filename = "BetterCompatibilityChecker-1.0.10-build.50+mc1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KJhXPbHQ/versions/SIqdR1UJ/BetterCompatibilityChecker-1.0.10-build.50%2Bmc1.19.2.jar"
+hash-format = "sha512"
+hash = "6eedab842c71c1da9d6c6b8be4ebb08cec0b2db523f02e5884d680819c7609aaa2d4c8c84d492da858c3c3ad3497be2999e690ff9373ab6a32a1330fb69e7b27"
+
+[update]
+[update.modrinth]
+mod-id = "KJhXPbHQ"
+version = "SIqdR1UJ"

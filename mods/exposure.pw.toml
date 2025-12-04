@@ -1,0 +1,13 @@
+name = "Exposure"
+filename = "exposure-1.19.2-1.6.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hB899VmG/versions/nCcagXCN/exposure-1.19.2-1.6.0-forge.jar"
+hash-format = "sha512"
+hash = "46d4b0257e7eb5045999a42c8c79eef47bf90241de36453591bb585344e268703ecaa59d3bf2851a18550d3eef1b1dbc3f48b21c852b7b9d40db3422fa515c19"
+
+[update]
+[update.modrinth]
+mod-id = "hB899VmG"
+version = "nCcagXCN"

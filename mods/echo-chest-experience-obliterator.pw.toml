@@ -1,0 +1,13 @@
+name = "Echo Chest Experience Obliterator"
+filename = "echo_no_tooltip-1.19.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "81d0d72dfc38c670513b01340310db4979058977"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5828262
+project-id = 1125241

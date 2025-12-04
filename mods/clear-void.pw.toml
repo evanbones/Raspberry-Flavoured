@@ -1,0 +1,13 @@
+name = "Clear Void"
+filename = "clearvoid-forge-1.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xsFn8GIq/versions/5YMCJnNn/clearvoid-forge-1.3.0.jar"
+hash-format = "sha512"
+hash = "1e8b87dc2a162bb995c3645d43b3e49e0308483f09747532867ef93b59c720bdf95e3639aa478f61f5562702a798373e33dcde7cf903d31700590d6eacf39135"
+
+[update]
+[update.modrinth]
+mod-id = "xsFn8GIq"
+version = "5YMCJnNn"

@@ -1,0 +1,13 @@
+name = "KubeJS"
+filename = "kubejs-forge-1902.6.2-build.69.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/umyGl7zF/versions/Sl2X7VIn/kubejs-forge-1902.6.2-build.69.jar"
+hash-format = "sha512"
+hash = "3ff9594109ab83c8d9f39392b27fed80619506ec9c0b3e405b0c9040f37792c82effbd172d706c6e21cbbae229cf49f65adf6878713976eeb4442ef848aa0d6d"
+
+[update]
+[update.modrinth]
+mod-id = "umyGl7zF"
+version = "Sl2X7VIn"

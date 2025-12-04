@@ -1,0 +1,13 @@
+name = "Clash!"
+filename = "clash-1.19.2-0.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "35d10c55b62d8c10a9189a2601a040ce8f5afce6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5094213
+project-id = 468706

@@ -1,0 +1,13 @@
+name = "Konkrete [Forge/NeoForge]"
+filename = "konkrete_forge_1.6.1_MC_1.19-1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/J81TRJWm/versions/a4UZ7nGe/konkrete_forge_1.6.1_MC_1.19-1.19.2.jar"
+hash-format = "sha512"
+hash = "b7336907c3cd13aeb3450c15bf986ab36f903741a8252c458b56f0536b21c23518bb4ecc8087e873d97354de13e1ccc0e703a8b6da9019c8414840ae306e0541"
+
+[update]
+[update.modrinth]
+mod-id = "J81TRJWm"
+version = "a4UZ7nGe"

@@ -1,0 +1,13 @@
+name = "Mining Master"
+filename = "miningmaster-1.19.2-4.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xu8V0UlK/versions/DAG6dnJS/miningmaster-1.19.2-4.1.4.jar"
+hash-format = "sha512"
+hash = "54e677413dc043ce17c313dc46f9034bad1848ad386379f15f1957bbc74c774d19d863163dc1780d84389f7c42ae81029362969d0abfced8b4207df3f20af667"
+
+[update]
+[update.modrinth]
+mod-id = "Xu8V0UlK"
+version = "DAG6dnJS"

@@ -1,0 +1,13 @@
+name = "Explosive Enhancement: Reforged"
+filename = "explosiveenhancement-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r0camchr/versions/odfOCVAp/explosiveenhancement-1.0.0.jar"
+hash-format = "sha512"
+hash = "e505b04b34ffb7d2bef876c3269a536e459b09be29b8d15079d8f7b9ec88df53aa8adf44bf2d23c30cfe90e97ba1c309429ea9bcd54312240a75b24c96981444"
+
+[update]
+[update.modrinth]
+mod-id = "r0camchr"
+version = "odfOCVAp"

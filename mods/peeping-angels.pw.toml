@@ -1,0 +1,13 @@
+name = "Peeping Angels"
+filename = "peeping_angels-1.19.2-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pRWPunvR/versions/I3sPinmk/peeping_angels-1.19.2-1.0.0.jar"
+hash-format = "sha512"
+hash = "bb3eeb06daaba782b6aba9a513d7ecfbb299708277bc6ba5df376ee391282a75fb1bfc041c9b1ea7d7d2ea4ab39ab657bfca939ed354954b72a7fa5d7439e484"
+
+[update]
+[update.modrinth]
+mod-id = "pRWPunvR"
+version = "I3sPinmk"

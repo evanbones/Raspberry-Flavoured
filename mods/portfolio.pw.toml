@@ -1,0 +1,13 @@
+name = "Portfolio"
+filename = "Portfolio-1.19.2-1.2.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2k6aLirX/versions/ghUuZufq/Portfolio-1.19.2-1.2.0-forge.jar"
+hash-format = "sha512"
+hash = "3a81452a0329f612b021ae026ec2fd527f4a831ff8333b47eae75ebca5d8d6272aadac06e9b15cab6347dee52d26fa0dd32724d57edc8313bdac34ac8b67677a"
+
+[update]
+[update.modrinth]
+mod-id = "2k6aLirX"
+version = "ghUuZufq"

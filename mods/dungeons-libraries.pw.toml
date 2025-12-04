@@ -1,0 +1,13 @@
+name = "Dungeons Libraries"
+filename = "dungeons_libraries-1.19.2-3.0.12-beta-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4df66f3df472c1857d3579fee6d6e78233a1b64c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5112044
+project-id = 550941

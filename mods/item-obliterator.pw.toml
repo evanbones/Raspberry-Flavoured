@@ -1,0 +1,13 @@
+name = "Item Obliterator (Modpack Utils Series)"
+filename = "Item-Obliterator-Forge-1.19.2-2.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3ESR84kR/versions/7wB98NiB/Item-Obliterator-Forge-1.19.2-2.2.1.jar"
+hash-format = "sha512"
+hash = "fed01bac83be88706cd6d60537b55c57dd31fb116b3c51e2b1ea58d9772b2f1aa5e70fb76a16cb0046a397e3f3c39d377dec4a4d9d7021dc24b52b8371ba0230"
+
+[update]
+[update.modrinth]
+mod-id = "3ESR84kR"
+version = "7wB98NiB"

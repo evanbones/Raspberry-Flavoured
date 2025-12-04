@@ -1,0 +1,13 @@
+name = "Buzzier Bees"
+filename = "buzzier_bees-1.19.2-5.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b7vOFSIp/versions/d9WQBnra/buzzier_bees-1.19.2-5.0.1.jar"
+hash-format = "sha512"
+hash = "85070fa1694dcb898c9cf88aba6264791fd610d9caf967f29f76d3f1a18d8ded30a183b816bb077ac0cbc983484455a451e867da66a38367455d1186cacd9958"
+
+[update]
+[update.modrinth]
+mod-id = "b7vOFSIp"
+version = "d9WQBnra"

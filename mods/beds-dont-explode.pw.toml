@@ -1,0 +1,13 @@
+name = "Beds Don't Explode"
+filename = "bedsdontexplode-1.19.x-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "759e80cc40285abc4ad74368730dc8963fa19b3e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4560410
+project-id = 537746

@@ -1,0 +1,13 @@
+name = "Caverns & Chasms"
+filename = "caverns_and_chasms-1.19.2-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tfjmPSbI/versions/TuFWVSZM/caverns_and_chasms-1.19.2-1.0.2.jar"
+hash-format = "sha512"
+hash = "1f429cac24370f77fad32b7fcdcacf10d9f1f13d4ce6ee9a91e327c87fc4369287cab5e3ef5d8fffd8e55918d4effc8e106be8e375163414b53f82304d5df7a0"
+
+[update]
+[update.modrinth]
+mod-id = "tfjmPSbI"
+version = "TuFWVSZM"

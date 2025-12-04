@@ -1,0 +1,13 @@
+name = "More Concrete"
+filename = "moreconcrete-1.4.2-1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sUSfS0sK/versions/r7xgrkFU/moreconcrete-1.4.2-1.19.2.jar"
+hash-format = "sha512"
+hash = "e08b658db2a6c15b8cb4d2ab809ae2b9ed2f26217de4b0f719d44fff0e66a1e39aec17160659869026be081fb3841060af381b56bba385937a2ad03ae5981d91"
+
+[update]
+[update.modrinth]
+mod-id = "sUSfS0sK"
+version = "r7xgrkFU"

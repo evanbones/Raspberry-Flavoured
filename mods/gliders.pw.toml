@@ -1,0 +1,13 @@
+name = "Gliders"
+filename = "vc_gliders-forge-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XiC6HzoU/versions/CjFIpNvl/vc_gliders-forge-1.1.4.jar"
+hash-format = "sha512"
+hash = "e12072dd6f60bece873c67c65cde5802eb8c657b040f8c37fb65004596e26e258f5009f201dcb3e915f979841bcb4079ad020884dc484b6868927d287f5943b3"
+
+[update]
+[update.modrinth]
+mod-id = "XiC6HzoU"
+version = "CjFIpNvl"

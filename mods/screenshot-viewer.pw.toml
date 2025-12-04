@@ -1,0 +1,13 @@
+name = "Screenshot Viewer"
+filename = "screenshot_viewer-1.1.3-forge-mc1.19x.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/laNoi025/versions/oIXI7C8T/screenshot_viewer-1.1.3-forge-mc1.19x.jar"
+hash-format = "sha512"
+hash = "a141b59574e0f16f0e910c03b3c707b48c801f2dff9383b8da7e275e81c84bbd9f825484ebf81ad582adc00b83730b2f3acd0756158b585d7f67d950ecf1e20a"
+
+[update]
+[update.modrinth]
+mod-id = "laNoi025"
+version = "oIXI7C8T"

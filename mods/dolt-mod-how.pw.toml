@@ -1,0 +1,13 @@
+name = "Dolt's Awesome Tweaks"
+filename = "dolt_mod_how-1.19.2-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3aa382f5f4324d40ede1e08484374d4572c9ccaa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5263480
+project-id = 993840

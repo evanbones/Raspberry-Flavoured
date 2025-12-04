@@ -1,0 +1,13 @@
+name = "Windswept"
+filename = "windswept-1.19.2-2.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/l0h5MtkA/versions/FFxnfxsM/windswept-1.19.2-2.2.3.jar"
+hash-format = "sha512"
+hash = "d1c88f99693c082ac8708bb0092ad0ab01b5e47bdce0a47b24e51e006b1f168683d4a9add21b1ed0ed92dd7576aa343180cb1194ac7ece2a00f54938bcb4c2ef"
+
+[update]
+[update.modrinth]
+mod-id = "l0h5MtkA"
+version = "FFxnfxsM"

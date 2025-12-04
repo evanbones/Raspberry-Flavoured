@@ -1,0 +1,13 @@
+name = "Potion Replacer"
+filename = "potionreplacer-1.19.2-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b9c26295b97b120e3da9dcfbce4a918980ccf03"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4291702
+project-id = 787670

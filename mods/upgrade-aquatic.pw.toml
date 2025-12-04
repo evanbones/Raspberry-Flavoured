@@ -1,0 +1,13 @@
+name = "Upgrade Aquatic"
+filename = "upgrade_aquatic-1.19.2-5.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gTuTFFyz/versions/W50xMJpW/upgrade_aquatic-1.19.2-5.1.0.jar"
+hash-format = "sha512"
+hash = "f37432ab67008d1b463c33f80d07bf0f8fbe2336dee7070fe1d8605ccc277480e6358da37333cae93ecf203e4f210229321d520e5a3fcb91b10b3aa316363fe4"
+
+[update]
+[update.modrinth]
+mod-id = "gTuTFFyz"
+version = "W50xMJpW"

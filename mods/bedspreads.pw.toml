@@ -1,0 +1,13 @@
+name = "Bedspreads"
+filename = "bedspreads-forge-6.0.0+1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vNNL5mc7/versions/nFsnpwRv/bedspreads-forge-6.0.0%2B1.19.2.jar"
+hash-format = "sha512"
+hash = "7e10eb19dbf59be5347473a74687bbe390eac7cba25c48668a496b2133f7a51f4257912b05451f8cfb681d6be561f62bbec525f574d9aa1fcf96a9a05206410f"
+
+[update]
+[update.modrinth]
+mod-id = "vNNL5mc7"
+version = "nFsnpwRv"

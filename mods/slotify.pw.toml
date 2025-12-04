@@ -1,0 +1,13 @@
+name = "Slotify"
+filename = "slotify-1.19-1.18.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "da3d4bd4534e48d097dbf27fd9ee0aca3821834e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5070306
+project-id = 907547
