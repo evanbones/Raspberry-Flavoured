@@ -1807,6 +1807,7 @@ ItemEvents.tooltip(tooltip => {
 	"endergetic:mystical_obsidian",
 	"endergetic:mystical_obsidian_wall",
 	"endergetic:eumus_poismoss_path",
+	"endergetic:poismoss_path",
 	"endergetic:eumus_brick",
 	"endergetic:booflo_hide",
 	"endergetic:booflo_vest",
