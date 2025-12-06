@@ -68,6 +68,10 @@
     "minecraft:enderman": {
       "charge": 1.0,
       "energy_budget": 0.12
+    },
+    "endermanoverhaul:end_islands_enderman": {
+      "charge": 1.0,
+      "energy_budget": 0.12
     }
   },
   "spawners": {
