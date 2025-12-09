@@ -80,13 +80,13 @@
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 3,
-        "weight": 14
+        "weight": 12
       },
       {
         "type": "endermanoverhaul:end_islands_enderman",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 2
+        "weight": 3
       }
     ],
     "creature": [],
