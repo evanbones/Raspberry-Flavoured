@@ -6,6 +6,12 @@
 			"bones": {
 				"head_2": {
 					"position": [0, 3, 0]
+				},
+				"head_rotation": {
+					"scale": 1
+				},
+				"head": {
+					"scale": 1
 				}
 			}
 		},
