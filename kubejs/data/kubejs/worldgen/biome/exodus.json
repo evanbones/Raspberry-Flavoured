@@ -86,7 +86,7 @@
         "type": "endermanoverhaul:end_islands_enderman",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 3
+        "weight": 4
       }
     ],
     "creature": [],
