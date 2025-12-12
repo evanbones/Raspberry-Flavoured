@@ -71,7 +71,17 @@
    "quark:paper_wall",
    "quark:paper_wall_big",
    "quark:paper_wall_sakura",
-   "farmersdelight:basket"
+   "farmersdelight:basket",
+   "everycomp:mm/mynethersdelight/powdery_boards",
+   "everycomp:mm/quark/bamboo_boards",
+   "everycomp:mm/mynethersdelight/powdery_board_slab",
+   "everycomp:mm/quark/bamboo_board_slab",
+   "everycomp:mm/mynethersdelight/powdery_board_stairs",
+   "everycomp:mm/quark/bamboo_board_stairs",
+   "everycomp:mm/mynethersdelight/powdery_board_wall",
+   "everycomp:mm/quark/bamboo_board_wall",
+   "everycomp:mm/quark/bamboo_pillar",
+   "everycomp:mm/mynethersdelight/powdery_pillar"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.bamboowood.break",

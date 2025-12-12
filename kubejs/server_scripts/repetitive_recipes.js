@@ -132,4 +132,55 @@ ServerEvents.recipes(event => {
 	deployWaxing('caverns_and_chasms:weathered_lightning_rod', 'caverns_and_chasms:waxed_weathered_lightning_rod')
 	deployWaxing('caverns_and_chasms:oxidized_lightning_rod', 'caverns_and_chasms:waxed_oxidized_lightning_rod')
 	deployWaxing('mynethersdelight:hoglin_trophy', 'mynethersdelight:waxed_hoglin_trophy')
+	
+	// panels & pillars
+	function panel(woodType, pillarItem, panelItem) {
+		// crafting slabs into panels
+		if (woodType == 'quark:bamboo') {
+			event.shaped(Item.of(panelItem + 's',3), ['AAA', 'AAA'], {A: woodType + '_planks_slab'})
+		} else {
+			event.shaped(Item.of(panelItem + 's',3), ['AAA', 'AAA'], {A: woodType + '_slab'})
+		}
+		// crafting panels into pillars
+		event.shaped(Item.of(pillarItem,2), ['A', 'A'], {A: panelItem + 's'})
+		// sawing planks into panels and back
+		event.stonecutting(panelItem + 's', woodType + '_planks')
+		event.stonecutting(woodType + '_planks', panelItem + 's')
+		// sawing planks into pillars and back
+		event.stonecutting(pillarItem, woodType + '_planks')
+		event.stonecutting(woodType + '_planks', pillarItem)
+		// sawing panels into pillars and back
+		event.stonecutting(pillarItem, panelItem + 's')
+		event.stonecutting(panelItem + 's', pillarItem)
+		// sawing logs into panels and pillars
+		event.stonecutting('4x ' + panelItem + 's', '#' + woodType + '_logs')
+		event.stonecutting('4x ' + pillarItem, '#' + woodType + '_logs')
+		// sawing panels into slabs walls and stairs
+		event.stonecutting('2x ' + panelItem + '_slab', panelItem + 's')
+		event.stonecutting('2x ' + panelItem + '_wall', panelItem + 's')
+		event.stonecutting(panelItem + '_stairs', panelItem + 's')
+	}
+	panel('minecraft:oak','modestmining:oak_pillar','modestmining:oak_board')
+	panel('minecraft:spruce','modestmining:spruce_pillar','modestmining:spruce_board')
+	panel('minecraft:birch','modestmining:birch_pillar','modestmining:birch_board')
+	panel('minecraft:jungle','modestmining:jungle_pillar','modestmining:jungle_board')
+	panel('minecraft:acacia','modestmining:acacia_pillar','modestmining:acacia_board')
+	panel('minecraft:dark_oak','modestmining:dark_oak_pillar','modestmining:dark_oak_board')
+	panel('minecraft:mangrove','modestmining:mangrove_pillar','modestmining:mangrove_board')
+	panel('minecraft:crimson','modestmining:crimson_pillar','modestmining:crimson_board')
+	panel('minecraft:warped','modestmining:warped_pillar','modestmining:warped_board')
+	panel('quark:bamboo','everycomp:mm/quark/bamboo_pillar','everycomp:mm/quark/bamboo_board')
+	panel('mynethersdelight:powdery','everycomp:mm/mynethersdelight/powdery_pillar','everycomp:mm/mynethersdelight/powdery_board')
+	panel('ecologics:azalea','everycomp:mm/ecologics/azalea_pillar','everycomp:mm/ecologics/azalea_board')
+	panel('ecologics:coconut','everycomp:mm/ecologics/coconut_pillar','everycomp:mm/ecologics/coconut_board')
+	panel('atmospheric:rosewood','everycomp:mm/atmospheric/rosewood_pillar','everycomp:mm/atmospheric/rosewood_board')
+	panel('atmospheric:yucca','everycomp:mm/atmospheric/yucca_pillar','everycomp:mm/atmospheric/yucca_board')
+	panel('atmospheric:morado','everycomp:mm/atmospheric/morado_pillar','everycomp:mm/atmospheric/morado_board')
+	panel('environmental:cherry','everycomp:mm/environmental/cherry_pillar','everycomp:mm/environmental/cherry_board')
+	panel('environmental:willow','everycomp:mm/environmental/willow_pillar','everycomp:mm/environmental/willow_board')
+	panel('environmental:wisteria','everycomp:mm/environmental/wisteria_pillar','everycomp:mm/environmental/wisteria_board')
+	panel('architects_palette:twisted','everycomp:mm/architects_palette/twisted_pillar','everycomp:mm/upgrade_aquatic/river_board')
+	panel('upgrade_aquatic:driftwood','everycomp:mm/upgrade_aquatic/driftwood_pillar','everycomp:mm/upgrade_aquatic/driftwood_board')
+	panel('autumnity:maple','everycomp:mm/autumnity/maple_pillar','everycomp:mm/autumnity/maple_board')
+	panel('windswept:chestnut','everycomp:mm/windswept/chestnut_pillar','everycomp:mm/windswept/chestnut_board')
 })

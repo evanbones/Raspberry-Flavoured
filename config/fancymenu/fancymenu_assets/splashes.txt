@@ -751,7 +751,7 @@ Bring the Noise!
 97-eons-old slime diner still serves their glorp the old fashioned way!
 &lI'm sorry, but as an AI language model, I cannot create a Minecraft splash text.
 Papyrus font not present!
-&nadachi_true.png!
+&nadachi_true.png&r!
 Execute order 66!
 000 destruct 0!
 The FDA has found harmful quantities of furry art in fast food hamburgers! To learn more, look up 'e621 food!'
@@ -930,7 +930,6 @@ Bröther, may I have söme öats?
 Now's your chance!
 &oIt's so Flyday, Flyday Chinatown!
 Literally 1984!
-Brains over brawn!
 Nascent!
 Nugget in a biscuit!
 One of every splash text vs. one billion lions!
@@ -1276,7 +1275,6 @@ You've got a friend inside me!
 It goes in the square hole!
 Ah shit, here we go again...
 What do you mean you're "at Soup"?!
-English or Spanish?
 It's Muffin Time!
 More milk per milk!
 Zeeky Boogy Doog!
@@ -1508,7 +1506,7 @@ Mice raft!
 Why do you always act like you're 6 years old?!
 I love a good Hot Dog!
 It took me 9 yeareals to collect those cereals!
-Nyum nyum nyum!
+nyum nyum nyum :3
 Nyumph!
 Nyummers!
 Go, Hog Rider!
@@ -1688,6 +1686,141 @@ November 2nd!
 December 1st!
 Reaching far across these new frontiers!
 With a stroke of luck, you might become a monster truck!
+What the fucking kind of charcoal is this?
+mlem mlem mlem :3
+Crikey!
+Bold move, sister!
+The Adventures of Hooty and Fly!
+Campbell's! Chicken Yicken!
+Noodle time! Get your time!
+Mom, if I can't cry, then I'm eating soup!
+Refreshing!
+Delicious!
+Straight out of a Disney movie!
+Now you're fired!
+If you don't clean up this mess, you're fired!
+They're adorable, and deserve all the happiness!
+&nhttps://ko-fi.com/baisylia&r!
+&oOne mind, too wild, stuck in divinity!
+&oHawk tail, wing claw, heaven sent a jessy!
+&oA speed rush tweak to a melancholy victory!
+&oNot one near my class of heat!
+&oThe rule of the wind is to never get beat!
+&oThis is where data is stored!
+&oWhere we manage, record and control!
+&oI'm flowing with time!
+&oI'm flowing into the light!
+&oDisappearing!
+&oTurnin' up the sawblades!
+&oHoly crap, I saw Blaze!
+&oYou think you got it all, but I think you lost it!
+Your Wii is not thirsty, it does not want orange juice!
+Your Driftwood is thirsty, it wants water!
+Mathematical!
+Algebraic!
+Shmow-zow!
+I'm not righteous, I'm wrongteous!
+Stupidteous!
+Want to do the science dance with me?
+I feel radder, faster, more adequate!
+Youth culture forever!
+No worms on the bed!
+Wow-cow-chow!
+I'm weddy for the wedding!
+How did you almost know my name?!
+Shushers, man!
+Slam-bam-in-a-can!
+What the hey-hey?!
+I'll see you in the Nightosphere, you sick freak!
+I'm all about stupid!
+Everything small is just a small version of something big!
+Let's go kick their digital boo-tays!
+I'm a buff baby who can dance like a man!
+Puncha yo buns, puncha yo buns!
+I'll get your kid back, toy!
+Alvin's hot juice box!
+Them a good rule doe!
+Aw, so squish!
+Well-dressed pickles!
+This dolphin fell in love with me!
+I was singing my scream song!
+You guys are so cute, I could just maul you to death!
+The bazooka goblin has you in its sights!
+Dude, let's kill the horse!
+Easy peasy, livin' greasy!
+Suckin' at somethin' is the first step towards bein' sorta good at somethin!
+I'm a cat, I'm an agile cat!
+Meow Ice King!
+Let's take it home so I can learn about it with my brain!
+You and your brain!
+I too, am Doom!
+That's not what you told me last night!
+I did say that!
+If you die on me, I'll kill you!
+I've always felt like a monster!
+You're the pink in my cheeks!
+One, two, three-hee-hee!
+You're kind of a DICtator!
+You're a CONTstant source of misery and pain!
+I'm so glad that I woke up!
+Time is an illusion that helps things make sense!
+You and I will always be back then!
+Just promise to bury me there!
+Gunter, why did you gunt my fries?!
+You a-a-a-a-are my best friends in the world!
+Nerds, nerds, crush the nerds!
+A nerdless world is the best kind of world!
+I gotta wee-wee again!
+Was it the power of believing in myself? No!
+Stay away from my Luz!
+Gay gay homosexual gay!
+He'll feed us to the bookworms!
+You're actually quite endearing!
+But I can't hold a pen!
+How about dark deeds carried out in your name?!
+I saw that!! Abominations can't eat!
+I don't come down to the Owl Shack and... fry up owls?!
+I was all like, auurrghh!
+It was a good sandwich!
+No sandwich is &othat &rgood!
+We're human, we're better than this!
+Well we ain't!
+That was... extremely satisfying!
+I am King and Queen, best of both things!
+With this spell declared, may the pain be shared!
+Fool's blood bad!
+She really is Cool Aunt Lilith!
+I loaf you!
+I'm so glad my awesome girlfriend is okay!
+Can you at least help me ask out a cotton candy-haired goddess?!
+I'm not as cool as you think!
+I LOVE YURI!!!!!!!!!!!!!!!!
+I like this part of our playdates even better!
+Shoulder pats for Steve!
+I'm going back to the Tiny Cat Coven!
+Grebbie!
+Greb-greb!
+Greb bag!
+An appe a day keeps you grebbin' through the day!
+Sounds like big bro got a hot witch girlfriend and little bro got upset!
+To get the answer that you seek, answer my riddle within a week!
+Porta-Hooty, reporting for Hooty!
+Special delivery: PAIN!
+Kiss each other!
+I have no son, eat salt!
+Finally, I get to be a part of something!
+I forget I'm here too!
+Yiyi, Mama is I!
+Give me your skin!
+Dumb kids? Those are MY dumb kids!
+Aww, he stamped his wittle foot!
+Always trust a shoulder demon!
+I have questions about my life!
+I am your god!
+I will be haunted by my actions forever, hoot-hoot!
+Why do I always think that's gonna work?
+I'm a Lesbiab- Lesbiam- Less Bien- Girls!
+Lyn's blibbin'!
 Justice for seagulls!
 Justice for crabs!
 Justice for tuff golems!
@@ -1714,7 +1847,7 @@ Has &lCultural Delights!
 Has &lDomestication Innovation!
 Has &lEmbeddium!
 Has &lEMI!
-Has &lThe Endergetic Expansion &rfor some reason!
+Has &lThe Endergetic Expansion!
 Has &lEnvironmental!
 Has &lEvery Compat!
 Has &lExposure!
@@ -1822,11 +1955,14 @@ Also try &lSonic 3 A.I.R.!
 Also try &lSonic Colors!
 Also try &lSonic Racing: Crossworlds!
 Also try &lSonic Robo Blast 2!
+Also try &lSonic Rumble!
 Also try &lSonic Spinball!
 Also try &lSonic Sunventure!
+Also try &lSonic X Shadow Generations!
 Also try &lSteven Universe: Attack the Light!
 Also try &lSteven Universe: Save the Light!
 Also try &lSteven Universe: Unleash the Light!
+Also try &lSticky Situation!
 Also try &lSuper Mario Bros. Wonder!
 Also try &lSurvivalcraft!
 Also try &lTerralink!
@@ -1843,6 +1979,7 @@ Also try &lVintage Story!
 Also try &lViva Piñata!
 Also try &lViva Piñata: Party Animals!
 Also try &lViva Piñata: Trouble in Paradise!
+Also try &lWobbledogs!
 Also try &lWorm 64!
 Also try &lYIIK: A Post-Modern RPG!
 Now Tio Flavoured! Mmm, spicy.
@@ -1867,13 +2004,13 @@ Shoutout to &lMythrilBagels!
 Shoutout to &lJamiscus!
 Shoutout to &lCW!
 Shoutout to &lKobber!
+Shoutout to &levanbones!
 Shoutout to &lnoodleman!
 Shoutout to &lcrunchylungs!
 Shoutout to &lbeb!
 Shoutout to &lJameslice!
 Shoutout to &ljaybees!
 Shoutout to &lmintynoura!
-Shoutout to &levanbones!
 Shoutout to &lSarahIsWeird!
 Shoutout to &lGrom PE!
 Shoutout to &lWaterOre!
@@ -1897,5 +2034,5 @@ Shoutout to &lScrap Sorra!
 Shoutout to &lSpncr!
 Shoutout to &lThe Sonic Hangout!
 Shoutout to &lthe RF Discord server!
-240 mods!
-This splash has a &l1 &rin &l1893 &rchance of showing up!
+241 mods!
+This splash has a &l1 &rin &l2038 &rchance of showing up!

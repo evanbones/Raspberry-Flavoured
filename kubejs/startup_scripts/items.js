@@ -101,14 +101,6 @@ StartupEvents.registry('item', event => {
     		.saturation(0.1)
 			.fastToEat()
         	})
-	event.create('candy_cane').group('food').food(food => {
-		food
-    		.hunger(2)
-    		.saturation(0.3)
-			.effect('neapolitan:sugar_rush', 200, 0, 1)
-			.alwaysEdible()
-			.fastToEat()
-        	})
 	event.create('butterscotch_cinnamon_pie_slice').group('food').food(food => {
 		food
     		.hunger(3)
@@ -130,35 +122,11 @@ StartupEvents.registry('item', event => {
 			.effect('dolphins_grace', 1000, 0, 1)
 			.effect('kubejs:satiation', 1200, 0, 1)
         	})
-	event.create('squid_sandwich').group('food').food(food => {
-		food
-    		.hunger(12)
-    		.saturation(0.6)
-			.effect('kubejs:satiation', 2400, 0, 1)
-        	})
-	event.create('cave_burger').group('food').food(food => {
-		food
-    		.hunger(10)
-    		.saturation(0.7)
-			.effect('kubejs:satiation', 600, 0, 1)
-        	})
-	event.create('crab_meat').group('food').food(food => {
-		food
-    		.hunger(2)
-    		.saturation(0.2)
-			.effect('hunger', 600, 0, 0.3)
-        	})
 	event.create('oat_bar').group('food').food(food => {
 		food
     		.hunger(5)
     		.saturation(0.65)
 			.effect('neapolitan:agility', 400, 0, 1)
-        	})
-	event.create('bat_rolls').group('food').food(food => {
-		food
-    		.hunger(7)
-    		.saturation(0.6)
-			.effect('nausea', 600, 0, 0.5)
         	})
 	event.create('sporedough').group('food').food(food => {
 		food
@@ -184,12 +152,14 @@ StartupEvents.registry('item', event => {
     		.hunger(4)
     		.saturation(0.7)
 			.effect('resistance', 340, 0, 1)
+			.fastToEat()
         	})
 	event.create('buttered_toast').group('food').food(food => {
 		food
     		.hunger(4)
     		.saturation(0.8)
 			.effect('farmersdelight:comfort', 600, 0, 1)
+			.fastToEat()
         	})
 	event.create('cheesy_chip_wrap').group('food').food(food => {
 		food
@@ -319,49 +289,6 @@ StartupEvents.registry('item', event => {
 			.effect('mynethersdelight:b_pungent', 900, 0, 1)
 			.effect('kubejs:satiation', 4800, 0, 1)
         	})
-	event.create('takoyaki').group('food').maxStackSize(16).food(food => {
-		food
-    		.hunger(13)
-    		.saturation(0.7)
-			.effect('kubejs:satiation', 4200, 0, 1)
-        	})
-	event.create('glow_ink_pasta').group('food').maxStackSize(16).food(food => {
-		food
-    		.hunger(14)
-    		.saturation(0.75)
-			.effect('kubejs:satiation', 6900, 0, 1)
-			.effect('glowing', 3000, 0, 1)
-        	})
-	event.create('white_fish_soup').group('food').maxStackSize(16).food(food => {
-		food
-    		.hunger(9)
-    		.saturation(0.75)
-			.effect('farmersdelight:comfort', 3600, 0, 1)
-        	})
-	event.create('tambaqui_curry').group('food').maxStackSize(16).food(food => {
-		food
-    		.hunger(14)
-    		.saturation(0.7)
-			.effect('kubejs:satiation', 4800, 0, 1)
-        	})
-	event.create('pollock_with_vegetables').group('food').maxStackSize(16).food(food => {
-		food
-    		.hunger(12)
-    		.saturation(0.75)
-			.effect('kubejs:satiation', 3000, 0, 1)
-        	})
-	event.create('pasta_with_tuna').group('food').maxStackSize(16).food(food => {
-		food
-    		.hunger(12)
-    		.saturation(0.8)
-			.effect('kubejs:satiation', 4800, 0, 1)
-        	})
-	event.create('rollmops').group('food').maxStackSize(16).food(food => {
-		food
-    		.hunger(14)
-    		.saturation(0.6)
-			.effect('kubejs:satiation', 2400, 0, 1)
-        	})
 	event.create('coconut_pudding_with_jam').group('food').maxStackSize(16).food(food => {
 		food
     		.hunger(8)
@@ -399,26 +326,6 @@ StartupEvents.registry('item', event => {
 		food
     		.effect('windswept:thorns', 3600, 1, 1)
     		.effect('nausea', 400, 0, 0.25)
-			.alwaysEdible()
-        	})
-		.useAnimation("drink")
-	event.create('cherry_cream_soda').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
-		food
-    		.effect('neapolitan:harmony', 800, 0, 1)
-    		.effect('neapolitan:vanilla_scent', 600, 0, 1)
-			.alwaysEdible()
-        	})
-		.useAnimation("drink")
-	event.create('pickerelweed_juice').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
-		food
-    		.effect('water_breathing', 900, 0, 1)
-			.alwaysEdible()
-        	})
-		.useAnimation("drink")
-	event.create('builders_tea').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
-		food
-    		.effect('haste', 6000, 0, 1)
-    		.effect('respiteful:maturity', 600, 0, 1)
 			.alwaysEdible()
         	})
 		.useAnimation("drink")
@@ -463,6 +370,135 @@ StartupEvents.registry('item', event => {
 			.saturation(0.4)
 			.effect('farmersdelight:comfort', 600, 0, 1)
         	})
+	
+	// Non-RF-Exclusive
+	event.create('candy_cane').group('food').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.3)
+			.effect('neapolitan:sugar_rush', 200, 0, 1)
+			.alwaysEdible()
+			.fastToEat()
+        	})
+	event.create('squid_sandwich').group('food').food(food => {
+		food
+    		.hunger(12)
+    		.saturation(0.6)
+			.effect('kubejs:satiation', 2400, 0, 1)
+        	})
+	event.create('cave_burger').group('food').food(food => {
+		food
+    		.hunger(10)
+    		.saturation(0.7)
+			.effect('kubejs:satiation', 600, 0, 1)
+        	})
+	event.create('crab_meat').group('food').food(food => {
+		food
+    		.hunger(2)
+    		.saturation(0.2)
+			.effect('hunger', 600, 0, 0.3)
+        	})
+	event.create('bat_rolls').group('food').food(food => {
+		food
+    		.hunger(8)
+    		.saturation(0.6)
+			.effect('glowing', 1500, 0, 1)
+        	})
+	event.create('takoyaki').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(13)
+    		.saturation(0.7)
+			.effect('kubejs:satiation', 4200, 0, 1)
+        	})
+	event.create('glow_ink_pasta').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(14)
+    		.saturation(0.75)
+			.effect('kubejs:satiation', 6900, 0, 1)
+			.effect('glowing', 3000, 0, 1)
+        	})
+	event.create('white_fish_soup').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(9)
+    		.saturation(0.75)
+			.effect('farmersdelight:comfort', 3600, 0, 1)
+        	})
+	event.create('tambaqui_curry').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(14)
+    		.saturation(0.7)
+			.effect('kubejs:satiation', 4800, 0, 1)
+        	})
+	event.create('pollock_with_vegetables').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(12)
+    		.saturation(0.75)
+			.effect('kubejs:satiation', 3000, 0, 1)
+        	})
+	event.create('pasta_with_tuna').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(12)
+    		.saturation(0.8)
+			.effect('kubejs:satiation', 4800, 0, 1)
+        	})
+	event.create('rollmops').group('food').maxStackSize(16).food(food => {
+		food
+    		.hunger(14)
+    		.saturation(0.6)
+			.effect('kubejs:satiation', 2400, 0, 1)
+        	})
+	event.create('cherry_cream_soda').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
+		food
+    		.effect('neapolitan:harmony', 800, 0, 1)
+    		.effect('neapolitan:vanilla_scent', 600, 0, 1)
+			.alwaysEdible()
+        	})
+		.useAnimation("drink")
+	event.create('pickerelweed_juice').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
+		food
+    		.effect('water_breathing', 900, 0, 1)
+			.alwaysEdible()
+        	})
+		.useAnimation("drink")
+	event.create('builders_tea').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
+		food
+    		.effect('haste', 6000, 0, 1)
+    		.effect('respiteful:maturity', 600, 0, 1)
+			.alwaysEdible()
+        	})
+		.useAnimation("drink")
+	event.create('snow_top_green_tea').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
+		food
+    		.hunger(4)
+    		.saturation(0.9)
+    		.effect('respiteful:vitality', 1500, 0, 1)
+			.alwaysEdible()
+        	})
+		.useAnimation("drink")
+	event.create('snow_top_yellow_tea').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
+		food
+    		.hunger(4)
+    		.saturation(0.9)
+    		.effect('respiteful:tenacity', 1500, 0, 1)
+			.alwaysEdible()
+        	})
+		.useAnimation("drink")
+	event.create('snow_top_black_tea').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
+		food
+    		.hunger(4)
+    		.saturation(0.9)
+    		.effect('respiteful:maturity', 1500, 0, 1)
+			.alwaysEdible()
+        	})
+		.useAnimation("drink")
+	event.create('snow_top_coffee').group('food').containerItem('minecraft:glass_bottle').maxStackSize(64).food(food => {
+		food
+    		.hunger(4)
+    		.saturation(0.9)
+    		.effect('farmersrespite:caffeinated', 4800, 0, 1)
+			.alwaysEdible()
+        	})
+		.useAnimation("drink")
 			
 	// Joke
 	event.create('raspberry_sprite').rarity('epic').food(food => {

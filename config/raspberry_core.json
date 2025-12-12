@@ -34,5 +34,12 @@
   "rose_gold_arrow_knockback": 4,
   "rose_gold_arrow_velocity": 1.5,
   "unified_wrenches": false,
-  "safer_knight_jump": true
+  "safer_knight_jump": true,
+  "raspberry_cart_engine": true,
+  "raspberry_cart_max_speed": 34.0,
+  "dungeons_mobs_revised_cobwebs": true,
+  "ghast_dragon_fireball": false,
+  "backport_leash": true,
+  "disable_birch_leaf_tinting": true,
+  "jade_requires_scoping": true
 }

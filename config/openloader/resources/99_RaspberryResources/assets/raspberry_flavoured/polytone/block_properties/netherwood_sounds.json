@@ -85,7 +85,22 @@
    "everycomp:q/architects_palette/twisted_hedge",
    "everycomp:af/architects_palette/twisted_shutter",
    "everycomp:q/architects_palette/twisted_trapped_chest",
-   "everycomp:abnww/architects_palette/twisted_boards"
+   "everycomp:abnww/architects_palette/twisted_boards",
+   "modestmining:crimson_boards",
+   "modestmining:crimson_board_slab",
+   "modestmining:crimson_board_stairs",
+   "modestmining:crimson_board_wall",
+   "modestmining:warped_boards",
+   "modestmining:warped_board_slab",
+   "modestmining:warped_board_stairs",
+   "modestmining:warped_board_wall",
+   "everycomp:mm/upgrade_aquatic/river_boards",
+   "everycomp:mm/upgrade_aquatic/river_board_slab",
+   "everycomp:mm/upgrade_aquatic/river_board_stairs",
+   "everycomp:mm/upgrade_aquatic/river_board_wall",
+   "modestmining:crimson_pillar",
+   "modestmining:warped_pillar",
+   "everycomp:mm/architects_palette/twisted_pillar"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.netherwood.break",
