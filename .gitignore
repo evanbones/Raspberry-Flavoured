@@ -59,28 +59,6 @@ config/openloader/resources/*
 !config/openloader/resources/99_RaspberryResources
 spyglass.json
 
-# Client-only / UI / stateful configs
-config/ambientsounds-client.json
-config/auditory.json
-config/chat_heads.json5
-config/customstars.json
-config/embeddium-options.json
-config/immediatelyfast.json
-config/prettyrain.json5
-config/propertymodifier_generated.toml
-config/presencefootsteps/userconfig.json
-
-# FancyMenu runtime data
-config/fancymenu/user_variables.db
-config/fancymenu/config.txt
-
-# Localization caches
-config/fancymenu/locals/**
-config/konkrete/locals/**
-
-# Backups & generated junk
-config/**/backup/**
-
 # Files from Forge MDK
 forge*changelog.txt
 
