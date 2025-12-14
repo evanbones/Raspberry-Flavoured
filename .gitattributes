@@ -7,3 +7,4 @@
 *.toml  text eol=lf
 *.cfg   text eol=lf
 *.txt   text eol=lf
+*.toml text working-tree-encoding=UTF-8 eol=lf
