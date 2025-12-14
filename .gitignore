@@ -58,6 +58,8 @@ config/emi.css
 config/openloader/resources/*
 !config/openloader/resources/99_RaspberryResources
 spyglass.json
+config/fancymenu/locals
+config/konkrete/locals
 
 # Files from Forge MDK
 forge*changelog.txt

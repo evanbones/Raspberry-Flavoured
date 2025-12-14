@@ -5,22 +5,22 @@
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
+      "sound": "endergetic:ambient.poise_forest.additions",
       "tick_chance": 0.0111
     },
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "ambient_sound": "endergetic:ambient.poise_forest.loop",
     "fog_color": 1705242,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "minecraft:ambient.warped_forest.mood",
+      "sound": "endergetic:ambient.poise_forest.mood",
       "tick_delay": 6000
     },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.end"
+      "sound": "endergetic:music.end.poise_forest"
     },
     "particle": {
       "options": {
