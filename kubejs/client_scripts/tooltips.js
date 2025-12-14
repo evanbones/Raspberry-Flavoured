@@ -1970,6 +1970,7 @@ ItemEvents.tooltip(tooltip => {
     "endermanoverhaul:crimson_pearl",
     "endermanoverhaul:warped_pearl",
     "endermanoverhaul:enderman_tooth",
+    "endermanoverhaul:corrupted_pearl",
 	"endermanoverhaul:corrupted_blade",
 	"endermanoverhaul:corrupted_shield",
 	"architects_palette:moonshale_vertical_slab",
