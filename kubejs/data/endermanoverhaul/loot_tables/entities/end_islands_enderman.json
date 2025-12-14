@@ -2,56 +2,58 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "min": 1.0,
+                "max": 2.0
+              }
             },
             {
+              "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
+                "min": 0.0,
+                "max": 1.0
+              }
             }
-          ],
-          "name": "minecraft:ender_pearl"
-        },
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
         {
           "type": "minecraft:item",
+          "name": "endergetic:bolloom_fruit",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "min": 2.0,
+                "max": 4.0
+              }
             },
             {
+              "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
+                "min": 0.0,
+                "max": 1.0
+              }
             }
-          ],
-          "name": "endermanoverhaul:corrupted_pearl"
+          ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
   ]
 }

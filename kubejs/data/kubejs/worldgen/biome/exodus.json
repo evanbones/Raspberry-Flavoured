@@ -56,7 +56,8 @@
       "kubejs:choral_nylium_patch",
       "kubejs:exodus_vegetation",
       "kubejs:exodus_chorus_patch",
-      "kubejs:exodus_fire"
+      "kubejs:exodus_fire",
+      "kubejs:exodus_fallen_stems" 
     ]
   ],
   "precipitation": "none",
@@ -80,7 +81,7 @@
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 3,
-        "weight": 12
+        "weight": 9
       },
       {
         "type": "endermanoverhaul:end_islands_enderman",
