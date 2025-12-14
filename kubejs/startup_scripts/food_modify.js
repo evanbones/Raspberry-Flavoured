@@ -88,12 +88,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('buzzier_bees:honey_bread', item => {
         item.foodProperties = food => {
-            food.hunger(5).saturation(0.6)
+            food.hunger(5).saturation(0.6).fastToEat()
         }
     })
 	event.modify('upgrade_aquatic:mulberry_bread', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.55).effect('regeneration', 100, 0, 1)
+            food.hunger(4).saturation(0.55).effect('regeneration', 100, 0, 1).fastToEat()
         }
     })
 	event.modify('farmersdelight:beef_patty', item => {
@@ -688,7 +688,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('culturaldelights:avocado_toast', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.8).effect('kubejs:satiation', 600, 0, 1)
+            food.hunger(4).saturation(0.8).effect('kubejs:satiation', 600, 0, 1).fastToEat()
         }
     })
 	event.modify('abnormals_delight:pickerelweed_juice', item => {
@@ -863,7 +863,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('cookscollection:rustic_loaf_slice', item => {
         item.foodProperties = food => {
-            food.hunger(3).saturation(0.4)
+            food.hunger(3).saturation(0.4).fastToEat()
         }
     })
 	event.modify('cookscollection:fried_potato', item => {
@@ -943,7 +943,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('mynethersdelight:deviled_egg', item => {
         item.foodProperties = food => {
-            food.removeEffect('mynethersdelight:b_pungent').effect('mynethersdelight:b_pungent', 600, 0, 1)
+            food.hunger(6).removeEffect('mynethersdelight:b_pungent').effect('mynethersdelight:b_pungent', 600, 0, 1)
         }
     })
 	event.modify('environmental:truffle_mash', item => {
@@ -1132,6 +1132,11 @@ ItemEvents.modification(event => {
 	event.modify('onion_onion:onion_rings', item => {
         item.foodProperties = food => {
             food.fastToEat()
+        }
+    })
+	event.modify('farmersdelight:cabbage_rolls', item => {
+        item.foodProperties = food => {
+            food.hunger(6).fastToEat()
         }
     })
 	

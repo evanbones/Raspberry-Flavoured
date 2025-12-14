@@ -17,6 +17,7 @@ There are no Stone tools in RF - only Copper tools.
 Chainmail armor, Horse armor, Saddles and Name Tags are craftable in RF.
 Creeper Spores can be thrown to spawn a horde of friendly Creepies.
 Creepers won't damage terrain, but they will spawn Creepies.
+The crosshair indicates your tool's effectiveness on the block in front of you.
 Use a Pickaxe on Crying Obsidian to extract a Lachryte Tear.
 Lachryte Tears can be melted down into Liquefied Lachryte.
 Upon death, a totem will appear at your death point which holds your items.

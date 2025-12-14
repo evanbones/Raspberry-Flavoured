@@ -9,6 +9,8 @@ StartupEvents.registry('item', event => {
 	'incomplete_prismatic_ice_cream',
 	'incomplete_blaze_tart',
 	'incomplete_balloon',
+	'incomplete_compass',
+	'incomplete_depth_gauge',
 	'incomplete_rose_gold_rapier',
 	'incomplete_steel_mace',
 	'incomplete_electrum_spear',

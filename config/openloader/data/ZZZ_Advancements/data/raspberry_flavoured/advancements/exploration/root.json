@@ -9,7 +9,11 @@
 			  "minecraft:clock",
 			  "minecraft:spyglass",
 			  "minecraft:stone_pickaxe",
-			  "minecraft:wooden_pickaxe"
+			  "minecraft:wooden_pickaxe",
+			  "minecraft:ender_eye",
+			  "minecraft:bundle",
+			  "supplementaries:sack",
+			  "supplementaries:bomb"
             ]
           }
         ]

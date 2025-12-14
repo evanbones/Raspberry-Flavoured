@@ -248,6 +248,9 @@ ItemEvents.modification(event => {
 	event.modify('oreganized:molten_lead_bucket', item => {
 		item.craftingRemainder = Item.of('minecraft:bucket').item
 	})
+	event.modify('berry_good:glowgurt', item => {
+		item.craftingRemainder = Item.of('minecraft:bowl').item
+	})
 })
 // Enchantments
 StartupEvents.registry('enchantment', event => {

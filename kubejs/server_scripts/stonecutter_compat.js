@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
 		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat_half')
     })
 	Ingredient.of('#raspberry_flavoured:copycat_quarter').itemIds.forEach(id => {
-		event.stonecutting('4x ' + id, '#raspberry_flavoured:copycats')
+		event.stonecutting('4x ' + id, '#raspberry_flavoured:copycat')
 		event.stonecutting('2x ' + id, '#raspberry_flavoured:copycat_half')
 		event.stonecutting('1x ' + id, '#raspberry_flavoured:copycat_quarter')
     })

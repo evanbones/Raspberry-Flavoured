@@ -176,7 +176,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
 		Potion:"minecraft:turtle_master"
 	}), [Fluid.of('create:potion', 1000, {Bottle:"REGULAR", Potion:"minecraft:awkward"}), 
-		'2x autumnity:snail_shell_piece'
+		'4x autumnity:snail_shell_piece'
 	]).heated()
 	// Forest Dasher
 	event.recipes.create.mixing(Fluid.of('create:potion', 1000, {Bottle:"REGULAR", 
