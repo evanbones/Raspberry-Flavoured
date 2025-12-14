@@ -85,8 +85,8 @@
       },
       {
         "type": "endermanoverhaul:end_islands_enderman",
-        "maxCount": 1,
-        "minCount": 1,
+        "maxCount": 3,
+        "minCount": 2,
         "weight": 4
       }
     ],
