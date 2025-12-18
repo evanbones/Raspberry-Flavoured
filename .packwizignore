@@ -6,3 +6,4 @@ resourcepacks
 kubejs/assets/
 client_scripts
 kubejs/startup_scripts/keybinds.js
+config/openloader/resources

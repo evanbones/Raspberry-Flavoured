@@ -1129,6 +1129,10 @@ file = "config/nostalgic_tweaks/backup/nostalgic_tweaks-client-startup_backup.js
 hash = "6f84de2210f5977d6f34b1f31a93b16edf52543cc69988b6546d1bc5d5169b1b"
 
 [[files]]
+file = "config/nostalgic_tweaks/nostalgic_tweaks-server.json"
+hash = "79228e68697e18bd82e5b343f3337ab5a7dff7bf3fea88b4cedf4a4163e2b361"
+
+[[files]]
 file = "config/nostalgic_tweaks/nostalgic_tweaks.json"
 hash = "6f84de2210f5977d6f34b1f31a93b16edf52543cc69988b6546d1bc5d5169b1b"
 
