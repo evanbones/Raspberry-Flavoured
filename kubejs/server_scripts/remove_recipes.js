@@ -1496,7 +1496,6 @@ ServerEvents.recipes(event => {
 	"copycats:copycat_vertical_stairs",
 	"copycats:copycat_trapdoor",
 	"copycats:copycat_vertical_slice",
-	"copycats:copycat_vertical_step",
 	"copycats:copycat_slope",
 	"copycats:copycat_vertical_slope",
 	"copycats:copycat_slope_layer",
@@ -2478,7 +2477,8 @@ ServerEvents.recipes(event => {
     "respiteful:snow_top_yellow_tea",
     "respiteful:snow_top_black_tea",
     "respiteful:snow_top_coffee",
-	"supplementaries:candy"
+	"supplementaries:candy",
+	"farmersrespite:purulent_tea"
 	]})
 
 // Removing by ID
@@ -3425,7 +3425,8 @@ ServerEvents.recipes(event => {
 	"minecraft:polished_basalt",
 	"minecraft:smooth_basalt",
 	"farmersrespite:brewing/purulent_tea",
-	"create_central_kitchen:mixing/purulent_tea"
+	"create_central_kitchen:mixing/purulent_tea",
+	"modestmining:adobe_bricks"
 	]
     
     removedIds.forEach(removedId => {

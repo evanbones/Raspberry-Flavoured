@@ -107,6 +107,7 @@
 	"item.create.sand_paper": "Sandpaper",
 	"item.create.red_sand_paper": "Sandpaper",
 	"item.create.wrench": "Engineer's Wrench",
+	"item.create.wrench.tooltip.behaviour2": "Only in _Creative_ _Mode_, can _relocate_ assembled minecart and train-based contraptions.",
 	"item.create.builders_tea.tooltip.summary": "The perfect drink to get the day started - _motivating_ and _saturating!_ Grants the _Haste_ effect for _3 minutes_ and _restores_ a little bit of the _food bar_.",
 	
 	"create.recipe.automatic_brewing": "Brewing",

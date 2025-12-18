@@ -950,9 +950,10 @@ ServerEvents.tags('item', event => {
 		.add('copycats:copycat_wall')
 		
 	event.get('raspberry_flavoured:copycat_quarter')
-		.add('copycats:copycat_beam')
-		.add('create:copycat_step')
 		.add('create:copycat_panel')
+		.add('create:copycat_step')
+		.add('copycats:copycat_vertical_step')
+		.add('copycats:copycat_beam')
 		
 	event.get('raspberry_flavoured:terracotta')
 		.add('minecraft:terracotta')

@@ -1,7 +1,7 @@
 Will &lnever &rhave raspberries!
 It's a big universe out there!
 A real piece of work!
-So &lthis &ris what the inside of an Energizer looks like!
+So &othis &ris what the inside of an Energizer looks like!
 But why? Why would you do that?
 Credit to team!
 Trans rights!
@@ -15,9 +15,7 @@ What's a corsage?
 Hot buttered biscuits - &lINCOMING!
 I've come to make an announcement!
 I put hot sauce on everything!
-Somebody tell that maniac, this is &lmy &rtrack now!
 Balance increases traction!
-You can't barrel roll a tank!
 Say my name and I magically appear!
 Yeah!
 A Braver, Newer Look!
@@ -88,9 +86,8 @@ null was here!
 fractureiser was here!
 JTE deserved better!
 Technoblade never dies!
-According to all known laws of aviation,
+There is no way that a bee should be able to fly!
 I walk in eternity!
-Save it for Comic-Con!
 It's more of a demonstration, really!
 Cactus juice - it'll quench ya!
 That's rough, buddy!
@@ -178,7 +175,7 @@ THE FIRST THANKSGIVING TO GET TURKEYS OFF THE MENU
 Welcome to your Eternal Doom!
 Undefeatable!
 Find your flame!
-Need for Speed: Most Wanted is unfair!
+Better Than Wolves is unfair!
 Pain is bread!
 Millions of peaches, peaches, peaches, peaches, peaches!
 More addictive than most things!
@@ -208,7 +205,7 @@ The true meaning of dedotated wam
 hoot hoot
 Big Pointy Thrasher Teeth!
 69420!
-This text is impossible to read no matter what resolution your game is at, because it's ludicrously long just for the sake of this joke. Now I have to fill in more empty space for the joke to actually make sense. Uh, hello! If you're reading this, you're probably doing it through the splashes text file. Did you know that the splashes text file is in a different location as of Raspberry Flavoured 2.2 pre-release 2? Yeah, I figured just having it here would be much simpler. And it seems I was right - I mean, would you be reading this splash now if it was still buried all the way under all the resource pack files? Well, you're welcome!
+This text is impossible to read no matter what resolution your game is at, because it's ludicrously long just for the sake of this joke. Now I have to fill in more empty space for the joke to actually make sense. If you're reading this, you're probably doing it through the splashes text file. Did you know that the splashes text file is in a different location as of Raspberry Flavoured 2.2 pre-release 2? Yeah, I figured just having it here would be much simpler. And it seems I was right - I mean, would you be reading this splash now if it was still buried all the way under all the resource pack files? Well, you're welcome!
 Copper Tools!
 Hippopotomonstrosesquippedaliophobia!
 Pneumonoultramicroscopicsilicovolcanoconiosis!
@@ -309,9 +306,9 @@ Give it up for day 15!
 Are you feeling it now?
 Don't let the flame die out!
 Abnormal!
-Just a little faster!
-Don't hang your head so low!
-There's no turning back!
+&oJust a little faster!
+&oDon't hang your head so low!
+&oThere's no turning back!
 I'm spared!
 Cringe culture is dead!
 Where there's smoke, they pinch back!
@@ -324,9 +321,9 @@ Broing ha...!
 Carousel of agony!
 Eggs, bread, milk and cheese, it's a bear, lemon tree - &lSEPHIROTH!
 Snooping as usual, I see!
-Skydiving, out of the window!
-Coolamundo!
-It might even work!
+&oSkydiving, out of the window!
+&oCoolamundo!
+&oIt might even work!
 They took stuff and hand-stuffed it inside stuff!
 It's as shrimple as that!
 Not very clamplicated!
@@ -337,9 +334,9 @@ You know the rules!
 Would you like a jelly baby?
 A sequel to the sequel before the sequel!
 Hey, you!
-Obtuse, rubber goose, green moose, guava juice!
+&oObtuse, rubber goose, green moose, guava juice!
 It's got a rakish charm!
-I see nor hear no evil!
+&oI see nor hear no evil!
 I have to put the cans in one by one?!
 Not enough clay!
 Just enough clay!
@@ -356,7 +353,7 @@ This is this and that is that!
 I'd still prefer having the cinnamon sack be prioritised!
 Uses EMI again!
 One time, I ate a bagel!
-Might add Thaumcraft... maybe!
+Not adding Thaumcraft!
 Is this a GregTech pack?
 What is this and how do I get rid of it?
 This modpack is sponsored by Nord Shadowscaped Raysharks!
@@ -1821,6 +1818,9 @@ I will be haunted by my actions forever, hoot-hoot!
 Why do I always think that's gonna work?
 I'm a Lesbiab- Lesbiam- Less Bien- Girls!
 Lyn's blibbin'!
+I am at Aldi!
+White streak, speeds by!
+Yeth!
 Justice for seagulls!
 Justice for crabs!
 Justice for tuff golems!
@@ -1911,9 +1911,17 @@ Also try &lForager!
 Also try &lGentle Brew!
 Also try &lGold Mine!
 Also try &lGrimbly Garden!
+Also try &lGrimbly Schmeggle!
 Also try &lGrimbly Schmeggle 2!
 Also try &lGrimbly Schmeggle 3: Ultimate Grimble!
-Also try &lGrimbly Schmeggle!
+Also try &lGrimbly Schmeggle 4: Chapter 1!
+Also try &lGrimbly Schmeggle 4: Chapter 2!
+Also try &lGrimbly Schmeggle 5: Grimble Mania!
+Also try &lGrimbly Schmeggle 6: It Has Guns!
+Also try &lGrimbly Schmeggle 7: The Luckiest Number!
+Also try &lGrimbly Schmeggle 8: Eight! Eight! Eight!
+Also try &lGrimbly Schmeggle 9: The One Before the Tenth One!
+Also try &lGrimbly Schmeggle 10: The End of All Things!
 Also try &lHades!
 Also try &lHades II!
 Also try &lInfinity Plus!
@@ -1956,6 +1964,7 @@ Also try &lSonic Colors!
 Also try &lSonic Racing: Crossworlds!
 Also try &lSonic Robo Blast 2!
 Also try &lSonic Rumble!
+Also try &lSonic Runners Revival!
 Also try &lSonic Spinball!
 Also try &lSonic Sunventure!
 Also try &lSonic X Shadow Generations!
@@ -2010,6 +2019,7 @@ Shoutout to &lcrunchylungs!
 Shoutout to &lbeb!
 Shoutout to &lJameslice!
 Shoutout to &ljaybees!
+Shoutout to &llurkywho!
 Shoutout to &lmintynoura!
 Shoutout to &lSarahIsWeird!
 Shoutout to &lGrom PE!
@@ -2034,5 +2044,5 @@ Shoutout to &lScrap Sorra!
 Shoutout to &lSpncr!
 Shoutout to &lThe Sonic Hangout!
 Shoutout to &lthe RF Discord server!
-241 mods!
-This splash has a &l1 &rin &l2038 &rchance of showing up!
+244 mods!
+This splash has a &l1 &rin &l2048 &rchance of showing up!

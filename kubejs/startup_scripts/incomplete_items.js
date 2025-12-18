@@ -57,7 +57,8 @@ StartupEvents.registry('item', event => {
 	'incomplete_cheesy_chip_wrap',
 	'incomplete_squid_sandwich',
 	'incomplete_cave_burger',
-	'incomplete_popcorn_bucket'
+	'incomplete_popcorn_bucket',
+	'incomplete_ghast_roll'
 	]
     
     incompleteRegularFoods.forEach(item => {

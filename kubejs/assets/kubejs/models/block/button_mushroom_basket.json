@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "kubejs:block/button_mushroom_basket_bottom",
+    "side": "kubejs:block/button_mushroom_basket_side",
+    "top": "kubejs:block/button_mushroom_basket_top"
+  }
+}

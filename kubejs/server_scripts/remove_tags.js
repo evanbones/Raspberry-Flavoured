@@ -1737,7 +1737,8 @@ ServerEvents.tags('item', event => {
     "everycomp:ap/atmospheric/yucca_board_stairs",
     "everycomp:ap/environmental/cherry_board_stairs",
     "everycomp:ap/atmospheric/morado_board_stairs",
-    "everycomp:ap/quark/bamboo_board_stairs"
+    "everycomp:ap/quark/bamboo_board_stairs",
+	"supplementaries:caverns_and_chasms/hanging_sign_azalea"
 	])
 	
 	event.removeAll('createaddition:plant_foods')

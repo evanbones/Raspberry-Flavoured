@@ -179,6 +179,12 @@ StartupEvents.registry('item', event => {
     		.saturation(0.7)
 			.effect('mynethersdelight:b_pungent', 900, 1, 1)
         	})
+	event.create('ghast_roll').group('food').food(food => {
+		food
+    		.hunger(7)
+    		.saturation(0.65)
+			.effect('regeneration', 900, 0, 1)
+        	})
 	event.create('smore').group('food').food(food => {
 		food
     		.hunger(9)
