@@ -88,12 +88,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('buzzier_bees:honey_bread', item => {
         item.foodProperties = food => {
-            food.hunger(5).saturation(0.6)
+            food.hunger(5).saturation(0.6).fastToEat()
         }
     })
 	event.modify('upgrade_aquatic:mulberry_bread', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.55).effect('regeneration', 100, 0, 1)
+            food.hunger(4).saturation(0.55).effect('regeneration', 100, 0, 1).fastToEat()
         }
     })
 	event.modify('farmersdelight:beef_patty', item => {
@@ -458,7 +458,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('culturaldelights:pufferfish_roll', item => {
         item.foodProperties = food => {
-            food.removeEffect('hunger').effect('dolphins_grace', 1200, 0, 1)
+            food.removeEffect('hunger').effect('dolphins_grace', 1500, 0, 1)
         }
     })
 	event.modify('spelunkery:button_mushroom', item => {
@@ -688,7 +688,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('culturaldelights:avocado_toast', item => {
         item.foodProperties = food => {
-            food.hunger(4).saturation(0.8).effect('kubejs:satiation', 600, 0, 1)
+            food.hunger(4).saturation(0.8).effect('kubejs:satiation', 600, 0, 1).fastToEat()
         }
     })
 	event.modify('abnormals_delight:pickerelweed_juice', item => {
@@ -863,7 +863,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('cookscollection:rustic_loaf_slice', item => {
         item.foodProperties = food => {
-            food.hunger(3).saturation(0.4)
+            food.hunger(3).saturation(0.4).fastToEat()
         }
     })
 	event.modify('cookscollection:fried_potato', item => {
@@ -943,7 +943,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('mynethersdelight:deviled_egg', item => {
         item.foodProperties = food => {
-            food.removeEffect('mynethersdelight:b_pungent').effect('mynethersdelight:b_pungent', 600, 0, 1)
+            food.hunger(6).removeEffect('mynethersdelight:b_pungent').effect('mynethersdelight:b_pungent', 600, 0, 1)
         }
     })
 	event.modify('environmental:truffle_mash', item => {
@@ -1134,6 +1134,26 @@ ItemEvents.modification(event => {
             food.fastToEat()
         }
     })
+	event.modify('farmersdelight:cabbage_rolls', item => {
+        item.foodProperties = food => {
+            food.hunger(6).fastToEat()
+        }
+    })
+	event.modify('culturaldelights:egg_roll', item => {
+        item.foodProperties = food => {
+            food.hunger(4)
+        }
+    })
+	event.modify('culturaldelights:calamari_roll', item => {
+        item.foodProperties = food => {
+            food.fastToEat(false)
+        }
+    })
+	event.modify('culturaldelights:tropical_roll', item => {
+        item.foodProperties = food => {
+            food.fastToEat(false)
+        }
+    })
 	
 // Cake rebalance
 	event.modify('farmersdelight:cake_slice', item => {
@@ -1178,22 +1198,22 @@ ItemEvents.modification(event => {
     })
 	event.modify('respiteful:green_tea_cake_slice', item => {
         item.foodProperties = food => {
-            food.hunger(3).removeEffect('speed').removeEffect('respiteful:vitality').effect('respiteful:vitality', 600, 0, 1)
+            food.hunger(3).removeEffect('speed').removeEffect('respiteful:vitality').effect('respiteful:vitality', 600, 0, 1).alwaysEdible(false)
         }
     })
 	event.modify('respiteful:yellow_tea_cake_slice', item => {
         item.foodProperties = food => {
-            food.hunger(3).removeEffect('speed').removeEffect('respiteful:tenacity').effect('respiteful:tenacity', 600, 0, 1)
+            food.hunger(3).removeEffect('speed').removeEffect('respiteful:tenacity').effect('respiteful:tenacity', 600, 0, 1).alwaysEdible(false)
         }
     })
 	event.modify('respiteful:black_tea_cake_slice', item => {
         item.foodProperties = food => {
-            food.hunger(3).removeEffect('speed').removeEffect('respiteful:maturity').effect('respiteful:maturity', 600, 0, 1)
+            food.hunger(3).removeEffect('speed').removeEffect('respiteful:maturity').effect('respiteful:maturity', 600, 0, 1).alwaysEdible(false)
         }
     })
 	event.modify('mynethersdelight:magma_cake_slice', item => {
         item.foodProperties = food => {
-            food.hunger(3).removeEffect('speed')
+            food.hunger(3).removeEffect('speed').alwaysEdible(false)
         }
     })
 

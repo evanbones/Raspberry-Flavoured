@@ -4,15 +4,15 @@
 	"thirdPersonCrosshair": false,
 	"hideWithScreen": true,
 	"crosshairConfig": {
-		"onBlock": "IfTargeting",
+		"onBlock": "IfInteractable",
 		"onEntity": true,
 		"holdingTool": "Always",
 		"holdingMeleeWeapon": true,
-		"holdingRangedWeapon": "Always",
-		"holdingThrowable": "Always",
-		"holdingShield": true,
-		"holdingBlock": "Always",
-		"holdingUsableItem": "Always"
+		"holdingRangedWeapon": "Disabled",
+		"holdingThrowable": "Disabled",
+		"holdingShield": false,
+		"holdingBlock": "Disabled",
+		"holdingUsableItem": "Disabled"
 	},
 	"color": {
 		"crosshairColor": "Unchanged",
@@ -130,7 +130,7 @@
 	},
 	"enableTweaks": true,
 	"additionalTools": "\"minecraft:shears\"",
-	"additionalMeleeWeapons": "",
+	"additionalMeleeWeapons": "\"oreganized:silver_mirror\"",
 	"additionalRangedWeapons": "",
 	"additionalThrowables": "",
 	"additionalUsableItems": "",

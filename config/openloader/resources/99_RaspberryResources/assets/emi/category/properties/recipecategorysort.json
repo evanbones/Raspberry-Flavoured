@@ -38,9 +38,6 @@
   "emi:composting": {
     "order": 16
   },
-  "farmersdelight:decomposition": {
-    "order": 17
-  },
   "create:item_application": {
     "order": 19
   },

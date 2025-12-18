@@ -38,20 +38,21 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:stone_axe"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_axe",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_pickaxe"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wooden_pickaxe",
           "weight": 4
         },
         {
@@ -81,6 +82,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:campfire",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:sand_paper",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:writable_book",
           "weight": 3
         },
@@ -95,33 +106,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:campfire",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "name": "create:sand_paper",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
           "name": "supplementaries:slingshot"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:map",
-          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -138,6 +123,22 @@
           ],
           "name": "supplementaries:rope",
           "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:map",
+          "weight": 4
         }
       ],
       "rolls": 1.0
@@ -417,7 +418,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "create:builders_tea"
+          "name": "kubejs:builders_tea"
         }
       ],
       "rolls": 3.0

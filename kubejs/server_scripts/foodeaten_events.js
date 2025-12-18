@@ -104,7 +104,11 @@ ItemEvents.foodEaten([
 	'respiteful:snow_top_green_tea',
 	'respiteful:snow_top_yellow_tea',
 	'respiteful:snow_top_black_tea',
-	'respiteful:snow_top_coffee'
+	'respiteful:snow_top_coffee',
+	'kubejs:snow_top_green_tea',
+	'kubejs:snow_top_yellow_tea',
+	'kubejs:snow_top_black_tea',
+	'kubejs:snow_top_coffee'
 	], event =>{
 	event.player.setRemainingFireTicks(0)
 })
@@ -189,7 +193,11 @@ ItemEvents.foodEaten([
 	'kubejs:cactus_juice',
 	'kubejs:cherry_cream_soda',
 	'kubejs:pickerelweed_juice',
-	'kubejs:builders_tea'
+	'kubejs:builders_tea',
+	'kubejs:snow_top_green_tea',
+	'kubejs:snow_top_yellow_tea',
+	'kubejs:snow_top_black_tea',
+	'kubejs:snow_top_coffee'
 	], event => {
 		if (!event.player.isCreative()) {
 			event.server.schedule(1, callback => {

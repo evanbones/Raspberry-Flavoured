@@ -77,6 +77,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "quark:glow_shroom"
+        },
+        {
+          "type": "minecraft:item",
 		  "functions": [
             {
               "add": false,

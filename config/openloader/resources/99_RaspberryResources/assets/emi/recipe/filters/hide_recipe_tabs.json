@@ -68,6 +68,9 @@
     },
 	{
       "category": "woodworks:sawing"
+    },
+	{
+      "category": "farmersdelight:decomposition"
     }
   ]
 }

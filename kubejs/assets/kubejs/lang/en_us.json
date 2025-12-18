@@ -24,6 +24,14 @@
   "block.kubejs.smooth_stone_stairs": "Polished Stone Stairs",
   "block.kubejs.smooth_stone_wall": "Polished Stone Wall",
   
+  "block.kubejs.button_mushroom_basket": "Basket of Button Mushrooms",
+  "block.kubejs.crimini_basket": "Basket of Crimini",
+  "block.kubejs.portabella_basket": "Basket of Portabellas",
+  "block.kubejs.milly_bubcap_basket": "Basket of Milly Bubcap Mushrooms",
+  "block.kubejs.crimson_fungus_basket": "Basket of Crimson Fungi",
+  "block.kubejs.warped_fungus_basket": "Basket of Warped Fungi",
+  "block.kubejs.choral_fungus_basket": "Basket of Choral Fungi",
+  
   "block.kubejs.cloth_scrap_block": "Cloth",
   "block.kubejs.white_cloth_scrap_block": "White Cloth",
   "block.kubejs.orange_cloth_scrap_block": "Orange Cloth",
@@ -219,8 +227,8 @@
   "rf.ench.total_recall_3": "until freed by its owner.",
   "rf.ench.guard_break_1": "Shortens targets' invulnerability timer.",
   "rf.ench.bracewalk_1": "Increases knockback resistance.",
-  "rf.ench.bracewalk_2": "Allows wearer to walk through blocks like",
-  "rf.ench.bracewalk_3": "Cobwebs, destroying them in the process.",
+  "rf.ench.bracewalk_2": "Allows wearer to walk through Cobwebs,",
+  "rf.ench.bracewalk_3": "destroying them in the process.",
   "rf.ench.shockwave_1": "Creates a shockwave around the wearer",
   "rf.ench.shockwave_2": "when they take fall damage.",
   "rf.ench.bane_of_arthropods_1": "Inflicts extra damage against",
@@ -278,6 +286,7 @@
   "rf.jei.hoes": "Hoes can obtain seeds from foliage such as Grass. They can also rake through Leaves quicker than other tools.",
   "rf.jei.shears": "Shears can gather Wool from Sheep, as they won't yield any when killed. Yes, that Crab Claw does function as a pair of Shears.",
   "rf.jei.crab_claw": "Will drop from Coconut Crabs when they're killed using a Knife.",
+  "rf.jei.bug_net": "Can be used to catch Fireflies, Caterpillars, Butterflies, and any kind of Fish.",
   "rf.jei.turtle_helmet": "Will have its durability continously drain while underwater, but as long as it has any durability, it will provide oxygen.",
   
   "rf.jei.arrow": "Standard ranged ammunition. Can be tipped with any Lingering Potion or crafted into other arrow variants.",
@@ -318,14 +327,14 @@
   "rf.jei.coal": "Coal can be found commonly on high altitudes.",
   "rf.jei.iron": "Iron can be found near Deepslate level or at high altitudes.",
   "rf.jei.copper": "Copper can be found very commonly both over and underground, though it's less common in lower altitudes.",
-  "rf.jei.gold": "Gold is most commonly found near the top of the Deepslate layer, but it can be found extra commonly near the surface in Badlands biomes. It's also found in the Nether.",
+  "rf.jei.gold": "Gold is most commonly found near the top of the Deepslate layer, but it can be found extra frequently near the surface in Badlands biomes. It's also found in the Nether.",
   "rf.jei.cinnabar": "Cinnabar is found near the lower half of the world and can be seen more frequently in lower altitudes.",
   "rf.jei.redstone": "Redstone Dust can be obtained by crushing Cinnabar.",
   "rf.jei.diamonds": "Diamonds are most common near the very bottom of the world.",
   "rf.jei.ancient_debris": "Ancient Debris is found in small chunks near the bottom of the Nether. Ancient Scraps will drop from Piglin Brutes, and occasionally from Wildfires. Chunks of Ancient Debris can occasionally be found in Magnetite Geodes.",
   "rf.jei.zinc": "Zinc is found scattered around at pretty much any altitude underground.",
   "rf.jei.lead": "Lead is found somewhat frequently around Deepslate level, but it can be found extra frequently near the surface in Savanna biomes. It's also found in the Nether.",
-  "rf.jei.silver": "Silver is found very rarely right between the Stone and Deepslate layers underground. Finding Silver can be made easier by carrying a Silver Mirror.",
+  "rf.jei.silver": "Silver is found very rarely right between the Stone and Deepslate layers underground, but it can be found extra frequently in Electrum Forests. Finding Silver can be made easier by carrying a Silver Mirror.",
   "rf.jei.magnetite": "Magnetite can be found near large Iron veins deep underground. Deepslate Iron Ore will occasionally drop Magnetite Nuggets, and small Magnetite Geodes covered with Obsidian will generate around the Nether. These Geodes will sometimes contain a few chunks of Ancient Debris. Finding Magnetite and Ancient Debris can be made easier by carrying a Magnetic Compass.",
   "rf.jei.quartz": "Quartz is found very commonly all around the Nether.",
   "rf.jei.salt": "Rock Salt can be found in mountainous biomes, Dripstone Caves and Blossom biomes. It can be crushed into Salt, which is used as a cooking ingredient and will prevent undead mobs from walking over it when placed in a line. Placing Dripstone below Pointed Dripstone with Rock Salt and water above it will eventually turn the Dripstone into Rock Salt.",
@@ -335,7 +344,8 @@
   "rf.jei.beds": "A comfy Bed to sleep the night's troubles away. Sets the player's spawn point when right-clicked. Sleeping will not skip the night instantly.",
   "rf.jei.bedrolls": "A cheaper, makeshift Bed. Does not set the player's spawn point. Sleeping will not skip the night instantly.",
   "rf.jei.composter": "Will allow recycling of various organic materials into Bone Meal, Worms, or even occasionally some Organic Compost.",
-  "rf.jei.compost": "Organic Compost can be made out of a variety of waste material, or can occasionally be obtained from a full Composter. After being placed down and left to decompose for a while, it will turn into Rich Soil, which doesn't require water to grow crops, but grows crops faster than normal if water is provided.",
+  "rf.jei.organic_compost": "Made out of organic waste or occasionally obtained from a Composter. Will start to decompose when placed, which can be sped up by sunlight, nearby water, fungi or other blocks of Organic Compost. When finished decomposing, it turns into Rich Soil.",
+  "rf.jei.rich_soil": "High quality soil that can grow crops without water. Will grow crops at a faster rate if water is provided. Obtained by placing down Organic Compost and letting it decompose.",
   "rf.jei.feasts": "Feasts are extra filling dishes that can be placed down and have multiple portions taken out of them, usually with Bowls.",
   "rf.jei.keg": "Used to ferment various fun beverages and foods with helpful or unique effects. For some recipes, it must be heated up or cooled down by placing certain types of hot or cold blocks near it, like Magma Blocks, Heating Casks, Campfires, or Snow, Ice, Ice Crates, etc.",
   "rf.jei.echo_chest": "Will automatically collect items on the ground in a radius, even through walls. Will not collect items behind vibration occluding blocks like Wool or Cloth.",
@@ -343,7 +353,7 @@
   
   "rf.jei.leather_scraps": "Leather can be cut into Leather Scraps with Shears on a Cutting Board. Leather Scraps can substitute for whole pieces of Leather in all recipes, making things more efficient with a bit of leatherworking.",
   "rf.jei.hoglin_hide": "Some thick hide skinned off of a Hoglin. Need something lighter than a Sword to get one...",
-  "rf.jei.polishing": "Sand Paper and Grindstones will allow polishing gems like Rough Cinnabar, Diamonds or Quartz. Sand Paper can be used by looking at rough gems on the floor or by holding them in the off-hand and holding right-click, while Grindstones can simply be right-clicked with a rough gem in hand.",
+  "rf.jei.polishing": "Sandpaper and Grindstones will allow polishing gems like Rough Cinnabar, Diamonds or Quartz. Sandpaper can be used by looking at rough gems on the floor or by holding them in the off-hand and holding right-click, while Grindstones can simply be right-clicked with a rough gem in hand.",
   "rf.jei.item_magnet": "When activated with a right-click, an Item Magnet will attract all items nearby towards the holder.",
   "rf.jei.echo_fork": "Will temporarily add a glowing outline to mobs around the wielder in a large radius, allowing them to be seen through walls.",
   "rf.jei.trowel": "Will select and place a random block from the hotbar with every use. Perfect for adding some variation to builds.",
@@ -381,7 +391,7 @@
   
   "rf.jei.awoken_exopearl": "Will fly in the direction of various ruined structures, such as Shipwrecks, Ruined Nether Portals and Bastion Remnants.",
   "rf.jei.spirited_exopearl": "Will fly in the direction of various structures containing spawners, such as Dungeons, Mineshafts, Nether Fortresses, and...?",
-  "rf.jei.binding_exopearl": "Comes in pairs and will allow locating and keeping track of another player when one of the two is given to them and right-clicked.",
+  "rf.jei.binding_exopearl": "Comes in pairs and will allow locating and keeping track of another player when one of the two is given to them and right-clicked. May require being calibrated by crafting two Binding Exopearls together.",
   "rf.jei.soul_bead": "Can be acquired by killing Vexes or Wraiths, by destroying Spawners, or by bartering with Piglin Alchemists.",
   "rf.jei.echo_shard": "Can be obtained by harvesting Sculk Sensors, or found in Ancient City chests.",
   "rf.jei.lachryte": "Can be obtained from Crying Obsidian, by crushing Exopearls, from ruined Nether portal chests, a Bag of Sorcery from a Witch or by killing a Ghast or Lachmite. Right-clicking Crying Obsidian while holding any tier of pickaxe will extract the Lachryte Tears out of the block.",
@@ -404,8 +414,8 @@
   
   "rf.jei.worms": "Worms can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll slightly decrease the amount of time it takes to catch something. Worms can be obtained by feeding Corn Kernels to a Chicken, Duck or Turkey, which will make them search for Wormy Dirt. Worms will also occasionally pop out of Composters.",
   "rf.jei.spider_eye": "Spider Eyes can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll slightly decrease the amount of time it takes to catch something.",
-  "rf.jei.firefly": "Fireflies can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Fireflies can be obtained by catching them using a Catching Net.",
-  "rf.jei.caterpillar": "Caterpillars can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll significantly decrease the amount of time it takes to catch something. Caterpillars can be obtained by breeding Butterflies with flowers, then catching the resulting Caterpillar using a Catching Net. They can also sometimes appear in loot.",
+  "rf.jei.firefly": "Fireflies can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Fireflies can be caught using a Catching Net.",
+  "rf.jei.caterpillar": "Caterpillars can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll significantly decrease the amount of time it takes to catch something. Caterpillars can be obtained by breeding Butterflies with flowers, then catching the resulting Caterpillar with a Catching Net.",
   "rf.jei.golden_worm": "Golden Worms can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll significantly decrease the amount of time it takes to catch something. They can be crafted, rarely drop from Wormy Dirt or be found in Cans of Bait.",
   
   "rf.jei.dwarf_geode": "Drops from Deposits found underground. Can also be found in loot chests or underground Urns, and occasionally drops from Deepers.",
@@ -524,5 +534,7 @@
   "rf.tooltip.projectile_effect": "Inflicts on target:",
   "rf.tooltip.projectile_effect_snowball": " Chilled (0:03)",
   "rf.tooltip.projectile_effect_ashball": " Blindness (0:05)",
-  "rf.tooltip.pickerelweed": "Oxygen Restoration"
+  "rf.tooltip.pickerelweed": "Oxygen Restoration",
+  "rf.tooltip.gamblers_tea_1": "§9Glowing (0:10)",
+  "rf.tooltip.gamblers_tea_2": "§cWithering (0:10)"
 }

@@ -31,5 +31,7 @@
 	"blueprint:chest_boat": "wood",
 
 	"ecologics:boat": "wood",
-	"ecologics:chest_boat": "wood"
+	"ecologics:chest_boat": "wood",
+	
+	"connectiblechains:chain_knot": "chain"
 }
