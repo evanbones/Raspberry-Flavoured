@@ -42,6 +42,7 @@
   "backport_leash": true,
   "disable_birch_leaf_tinting": true,
   "jade_requires_scoping": true,
-  "music_frequency": "CONSTANT",
-  "show_music_toast": true
+  "music_frequency": "DEFAULT",
+  "show_music_toast": false,
+  "disable_faucet_source_blocks": false
 }
