@@ -3426,7 +3426,8 @@ ServerEvents.recipes(event => {
 	"minecraft:smooth_basalt",
 	"farmersrespite:brewing/purulent_tea",
 	"create_central_kitchen:mixing/purulent_tea",
-	"modestmining:adobe_bricks"
+	"modestmining:adobe_bricks",
+	"minecraft:stick_from_bamboo_item"
 	]
     
     removedIds.forEach(removedId => {

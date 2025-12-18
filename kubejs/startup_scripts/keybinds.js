@@ -1,8 +1,8 @@
 // priority: 0
 
 KeyBindEvents.modify(event => {
-//	event.remove('Reload Menu | CTRL + ALT + ');
-//	event.remove('Toggle Customization Overlay | CTRL + ALT + ');
+	event.remove('Reload Menu | CTRL + ALT + ');
+	event.remove('Toggle Customization Overlay | CTRL + ALT + ');
 	
 	event.remove('key.jei.nextCategory');
 	event.remove('key.jei.showRecipe2');
@@ -86,6 +86,9 @@ KeyBindEvents.modify(event => {
 	event.modifyCategory('supplementaries.keybind.quiver', 'key.categories.gameplay');
 	event.modifyCategory('key.jade.show_overlay', 'key.categories.gameplay');
 	event.modifyCategory('key.jade.show_details', 'key.categories.gameplay');
+	event.modifyCategory('key.scholar.toggle_book_tools', 'key.categories.gameplay');
+	event.modifyCategory('key.scholar.import_book', 'key.categories.gameplay');
+	event.modifyCategory('key.scholar.export_book', 'key.categories.gameplay');
 	
 	event.modifyCategory('create.keyinfo.ponder', 'key.categories.inventory');
 	event.modifyCategory('quark.keybind.sort_player', 'key.categories.inventory');
@@ -102,4 +105,5 @@ KeyBindEvents.modify(event => {
 	event.modifyCategory('key.raised.hud.up', 'key.categories.misc');
 	event.modifyCategory('key.raised.chat.down', 'key.categories.misc');
 	event.modifyCategory('key.raised.chat.up', 'key.categories.misc');
+	event.modifyCategory('key.immersiveoverlays.settings', 'key.categories.misc');
 })
