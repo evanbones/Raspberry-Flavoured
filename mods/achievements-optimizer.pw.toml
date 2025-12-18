@@ -1,0 +1,13 @@
+name = "Achievements Optimizer"
+filename = "AchievementOptimizer-1.19.2-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SvXrP8rT/versions/M5c0LFrD/AchievementOptimizer-1.19.2-1.0.2.jar"
+hash-format = "sha512"
+hash = "c57b2cbc586aa59322b7fb2944f9aa55fc02ddfeb1602e300ffeb993bf22506c829c0bda1fea625c7b3fe2cc289cb35548f4b7851d8e63b9ff6b94b973a93f3d"
+
+[update]
+[update.modrinth]
+mod-id = "SvXrP8rT"
+version = "M5c0LFrD"

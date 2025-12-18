@@ -1,0 +1,13 @@
+name = "Scholar Unofficial Backport"
+filename = "scholar-1.19.2-1.0.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a4e5c15fd5ee68326353d866b66b25735095b530"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7349109
+project-id = 1408019

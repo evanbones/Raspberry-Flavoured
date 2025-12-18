@@ -2,4 +2,7 @@ README.md
 .git
 .github
 .nojekyll
-
+resourcepacks
+kubejs/assets/
+client_scripts
+kubejs/startup_scripts/keybinds.js
