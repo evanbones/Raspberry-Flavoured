@@ -72,7 +72,7 @@
   "item.sullysmod.tortoise_scute": "Tortoise Scute",
   "item.sullysmod.tortoise_shell": "Tortoise Shell",
   "item.sullysmod.tortoise_spawn_egg": "Tortoise Spawn Egg",
-  "subtitles.block.flinger_totem.shoot": "Amethyst Flinger Totem flings",
+  "subtitles.block.flinger_totem.shoot": "Flinger flings",
   "subtitles.block.grindstone.polish_jade": "Grindstone polishes",
   "subtitles.block.jade.ricochet": "Projectile ricochets",
   "subtitles.entity.lanternfish.death": "Lanternfish dies",
@@ -91,7 +91,7 @@
   "subtitles.entity.tortoise.hurt_baby": "Tortoise baby hurts",
   "subtitles.entity.tortoise_shell.place": "Tortoise Shell placed",
   "subtitles.entity.zombie.destroy_egg": "Egg stomped",
-  "sullysmod.jei.grindstone_polishing": "Polishing",
-  "sullysmod.jei.grindstone_polishing.info": "Right click to polish",
+  "sullysmod.jei.grindstone_polishing": "Grindstone Polishing",
+  "sullysmod.jei.grindstone_polishing.info": "R-Click on Grindstone with item in hand",
   "sullysmod.polishing.tooltip": "Polishable at grindstone"
 }

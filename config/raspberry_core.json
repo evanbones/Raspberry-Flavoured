@@ -36,10 +36,13 @@
   "unified_wrenches": false,
   "safer_knight_jump": true,
   "raspberry_cart_engine": true,
-  "raspberry_cart_max_speed": 34.0,
+  "raspberry_cart_max_speed": 20.0,
   "dungeons_mobs_revised_cobwebs": true,
   "ghast_dragon_fireball": true,
   "backport_leash": true,
   "disable_birch_leaf_tinting": true,
-  "jade_requires_scoping": true
+  "jade_requires_scoping": true,
+  "music_frequency": "DEFAULT",
+  "show_music_toast": false,
+  "disable_faucet_source_blocks": false
 }

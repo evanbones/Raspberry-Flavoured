@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "kubejs:block/crimini_basket_bottom",
+    "side": "kubejs:block/crimini_basket_side",
+    "top": "kubejs:block/crimini_basket_top"
+  }
+}

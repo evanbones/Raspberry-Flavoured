@@ -57,7 +57,14 @@
 	"quark:glowberry_sack",
 	"cookscollection:lemon_crate",
 	"domesticationinnovation:drum",
-	"supplementaries:bellows"
+	"supplementaries:bellows",
+	"kubejs:button_mushroom_basket",
+	"kubejs:crimini_basket",
+	"kubejs:portabella_basket",
+	"kubejs:milly_bubcap_basket",
+	"kubejs:crimson_fungus_basket",
+	"kubejs:warped_fungus_basket",
+	"kubejs:choral_fungus_basket"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.bookshelf.break",

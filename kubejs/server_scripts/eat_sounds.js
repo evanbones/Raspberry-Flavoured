@@ -140,6 +140,7 @@ ServerEvents.tags('item', event => {
 		.add('neapolitan:neapolitan_ice_cream')
 		.add('respiteful:respiteful_ice_cream')
 		.add('kubejs:prismatic_ice_cream')
+		.add('kubejs:ghast_roll')
 		
 	event.get('raspberry:sounds/vegetable')
 		.add('minecraft:potato')

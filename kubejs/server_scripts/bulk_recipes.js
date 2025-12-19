@@ -108,4 +108,16 @@ ServerEvents.recipes(event => {
 		let output = recipe.originalRecipeResult.withCount(3)
 		event.shaped(output, ['AAA', 'BBB', 'AAA'], {A: ingredients[0], B: ingredients[3]})
 	})
+	
+	// hanging signs
+	event.forEachRecipe({
+		type: "minecraft:crafting_shaped",
+		output: "#supplementaries:hanging_signs",
+		not: {input: "#supplementaries:hanging_signs"}
+	}, recipe => {
+		recipe.remove()
+		let ingredients = recipe.originalRecipeIngredients
+		let output = recipe.originalRecipeResult.withCount(3)
+		event.shaped(output, ['A A', 'BBB', 'BBB'], {A: 'chain', B: ingredients[3]})
+	})
 })

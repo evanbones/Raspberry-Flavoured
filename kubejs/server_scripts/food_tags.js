@@ -429,6 +429,7 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:crab_meat')
 		.add('kubejs:crystalfish')
 		.add('kubejs:fried_potato_with_chili')
+		.add('kubejs:ghast_roll')
 		.add('kubejs:glow_ink_pasta')
 		.add('kubejs:golden_strawberries')
 		.add('kubejs:hotdog_with_coleslaw')

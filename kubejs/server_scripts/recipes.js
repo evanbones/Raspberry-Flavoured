@@ -51,6 +51,13 @@ ServerEvents.recipes(event => {
 	event.shapeless('9x kubejs:quartz_shard', ['create:polished_rose_quartz'])
 	event.shapeless('9x netherrack', ['kubejs:sturdy_netherrack'])
 	event.shapeless('9x kubejs:ancient_nugget', ['netherite_scrap'])
+	event.shapeless('9x spelunkery:button_mushroom', ['kubejs:button_mushroom_basket'])
+	event.shapeless('9x spelunkery:crimini', ['kubejs:crimini_basket'])
+	event.shapeless('9x spelunkery:portabella', ['kubejs:portabella_basket'])
+	event.shapeless('9x spelunkery:milly_bubcap', ['kubejs:milly_bubcap_basket'])
+	event.shapeless('9x crimson_fungus', ['kubejs:crimson_fungus_basket'])
+	event.shapeless('9x warped_fungus', ['kubejs:warped_fungus_basket'])
+	event.shapeless('9x architects_palette:twisted_sapling', ['kubejs:choral_fungus_basket'])
 	
 	event.shapeless('charcoal', ['8x kubejs:charcoal_lump'])
 	event.shapeless('8x kubejs:charcoal_lump', ['charcoal'])
@@ -186,6 +193,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('8x raspberry:fine_wood', ['honeycomb', '8x #minecraft:logs']).id('raspberry:fine_wood')
 	event.shapeless('5x kubejs:fried_potato_with_chili', ['5x cookscollection:fried_potato', 'farmersrespite:blazing_chili'])
 	event.shapeless('4x create:track_station', ['compass', 'create:railway_casing']).id('create:crafting/kinetics/track_station')
+	event.shapeless('2x kubejs:ghast_roll', ['dried_kelp', 'farmersdelight:cooked_rice', '2x mynethersdelight:ghasta'])
 	
 	event.shapeless('2x kubejs:snow_top_green_tea', ['2x farmersrespite:green_tea', 'neapolitan:vanilla_ice_cream', '2x glass_bottle'])
 	event.shapeless('2x kubejs:snow_top_yellow_tea', ['2x farmersrespite:yellow_tea', 'neapolitan:vanilla_ice_cream', '2x glass_bottle'])
@@ -368,6 +376,7 @@ ServerEvents.recipes(event => {
 	twoByTwo('naturalist:shellstone', 'naturalist:smooth_shellstone', 4)
 	twoByTwo('naturalist:smooth_shellstone', 'naturalist:shellstone_bricks', 4)
 	twoByTwo('naturalist:shellstone_bricks', 'naturalist:cut_shellstone', 4)
+	twoByTwo('bricks', 'modestmining:adobe_bricks', 2)
 	
 	threeByThree('amethyst_shard', 'twigs:polished_amethyst', 1)
 	threeByThree('string', 'architects_palette:spool', 1)
@@ -389,7 +398,14 @@ ServerEvents.recipes(event => {
 	threeByThree('kubejs:rough_quartz_shard', 'quartz', 1)
 	threeByThree('kubejs:quartz_shard', 'create:polished_rose_quartz', 1)
 	threeByThree('netherrack', 'kubejs:sturdy_netherrack', 1)
-	threeByThree('kubejs:ancient_nugget', 'netherite_scrap', 1)
+	threeByThree('kubejs:ancient_nugget', 'netherite_scrap', 1)	
+	threeByThree('spelunkery:button_mushroom', 'kubejs:button_mushroom_basket', 1)
+	threeByThree('spelunkery:crimini', 'kubejs:crimini_basket', 1)
+	threeByThree('spelunkery:portabella', 'kubejs:portabella_basket', 1)
+	threeByThree('spelunkery:milly_bubcap', 'kubejs:milly_bubcap_basket', 1)
+	threeByThree('crimson_fungus', 'kubejs:crimson_fungus_basket', 1)
+	threeByThree('warped_fungus', 'kubejs:warped_fungus_basket', 1)
+	threeByThree('architects_palette:twisted_sapling', 'kubejs:choral_fungus_basket', 1)
 	
 	event.shaped('minecraft:white_bed', ['CCC', 'AAA', 'BBB'], {A: ['minecraft:white_wool', 'kubejs:cloth_scrap_block', 'kubejs:white_cloth_scrap_block', 'supplementaries:feather_block'], B: '#minecraft:planks', C: 'kubejs:cloth_scrap'}).id('minecraft:white_bed')
     event.shaped('3x minecraft:white_banner', ['AAA', 'AAA', ' B '], {A: ['minecraft:white_wool', 'kubejs:cloth_scrap_block', 'kubejs:white_cloth_scrap_block', 'supplementaries:feather_block'], B: 'stick'}).id('minecraft:white_banner')
@@ -546,6 +562,9 @@ ServerEvents.recipes(event => {
 	event.shaped('4x architects_palette:basalt_tiles', ['AA', 'AA'], {A: ['twigs:smooth_basalt_bricks', 'twigs:polished_basalt_bricks']})
 	event.shaped('oreganized:silver_mirror', ['ABA', ' A '], {A: '#forge:ingots/gold', B: '#forge:ingots/silver'}).id('oreganized:silver_mirror')
 	event.shaped('lead', [' A', 'A '], {A: '#forge:ropes'}).id('farmersdelight:lead_from_rope')
+	
+	event.shaped('3x twigs:mixed_bricks', ['AB', 'BA'], {A: 'bricks', B: 'brick_slab'}).id('twigs:mixed_bricks')
+	event.shaped('3x twigs:mixed_silt_bricks', ['AB', 'BA'], {A: 'twigs:silt_bricks', B: 'twigs:silt_brick_slab'}).id('twigs:mixed_silt_bricks')
 	
 	event.shaped('6x hopper', ['A A', 'ABA', ' A '], {A: '#forge:ingots/iron', B: ['#forge:chests/wooden', '#forge:barrels/wooden']}).id('minecraft:hopper')
 	event.shaped('12x hopper', ['A A', 'ABA', ' A '], {A: '#forge:ingots/steel', B: ['#forge:chests/wooden', '#forge:barrels/wooden']})
@@ -2401,6 +2420,10 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('create_central_kitchen:tomato_sauce',250), ['2x #forge:crops/tomato']).id('create_central_kitchen:mixing/tomato_sauce')
 	event.recipes.create.mixing(Fluid.of('create_central_kitchen:tomato_sauce',500), ['2x #forge:crops/tomato', '#forge:crops/onion'])
 	
+	event.recipes.create.mixing('3x ender_eye', ['2x ender_pearl', '#forge:ingots/gold', 'fire_charge']).heated()
+	event.recipes.create.mixing('3x kubejs:spirited_exopearl', ['2x ender_pearl', 'quark:soul_bead']).heated()
+	event.recipes.create.mixing('2x heartstone:heartstone', ['ender_pearl', 'spelunkery:cinnabar']).heated()
+	
 	event.recipes.create.mixing(Fluid.of('kubejs:coleslaw',500), [Fluid.of('kubejs:cooking_oil',250), '#forge:eggs', 'cookscollection:lemon', '#raspberry_flavoured:coleslaw_ingredients'])
 	event.recipes.create.mixing(Fluid.of('kubejs:blazing_chili',500), ['2x #mynethersdelight:hot_spice', '#mynethersdelight:chili_meats', 'crimson_fungus', 'farmersrespite:coffee_beans', 'kubejs:cinnamon']).heated()
 	
@@ -2770,7 +2793,7 @@ ServerEvents.recipes(event => {
 	
 // Sequenced assembly
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:beef_burrito'),
+		Item.of('culturaldelights:beef_burrito')
 	],'culturaldelights:tortilla',[
 		event.recipes.createDeploying('kubejs:incomplete_beef_burrito',['kubejs:incomplete_beef_burrito','#forge:cooked_beef']),
 		event.recipes.createDeploying('kubejs:incomplete_beef_burrito',['kubejs:incomplete_beef_burrito','#culturaldelights:avocados']),
@@ -2778,7 +2801,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_beef_burrito').loops(1).id('kubejs:beef_burrito_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:chicken_taco'),
+		Item.of('culturaldelights:chicken_taco')
 	],'culturaldelights:tortilla',[
 		event.recipes.createDeploying('kubejs:incomplete_chicken_taco',['kubejs:incomplete_chicken_taco','#forge:cooked_chicken']),
 		event.recipes.createDeploying('kubejs:incomplete_chicken_taco',['kubejs:incomplete_chicken_taco','#forge:crops/cabbage']),
@@ -2786,15 +2809,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_chicken_taco').loops(1).id('kubejs:chicken_taco_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:eggplant_burger'),
-	],'#forge:bread/wheat',[
-		event.recipes.createDeploying('kubejs:incomplete_eggplant_burger',['kubejs:incomplete_eggplant_burger','#culturaldelights:smoked_regular_eggplants']),
-		event.recipes.createDeploying('kubejs:incomplete_eggplant_burger',['kubejs:incomplete_eggplant_burger','#forge:salad_ingredients']),
-		event.recipes.createDeploying('kubejs:incomplete_eggplant_burger',['kubejs:incomplete_eggplant_burger','farmersdelight:tomato'])
-	]).transitionalItem('kubejs:incomplete_eggplant_burger').loops(1).id('kubejs:eggplant_burger_assembly')
-
-	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:fish_taco'),
+		Item.of('culturaldelights:fish_taco')
 	],'culturaldelights:tortilla',[
 		event.recipes.createDeploying('kubejs:incomplete_fish_taco',['kubejs:incomplete_fish_taco','#forge:cooked_fishes']),
 		event.recipes.createDeploying('kubejs:incomplete_fish_taco',['kubejs:incomplete_fish_taco','#forge:crops/cabbage']),
@@ -2802,7 +2817,15 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_fish_taco').loops(1).id('kubejs:fish_taco_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:pork_wrap'),
+		Item.of('culturaldelights:eggplant_burger')
+	],'#forge:bread/wheat',[
+		event.recipes.createDeploying('kubejs:incomplete_eggplant_burger',['kubejs:incomplete_eggplant_burger','#culturaldelights:smoked_regular_eggplants']),
+		event.recipes.createDeploying('kubejs:incomplete_eggplant_burger',['kubejs:incomplete_eggplant_burger','#forge:salad_ingredients']),
+		event.recipes.createDeploying('kubejs:incomplete_eggplant_burger',['kubejs:incomplete_eggplant_burger','farmersdelight:tomato'])
+	]).transitionalItem('kubejs:incomplete_eggplant_burger').loops(1).id('kubejs:eggplant_burger_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('culturaldelights:pork_wrap')
 	],'culturaldelights:tortilla',[
 		event.recipes.createDeploying('kubejs:incomplete_pork_wrap',['kubejs:incomplete_pork_wrap','#forge:cooked_pork']),
 		event.recipes.createDeploying('kubejs:incomplete_pork_wrap',['kubejs:incomplete_pork_wrap','#forge:crops/cabbage']),
@@ -2810,7 +2833,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_pork_wrap').loops(1).id('kubejs:pork_wrap_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:mutton_sandwich'),
+		Item.of('culturaldelights:mutton_sandwich')
 	],'#forge:bread/wheat',[
 		event.recipes.createDeploying('kubejs:incomplete_mutton_sandwich',['kubejs:incomplete_mutton_sandwich','#forge:cooked_mutton']),
 		event.recipes.createDeploying('kubejs:incomplete_mutton_sandwich',['kubejs:incomplete_mutton_sandwich','minecraft:beetroot']),
@@ -2818,7 +2841,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_mutton_sandwich').loops(1).id('kubejs:mutton_sandwich_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('brewinandchewin:ham_and_cheese_sandwich', 2),
+		Item.of('brewinandchewin:ham_and_cheese_sandwich', 2)
 	],'#forge:bread/wheat',[
 		event.recipes.createDeploying('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich','farmersdelight:smoked_ham']),
 		event.recipes.createFilling('kubejs:incomplete_ham_and_cheese_sandwich',['kubejs:incomplete_ham_and_cheese_sandwich',Fluid.of('kubejs:flaxen_cheese',250)]),
@@ -2827,7 +2850,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_ham_and_cheese_sandwich').loops(1).id('kubejs:ham_and_cheese_sandwich_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('farmersdelight:hamburger'),
+		Item.of('farmersdelight:hamburger')
 	],'#forge:bread/wheat',[
 		event.recipes.createDeploying('create_central_kitchen:incomplete_hamburger',['create_central_kitchen:incomplete_hamburger','#forge:cooked_beef']),
 		event.recipes.createDeploying('create_central_kitchen:incomplete_hamburger',['create_central_kitchen:incomplete_hamburger','#forge:crops/cabbage']),
@@ -2837,7 +2860,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('create_central_kitchen:incomplete_hamburger').loops(1).id('create_central_kitchen:sequenced_assembly/hamburger')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('farmersdelight:mutton_wrap'),
+		Item.of('farmersdelight:mutton_wrap')
 	],'culturaldelights:tortilla',[
 		event.recipes.createDeploying('create_central_kitchen:incomplete_mutton_wrap',['create_central_kitchen:incomplete_mutton_wrap','#forge:cooked_mutton']),
 		event.recipes.createDeploying('create_central_kitchen:incomplete_mutton_wrap',['create_central_kitchen:incomplete_mutton_wrap','#forge:crops/cabbage']),
@@ -2845,21 +2868,21 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('create_central_kitchen:incomplete_mutton_wrap').loops(1).id('create_central_kitchen:sequenced_assembly/mutton_wrap')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('farmersdelight:stuffed_potato'),
+		Item.of('farmersdelight:stuffed_potato')
 	],'minecraft:baked_potato',[
 		event.recipes.createDeploying('kubejs:incomplete_stuffed_potato',['kubejs:incomplete_stuffed_potato','#forge:cooked_beef']),
 		event.recipes.createFilling('kubejs:incomplete_stuffed_potato',['kubejs:incomplete_stuffed_potato',Fluid.of('kubejs:butter',250)])
 	]).transitionalItem('kubejs:incomplete_stuffed_potato').loops(1).id('kubejs:stuffed_potato_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('farmersdelight:melon_popsicle'),
+		Item.of('farmersdelight:melon_popsicle')
 	],'minecraft:stick',[
 		event.recipes.createDeploying('kubejs:incomplete_melon_popsicle',['kubejs:incomplete_melon_popsicle','minecraft:melon_slice']),
 		event.recipes.createDeploying('kubejs:incomplete_melon_popsicle',['kubejs:incomplete_melon_popsicle','neapolitan:ice_cubes'])
 	]).transitionalItem('kubejs:incomplete_melon_popsicle').loops(1).id('kubejs:melon_popsicle_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('farmersdelight:barbecue_stick'),
+		Item.of('farmersdelight:barbecue_stick')
 	],'minecraft:stick',[
 		event.recipes.createDeploying('kubejs:incomplete_meat_skewer',['kubejs:incomplete_meat_skewer','#farmersdelight:barbecue_meats']),
 		event.recipes.createDeploying('kubejs:incomplete_meat_skewer',['kubejs:incomplete_meat_skewer','#forge:crops/onion']),
@@ -2867,7 +2890,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_meat_skewer').loops(1).id('kubejs:meat_skewer_assembly')
 	
 	event.recipes.createSequencedAssembly([
-		Item.of('miners_delight:improvised_barbecue_stick'),
+		Item.of('miners_delight:improvised_barbecue_stick')
 	],'minecraft:stick',[
 		event.recipes.createDeploying('kubejs:incomplete_lush_skewer',['kubejs:incomplete_lush_skewer','#raspberry_flavoured:cave_seafood']),
 		event.recipes.createDeploying('kubejs:incomplete_lush_skewer',['kubejs:incomplete_lush_skewer','glow_berries']),
@@ -2875,16 +2898,15 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_lush_skewer').loops(1).id('kubejs:lush_skewer_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:egg_roll', 4),
+		Item.of('culturaldelights:egg_roll', 4)
 	],'farmersdelight:cooked_rice',[
-		event.recipes.createDeploying('kubejs:incomplete_egg_roll',['kubejs:incomplete_egg_roll','incubation:fried_egg']),
 		event.recipes.createDeploying('kubejs:incomplete_egg_roll',['kubejs:incomplete_egg_roll','incubation:fried_egg']),
 		event.recipes.createDeploying('kubejs:incomplete_egg_roll',['kubejs:incomplete_egg_roll','incubation:fried_egg']),
 		event.recipes.createDeploying('kubejs:incomplete_egg_roll',['kubejs:incomplete_egg_roll','minecraft:dried_kelp'])
 	]).transitionalItem('kubejs:incomplete_egg_roll').loops(1).id('kubejs:egg_roll_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:tropical_roll', 2),
+		Item.of('culturaldelights:tropical_roll', 2)
 	],'farmersdelight:cooked_rice',[
 		event.recipes.createDeploying('kubejs:incomplete_tropical_roll',['kubejs:incomplete_tropical_roll','#raspberry_flavoured:aquarium_fish']),
 		event.recipes.createDeploying('kubejs:incomplete_tropical_roll',['kubejs:incomplete_tropical_roll','#raspberry_flavoured:aquarium_fish']),
@@ -2892,7 +2914,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_tropical_roll').loops(1).id('kubejs:tropical_roll_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:calamari_roll', 2),
+		Item.of('culturaldelights:calamari_roll', 2)
 	],'farmersdelight:cooked_rice',[
 		event.recipes.createDeploying('kubejs:incomplete_calamari_roll',['kubejs:incomplete_calamari_roll','miners_delight:tentacles']),
 		event.recipes.createDeploying('kubejs:incomplete_calamari_roll',['kubejs:incomplete_calamari_roll','miners_delight:tentacles']),
@@ -2900,7 +2922,15 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_calamari_roll').loops(1).id('kubejs:calamari_roll_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('culturaldelights:rice_ball', 5),
+		Item.of('kubejs:ghast_roll', 2)
+	],'farmersdelight:cooked_rice',[
+		event.recipes.createDeploying('kubejs:incomplete_ghast_roll',['kubejs:incomplete_ghast_roll','mynethersdelight:ghasta']),
+		event.recipes.createDeploying('kubejs:incomplete_ghast_roll',['kubejs:incomplete_ghast_roll','mynethersdelight:ghasta']),
+		event.recipes.createDeploying('kubejs:incomplete_ghast_roll',['kubejs:incomplete_ghast_roll','minecraft:dried_kelp'])
+	]).transitionalItem('kubejs:incomplete_ghast_roll').loops(1).id('kubejs:ghast_roll_assembly')
+
+	event.recipes.createSequencedAssembly([
+		Item.of('culturaldelights:rice_ball', 6)
 	],'farmersdelight:cooked_rice',[
 		event.recipes.createDeploying('kubejs:incomplete_rice_ball',['kubejs:incomplete_rice_ball','minecraft:dried_kelp']),
 		event.recipes.createDeploying('kubejs:incomplete_rice_ball',['kubejs:incomplete_rice_ball','minecraft:sweet_berries']),
@@ -2909,7 +2939,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_rice_ball').loops(1).id('kubejs:rice_ball_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:kipper_sandwich'),
+		Item.of('kubejs:kipper_sandwich')
 	],'#forge:bread/wheat',[
 		event.recipes.createDeploying('kubejs:incomplete_kipper_sandwich',['kubejs:incomplete_kipper_sandwich','brewinandchewin:kippers']),
 		event.recipes.createDeploying('kubejs:incomplete_kipper_sandwich',['kubejs:incomplete_kipper_sandwich','#culturaldelights:avocados']),
@@ -2917,14 +2947,14 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_kipper_sandwich').loops(1).id('kubejs:kipper_sandwich_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:smore'),
+		Item.of('kubejs:smore')
 	],'kubejs:cinnamon_cracker',[
 		event.recipes.createDeploying('kubejs:incomplete_smore',['kubejs:incomplete_smore','kubejs:caramelized_marshmellow_on_a_stick']),
 		event.recipes.createDeploying('kubejs:incomplete_smore',['kubejs:incomplete_smore','kubejs:cinnamon_cracker'])
 	]).transitionalItem('kubejs:incomplete_smore').loops(1).id('kubejs:smore_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:neapolitan_ice_cream_sandwich'),
+		Item.of('kubejs:neapolitan_ice_cream_sandwich')
 	],'kubejs:cinnamon_cracker',[
 		event.recipes.createFilling('kubejs:incomplete_neapolitan_ice_cream_sandwich',['kubejs:incomplete_neapolitan_ice_cream_sandwich',Fluid.of('create_central_kitchen:vanilla_ice_cream',250)]),
 		event.recipes.createFilling('kubejs:incomplete_neapolitan_ice_cream_sandwich',['kubejs:incomplete_neapolitan_ice_cream_sandwich',Fluid.of('create_central_kitchen:chocolate_ice_cream',250)]),
@@ -2933,7 +2963,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_neapolitan_ice_cream_sandwich').loops(1).id('kubejs:neapolitan_ice_cream_sandwich_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:respiteful_ice_cream_sandwich'),
+		Item.of('kubejs:respiteful_ice_cream_sandwich')
 	],'kubejs:cinnamon_cracker',[
 		event.recipes.createFilling('kubejs:incomplete_respiteful_ice_cream_sandwich',['kubejs:incomplete_respiteful_ice_cream_sandwich',Fluid.of('create_central_kitchen:green_tea_ice_cream',250)]),
 		event.recipes.createFilling('kubejs:incomplete_respiteful_ice_cream_sandwich',['kubejs:incomplete_respiteful_ice_cream_sandwich',Fluid.of('create_central_kitchen:black_tea_ice_cream',250)]),
@@ -2942,7 +2972,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_respiteful_ice_cream_sandwich').loops(1).id('kubejs:respiteful_ice_cream_sandwich_assembly')
 	
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:prismatic_ice_cream_sandwich'),
+		Item.of('kubejs:prismatic_ice_cream_sandwich')
 	],'kubejs:cinnamon_cracker',[
 		event.recipes.createFilling('kubejs:incomplete_prismatic_ice_cream_sandwich',['kubejs:incomplete_prismatic_ice_cream_sandwich',Fluid.of('create_central_kitchen:banana_ice_cream',250)]),
 		event.recipes.createFilling('kubejs:incomplete_prismatic_ice_cream_sandwich',['kubejs:incomplete_prismatic_ice_cream_sandwich',Fluid.of('create_central_kitchen:adzuki_ice_cream',250)]),
@@ -2951,28 +2981,28 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_prismatic_ice_cream_sandwich').loops(1).id('kubejs:prismatic_ice_cream_sandwich_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('respiteful:respiteful_ice_cream'),
+		Item.of('respiteful:respiteful_ice_cream')
 	],'respiteful:green_tea_ice_cream',[
 		event.recipes.createFilling('kubejs:incomplete_respiteful_ice_cream',['kubejs:incomplete_respiteful_ice_cream',Fluid.of('create_central_kitchen:black_tea_ice_cream',250)]),
 		event.recipes.createFilling('kubejs:incomplete_respiteful_ice_cream',['kubejs:incomplete_respiteful_ice_cream',Fluid.of('create_central_kitchen:yellow_tea_ice_cream',250)])
 	]).transitionalItem('kubejs:incomplete_respiteful_ice_cream').loops(1).id('kubejs:respiteful_ice_cream_assembly')
 	
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:prismatic_ice_cream'),
+		Item.of('kubejs:prismatic_ice_cream')
 	],'neapolitan:banana_ice_cream',[
 		event.recipes.createFilling('kubejs:incomplete_prismatic_ice_cream',['kubejs:incomplete_prismatic_ice_cream',Fluid.of('create_central_kitchen:adzuki_ice_cream',250)]),
 		event.recipes.createFilling('kubejs:incomplete_prismatic_ice_cream',['kubejs:incomplete_prismatic_ice_cream',Fluid.of('create_central_kitchen:mint_ice_cream',250)])
 	]).transitionalItem('kubejs:incomplete_prismatic_ice_cream').loops(1).id('kubejs:prismatic_ice_cream_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('create_confectionery:marshmallow_on_a_stick'),
+		Item.of('create_confectionery:marshmallow_on_a_stick')
 	],'minecraft:stick',[
 		event.recipes.createDeploying('kubejs:incomplete_marshmallow_stick',['kubejs:incomplete_marshmallow_stick','create_confectionery:marshmallow']),
 		event.recipes.createDeploying('kubejs:incomplete_marshmallow_stick',['kubejs:incomplete_marshmallow_stick','create_confectionery:marshmallow'])
 	]).transitionalItem('kubejs:incomplete_marshmallow_stick').loops(1).id('kubejs:marshmallow_stick_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('mynethersdelight:spicy_skewer'),
+		Item.of('mynethersdelight:spicy_skewer')
 	],'minecraft:blaze_rod',[
 		event.recipes.createDeploying('kubejs:incomplete_spicy_skewer',['kubejs:incomplete_spicy_skewer','#mynethersdelight:strider_meats']),
 		event.recipes.createDeploying('kubejs:incomplete_spicy_skewer',['kubejs:incomplete_spicy_skewer','mynethersdelight:bullet_pepper']),
@@ -2980,7 +3010,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_spicy_skewer').loops(1).id('kubejs:spicy_skewer_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:preserved_skewer'),
+		Item.of('kubejs:preserved_skewer')
 	],'minecraft:stick',[
 		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','brewinandchewin:kippers']),
 		event.recipes.createDeploying('kubejs:incomplete_preserved_skewer',['kubejs:incomplete_preserved_skewer','brewinandchewin:jerky']),
@@ -2989,7 +3019,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_preserved_skewer').loops(1).id('kubejs:preserved_skewer_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:popcorn_bucket'),
+		Item.of('kubejs:popcorn_bucket')
 	],'minecraft:bucket',[
 		event.recipes.createDeploying('kubejs:incomplete_popcorn_bucket',['kubejs:incomplete_popcorn_bucket','culturaldelights:popcorn']),
 		event.recipes.createDeploying('kubejs:incomplete_popcorn_bucket',['kubejs:incomplete_popcorn_bucket','culturaldelights:popcorn']),
@@ -2998,7 +3028,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_popcorn_bucket').loops(2).id('kubejs:popcorn_bucket_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:cheesy_chip_wrap'),
+		Item.of('kubejs:cheesy_chip_wrap')
 	],'culturaldelights:tortilla',[
 		event.recipes.createDeploying('kubejs:incomplete_cheesy_chip_wrap',['kubejs:incomplete_cheesy_chip_wrap','culturaldelights:tortilla_chips']),
 		event.recipes.createDeploying('kubejs:incomplete_cheesy_chip_wrap',['kubejs:incomplete_cheesy_chip_wrap','culturaldelights:tortilla_chips']),
@@ -3007,14 +3037,14 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_cheesy_chip_wrap').loops(1).id('kubejs:cheesy_chip_wrap_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:squid_sandwich'),
+		Item.of('kubejs:squid_sandwich')
 	],'#forge:bread/wheat',[
 		event.recipes.createDeploying('kubejs:incomplete_squid_sandwich',['kubejs:incomplete_squid_sandwich','miners_delight:baked_squid']),
 		event.recipes.createFilling('kubejs:incomplete_squid_sandwich',['kubejs:incomplete_squid_sandwich',Fluid.of('kubejs:coleslaw',250)])
 	]).transitionalItem('kubejs:incomplete_squid_sandwich').loops(1).id('kubejs:squid_sandwich_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('kubejs:cave_burger'),
+		Item.of('kubejs:cave_burger')
 	],'#forge:bread/wheat',[
 		event.recipes.createDeploying('kubejs:incomplete_cave_burger',['kubejs:incomplete_cave_burger','miners_delight:baked_tentacles']),
 		event.recipes.createDeploying('kubejs:incomplete_cave_burger',['kubejs:incomplete_cave_burger','miners_delight:smoked_bat_wing']),
@@ -3023,14 +3053,14 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_cave_burger').loops(1).id('kubejs:cave_burger_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('mynethersdelight:chilidog'),
+		Item.of('mynethersdelight:chilidog')
 	],'mynethersdelight:hotdog',[
 		event.recipes.createFilling('kubejs:incomplete_chilidog',['kubejs:incomplete_chilidog',Fluid.of('kubejs:blazing_chili',125)]),
 		event.recipes.createFilling('kubejs:incomplete_chilidog',['kubejs:incomplete_chilidog',Fluid.of('kubejs:scarlet_cheese',125)])
 	]).transitionalItem('kubejs:incomplete_chilidog').loops(1).id('kubejs:chilidog_assembly')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('create:blaze_cake',2),
+		Item.of('create:blaze_cake', 2)
 	],'create:cinder_flour',[
 		event.recipes.createDeploying('kubejs:incomplete_blaze_tart',['kubejs:incomplete_blaze_tart','sugar']),
 		event.recipes.createDeploying('kubejs:incomplete_blaze_tart',['kubejs:incomplete_blaze_tart','#forge:eggs']),
@@ -3040,7 +3070,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_blaze_tart').loops(1).id('create:filling/blaze_cake')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('create:track', 4),
+		Item.of('create:track', 4)
 	],'create:andesite_alloy',[
 		event.recipes.createDeploying('create:incomplete_track',['create:incomplete_track',['iron_nugget', 'create:zinc_nugget', 'oreganized:lead_nugget']]),
 		event.recipes.createDeploying('create:incomplete_track',['create:incomplete_track',['iron_nugget', 'create:zinc_nugget', 'oreganized:lead_nugget']]),
@@ -3048,7 +3078,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('create:incomplete_track').loops(1).id('create:sequenced_assembly/track')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('endergetic:bolloom_balloon', 2),
+		Item.of('endergetic:bolloom_balloon', 2)
 	],'string',[
 		event.recipes.createFilling('kubejs:incomplete_balloon',['kubejs:incomplete_balloon',Fluid.of('kubejs:latex',250)]),
 		event.recipes.createPressing('kubejs:incomplete_balloon',['kubejs:incomplete_balloon']),
@@ -3056,7 +3086,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_balloon').loops(1).id('endergetic:bolloom_balloon')
 
 	event.recipes.createSequencedAssembly([
-		Item.of('create:sturdy_sheet', 3),
+		Item.of('create:sturdy_sheet', 4)
 	],'create:powdered_obsidian',[
 		event.recipes.createFilling('create:unprocessed_obsidian_sheet',['create:unprocessed_obsidian_sheet',Fluid.of('minecraft:lava',250)]),
 		event.recipes.createPressing('create:unprocessed_obsidian_sheet',['create:unprocessed_obsidian_sheet']),
@@ -3065,7 +3095,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('create:unprocessed_obsidian_sheet').loops(1).id('create:sequenced_assembly/sturdy_sheet')
 	
 	event.recipes.createSequencedAssembly([
-		Item.of('create:redstone_link',2),
+		Item.of('create:redstone_link',2)
 	],'create:brass_sheet',[
 		event.recipes.createDeploying('kubejs:incomplete_redstone_link',['kubejs:incomplete_redstone_link','minecraft:echo_shard']),
 		event.recipes.createDeploying('kubejs:incomplete_redstone_link',['kubejs:incomplete_redstone_link','create:electron_tube']),
@@ -3075,7 +3105,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_redstone_link').loops(1).id('kubejs:redstone_link_assembly')
 	
 	event.recipes.createSequencedAssembly([
-		Item.of('minecraft:compass'),
+		Item.of('minecraft:compass')
 	],'spelunkery:cinnabar',[
 		event.recipes.createDeploying('kubejs:incomplete_compass',['kubejs:incomplete_compass','#forge:ingots/iron']),
 		event.recipes.createDeploying('kubejs:incomplete_compass',['kubejs:incomplete_compass','#forge:ingots/iron']),
@@ -3083,7 +3113,7 @@ ServerEvents.recipes(event => {
 	]).transitionalItem('kubejs:incomplete_compass').loops(2).id('kubejs:compass_assembly')
 	
 	event.recipes.createSequencedAssembly([
-		Item.of('caverns_and_chasms:depth_gauge'),
+		Item.of('caverns_and_chasms:depth_gauge')
 	],'spelunkery:cinnabar',[
 		event.recipes.createDeploying('kubejs:incomplete_depth_gauge',['kubejs:incomplete_depth_gauge','#forge:ingots/lead']),
 		event.recipes.createDeploying('kubejs:incomplete_depth_gauge',['kubejs:incomplete_depth_gauge','#forge:ingots/lead']),

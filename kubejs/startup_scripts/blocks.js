@@ -9,6 +9,14 @@ StartupEvents.registry('block', event => {
 	event.create('cinnamon_bag').soundType('wool').hardness(0.8).resistance(0.8).item(item => {item.group('decorations')})
 	event.create('oat_bag').soundType('wool').hardness(0.8).resistance(0.8).item(item => {item.group('decorations')})
 	
+	event.create('button_mushroom_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	event.create('crimini_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	event.create('portabella_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	event.create('milly_bubcap_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	event.create('crimson_fungus_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	event.create('warped_fungus_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	event.create('choral_fungus_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item.group('decorations')})
+	
 	event.create('paper_block').soundType('wool').hardness(0.1).resistance(0.1)
 	
 	event.create('lead_ore').soundType('stone').hardness(3).resistance(1200).tagBlock('minecraft:mineable/pickaxe').requiresTool(true).item(item => {item.group('building_blocks')})

@@ -1934,7 +1934,6 @@ ItemEvents.tooltip(tooltip => {
 	"copycats:copycat_vertical_stairs",
 	"copycats:copycat_trapdoor",
 	"copycats:copycat_vertical_slice",
-	"copycats:copycat_vertical_step",
 	"copycats:copycat_slope",
 	"copycats:copycat_vertical_slope",
 	"copycats:copycat_slope_layer",
@@ -3287,7 +3286,8 @@ ItemEvents.tooltip(tooltip => {
     "respiteful:snow_top_green_tea",
     "respiteful:snow_top_yellow_tea",
     "respiteful:snow_top_black_tea",
-    "respiteful:snow_top_coffee"
+    "respiteful:snow_top_coffee",
+	"farmersrespite:purulent_tea"
 	], Text.translate("rf.tooltip.unobtainable"))
   
 // snowball
@@ -3509,8 +3509,22 @@ ItemEvents.tooltip(tooltip => {
   tooltip.addAdvanced([
   'farmersrespite:tea_curry',
   'farmersdelight:pasta_with_mutton_chop',
-  'farmersrespite:blazing_chili'
+  'farmersrespite:blazing_chili',
+  'farmersrespite:yellow_tea',
+  'farmersrespite:coffee',
+  'respiteful:mint_green_tea',
+  'respiteful:vanilla_milk_tea'
   ], (item, advanced, text) => {
+	text.remove(3)
+	text.remove(3)
+	text.remove(3)
+	text.remove(3)
+  })
+  
+  tooltip.addAdvanced([
+  'respiteful:mocha_coffee'
+  ], (item, advanced, text) => {
+	text.remove(3)
 	text.remove(3)
 	text.remove(3)
 	text.remove(3)
@@ -3556,10 +3570,6 @@ ItemEvents.tooltip(tooltip => {
   
   tooltip.addAdvanced('brewinandchewin:pale_jane', (item, advanced, text) => {
 	text.remove(3)
-  })
-  
-  tooltip.addAdvanced('respiteful:mocha_coffee', (item, advanced, text) => {
-	text.remove(5)
   })
   
   tooltip.addAdvanced('mynethersdelight:hot_cream_cone', (item, advanced, text) => {

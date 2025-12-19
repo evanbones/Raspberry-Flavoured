@@ -89,7 +89,7 @@ ItemEvents.tooltip(event => {
 	
 	event.addAdvanced('kubejs:glacial_tablet', (item, advanced, text) => {
         tablet_tooltip(event, text, [
-            ["minecraft:frost_walker", 5, ["rf.ench.boots", "rf.ench.horse_armor"], 2],
+            ["minecraft:frost_walker", 4, ["rf.ench.boots", "rf.ench.horse_armor"], 2],
             ["domesticationinnovation:frost_fang", 1, ["item.domesticationinnovation.collar_tag"], 2]
         ])
 	})

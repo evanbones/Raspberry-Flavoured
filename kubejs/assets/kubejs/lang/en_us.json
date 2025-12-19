@@ -24,6 +24,14 @@
   "block.kubejs.smooth_stone_stairs": "Polished Stone Stairs",
   "block.kubejs.smooth_stone_wall": "Polished Stone Wall",
   
+  "block.kubejs.button_mushroom_basket": "Basket of Button Mushrooms",
+  "block.kubejs.crimini_basket": "Basket of Crimini",
+  "block.kubejs.portabella_basket": "Basket of Portabellas",
+  "block.kubejs.milly_bubcap_basket": "Basket of Milly Bubcap Mushrooms",
+  "block.kubejs.crimson_fungus_basket": "Basket of Crimson Fungi",
+  "block.kubejs.warped_fungus_basket": "Basket of Warped Fungi",
+  "block.kubejs.choral_fungus_basket": "Basket of Choral Fungi",
+  
   "block.kubejs.cloth_scrap_block": "Cloth",
   "block.kubejs.white_cloth_scrap_block": "White Cloth",
   "block.kubejs.orange_cloth_scrap_block": "Orange Cloth",
@@ -278,6 +286,7 @@
   "rf.jei.hoes": "Hoes can obtain seeds from foliage such as Grass. They can also rake through Leaves quicker than other tools.",
   "rf.jei.shears": "Shears can gather Wool from Sheep, as they won't yield any when killed. Yes, that Crab Claw does function as a pair of Shears.",
   "rf.jei.crab_claw": "Will drop from Coconut Crabs when they're killed using a Knife.",
+  "rf.jei.bug_net": "Can be used to catch Fireflies, Caterpillars, Butterflies, and any kind of Fish.",
   "rf.jei.turtle_helmet": "Will have its durability continously drain while underwater, but as long as it has any durability, it will provide oxygen.",
   
   "rf.jei.arrow": "Standard ranged ammunition. Can be tipped with any Lingering Potion or crafted into other arrow variants.",
@@ -382,7 +391,7 @@
   
   "rf.jei.awoken_exopearl": "Will fly in the direction of various ruined structures, such as Shipwrecks, Ruined Nether Portals and Bastion Remnants.",
   "rf.jei.spirited_exopearl": "Will fly in the direction of various structures containing spawners, such as Dungeons, Mineshafts, Nether Fortresses, and...?",
-  "rf.jei.binding_exopearl": "Comes in pairs and will allow locating and keeping track of another player when one of the two is given to them and right-clicked.",
+  "rf.jei.binding_exopearl": "Comes in pairs and will allow locating and keeping track of another player when one of the two is given to them and right-clicked. May require being calibrated by crafting two Binding Exopearls together.",
   "rf.jei.soul_bead": "Can be acquired by killing Vexes or Wraiths, by destroying Spawners, or by bartering with Piglin Alchemists.",
   "rf.jei.echo_shard": "Can be obtained by harvesting Sculk Sensors, or found in Ancient City chests.",
   "rf.jei.lachryte": "Can be obtained from Crying Obsidian, by crushing Exopearls, from ruined Nether portal chests, a Bag of Sorcery from a Witch or by killing a Ghast or Lachmite. Right-clicking Crying Obsidian while holding any tier of pickaxe will extract the Lachryte Tears out of the block.",
@@ -405,8 +414,8 @@
   
   "rf.jei.worms": "Worms can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll slightly decrease the amount of time it takes to catch something. Worms can be obtained by feeding Corn Kernels to a Chicken, Duck or Turkey, which will make them search for Wormy Dirt. Worms will also occasionally pop out of Composters.",
   "rf.jei.spider_eye": "Spider Eyes can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll slightly decrease the amount of time it takes to catch something.",
-  "rf.jei.firefly": "Fireflies can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Fireflies can be obtained by catching them using a Catching Net.",
-  "rf.jei.caterpillar": "Caterpillars can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll significantly decrease the amount of time it takes to catch something. Caterpillars can be obtained by breeding Butterflies with flowers, then catching the resulting Caterpillar using a Catching Net. They can also sometimes appear in loot.",
+  "rf.jei.firefly": "Fireflies can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll decently decrease the amount of time it takes to catch something. Fireflies can be caught using a Catching Net.",
+  "rf.jei.caterpillar": "Caterpillars can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll significantly decrease the amount of time it takes to catch something. Caterpillars can be obtained by breeding Butterflies with flowers, then catching the resulting Caterpillar with a Catching Net.",
   "rf.jei.golden_worm": "Golden Worms can be used as fishing bait when attached to Reinforced Fishing Rods in a Tackle Box. They'll significantly decrease the amount of time it takes to catch something. They can be crafted, rarely drop from Wormy Dirt or be found in Cans of Bait.",
   
   "rf.jei.dwarf_geode": "Drops from Deposits found underground. Can also be found in loot chests or underground Urns, and occasionally drops from Deepers.",
