@@ -69,8 +69,8 @@ const copperSynergy = new $AttributeModifier("4ab88f11-5676-4377-9960-e872109bc3
 const turtleSynergy = new $AttributeModifier("1a3d2609-7d70-4396-8092-49850fac7211", "kubejs:aquatic_synergy", 10, "ADDITION")
 const netheriteFireAspect1 = new $AttributeModifier("b79b687a-3730-46ba-826b-86633724eece", "kubejs:fire_aspect", 1, "ADDITION")
 const netheriteFireAspect2 = new $AttributeModifier("a580f2cf-b946-48f6-a8a7-5d5fb2b9338f", "kubejs:fire_aspect", 2, "ADDITION")
-const electrumKinetic1 = new $AttributeModifier("82c441a4-09d4-4791-b4f1-9069df821081", "raspberry:kinetic_damage", 1, "ADDITION")
-const electrumKinetic2 = new $AttributeModifier("6fa187e7-ab11-47f4-873a-43853deecdc8", "raspberry:kinetic_damage", 2, "ADDITION")
+const electrumKinetic1 = new $AttributeModifier("82c441a4-09d4-4791-b4f1-9069df821081", "oreganized:kinetic_damage", 1, "ADDITION")
+const electrumKinetic2 = new $AttributeModifier("6fa187e7-ab11-47f4-873a-43853deecdc8", "oreganized:kinetic_damage", 2, "ADDITION")
 const silverMirrorSmite = new $AttributeModifier("588e79ad-093b-4cc5-a10a-d546fba92328", "kubejs:smite", 13, "ADDITION")
 const bowDamage = new $AttributeModifier("5884dd70-b738-4c36-a94b-83de8546e2a8", "kubejs:ranged_damage", 8.5, "ADDITION")
 const crossbowDamage = new $AttributeModifier("5627f77e-4775-4b0c-9f74-aaa02f190040", "kubejs:ranged_damage", 11, "ADDITION")
@@ -232,31 +232,31 @@ ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (even
 
 // Electrum kinetic damage
 	if (event.itemStack.id == "oreganized:electrum_sword" && event.slotType == "mainhand") {
-		event.removeAttribute("raspberry:kinetic_damage")
-		event.addModifier("raspberry:kinetic_damage", electrumKinetic2)
+		event.removeAttribute("oreganized:kinetic_damage")
+		event.addModifier("oreganized:kinetic_damage", electrumKinetic2)
 	}
 	if (event.itemStack.id == "oreganized:electrum_pickaxe" && event.slotType == "mainhand") {
-		event.removeAttribute("raspberry:kinetic_damage")
-		event.addModifier("raspberry:kinetic_damage", electrumKinetic1)
+		event.removeAttribute("oreganized:kinetic_damage")
+		event.addModifier("oreganized:kinetic_damage", electrumKinetic1)
 	}
 	if (event.itemStack.id == "oreganized:electrum_axe" && event.slotType == "mainhand") {
-		event.removeAttribute("raspberry:kinetic_damage")
-		event.addModifier("raspberry:kinetic_damage", electrumKinetic2)
+		event.removeAttribute("oreganized:kinetic_damage")
+		event.addModifier("oreganized:kinetic_damage", electrumKinetic2)
 	}
 	if (event.itemStack.id == "oreganized:electrum_shovel" && event.slotType == "mainhand") {
-		event.removeAttribute("raspberry:kinetic_damage")
-		event.addModifier("raspberry:kinetic_damage", electrumKinetic1)
+		event.removeAttribute("oreganized:kinetic_damage")
+		event.addModifier("oreganized:kinetic_damage", electrumKinetic1)
 	}
 	if (event.itemStack.id == "oreganized:electrum_hoe" && event.slotType == "mainhand") {
-		event.removeAttribute("raspberry:kinetic_damage")
-		event.addModifier("raspberry:kinetic_damage", electrumKinetic1)
+		event.removeAttribute("oreganized:kinetic_damage")
+		event.addModifier("oreganized:kinetic_damage", electrumKinetic1)
 	}
 	if (event.itemStack.id == "oreganized:electrum_knife" && event.slotType == "mainhand") {
-		event.removeAttribute("raspberry:kinetic_damage")
-		event.addModifier("raspberry:kinetic_damage", electrumKinetic2)
+		event.removeAttribute("oreganized:kinetic_damage")
+		event.addModifier("oreganized:kinetic_damage", electrumKinetic2)
 	}
 	if (event.itemStack.id == "clash:spear" && event.slotType == "mainhand") {
-		event.addModifier("raspberry:kinetic_damage", electrumKinetic2)
+		event.addModifier("oreganized:kinetic_damage", electrumKinetic2)
 	}
 	
 // Turtle helmet aquatic
