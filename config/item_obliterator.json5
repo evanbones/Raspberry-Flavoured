@@ -16,6 +16,12 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    "oreganized:electrum_upgrade_smithing_template",
+    "minecraft:netherite_upgrade_smithing_template",
+    "additionaladditions:gilded_netherite_upgrade",
+    "additionaladditions:rose_gold_upgrade",
+    "sullysmod:jade_upgrade_smithing_template",
+    "alloyed:steel_upgrade_smithing_template",
     "create:bar_of_chocolate",
     "create_confectionery:chocolate_candy",
     "create_confectionery:black_chocolate_candy",

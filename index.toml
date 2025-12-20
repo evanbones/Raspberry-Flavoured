@@ -1026,7 +1026,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "097845f0f83f78e7e3078f7f5af397725a341b8710f6b2c08383c500a079a582"
+hash = "68ee726d15aeb52569b2184b5444081478f2c14fde1758c14a4e5ab363d2dbe7"
 
 [[files]]
 file = "config/incontrol/spawner.json"
@@ -1042,7 +1042,7 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "9993a59603788d5ca707544efac964246b64a9f1e5840fd879c67fb22f39cea3"
+hash = "9cdecd069d9030928d54f3bd34c59bfd21a70d4b5edcf900b2eb0258cc7712e0"
 
 [[files]]
 file = "config/jade/hide-blocks-1902.json"
@@ -32143,7 +32143,7 @@ metafile = true
 
 [[files]]
 file = "mods/raspberry_core-1.11-pre1+1.20.1.jar"
-hash = "caf53d2447a3842d9288488ed7683a133a23938fc928f6da0404ddbc2154866b"
+hash = "0dd8d26fdc474f1f60a4424e1f70cc0df1ddb11fe4da2fd462be9f583f327640"
 
 [[files]]
 file = "mods/recipe-essentials-forge-fabric.pw.toml"
