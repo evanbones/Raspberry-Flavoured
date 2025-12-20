@@ -397,6 +397,10 @@ file = "config/embeddium-options.json"
 hash = "c9e5c3958cf26bffb239ffe8ff27849a95f8c278f2c9cc2a929fe54fdd1d9ce8"
 
 [[files]]
+file = "config/emi.css"
+hash = "187931c63d7a3944b6d9ae01cf781521d3813f2c6f259555ba9e1cf316130c34"
+
+[[files]]
 file = "config/emojiful-client.toml"
 hash = "a77765297073c30109496efbc04e5a2fa1a4a24df9588a6b34963973eba65ad2"
 
@@ -15091,6 +15095,10 @@ hash = "364ee5a9ac87ddacc80b4ba11597ef9748a18f30c8b9429e4d20c0e7844339b5"
 [[files]]
 file = "defaultconfigs/universalbonemeal-server.toml"
 hash = "4c1f74fe8d0e13dc69c0f9dcae21b98030e0b3ca41cf53b6c582fdff31b9be4a"
+
+[[files]]
+file = "emi.json"
+hash = "f7931f0b4b2d53c11b8fcf846b1642532cc9989f5bf4a30b7c6d92ef03b4107b"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -32143,7 +32151,7 @@ metafile = true
 
 [[files]]
 file = "mods/raspberry_core-1.11-pre1+1.20.1.jar"
-hash = "0dd8d26fdc474f1f60a4424e1f70cc0df1ddb11fe4da2fd462be9f583f327640"
+hash = "46ef4a2f72194e937bd5c10191c9c404c8ff1e08d165436a1e0a2e995bc5654b"
 
 [[files]]
 file = "mods/recipe-essentials-forge-fabric.pw.toml"
