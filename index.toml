@@ -31481,6 +31481,11 @@ hash = "10e3d014bd3927d75f0969c35fa9296073b8987975aa6a059771a7571e35dd38"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+hash = "4d5ba0ec7ea7abf0ef76f3f08853bd7c886eec95b1795cbeacaba8bc608e2913"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
@@ -31743,6 +31748,11 @@ metafile = true
 [[files]]
 file = "mods/forgery.pw.toml"
 hash = "5f574db144dbc689e48f39c51ac7987949892940612d39bed09325cd322054a5"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "2a2f2168bf03bfa3034ad9583588676c5d66b6f7c767df9fe259ab55350792d2"
 metafile = true
 
 [[files]]
