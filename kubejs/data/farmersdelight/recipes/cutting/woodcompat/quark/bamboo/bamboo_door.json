@@ -2,12 +2,12 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "quark:bamboo_door"
+      "item": "minecraft:bamboo_door"
     }
   ],
   "result": [
     {
-      "item": "quark:bamboo_planks"
+      "item": "minecraft:bamboo_planks"
     }
   ],
   "tool": {

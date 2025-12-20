@@ -260,7 +260,7 @@ ServerEvents.tags('item', event => {
 		.add('buzzier_bees:honey_bread')
 		.add('caverns_and_chasms:bejeweled_apple')
 		.add('environmental:cherries')
-		.add('environmental:cherry_pie')
+		.add('raspberry:cherry_pie')
 		.add('environmental:cooked_duck')
 		.add('environmental:cooked_venison')
 		.add('environmental:duck')

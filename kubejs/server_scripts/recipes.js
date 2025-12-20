@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('cookscollection:fish_and_chips', ['2x #forge:cooked_fishes', 'bowl', 'cookscollection:fried_potato', '#forge:crops/onion', 'cookscollection:lemon']).id('cookscollection:fish_and_chips')
 	event.shapeless('kubejs:pumpkin_pie', ['4x create_central_kitchen:pumpkin_pie_slice']).id('create_central_kitchen:crafting/pumpkin_pie_from_slices')
 	event.shapeless('brewinandchewin:pizza', ['4x brewinandchewin:pizza_slice'])
-	// event.shapeless('4x quark:bamboo_planks', ['#quark:bamboo_logs']).id('quark:building/crafting/woodsets/bamboo/planks')
+	event.shapeless('4x minecraft:bamboo_planks', ['#minecraft:bamboo_logs']).id('quark:building/crafting/woodsets/bamboo/planks')
 	event.shapeless('leather', ['rotten_flesh', '4x spelunkery:salt'])
 	event.shapeless('farmersdelight:mixed_salad', ['#forge:crops/cabbage', '#forge:crops/tomato', 'bowl', '#forge:crops/beetroot', 'cookscollection:cooking_oil']).id('farmersdelight:mixed_salad')
 	event.shapeless('farmersdelight:pie_crust', ['2x #farmersdelight:wheat_or_flour', 'sugar', 'kubejs:butter'])
@@ -258,7 +258,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('barrel', ['ecologics:azalea_chest_boat']).replaceIngredient('ecologics:azalea_chest_boat', 'ecologics:azalea_boat')
 	event.shapeless('barrel', ['environmental:willow_chest_boat']).replaceIngredient('environmental:willow_chest_boat', 'environmental:willow_boat')
 	event.shapeless('barrel', ['environmental:wisteria_chest_boat']).replaceIngredient('environmental:wisteria_chest_boat', 'environmental:wisteria_boat')
-	event.shapeless('barrel', ['environmental:cherry_chest_boat']).replaceIngredient('environmental:cherry_chest_boat', 'environmental:cherry_boat')
+	event.shapeless('barrel', ['minecraft:cherry_chest_boat']).replaceIngredient('minecraft:cherry_chest_boat', 'minecraft:cherry_boat')
 	event.shapeless('barrel', ['upgrade_aquatic:driftwood_chest_boat']).replaceIngredient('upgrade_aquatic:driftwood_chest_boat', 'upgrade_aquatic:driftwood_boat')
 	event.shapeless('barrel', ['autumnity:maple_chest_boat']).replaceIngredient('autumnity:maple_chest_boat', 'autumnity:maple_boat')
 	event.shapeless('barrel', ['atmospheric:rosewood_chest_boat']).replaceIngredient('atmospheric:rosewood_chest_boat', 'atmospheric:rosewood_boat')
@@ -279,7 +279,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('furnace', ['atmospheric:kousa_furnace_boat']).replaceIngredient('atmospheric:kousa_furnace_boat', 'ecologics:azalea_boat')
 	event.shapeless('furnace', ['environmental:willow_furnace_boat']).replaceIngredient('environmental:willow_furnace_boat', 'environmental:willow_boat')
 	event.shapeless('furnace', ['environmental:wisteria_furnace_boat']).replaceIngredient('environmental:wisteria_furnace_boat', 'environmental:wisteria_boat')
-	event.shapeless('furnace', ['environmental:cherry_furnace_boat']).replaceIngredient('environmental:cherry_furnace_boat', 'environmental:cherry_boat')
+	event.shapeless('furnace', ['minecraft:cherry_furnace_boat']).replaceIngredient('minecraft:cherry_furnace_boat', 'minecraft:cherry_boat')
 	event.shapeless('furnace', ['upgrade_aquatic:driftwood_furnace_boat']).replaceIngredient('upgrade_aquatic:driftwood_furnace_boat', 'upgrade_aquatic:driftwood_boat')
 	event.shapeless('furnace', ['autumnity:maple_furnace_boat']).replaceIngredient('autumnity:maple_furnace_boat', 'autumnity:maple_boat')
 	event.shapeless('furnace', ['atmospheric:rosewood_furnace_boat']).replaceIngredient('atmospheric:rosewood_furnace_boat', 'atmospheric:rosewood_boat')
@@ -517,8 +517,8 @@ ServerEvents.recipes(event => {
 	event.shaped('farmersdelight:skillet', [' AA', ' AA', 'B  '], {A: 'iron_ingot', B: '#raspberry_flavoured:bricks'}).id('farmersdelight:skillet')
 	event.shaped('supplementaries:wind_vane', [' A ', 'BBB', ' C '], {A: 'copper_ingot', B: 'caverns_and_chasms:copper_bars', C: 'redstone'}).id('supplementaries:wind_vane')
 	event.shaped('shulker_box', [' A ', 'ABA', ' A '], {A: 'scute', B: 'quark:soul_bead'}).id('minecraft:shulker_box')
-	event.shaped('4x quark:bamboo_chest', ['AAA', 'A A', 'AAA'], {A: '#quark:bamboo_logs'}).id('quark:building/crafting/woodsets/bamboo/chest_wood')
-	event.shaped('8x quark:bamboo_post', ['A', 'A', 'A'], {A: 'quark:bamboo_block'}).id('quark:building/crafting/woodsets/bamboo/post')
+	event.shaped('4x minecraft:bamboo_chest', ['AAA', 'A A', 'AAA'], {A: '#minecraft:bamboo_logs'}).id('quark:building/crafting/woodsets/bamboo/chest_wood')
+	event.shaped('8x minecraft:bamboo_post', ['A', 'A', 'A'], {A: 'minecraft:bamboo_block'}).id('quark:building/crafting/woodsets/bamboo/post')
 	event.shaped('8x quark:stripped_bamboo_post', ['A', 'A', 'A'], {A: 'quark:stripped_bamboo_block'}).id('quark:building/crafting/woodsets/bamboo/stripped_post')
 	// event.shaped('8x everycomp:q/mynethersdelight/powdery_post', ['A', 'A', 'A'], {A: 'mynethersdelight:powdery_block'})
 	// event.shaped('8x everycomp:q/mynethersdelight/stripped_powdery_post', ['A', 'A', 'A'], {A: 'mynethersdelight:stripped_powdery_block'})
@@ -755,12 +755,12 @@ ServerEvents.recipes(event => {
 	event.shaped('atmospheric:aspen_beehive', ['CCC', 'ABA', 'AAA'], {A: 'atmospheric:aspen_planks', B: 'honeycomb', C: 'atmospheric:aspen_slab'}).id('atmospheric:aspen_beehive')
 	event.shaped('autumnity:maple_beehive', ['CCC', 'ABA', 'AAA'], {A: 'autumnity:maple_planks', B: 'honeycomb', C: 'autumnity:maple_slab'}).id('autumnity:maple_beehive')
 	event.shaped('environmental:willow_beehive', ['CCC', 'ABA', 'AAA'], {A: 'environmental:willow_planks', B: 'honeycomb', C: 'environmental:willow_slab'}).id('environmental:willow_beehive')
-	// event.shaped('environmental:cherry_beehive', ['CCC', 'ABA', 'AAA'], {A: 'environmental:cherry_planks', B: 'honeycomb', C: 'environmental:cherry_slab'}).id('environmental:cherry_beehive')
+	event.shaped('woodworks:cherry_beehive', ['CCC', 'ABA', 'AAA'], {A: 'minecraft:cherry_planks', B: 'honeycomb', C: 'minecraft:cherry_slab'}).id('minecraft:cherry_beehive')
 	event.shaped('environmental:wisteria_beehive', ['CCC', 'ABA', 'AAA'], {A: 'environmental:wisteria_planks', B: 'honeycomb', C: 'environmental:wisteria_slab'}).id('environmental:wisteria_beehive')
 	event.shaped('upgrade_aquatic:driftwood_beehive', ['CCC', 'ABA', 'AAA'], {A: 'upgrade_aquatic:driftwood_planks', B: 'honeycomb', C: 'upgrade_aquatic:driftwood_slab'}).id('upgrade_aquatic:driftwood_beehive')
 	event.shaped('upgrade_aquatic:river_beehive', ['CCC', 'ABA', 'AAA'], {A: 'upgrade_aquatic:river_planks', B: 'honeycomb', C: 'upgrade_aquatic:river_slab'}).id('upgrade_aquatic:river_beehive')
 	event.shaped('windswept:chestnut_beehive', ['CCC', 'ABA', 'AAA'], {A: 'windswept:chestnut_planks', B: 'honeycomb', C: 'windswept:chestnut_slab'}).id('windswept:chestnut_beehive')
-	// event.shaped('everycomp:abnww/quark/bamboo_beehive', ['CCC', 'ABA', 'AAA'], {A: 'quark:bamboo_planks', B: 'honeycomb', C: 'quark:bamboo_planks_slab'}).id('everycomp:abnww/quark/bamboo_beehive')
+	event.shaped('woodworks:bamboo_beehive', ['CCC', 'ABA', 'AAA'], {A: 'minecraft:bamboo_planks', B: 'honeycomb', C: 'minecraft:bamboo_planks_slab'}).id('everycomp:abnww/quark/bamboo_beehive')
 	event.shaped('everycomp:abnww/architects_palette/twisted_beehive', ['CCC', 'ABA', 'AAA'], {A: 'architects_palette:twisted_planks', B: 'honeycomb', C: 'architects_palette:twisted_slab'}).id('everycomp:abnww/architects_palette/twisted_beehive')
 	event.shaped('everycomp:abnww/ecologics/azalea_beehive', ['CCC', 'ABA', 'AAA'], {A: 'ecologics:azalea_planks', B: 'honeycomb', C: 'ecologics:azalea_slab'}).id('everycomp:abnww/ecologics/azalea_beehive')
 	event.shaped('everycomp:abnww/ecologics/coconut_beehive', ['CCC', 'ABA', 'AAA'], {A: 'ecologics:coconut_planks', B: 'honeycomb', C: 'ecologics:coconut_slab'}).id('everycomp:abnww/ecologics/coconut_beehive')
@@ -1433,7 +1433,7 @@ ServerEvents.recipes(event => {
 	result: [{item: 'twigs:twig', count: 2}, {item: 'farmersdelight:straw', count: 1, chance: 0.2}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'mynethersdelight:powder_cannon'}], tool: {item: 'another_furniture:furniture_hammer'}, 
 	result: [{item: 'minecraft:gunpowder', count: 1}]}).id('mynethersdelight:cutting/gunpowder_cane')
-	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'quark:bamboo_block'}], tool: {tag: 'forge:tools/axes'}, sound: 'minecraft:item.axe.strip', 
+	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'minecraft:bamboo_block'}], tool: {tag: 'forge:tools/axes'}, sound: 'minecraft:item.axe.strip', 
 	result: [{item: 'quark:stripped_bamboo_block', count: 1}, {item: 'farmersdelight:straw', count: 1}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'supplementaries:quiver'}], tool: {tag: 'forge:shears'}, 
 	result: [{item: 'minecraft:rabbit_hide', count: 3}, {item: 'kubejs:cloth_scrap', count: 1}]}).id('dolt_mod_how:cutting/quiver')
@@ -2122,7 +2122,7 @@ ServerEvents.recipes(event => {
 		{item: 'environmental:cherries'}, {item: 'environmental:cherries'}, 
 		{item: 'environmental:cherries'}, {item: 'environmental:cherries'},
 		{item: 'environmental:cherries'}, {item: 'farmersdelight:pie_crust'}
-	], result: {item: 'environmental:cherry_pie'}})
+	], result: {item: 'raspberry:cherry_pie'}})
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
 		{item: 'environmental:truffle'}, {tag: 'raspberry_flavoured:edible_mushrooms'}, 
 		{tag: 'raspberry_flavoured:edible_mushrooms'}, {tag: 'raspberry_flavoured:edible_mushrooms'},
@@ -2346,7 +2346,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.compacting(['kubejs:prickly_pear_pie'], [
 		'3x #raspberry_flavoured:prickly_pears', 'farmersdelight:pie_crust'
 	]).heated()
-	event.recipes.create.compacting(['environmental:cherry_pie'], [
+	event.recipes.create.compacting(['raspberry:cherry_pie'], [
 		'5x environmental:cherries', 'farmersdelight:pie_crust'
 	]).heated()
 	event.recipes.create.compacting(['environmental:truffle_pie'], [

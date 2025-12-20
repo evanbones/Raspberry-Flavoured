@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "environmental:cherry_planks"
+      "item": "minecraft:cherry_planks"
     },
     "X": {
       "item": "minecraft:furnace"
     }
   },
   "result": {
-    "item": "environmental:cherry_furnace_boat"
+    "item": "minecraft:cherry_furnace_boat"
   },
   "conditions": [
     {

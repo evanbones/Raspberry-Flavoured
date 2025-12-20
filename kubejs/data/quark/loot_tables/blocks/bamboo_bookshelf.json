@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "quark:bamboo_bookshelf"
+          "name": "minecraft:bamboo_bookshelf"
         }
       ],
       "rolls": 1.0

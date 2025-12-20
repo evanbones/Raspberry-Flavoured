@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "environmental:cherry_planks"
+      "item": "minecraft:cherry_planks"
     },
     "X": {
       "tag": "forge:chests/wooden"
     }
   },
   "result": {
-    "item": "environmental:cherry_chest_boat"
+    "item": "minecraft:cherry_chest_boat"
   },
   "conditions": [
     {

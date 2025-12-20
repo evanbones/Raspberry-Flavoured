@@ -58,7 +58,7 @@ for(let recipe of outputTypes){
 }
 
 //uses this format for compatability with /kjs inventory. just fill your inventory up with planks and run the command to get a new thing to paste here.
-let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 'architects_palette:twisted_planks', 'environmental:willow_planks', 'environmental:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 'autumnity:maple_planks', 'atmospheric:rosewood_planks', 'atmospheric:morado_planks', 'atmospheric:yucca_planks', 'quark:bamboo_planks', 'mynethersdelight:powdery_planks']
+let woodtypes = ['minecraft:oak_planks', 'minecraft:spruce_planks', 'minecraft:jungle_planks', 'minecraft:birch_planks', 'minecraft:acacia_planks', 'minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:crimson_planks', 'minecraft:warped_planks', 'windswept:chestnut_planks', 'ecologics:coconut_planks', 'ecologics:azalea_planks', 'architects_palette:twisted_planks', 'environmental:willow_planks', 'minecraft:cherry_planks', 'environmental:wisteria_planks', 'upgrade_aquatic:driftwood_planks', 'autumnity:maple_planks', 'atmospheric:rosewood_planks', 'atmospheric:morado_planks', 'atmospheric:yucca_planks', 'minecraft:bamboo_planks', 'mynethersdelight:powdery_planks']
 
 woodtypes = woodtypes.map(i=>{
   let [mod,plankId] = i.split(":")

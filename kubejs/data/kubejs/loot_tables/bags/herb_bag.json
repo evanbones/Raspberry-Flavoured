@@ -55,7 +55,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "environmental:cherry_sapling"
+          "name": "minecraft:cherry_sapling"
         },
         {
           "type": "minecraft:item",

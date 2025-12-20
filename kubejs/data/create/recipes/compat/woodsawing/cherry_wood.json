@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "environmental:cherry_wood"
+      "item": "minecraft:cherry_wood"
     }
   ],
   "processingTime": 50,

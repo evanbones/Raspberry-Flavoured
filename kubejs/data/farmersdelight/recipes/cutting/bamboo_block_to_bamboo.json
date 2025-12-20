@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "quark:bamboo_block"
+      "item": "minecraft:bamboo_block"
     }
   ],
   "result": [

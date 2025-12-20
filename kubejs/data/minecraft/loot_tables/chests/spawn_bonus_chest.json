@@ -599,7 +599,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "environmental:cherry_log",
+          "name": "minecraft:cherry_log",
           "weight": 3
         },
         {

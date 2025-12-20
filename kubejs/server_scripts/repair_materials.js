@@ -98,7 +98,7 @@ ServerEvents.tags('item', event => {
 		
 	event.get('raspberry_flavoured:bamboo_repair_materials')
         .add('minecraft:bamboo')
-        .add('quark:bamboo_planks')
+        .add('minecraft:bamboo_planks')
 		.add('kubejs:stardust')
 		
 	event.get('raspberry_flavoured:sanguine_repair_materials')

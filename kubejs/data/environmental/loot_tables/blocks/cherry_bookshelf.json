@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "environmental:cherry_bookshelf"
+          "name": "minecraft:cherry_bookshelf"
         }
       ],
       "rolls": 1.0

@@ -2491,7 +2491,7 @@ ServerEvents.recipes(event => {
 	"culturaldelights:pork_wrap",
 	"minecraft:pumpkin_pie",
 	"environmental:apple_pie",
-	"environmental:cherry_pie",
+	"raspberry:cherry_pie",
 	"environmental:truffle_pie",
 	"upgrade_aquatic:mulberry_pie",
 	"windswept:mutton_pie",

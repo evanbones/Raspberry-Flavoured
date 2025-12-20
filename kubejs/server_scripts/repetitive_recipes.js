@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
 	function bookshelf(inputItem, resultItem) {
 		event.shaped(Item.of(resultItem,3), ['AAA', 'BBB', 'AAA'], {A: inputItem, B: 'book'})
 	}
-	bookshelf('quark:bamboo_planks','quark:bamboo_bookshelf')
+	bookshelf('minecraft:bamboo_planks','minecraft:bamboo_bookshelf')
 	bookshelf('mynethersdelight:powdery_planks','everycomp:q/mynethersdelight/powdery_bookshelf')
 	bookshelf('architects_palette:twisted_planks','everycomp:q/architects_palette/twisted_bookshelf')
 	bookshelf('ecologics:azalea_planks','everycomp:q/ecologics/azalea_bookshelf')
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
 	// panels, pillars, boards n stuff
 	function panel(woodType, pillarItem, panelItem, boardItem) {
 		// crafting slabs into panels
-		if (woodType == 'quark:bamboo') {
+		if (woodType == 'minecraft:bamboo') {
 			event.shaped(Item.of(panelItem + 's',3), ['AAA', 'AAA'], {A: woodType + '_planks_slab'})
 		} else {
 			event.shaped(Item.of(panelItem + 's',3), ['AAA', 'AAA'], {A: woodType + '_slab'})
@@ -171,14 +171,14 @@ ServerEvents.recipes(event => {
 	panel('minecraft:mangrove','modestmining:mangrove_pillar','modestmining:mangrove_board','woodworks:mangrove_board')
 	panel('minecraft:crimson','modestmining:crimson_pillar','modestmining:crimson_board','woodworks:crimson_board')
 	panel('minecraft:warped','modestmining:warped_pillar','modestmining:warped_board','woodworks:warped_board')
-	panel('quark:bamboo','everycomp:mm/quark/bamboo_pillar','everycomp:mm/quark/bamboo_board','everycomp:abnww/quark/bamboo_board')
+	panel('minecraft:bamboo','everycomp:mm/quark/bamboo_pillar','everycomp:mm/quark/bamboo_board','everycomp:abnww/quark/bamboo_board')
 	panel('mynethersdelight:powdery','everycomp:mm/mynethersdelight/powdery_pillar','everycomp:mm/mynethersdelight/powdery_board','everycomp:abnww/mynethersdelight/powdery_board')
 	panel('ecologics:azalea','everycomp:mm/ecologics/azalea_pillar','everycomp:mm/ecologics/azalea_board','everycomp:abnww/ecologics/azalea_board')
 	panel('ecologics:coconut','everycomp:mm/ecologics/coconut_pillar','everycomp:mm/ecologics/coconut_board','everycomp:abnww/ecologics/coconut_board')
 	panel('atmospheric:rosewood','everycomp:mm/atmospheric/rosewood_pillar','everycomp:mm/atmospheric/rosewood_board','atmospheric:rosewood_board')
 	panel('atmospheric:yucca','everycomp:mm/atmospheric/yucca_pillar','everycomp:mm/atmospheric/yucca_board','atmospheric:yucca_board')
 	panel('atmospheric:morado','everycomp:mm/atmospheric/morado_pillar','everycomp:mm/atmospheric/morado_board','atmospheric:morado_board')
-	panel('environmental:cherry','everycomp:mm/environmental/cherry_pillar','everycomp:mm/environmental/cherry_board','environmental:cherry_board')
+	panel('minecraft:cherry','everycomp:mm/environmental/cherry_pillar','everycomp:mm/environmental/cherry_board','minecraft:cherry_board')
 	panel('environmental:willow','everycomp:mm/environmental/willow_pillar','everycomp:mm/environmental/willow_board','environmental:willow_board')
 	panel('environmental:wisteria','everycomp:mm/environmental/wisteria_pillar','everycomp:mm/environmental/wisteria_board','environmental:wisteria_board')
 	panel('architects_palette:twisted','everycomp:mm/architects_palette/twisted_pillar','everycomp:mm/upgrade_aquatic/river_board','everycomp:abnww/architects_palette/twisted_board')
