@@ -6829,10 +6829,6 @@ file = "config/openloader/resources/99_RaspberryResources/assets/environmental/t
 hash = "039348a75a0870c975b659ac8b9e7956d7826eb757886dd53a1ca01feb2ebd69"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/environmental/textures/mob_effect/panic.png"
-hash = "9f6bcadadb739ba87f66c7db5d3f9feec8a013c9006075afa71b64dc7a58fb7d"
-
-[[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/environmental/textures/mob_effect/serenity.png"
 hash = "73a665bf6b5c0d596454ff22c0321a8ea7fff025bf662d01f73f25ee75b1a53b"
 
@@ -12223,6 +12219,10 @@ hash = "11cf24d3980777bc4942120ece923b5c8286678b3b9c47da49ad05959d91af1b"
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/raspberry/textures/item/swap_arrow.png"
 hash = "c4de41fa86be601ac71f034f1e776a27bc6aaf9a12996ef5851e6067240287ec"
+
+[[files]]
+file = "config/openloader/resources/99_RaspberryResources/assets/raspberry/textures/mob_effect/panic.png"
+hash = "9f6bcadadb739ba87f66c7db5d3f9feec8a013c9006075afa71b64dc7a58fb7d"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/raspberry/textures/particle/cheery_petal_0.png"
@@ -31114,7 +31114,7 @@ hash = "e6ec47fc198a72cdcf5844afbb6e5df7bb3d9e5a287f029dfbd75b70f4309a59"
 
 [[files]]
 file = "kubejs/startup_scripts/food_modify.js"
-hash = "f3ba27008e009efa2963fab94c4d8553d632399133d9f94bae54ec7a5bf47f52"
+hash = "57eb20881750306819877e5d32762667955105c2f4693a6cd5386d5b820290d0"
 
 [[files]]
 file = "kubejs/startup_scripts/hard_remove_tooltips.js"
@@ -32151,7 +32151,7 @@ metafile = true
 
 [[files]]
 file = "mods/raspberry_core-1.11-pre1+1.20.1.jar"
-hash = "1733ecfe881b3a0b9482ecac58083473406cd3a59f9e29784dfd4bc98bfe62c0"
+hash = "04b932b8c0f3c24e16b3f3e591ae7da02a772034f919019bca0085131c6ce3b9"
 
 [[files]]
 file = "mods/recipe-essentials-forge-fabric.pw.toml"

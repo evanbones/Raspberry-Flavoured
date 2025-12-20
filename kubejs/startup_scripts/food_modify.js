@@ -258,7 +258,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('neapolitan:strawberry_scones', item => {
         item.foodProperties = food => {
-            food.effect('environmental:panic', 600, 0, 0.5).fastToEat()
+            food.effect('raspberry:panic', 600, 0, 0.5).fastToEat()
         }
     })
 	event.modify('atmospheric:aloe_leaves', item => {
@@ -848,12 +848,12 @@ ItemEvents.modification(event => {
     })
 	event.modify('cookscollection:lemon', item => {
         item.foodProperties = food => {
-            food.hunger(2).effect('environmental:panic', 200, 0, 0.3)
+            food.hunger(2).effect('raspberry:panic', 200, 0, 0.3)
         }
     })
 	event.modify('cookscollection:lemon_muffin', item => {
         item.foodProperties = food => {
-            food.hunger(4).effect('environmental:panic', 1800, 0, 1)
+            food.hunger(4).effect('raspberry:panic', 1800, 0, 1)
         }
     })
 	event.modify('cookscollection:chocolate_muffin', item => {
@@ -1325,7 +1325,7 @@ ItemEvents.modification(event => {
     })
 	event.modify('cookscollection:lemonade', item => {
         item.foodProperties = food => {
-            food.alwaysEdible().removeEffect('speed').effect('environmental:panic', 1200, 0, 1).alwaysEdible()
+            food.alwaysEdible().removeEffect('speed').effect('raspberry:panic', 1200, 0, 1).alwaysEdible()
         }
     })
 	
