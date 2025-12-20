@@ -1,16 +1,11 @@
 {
-  "type": "forge:add_spawns",
+  "type": "forge:remove_spawns",
   "biomes": {
 	"type": "forge:or",
 	"values": [
       "minecraft:crimson_forest",
       "minecraft:warped_forest"
 	]
-},
-  "spawners": {
-    "type": "dungeons_mobs:fungus_thrower",
-    "weight": 0,
-    "minCount": 0,
-    "maxCount": 0
-  }
+  },
+  "entity_types": "dungeons_mobs:fungus_thrower"
 }

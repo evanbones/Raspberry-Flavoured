@@ -1,3 +1,6 @@
 {
-   "treeplacer:all_biomes" : "minecraft:mega_spruce"
+   "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : "minecraft:mega_spruce"
+   }
 }

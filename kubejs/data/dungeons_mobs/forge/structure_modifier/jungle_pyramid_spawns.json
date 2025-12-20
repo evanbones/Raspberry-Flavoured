@@ -1,18 +1,7 @@
 {
-  "type": "dungeons_mobs:add_spawns",
+  "type": "dungeons_mobs:remove_spawns",
   "structures": "minecraft:jungle_pyramid",
-  "spawners": [
-    {
-      "type": "dungeons_mobs:whisperer",
-      "weight": 0,
-      "minCount": 0,
-      "maxCount": 0
-    },
-    {
-      "type": "dungeons_mobs:leapleaf",
-      "weight": 0,
-      "minCount": 0,
-      "maxCount": 0
-    }
-  ]
+  "entity_types": [
+    "dungeons_mobs:whisperer","dungeons_mobs:leapleaf"
+    ]
 }

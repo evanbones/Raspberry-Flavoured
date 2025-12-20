@@ -1,3 +1,6 @@
 {
-   "treeplacer:all_biomes" : "minecraft:birch"
+   "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : "minecraft:birch"
+   }
 }

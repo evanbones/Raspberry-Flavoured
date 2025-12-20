@@ -1,3 +1,6 @@
 {
-   "treeplacer:all_biomes" : "minecraft:swamp_oak"
+   "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : "minecraft:swamp_oak"
+   }
 }

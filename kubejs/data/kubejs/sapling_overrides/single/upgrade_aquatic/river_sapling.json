@@ -1,3 +1,6 @@
 {
-   "treeplacer:all_biomes" : "kubejs:silver_birch"
+   "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : "kubejs:silver_birch"
+   }
 }

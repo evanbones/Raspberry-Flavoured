@@ -1,12 +1,7 @@
 {
-  "type": "forge:add_spawns",
+  "type": "forge:remove_spawns",
   "biomes": [
     "minecraft:the_end"
   ],
-  "spawners": {
-    "type": "modestmining:clam",
-    "weight": 30,
-    "minCount": 0,
-    "maxCount": 0
-  }
+  "entity_types": "modestmining:clam"
 }

@@ -4,7 +4,7 @@
   "spawners": {
     "type": "caverns_and_chasms:lost_goat",
     "maxCount": 1,
-    "minCount": 0,
+    "minCount": 1,
     "weight": 1
   }
 }

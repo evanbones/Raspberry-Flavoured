@@ -1,10 +1,5 @@
 {
-  "type": "forge:add_spawns",
+  "type": "forge:remove_spawns",
   "biomes": "#forge:is_swamp",
-  "spawners": {
-    "type": "dungeons_mobs:jungle_zombie",
-    "weight": 100,
-    "minCount": 2,
-    "maxCount": 4
-  }
+  "entity_types": "dungeons_mobs:jungle_zombie"
 }
