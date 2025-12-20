@@ -28,6 +28,54 @@
 			{
                 "namespace": "miningmaster",
                 "path": "advancements/.*"
+            },
+            {
+                "namespace": "naturalist",
+                "path": "patch_cattail"
+            },
+            {
+                "namespace": "naturalist",
+                "path": "patch_duckweed"
+            },
+            {
+                "namespace": "upgrade_aquatic",
+                "path": "beachgrass_dunes"
+            },
+            {
+                "namespace": "upgrade_aquatic",
+                "path": "patch_flowering_rush"
+            },
+            {
+                "namespace": "upgrade_aquatic",
+                "path": "trees_river"
+            },
+            {
+                "namespace": "twigs",
+                "path": "azalea_flowers"
+            },
+            {
+                "namespace": "twigs",
+                "path": "patch_seashell_land"
+            },
+            {
+                "namespace": "twigs",
+                "path": "patch_seashell_water"
+            },
+            {
+                "namespace": "ecologics",
+                "path": "trees_walnut"
+            },
+            {
+                "namespace": "nethersdelight",
+                "path": "patch_propelplant"
+            },
+            {
+                "namespace": "culturaldelights",
+                "path": "wild_cucumbers_placed"
+            },
+            {
+                "namespace": "modestmining",
+                "path": "shell_placed"
             }
         ]
     }
