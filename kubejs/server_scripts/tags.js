@@ -1317,7 +1317,7 @@ ServerEvents.tags('item', event => {
 		.add('naturalist:butterfly_spawn_egg')
 		.add('naturalist:bear_spawn_egg')
 		.add('ecologics:penguin_spawn_egg')
-		.add('ecologics:camel_spawn_egg')
+		.add('minecraft:camel_spawn_egg')
 		.add('ecologics:coconut_crab_spawn_egg')
 		.add('minecraft:zombified_piglin_spawn_egg')
 		.add('minecraft:zombie_horse_spawn_egg')

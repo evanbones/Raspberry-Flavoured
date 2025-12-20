@@ -110,7 +110,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "ecologics:camel"
+            "type": "minecraft:camel"
           }
         }
       ]
