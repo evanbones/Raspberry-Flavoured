@@ -12221,8 +12221,16 @@ file = "config/openloader/resources/99_RaspberryResources/assets/raspberry/textu
 hash = "c4de41fa86be601ac71f034f1e776a27bc6aaf9a12996ef5851e6067240287ec"
 
 [[files]]
+file = "config/openloader/resources/99_RaspberryResources/assets/raspberry/textures/mob_effect/coughing.png"
+hash = "4c2eed7c77e07fa3bcb4cb7cd1da3aa3c153a7d434b7dca11cd4a441d2befdf3"
+
+[[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/raspberry/textures/mob_effect/panic.png"
 hash = "9f6bcadadb739ba87f66c7db5d3f9feec8a013c9006075afa71b64dc7a58fb7d"
+
+[[files]]
+file = "config/openloader/resources/99_RaspberryResources/assets/raspberry/textures/mob_effect/satisfaction.png"
+hash = "484eb6503caf831b5d9c2100640813aa2b2e79583d451ea41d31e9644a52307f"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/raspberry/textures/particle/cheery_petal_0.png"
@@ -20859,10 +20867,6 @@ hash = "75fba78c5f6b3c227482b4ddcc6699762005939aeb9393e351c836ea40dc5e1c"
 [[files]]
 file = "kubejs/assets/kubejs/textures/map_markers/track.png"
 hash = "1789c05abcfe22fca4cd32354e3f0970dce507031eb7386de2c653ceba49ae48"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/mob_effect/coughing.png"
-hash = "4c2eed7c77e07fa3bcb4cb7cd1da3aa3c153a7d434b7dca11cd4a441d2befdf3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/mob_effect/satiation.png"
