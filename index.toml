@@ -23418,7 +23418,7 @@ hash = "0636576394af2152cc2827a107925ca780302a7fd043ae7ffde034255766c507"
 
 [[files]]
 file = "kubejs/data/ecologics/forge/biome_modifier/spawn_camel.json"
-hash = "bfc4b1ce0c38b7bc35de08c9611b82d676bc6d15fc27e44545664304862cd723"
+hash = "d3e0087a966296723e0aba86f5be41be696826e3957b8bb480afeffe03ba154c"
 
 [[files]]
 file = "kubejs/data/ecologics/forge/biome_modifier/spawn_penguin.json"
@@ -25182,7 +25182,7 @@ hash = "ec2e30b2d0877a917e4301c4962a921137e133384bf51b45ef317647c79d8d33"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_modifiers/scavenging/bones_livestock_big.json"
-hash = "927dd75c0d4909684e73277703151b02374c165188f1a478d3a871e097a38d2f"
+hash = "2cc2ff9e16621c0685405e210aa736bd79605d10c5209bd614ef68e3a7a79c45"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_modifiers/scavenging/bones_livestock_small.json"
@@ -25230,7 +25230,7 @@ hash = "3e67bdda6f691cb63a2b08060ff9b3fd0a8eb2d396724e20f65e58cdd61b3ee6"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_modifiers/scavenging/leather.json"
-hash = "cd3733e7e9c332a3f40777986f1a9d41e4ef67463ea6a93a2b0ad40b6d3268c5"
+hash = "3f029a906222abd2c808e860f9be5a0bbd0faf66c644b483706728713b39d1ce"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_modifiers/scavenging/mime_head.json"
@@ -31026,7 +31026,7 @@ hash = "46b1c875b099b05ef91fca5ab255a7fd908ffd38ab43d080e487bc06f64e66aa"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "9b1e4ecb80d9a2e14c86266854c727190275af3821ae46d58b12e6df4551bece"
+hash = "2ede716988e80e381e293b392be2a47481145adeac6255e4b7ba35cabdb7438e"
 
 [[files]]
 file = "kubejs/startup_scripts/attributes_modify.js"
@@ -31502,11 +31502,6 @@ hash = "d5ca07695b23ff52481c4ec9c6346a0c48fc2d83ec487fccac2ef129a35564bd"
 metafile = true
 
 [[files]]
-file = "mods/cyanide.pw.toml"
-hash = "ae59ca8f783bbcac6cdb6949fea22910bcace2f4532f5f2a5385a591da1e1acf"
-metafile = true
-
-[[files]]
 file = "mods/death-knell.pw.toml"
 hash = "c0cd69767ae2c7726d3c9838ba23184ccd62419a1827465e57a57f498bffde30"
 metafile = true
@@ -31666,6 +31661,11 @@ metafile = true
 [[files]]
 file = "mods/fast-scrolling.pw.toml"
 hash = "6d9e5d92ff3a29569e4bc7c93569cb35578e4b86eef9bda29895570e6f9069da"
+metafile = true
+
+[[files]]
+file = "mods/feature-recycler.pw.toml"
+hash = "ebe45fc650931b32c8d70e85942a530f20f7e013e584af29cb46756c3d970246"
 metafile = true
 
 [[files]]
@@ -31846,11 +31846,6 @@ metafile = true
 [[files]]
 file = "mods/liolib.pw.toml"
 hash = "fa02f2e144ab7fac29aa913ec160de893969be2cf91567b9404bbbd5cfdb3d3a"
-metafile = true
-
-[[files]]
-file = "mods/lithostitched.pw.toml"
-hash = "45c55bdbbf2240dfa30cedb5cd437f5716ccf09a707dcdffbe7f39af3e19ff7f"
 metafile = true
 
 [[files]]
@@ -32103,7 +32098,7 @@ metafile = true
 
 [[files]]
 file = "mods/raspberry_core-1.11-pre1+1.20.1.jar"
-hash = "715e67079c2e08fcea787e5d85ef2ba17cedc3ac32a0117ed8cf91d3c377affb"
+hash = "b6715b37cb96845541a955f51facffadc7514f7dc27021658f5eb9fa8971c641"
 
 [[files]]
 file = "mods/recipe-essentials-forge-fabric.pw.toml"
@@ -32212,7 +32207,7 @@ metafile = true
 
 [[files]]
 file = "mods/stony-cliffs-are-cool.pw.toml"
-hash = "43a6c7daa5bc03db44b9c514c3f92ae6e398802d2fb8a9e9bd5b63168b4e4807"
+hash = "c1c8e86917c5741d9eda2397fc37ad330f2c29be56eba85cea803621fb29f2b1"
 metafile = true
 
 [[files]]
@@ -32253,11 +32248,6 @@ metafile = true
 [[files]]
 file = "mods/tactical-fishing.pw.toml"
 hash = "f8cf79b39d3fab5847c170a7fa080eaf94db0d98a2afd0f7249de71dc0b2d0f1"
-metafile = true
-
-[[files]]
-file = "mods/terrablender.pw.toml"
-hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
 metafile = true
 
 [[files]]
