@@ -6565,10 +6565,6 @@ file = "config/openloader/resources/99_RaspberryResources/assets/environmental/m
 hash = "c383d06d283ae06ded87c96822eb9726a7fd211960e7d7d9be0a56168a4068f7"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/environmental/particles/cherry_blossom.json"
-hash = "8bc74b97ebd233fd991672fd6408b518d2e75476b43a9218c4c234ee756ed639"
-
-[[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/environmental/particles/pig_finds_truffle.json"
 hash = "3eec11be7731e33368e1f930401f18f99042e02044776b7496dbc188a652fa8f"
 
@@ -6777,10 +6773,6 @@ file = "config/openloader/resources/99_RaspberryResources/assets/environmental/t
 hash = "3c06930cd25e73bf1928518aa623a1b19408991ddbd0c4485748c63add2c8887"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/environmental/textures/entity/chest_boat/cherry.png"
-hash = "f64d6aa8ae03a8468ee053f0f985ac6b5e6885d8a692ebe30f65dd41f883970b"
-
-[[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/environmental/textures/entity/chest_boat/willow.png"
 hash = "6acb69c2b4eacd1af37aba28c41cfbf257dc02e92706c4868fe66172d2df8906"
 
@@ -6803,10 +6795,6 @@ hash = "fd8063ebf72b12d0db56b80f57065e0ea8649fefdcb97cc9f81ba29178e55055"
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/environmental/textures/item/cherries_alt.png"
 hash = "f10944099302b8bcc560494e984e90679b0b0d8f818def270b7ad3098ddc2e38"
-
-[[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/environmental/textures/item/cherry_chest_boat.png"
-hash = "439c50801a644d96cb99e83f5b12c0ce7c4d82a30219a0608bb5607991666664"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/environmental/textures/item/duck_egg.png"
@@ -8489,6 +8477,10 @@ file = "config/openloader/resources/99_RaspberryResources/assets/minecraft/optif
 hash = "d179602e6a1f0cf81c6e06ad51e25378bc312ab8d83308904f651a0e455e585e"
 
 [[files]]
+file = "config/openloader/resources/99_RaspberryResources/assets/minecraft/particles/cherry_blossom.json"
+hash = "8bc74b97ebd233fd991672fd6408b518d2e75476b43a9218c4c234ee756ed639"
+
+[[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/minecraft/sounds.json"
 hash = "3d76635cd2091a4b158dc71969fa8b04f089ba0250985607468e3a18c6e880b3"
 
@@ -9242,7 +9234,7 @@ hash = "cbf501aa090c93fbd58f18b1b0479d85ea0d002b1bad1761d06e22fb961127bd"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/minecraft/textures/entity/chest_boat/cherry.png"
-hash = "232a07a318cd4ae384620bd68f4b92187c05e0ae5212d6543309d3b14cc398b9"
+hash = "f64d6aa8ae03a8468ee053f0f985ac6b5e6885d8a692ebe30f65dd41f883970b"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/minecraft/textures/entity/chest_boat/dark_oak.png"
@@ -9571,6 +9563,10 @@ hash = "a271dc9f95a58c85c1a394ff230b4e4a3f1c6c4d15249670a6668262fd353427"
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/minecraft/textures/item/carrot_on_a_stick.png"
 hash = "f1b0de58a8b54b3221a8a48a116bd83a1371b5a260211cd2d017e69123892c4d"
+
+[[files]]
+file = "config/openloader/resources/99_RaspberryResources/assets/minecraft/textures/item/cherry_chest_boat.png"
+hash = "439c50801a644d96cb99e83f5b12c0ce7c4d82a30219a0608bb5607991666664"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/minecraft/textures/item/chest_minecart.png"
@@ -13386,75 +13382,75 @@ hash = "c42d77905199e24bff29ac6d408da0cf4757cdad1b84904f15194e319d6103a7"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/book_pile.json"
-hash = "0429009a2dcd9d4509921f638977a6fceb24656b4939f4ccca8884e57a1e0521"
+hash = "2413e5b95aa64247ff75b8cbced69c210479fe54cec312b6b7ef05a8d7eccdc1"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/faucet.json"
-hash = "362b0b2187832ce1123fb2b6082d9d0433c2cc0f900f56b508121c637c6b8c0e"
+hash = "922c8b8d7e05ead4a7cd85a312003e5f6f8a93038029f396b555a783e6966674"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/faucet_jar.json"
-hash = "7a77ac1454cbb05bbbd3d4e6eb6eaa08fb91bc378eeb30ecea06ec9ecc4a37fc"
+hash = "2b6e97a61447f3f65c56970f88b5a3ca148183fdc2c73e74e0dbe849753c01bf"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/faucet_jar_on.json"
-hash = "d7ff9faf7df3f27851ee12760028e97a6f5ce46a0ebb86a42ae0b29f39b5661d"
+hash = "4e27bd9b9836c9f2b3b75f30706f1764d519a1806f5b2431fe5a41e667222c16"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/faucet_on.json"
-hash = "62f60ba334273e7c9468c344f4056f5843d239024b8b253ce575613b51f5ba43"
+hash = "af181138772de945f79d5a4eda20f98aa7bfa7feecb5c535a735932f5c67c97c"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/hanging_signs/hanging_sign_oak_loader.json"
-hash = "bd8b50e038b2de023f48002a9d0c2553debd27c6766ed6980be043de37bf6702"
+hash = "0310fb37446705bfe60e3c58c3995d1654f81b6407674b0c8f414e9be292ddef"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/lead_lantern_hanging.json"
-hash = "337d99f487f90b4590a8e992212627fc02f768a02383eac0dbd4643558abc3b9"
+hash = "d392b7eaf5b52758c68fdf57995da03815023fce10488d5686bbf940bf13877e"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/lead_lantern_hanging_off.json"
-hash = "2f8c76f8af1ce9bbccb3b1ae59466ff81be6459986480ba33535954b7178ea33"
+hash = "62515358ffb46819f12aae398d496109d58e46948b6687a10c382b82f08cf77c"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/planter.json"
-hash = "8457a54307c7f1ff99331ee2aac28f70693fa0d85e1b428703b1a19c74f020d2"
+hash = "2c39078008c501d3944a3c47dd57e571ca662975c470688ac71a0b7289b38e47"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/planter_extended.json"
-hash = "4fad56048a65941174ee25bee10fa96722476e6e3ba4f69643b71025f5d3c8fb"
+hash = "c9ad9dd52464c4799ed53cf86f0eb8ab1a304406fd560a46903af740f4987b25"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/planter_rich.json"
-hash = "181d0c5197f223e9a8c6ad642f98141a35fb4cfaa06412a7c3736fd2a162444d"
+hash = "5e07b2bccdc00d01ba664e82e36eb49711a4f3bcb1cbb6825a87b26bff964f4d"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/planter_rich_extended.json"
-hash = "37c3a3034cbc14d3b15cd0f169d245c26ce2b278d843776f31ecd4a0df841b64"
+hash = "aeb235ee98bdee2969b47efbaa9ca46bef715f393679b0932c892d3c7e4b30b6"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/timber_brace.json"
-hash = "644523a2b78780b501708f98ec825a4a9dab87b132e0247e7e7bda22ab0f2cf9"
+hash = "2b6f57ca18f3bf386bff73b2b5ab87df0699c238aa311e2df670400ea06d7099"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/timber_brace_f.json"
-hash = "3ea922a69ca314addcd9e68a7f66dd085144856fe40993493e4b527e008a1617"
+hash = "ff94e66723baa4b68676a7a0aa9a0a15118812f090d7d8cd795f3beb400e8c85"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/timber_cross_brace.json"
-hash = "99231ad2b6e3b43ea4cd19d4845d4c0df5844c5701e3fadadb9c3c37810b5783"
+hash = "bd90bb03a3eb9dff9a6d287b0f8275b9fe8b18096df1fc0e6010c809aa30414e"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/timber_frame.json"
-hash = "2303f6b40f2f499f0529deeb68a47c5a53b70aa403a3f9f7080a92c27aa48bae"
+hash = "b66d6d7e85565c61ef38db83609ced510719f7b75918d1cfbb748f2d07519c37"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/block/urn.json"
-hash = "41e6cc55e0fefb8ef2d39f12903f82c90dc6e1345b05fef46d98a3ebca058f31"
+hash = "7ca2541ec6b435d16b00e1d5861ea891e17a4807ea5c6df6396dcc05ff572681"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/item/architects_palette/hanging_sign_twisted.json"
-hash = "6c2660e3d9c18eede3624f89d3217feb2873724cb542cc22338ce8fea15529f6"
+hash = "7ee4312339fea7580ce484c6d18f1a5aa6bbd7941c9189adf7b5d58f1bfc2612"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/item/exposed_copper_wrench.json"
@@ -13466,15 +13462,15 @@ hash = "bcf458d886837f09f65a1f60a314722fdc3194e0a844ac6286bc9a1551b5289f"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/item/timber_brace.json"
-hash = "4093c7120dc0e3ca81343982646a775f887017198f50055073f4cc959bc1418d"
+hash = "c763bb2c953ecf0575bccd594b82473043f3db2ed1d98a0c67e03538d3638671"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/item/timber_cross_brace.json"
-hash = "dbe74da04939e8b55a9588aeae2522a79999f9591eacefca13284ec318d135de"
+hash = "3225a45d890bcb6e6324cf38ff6f3b83caacc5c716d353d3666b3942d318416f"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/item/timber_frame.json"
-hash = "baf559fb8520ff4a262b1b79f437f7eab652991a973e966e7c96f4d2a2c20b39"
+hash = "b0791b0f5eb75fed65b9cbc7a7cb8068caf3f00d9e9adb7eb9462669cb780f0e"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/models/item/weathered_copper_wrench.json"
@@ -13525,259 +13521,259 @@ file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries
 hash = "2066b6615781e0e35072a9f4414b6063f41464cbd1cf36cc63237221689060a7"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/book_particle.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/book_particle.png"
 hash = "92c0627e493714be3c172ae86c50e061c55ed241f0e251c85ae1f7d2d675f7b6"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/brass_lantern.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/brass_lantern.png"
 hash = "d069362ffd7922ea39a625bb0ac26ee37c327e5757295dd371dc524df7614fe8"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/brass_lantern_off.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/brass_lantern_off.png"
 hash = "573b7fc8f9b528552c9cc296cdec47d35729337e1ea7c17dd5f677efaa62fb15"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/cog_block_off.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/cog_block_off.png"
 hash = "9c9cc708298a710f6bcc72d3fc9bccbc0a2d58d42fa7a72075826bbf5b9f268b"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/cog_block_on.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/cog_block_on.png"
 hash = "75f9e6d9a21184d74c664c14c5574789d72bf9518597624afd25637fcba98a59"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/cog_block_on_overlay.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/cog_block_on_overlay.png"
 hash = "65d8cb2c6025323b10f7e1c2251225b8cc5657aa7d49c05fb2ea5c55c63adea1"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/cog_block_semi_on.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/cog_block_semi_on.png"
 hash = "23ca068320d9b96969dafdc6413579c4fde02497646be33efe45d0db83834710"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/copper_lantern.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/copper_lantern.png"
 hash = "da338a8cadf687ed6f815189cbd2702175e829446fcdd058e886c524401486cf"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/copper_lantern1.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/copper_lantern1.png"
 hash = "d24beb955d5479d47b33cdf97e6d16dc7bd3ef8fe0c447285e7a04da379670bc"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/copper_lantern1.png.mcmeta"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/copper_lantern1.png.mcmeta"
 hash = "22cfa332da2ae1d3d21427ae99e303e94ced834e16394c2ba6e4f9ff4a5673c8"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/copper_lantern_off.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/copper_lantern_off.png"
 hash = "0854de45a70fee22d6a41aaf0527207687cb45de9ba048c3557e934506dd264c"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/copper_lantern_off1.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/copper_lantern_off1.png"
 hash = "f10b589d2008e9689f0aa551ed5573bc7eb936f782328107e92d71ea3d3daaac"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/crank_base.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/crank_base.png"
 hash = "d492221572b781e9df4b268acc070990604b20601c4e8ef502e02df2099714c3"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/crank_handle.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/crank_handle.png"
 hash = "9af95ef4f4c8b03836758f8d5516d0751827c12e91384f3f52df13cbfbc4e51c"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/faucet.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/faucet.png"
 hash = "52e1864581603a14051cb2f55f63392b464817a57a3036548cd6d11e4ac1a9d4"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/flag_post.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/flag_post.png"
 hash = "7c9faf5c591455aab1b0ada3bf147b4fd5d299196273ccf34f6ec87b61762ada"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/globe_stand.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/globe_stand.png"
 hash = "178a13f3d88bb82c0dc8a7a0901225333f72eee143304eda04b747a2742ce297"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/hanging_signs/atmospheric/hanging_sign_yucca.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/hanging_signs/atmospheric/hanging_sign_yucca.png"
 hash = "0cfb2be4d2fdcf7cf127f483691d8cdc3157424c84f855bcec246b5ebcb11859"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/hanging_signs/hanging_sign_dark_oak.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/hanging_signs/hanging_sign_dark_oak.png"
 hash = "fba5035d3f770b02757c26fbc45b94aa561ad94c6a17f917851996240b9029f0"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/hanging_signs/upgrade_aquatic/hanging_sign_driftwood.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/hanging_signs/upgrade_aquatic/hanging_sign_driftwood.png"
 hash = "1917f2f2fb637607b3fa7d101dc01d4e16e73c383ad020239b22c96a5cf954cc"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/lock_block.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/lock_block.png"
 hash = "b75c4aa302270ae7e427f0d5659ad5ca4d1556235082d7c7809547c03e7bb22a"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/netherite_door_bottom.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/netherite_door_bottom.png"
 hash = "6507cbd7cf7fd7b3856856afd575b09697f083354da53c323afaeff0925f1ebe"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/netherite_door_top.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/netherite_door_top.png"
 hash = "b2084b7d01aa208150efbe02e3e05c79c0d4519657b456138c517805c72496ff"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/netherite_trapdoor.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/netherite_trapdoor.png"
 hash = "8444ad5602e8425f482be8ea8799f123f7ecb5d6af3d2320277d929db1750131"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/pulley_side_rope.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/pulley_side_rope.png"
 hash = "af53d6b337fe119b2a8e3e74d25014f07f2828d65b70209aac7873d8899710f2"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/rope.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/rope.png"
 hash = "506a28cad3f13f467728ef5ba72ea42d03edf84ed98d83ea8307baf4099a8365"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/rope_knot_10.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/rope_knot_10.png"
 hash = "b5c48956fc7d150b803ac891277ed4bf077a6bbc3e610494e2df8dbd6b53d6fb"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/rope_knot_6.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/rope_knot_6.png"
 hash = "95616c27f9912d1897ff32308a89c03fe8c2192af50aae667c1682ad4366673c"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/rope_knot_8.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/rope_knot_8.png"
 hash = "6c817f2bded3ed9fafc1d60444152e71dac649028bf3e4c5a267a99623986444"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce.png"
 hash = "5ea81b77c0bb9bc2ea874c773707b8100eaa3be1702a130c0eda2c313b33861f"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce1.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce1.png"
 hash = "c7c91150b91739043dd7e91c7d0be2269cc9a1d799f0f9d96bca1e0afd7a9b2b"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_alt.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_alt.png"
 hash = "4b5cec007a17c9175c5f244dd08e686aeb740e94a8bdbd86c5bc038c6d80d12c"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_ender.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_ender.png"
 hash = "3cc67e0b78fa978a28c3e74d8525b6fa6009cbe783faecb48e5a93bca991b00a"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire.png"
 hash = "97fd417dcd2d518c1b6f6d2342a9239528f48871eab63ba3287772e94eed30a1"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire.png.mcmeta"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire.png.mcmeta"
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_ender.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_ender.png"
 hash = "77b6d57e661b756127d15d42813faecf4d4dae9578cbcf0a7e0f15b7dd557147"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_ender.png.mcmeta"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_ender.png.mcmeta"
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_glow.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_glow.png"
 hash = "96e8cbeaa63e68af8cb2e4c54119c82ff0a295bf22edfc6ffba507688179f3fb"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_glow.png.mcmeta"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_glow.png.mcmeta"
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_green.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_green.png"
 hash = "a102166c41a8ed48a20a8b2d0ade107c28ecd21a93691c20564419e197d6c549"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_green.png.mcmeta"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_green.png.mcmeta"
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_nether_brass.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_nether_brass.png"
 hash = "0fab0718d8629fdeaee3131eacedfefe3de9817106718dab73cd6454ed6f32dc"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_nether_brass.png.mcmeta"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_nether_brass.png.mcmeta"
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_soul.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_soul.png"
 hash = "eca041e62cb073c2377947e06f5ca3d2f5dfa95855df4c073df1bd103cc7074c"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_fire_soul.png.mcmeta"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_fire_soul.png.mcmeta"
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_glow.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_glow.png"
 hash = "93552420c97e67415b9e3797e015931994babcd8f1794c8280c0e0df21b4d48b"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_green.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_green.png"
 hash = "6d263ebd7722a2b319923e19496b7a0cf53a9338d2319f4d8fcef8a3b0c6c477"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_nether_brass.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_nether_brass.png"
 hash = "daac9e0c786d0c3cd5613cf4f51b1f6d800800ee6e90578657da1849cc29b16c"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/sconce_soul.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/sconce_soul.png"
 hash = "218afafb0d6809d079eeb485c1f832b329ad91cc97fbd7c56dba62132f282459"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/silver_lantern.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/silver_lantern.png"
 hash = "7891bb6b5515c65a33ee4c8f339524190e5ba51007863b8f8fe4ab2740f7419e"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/silver_lantern_off.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/silver_lantern_off.png"
 hash = "6c17d0351ff4652f064a72191ce9fc46f1024595e23b42f5394ea80322bd0e3b"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/speaker_bottom.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/speaker_bottom.png"
 hash = "6052f5c2d323feba6000d55881953b8ccc74cc3ab3e693a4744b9e5c807e6f30"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/speaker_front.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/speaker_front.png"
 hash = "2d19c9925f523ad365a3c5e580d0398f87b3d65b7b4e60f90dc403eeb4e1130d"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/speaker_side.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/speaker_side.png"
 hash = "2f2a4ac086710ddb728ddf6a01575e543ccca756c7c1498b68917cdfe3daafef"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/stick.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/stick.png"
 hash = "7c26351b5d6a339034011de501ec4134ccb9c541e703a51ac18e1ecfdaee7ddf"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/stick_cross.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/stick_cross.png"
 hash = "5821324a352df5005cf99eb648a13010b6f15558f0ff9099bf47be5dbecef6dc"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/timber_frame_inside.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/timber_frame_inside.png"
 hash = "30f09f758f7b7989759e218ee99a11b6cac123042a06ea30f583ffe792f5fc63"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/urn_particle.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/urn_particle.png"
 hash = "fb2522c6b307d61e3513468735ca475420e4b698c0d23d08aea7e03c3a8cea93"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/wall_lanterns/wall_lantern_brass.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/wall_lanterns/wall_lantern_brass.png"
 hash = "e517e62e4160c5ec3c4666f155e95a28b7ca49a1e4ff3bf8a5a2663722b0651b"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/wall_lanterns/wall_lantern_copper.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/wall_lanterns/wall_lantern_copper.png"
 hash = "cb86cec136d02b574018b2b7c79cc2c4d64d7e35c85a0ec14a6d34a876cdb8b0"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/wall_lanterns/wall_lantern_zinc.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/wall_lanterns/wall_lantern_zinc.png"
 hash = "f987e52c0ee8a2ad8898ac941490fea3af113ffc6b84ea8d383dac670ffff7b2"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/wind_vane.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/wind_vane.png"
 hash = "4016f29c18d7d012589b4eb0556279462df0ff64bff0dbc30958c943b14157da"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/zinc_lantern.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/zinc_lantern.png"
 hash = "08a85583bdf51041b91342a8fed833c4b524f4b67e606073d41f64274a874ef3"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/blocks/zinc_lantern_off.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/block/zinc_lantern_off.png"
 hash = "fe2ff9be9bb659a4bd6de287e26da85b56f984b84469559598807d4181c664c3"
 
 [[files]]
@@ -13789,115 +13785,115 @@ file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries
 hash = "c46cdc1f0e1345ccdd2fcae14652ddd4e98136380420e94ea5cb730b6e0499c3"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/altimeter/altimeter.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/altimeter/altimeter.png"
 hash = "6c72e1b950da06775cb4eedd15430d38865e24e8c0aa12eb11016c867936c69c"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/antique_map.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/antique_map.png"
 hash = "dbf38d6200f1db5b6fe42f5c94985f5d29ff1cef6b40e81256857a55288cc06d"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/architects_palette/hanging_sign_twisted.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/architects_palette/hanging_sign_twisted.png"
 hash = "6d9110e4188118600bf204dd1abd2da7d60a41d1ba6cce51b349845cf0d2c988"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/brass_lantern.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/brass_lantern.png"
 hash = "e13fe4b51cafef4ac9bf4a2433d254b917c90e4b5bd0bf45012caf62de2119a8"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/candy.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/candy.png"
 hash = "e69b66804715732ceb4b3c6aee3a27e790f19e9c4ff46739474f27818a63a4f9"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/candy_christmas.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/candy_christmas.png"
 hash = "e69b66804715732ceb4b3c6aee3a27e790f19e9c4ff46739474f27818a63a4f9"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/candy_halloween.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/candy_halloween.png"
 hash = "e69b66804715732ceb4b3c6aee3a27e790f19e9c4ff46739474f27818a63a4f9"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/copper_lantern.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/copper_lantern.png"
 hash = "8c625b2229792557ab23056f2ac48a14e8bc8ad5b014203341da910db09a8a94"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/dispenser_minecart.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/dispenser_minecart.png"
 hash = "678706eb583a4b7d3128582860cff05b0115df0d58f1818b4d682d140ea0f8a2"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/flax.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/flax.png"
 hash = "0a4afc961c61b0454e1497132be726f36e33e42e3e448053e778aab889891d69"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/flax_seeds.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/flax_seeds.png"
 hash = "1948afb43cf90d895b9f13a119802ec9adf654055a709803e585203791e80073"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/netherite_door.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/netherite_door.png"
 hash = "229b99a5fa4c77040078422c702bc781655a5c18fa95784c5561b699ad47c77b"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/rope.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/rope.png"
 hash = "a2cd878fdeda57abe7723b0a414eaa4164b8c44fd6bbe9d076f3deb259c587f3"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/rope_arrow.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/rope_arrow.png"
 hash = "bad1756d5816fd9fc591571fe7bc5a4606d2514e978657a1eb574a64b0558201"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/sconce.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/sconce.png"
 hash = "040ee4d2ed13e81c568ad40ac5e02d85adfd8947f933e8749134d019d973dad1"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/sconce_nether_brass.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/sconce_nether_brass.png"
 hash = "26b483446a9cfb909a21b6d06b057b8f4204c46d1ec309e8517ff9b5b3de5fdb"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/silver_lantern.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/silver_lantern.png"
 hash = "076873192d981c257c167d29a14fb5e5caacebd5f5f365495eb6458e45146338"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/slice_map.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/slice_map.png"
 hash = "d46358088e1f52583c01a13a6294e3f6cee44c6bffffa365113109ecbd0dc843"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/slingshot.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/slingshot.png"
 hash = "7add7deb1d104f7615178f8d22262ad75476ca2adc5ddfae873289ec78f41061"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/slingshot_pulling_0.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/slingshot_pulling_0.png"
 hash = "8853af895eb6e1b8817c8bd1d4b38d531787fd1ac369e6a54f8f3d2978631faf"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/slingshot_pulling_1.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/slingshot_pulling_1.png"
 hash = "0d64741ab6b1f08226e3df162de034d17ae1b0a318f6395089a53eb7a4074f14"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/slingshot_pulling_2.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/slingshot_pulling_2.png"
 hash = "f8b27342f604b66f25df25a787a551934b46d3ae9fcb5470e9a9c4a321117d5b"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/tattered_book.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/tattered_book.png"
 hash = "a7011e1aa397f92bc3e0057c9b701729771beec21f2a087b93416e60225a7d44"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/wind_vane.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/wind_vane.png"
 hash = "8f05782144fca73ed5496fe2ec2fa319ea637f91ca29d36bae865c9778c4229a"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/wrench.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/wrench.png"
 hash = "d360b77f91425c72b6920f01aef837ff3e345b998ea2c1ec54618c47d57ff41a"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/wrench_1.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/wrench_1.png"
 hash = "65eedcb308fae574525e534841e4090b374bc276bda5ed093a158b474490187d"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/wrench_2.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/wrench_2.png"
 hash = "23e87e9980e92efeda30fe2ca1053dff89322e2d0d07a3ebc12d4407f31f5c2c"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/items/zinc_lantern.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/supplementaries/textures/item/zinc_lantern.png"
 hash = "8db73fc550f50a4083969ea37a5ca561a3c489fd0ef03434b882867f11dd0145"
 
 [[files]]

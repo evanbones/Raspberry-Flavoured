@@ -1,5 +1,5 @@
 {
     "textures": {
-        "particle": "supplementaries:blocks/book_particle"
+        "particle": "supplementaries:block/book_particle"
     }
 }

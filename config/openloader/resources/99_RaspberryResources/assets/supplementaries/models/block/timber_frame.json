@@ -1,8 +1,8 @@
 {
 	"parent": "block/block",
 	"textures": {
-		"1": "supplementaries:blocks/timber_frame",
-		"2": "supplementaries:blocks/timber_frame_inside",
+		"1": "supplementaries:block/timber_frame",
+		"2": "supplementaries:block/timber_frame_inside",
 		"particle": "#1"
 	},
 	"elements": [

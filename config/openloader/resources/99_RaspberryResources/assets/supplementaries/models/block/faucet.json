@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "supplementaries:blocks/faucet",
-		"particle": "supplementaries:blocks/faucet"
+		"0": "supplementaries:block/faucet",
+		"particle": "supplementaries:block/faucet"
 	},
 	"elements": [
 		{
