@@ -20938,7 +20938,7 @@ hash = "21b23564724546b4195f281fdb657231e2f6d4517038d3c3c10e64fb80642ce0"
 
 [[files]]
 file = "kubejs/client_scripts/descriptions.js"
-hash = "14ce8873e374c30ea0f2850f591e3166f33124032e90648b2213708ba9dac4b7"
+hash = "5ec45afde68f24971b8b6d3538aec733b5e98942591b16c04fb283f4740b6553"
 
 [[files]]
 file = "kubejs/client_scripts/ench_tablet_tooltips.js"
@@ -20983,6 +20983,10 @@ hash = "ec735c85abd3e9dcfe77a660b7cfc3f8b7c043ba0c1423ae2425c056a2824038"
 [[files]]
 file = "kubejs/config/probejs.json"
 hash = "f1b0858b0f26f4c341dd38f0e1aba8c84ee1476744331cb99e82150dcc87fcfb"
+
+[[files]]
+file = "kubejs/data/additionaladditions/loot_tables/mysterious_bundle.json"
+hash = "adcf68469745ce623666cc7576d50e8abc2297a0691882c5ac346a6d6fc6d3bb"
 
 [[files]]
 file = "kubejs/data/another_furniture/tags/blocks/chairs_tuckable_under.json"
@@ -21287,6 +21291,10 @@ hash = "b3199cc237fce2a22a1c0aa84cf9c8d7f7de8777240765b34ebf8a336f48b4f1"
 [[files]]
 file = "kubejs/data/auditory/tags/blocks/ice_sounds.json"
 hash = "ab9ed3ea532b96f84493e86c164ab260c05584fa628a0e9612d944fcff8390b2"
+
+[[files]]
+file = "kubejs/data/auditory/tags/blocks/metal_sounds.json"
+hash = "583de26e9efe9f36d21f7ef9fc26dd72d6e31fd4a748ef3e2c7f68e6394c26ce"
 
 [[files]]
 file = "kubejs/data/auditory/tags/blocks/mushroom_sounds.json"
@@ -21669,6 +21677,14 @@ file = "kubejs/data/brewinandchewin/recipes/fermenting/glittering_grenadine.json
 hash = "03df7a22a0979444378be6cc4bfadd6dff6428c582328469f53a1420c6548b13"
 
 [[files]]
+file = "kubejs/data/brewinandchewin/recipes/fermenting/jerky.json"
+hash = "20364d28f37ef8ab620547a2a44a7dcf1c7557a1b22cfc895dfdec2d702adc4d"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/recipes/fermenting/kimchi.json"
+hash = "e5d00113ea5ecb81f89f505706f3c2f2cbb6031d8a87fb91a6a1f70a06f9a14f"
+
+[[files]]
 file = "kubejs/data/brewinandchewin/recipes/fermenting/kippers.json"
 hash = "a5767071c9026eb3c664d2c0687274c2282f39b85a32b55770f7353b91967f82"
 
@@ -21751,6 +21767,10 @@ hash = "5d0c41be9f95fed32ef88f4725a316509cb8cac89a95b4c93a8c207f0cda7482"
 [[files]]
 file = "kubejs/data/brewinandchewin/tags/items/horror_lasagna_meats.json"
 hash = "025aacb79a33b2dad2e949322123ca47ac48214c2e0d63f5b159b8de29509185"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/tags/items/iron_or_lead.json"
+hash = "ea43d584eb50653c37bba58d49a146e2b6f080012ea81109900ab86f20dd9189"
 
 [[files]]
 file = "kubejs/data/brewinandchewin/tags/items/raw_meats.json"
@@ -22029,6 +22049,14 @@ file = "kubejs/data/create/recipes/compacting/chocolate.json"
 hash = "e642863b6060a6aeaf36aec2c6b8254b2632a0c08f24bc7aad9d0c78fa993079"
 
 [[files]]
+file = "kubejs/data/create/recipes/compacting/flaxen_cheese_from_wedge.json"
+hash = "7a5bf262519472222d1b8a422358d0c5d67d587cbc64c96b0a65722c896edd9c"
+
+[[files]]
+file = "kubejs/data/create/recipes/compacting/flaxen_cheese_from_wheel.json"
+hash = "18d4a40b14e4653bccdaa8d5a80bbd896b36ea4140d901a0d863b314bd21cdf0"
+
+[[files]]
 file = "kubejs/data/create/recipes/compacting/flaxen_cheese_wheel_from_fluid.json"
 hash = "cdbe81c0ac56849d18defe8bf5523f5cd29589bfab12397e95656c548cee1f7a"
 
@@ -22043,6 +22071,14 @@ hash = "9ae830e3812987c85ef0f588e3f2627b57bcbe37f495da42dd8b13dc2960ad77"
 [[files]]
 file = "kubejs/data/create/recipes/compacting/paper_from_tree_bark.json"
 hash = "9d17af5b47c48dfba89ea16522e0ec8b5981980f3c0dc351ae296169102b8fb1"
+
+[[files]]
+file = "kubejs/data/create/recipes/compacting/scarlet_cheese_from_wedge.json"
+hash = "ed7416e5cceb1716830d8e0a6c4269830eae6fb0b9f5423125585a0dda201916"
+
+[[files]]
+file = "kubejs/data/create/recipes/compacting/scarlet_cheese_from_wheel.json"
+hash = "aa551ad28438845a541b8e255e55e291987afdadefd4a0b2f4e8b4653bb29748"
 
 [[files]]
 file = "kubejs/data/create/recipes/compacting/scarlet_cheese_wheel_from_fluid.json"
@@ -22247,6 +22283,10 @@ hash = "e3d29d893b7ed9004d781c344f440424ed47c856da6eed352e527601e732b224"
 [[files]]
 file = "kubejs/data/create/recipes/crushing/leather_horse_armor.json"
 hash = "19ec8667cc22759eca6c771520db26b115db0e7359904df32d2500600c5a7f8e"
+
+[[files]]
+file = "kubejs/data/create/recipes/crushing/netherrack.json"
+hash = "3d7efae4210ece496522ea120809ec863a147a356d220e16adc9beb46a9c1175"
 
 [[files]]
 file = "kubejs/data/create/recipes/crushing/silver_ore.json"
@@ -22645,12 +22685,24 @@ file = "kubejs/data/create/recipes/item_application/unstrip_wood/unstrip_yucca_w
 hash = "b22d224b9c972de334c62f0c9187eb4e67cd989ea06a7071cecc5926caf3884c"
 
 [[files]]
+file = "kubejs/data/create/recipes/milling/allium_bush.json"
+hash = "7cdff7b2b8c04f98a04a615cfb95f5f02969d6225e3c355630931653fe96e04f"
+
+[[files]]
 file = "kubejs/data/create/recipes/milling/azure_bluet.json"
 hash = "f47ff6c5af8eea7c4f8137c422696d1cc1d29468fe5d0e6a998947509e2eef08"
 
 [[files]]
 file = "kubejs/data/create/recipes/milling/blaze_rod.json"
 hash = "4695bff1d5db1728d2b2697e783e407c5785cf3b3fb520cbe1befaea6b8a89b8"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/blue_rose.json"
+hash = "c1a68dc00cc8f8f4d6c03d2cd3746d60ad0addb3d6fad9810b6c3ab114f430b8"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/blue_rose_bush.json"
+hash = "5e6574b1be50d4ae167981e086746047a2f2faccdc4dba081ca9340963d8ff4b"
 
 [[files]]
 file = "kubejs/data/create/recipes/milling/bluebells.json"
@@ -22665,6 +22717,10 @@ file = "kubejs/data/create/recipes/milling/giant_tall_grass.json"
 hash = "2a7ddba0f89af9bea6a6c8393db51aa2c1c15aa81d5efbc6da42e32349e10c40"
 
 [[files]]
+file = "kubejs/data/create/recipes/milling/netherrack.json"
+hash = "92ed4c2c6b9ed5a7b74ca37dacbe6a49f90858988aa8dbe070335b672d0efa71"
+
+[[files]]
 file = "kubejs/data/create/recipes/milling/nightshade.json"
 hash = "08b9e36eda292bbf460c15d577ead5343a497d6b334ab1bf60583ce3a2c4f42a"
 
@@ -22673,8 +22729,48 @@ file = "kubejs/data/create/recipes/milling/oxeye_daisy.json"
 hash = "1b171ba523e6872d57b70b980bd6b889c570cf9362e08744dc96f85b3934997e"
 
 [[files]]
+file = "kubejs/data/create/recipes/milling/pink_rose.json"
+hash = "abc8fdbaae303fbffc14752104b5bdc05c62a186e553b52824442cbf8caa98e6"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/pink_rose_bush.json"
+hash = "d91223f27d173b3fc3ed00cbfd1109f3dcf030bc33eb21a39b087623f6567609"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/red_rose.json"
+hash = "dbc70d53107589016ef59b8d6513e6735a3df1aea967ac1554876aa301e73a54"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/red_rose_bush.json"
+hash = "2a621a9e543d86c83991b73af9343b7f6b033d21ae12e3619d64cc51c762d747"
+
+[[files]]
 file = "kubejs/data/create/recipes/milling/wheat.json"
 hash = "230fcb5378e6f123edaa1193921a0f47c62a13e6b61c19b7ac7d2e0d4d535fa1"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/white_rose.json"
+hash = "6d599af6866120bb037ecdee2c4e7b99e6abf770de720a70211ee665740f21c2"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/white_rose_bush.json"
+hash = "b6f8d8073266f0936f0ba8946b29aa7619e6154455e3ad49eddfaa654e55650e"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/wither_rose_bush.json"
+hash = "fd98c05c29ff63cff44f7e592493476c6c951d81aef9c721f43ac6ae8885967f"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/yellow_rose.json"
+hash = "a2d4c3d56d848669fff2724ca3b01f852a4a537567ccc9b9c5b10fa2d2164843"
+
+[[files]]
+file = "kubejs/data/create/recipes/milling/yellow_rose_bush.json"
+hash = "ce40243ec2162ab6b4fc329ea19de52b5afb19a46a416263fc5fde7596f094b3"
+
+[[files]]
+file = "kubejs/data/create/recipes/mixing/chocolate.json"
+hash = "fcab3b7da889d3853b56b73d77b815b8f732a72b8522d54bdcf142be7325837d"
 
 [[files]]
 file = "kubejs/data/create/recipes/mixing/chocolate_melting.json"
@@ -23069,6 +23165,10 @@ file = "kubejs/data/culturaldelights/loot_tables/blocks/wild_eggplants.json"
 hash = "df84f74b32e06b34f4fe542676b62efa027bc15d0bdab6e3b391c6e0502b602d"
 
 [[files]]
+file = "kubejs/data/culturaldelights/recipes/avocado_toast_compacting.json"
+hash = "14208cc633ae72e3f346a2af2e7517b2324584bb3e8f37a242861e1b57f5dd98"
+
+[[files]]
 file = "kubejs/data/culturaldelights/recipes/avocado_toast_manual_only.json"
 hash = "98ffa42f1b09a7586caf840a66502a74dcf3aedc6ec8818e9e9e0ed0267607d4"
 
@@ -23083,6 +23183,10 @@ hash = "ae68a2f72fa642c09db8930a5c66a77cae20d4aedda95af6a481520030ce94f9"
 [[files]]
 file = "kubejs/data/culturaldelights/recipes/chicken_taco_manual_only.json"
 hash = "cb9dcb7da882f68ad77b1f9eb567823770e85983312edbdfde05c7e44e7288c4"
+
+[[files]]
+file = "kubejs/data/culturaldelights/recipes/cooking/creamed_corn_kernels.json"
+hash = "bc28fdc31b7b99ccdd5b2c9206a9ee5f8b5dbb1a60ca8b419dd942f9f722452f"
 
 [[files]]
 file = "kubejs/data/culturaldelights/recipes/cooking/raw_pasta.json"
@@ -23174,7 +23278,7 @@ hash = "658174a77c4c337d8a1209fae087272fe2c6accef6a564e92061257663ed8c0d"
 
 [[files]]
 file = "kubejs/data/dungeons_mobs/forge/biome_modifier/fungus_thrower_spawns.json"
-hash = "91467245f679e827f8997cdbf64bb72342a40880cdb4b41c2be91b2373539557"
+hash = "244ae8b72c1345161d7fd0c5403978df0a50e31127192586876a05937f8d33db"
 
 [[files]]
 file = "kubejs/data/dungeons_mobs/forge/biome_modifier/geomancer_spawns.json"
@@ -23365,6 +23469,18 @@ file = "kubejs/data/ecologics/recipes/coconut_trapdoor.json"
 hash = "c42b7da56d5c00726aa6d87bf301941be3ac10824d4c5896d9d3533f2c0c9bc0"
 
 [[files]]
+file = "kubejs/data/ecologics/recipes/crab_meat_from_campfire_cooking_raw.json"
+hash = "753b5c3c82eb39c640ebc1fa09914ef8a4f6d9ea030ac4a84f90e427b89f4f82"
+
+[[files]]
+file = "kubejs/data/ecologics/recipes/crab_meat_from_smelting_raw.json"
+hash = "b5116e4b35dd21f4b551e14057ccbbfb0c5be8f04f9fb1cc8c0706ec61d73d73"
+
+[[files]]
+file = "kubejs/data/ecologics/recipes/crab_meat_from_smoking_raw.json"
+hash = "20dcde99baf68d010b7e5e3ab53c944860d57c1ff85a6c5957e7e6b5803ea4c4"
+
+[[files]]
 file = "kubejs/data/ecologics/recipes/tropical_stew.json"
 hash = "ac67d9c744f22b32d10608d95f8fb026481f00786552f2dba6b32d02e484fa47"
 
@@ -23479,10 +23595,6 @@ hash = "3504ab7e2bdd601842c53c94b2d9b768ae239e758f63375103c8059cc6e42c66"
 [[files]]
 file = "kubejs/data/environmental/loot_tables/blocks/purple_wisteria_leaves.json"
 hash = "1cb3e43a5ceeddbc636791a27bc90cf85754482d721d0338c9235903f5169d72"
-
-[[files]]
-file = "kubejs/data/environmental/loot_tables/blocks/tall_cattail.json"
-hash = "3af050e882ad02b60967773e90f4f912598ae336e9866a1b73d8211ba6df356a"
 
 [[files]]
 file = "kubejs/data/environmental/loot_tables/blocks/white_hanging_wisteria_leaves.json"
@@ -23681,8 +23793,344 @@ file = "kubejs/data/farmersdelight/advancements/main/place_copper_pot.json"
 hash = "f73d0b24ce6160c0dac2a91a656ee4d9dba92dd5e28bd37c38555c9002ef9e05"
 
 [[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/blackstone_dwarf_geode.json"
+hash = "5a072d1a1ad69a3fc0795b976102f0a30bd9438f7452ebb52d4baf43742b08b3"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/blaze_head.json"
+hash = "ad48a4865c694738ff8e81753ec6de462351b98f52cd5789a38075401c4e20ac"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/creeper_head.json"
+hash = "d003c49ffa18e26ef529423d6f3d2d28f911ae419cbd1aad25418e2fc2b339d3"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/creeper_head_creepie.json"
+hash = "b74c399fcb1bdb85db0fdf9263ed06d59dbb86cbe44f09fd430b6ccbade9b32e"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/deeper_head.json"
+hash = "1144a5a4bedd882ec1b90c52c6d93394630d5025186e78d045831fc7ac8eee41"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/enderman_head.json"
+hash = "cb23001893bfbb1459781e45065670fafef4d6dfa0b1b7dcb3d107f300a9457b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/mime_head.json"
+hash = "ebf62acced16db7124b13d7440b4fe91cb36c603ea5469c83930da0e73f030f5"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/peeper_head.json"
+hash = "658001f041ceebebba895385421daed1deaa5db22d039edb1462685360a7bd0b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/piglin_alchemist_head.json"
+hash = "ff90ba42b803a01dacb071d626160b4b13cdfb778e5dd5b1880b913580b54063"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/piglin_brute_head.json"
+hash = "a85861718d31d0fc7ab0d00ed45cbd935ed0b43f320e01bf9d85fae646423463"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/piglin_head.json"
+hash = "76af0bb7a5596682c9c49d3bd0564308a4d45071af7f30ad31f2eadade5fdf1a"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/skeleton_skull.json"
+hash = "2c8ab1ae1f032b37801fb9cb96bc6c9ad71f80cf1c4d575374ef9bc4591964d5"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/skeleton_skull_baby.json"
+hash = "a7612706112c4342852e66893ff9cd6897433e72f86954ee17427b7638ec26df"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/skeleton_skull_stray.json"
+hash = "e4bcedb72822deceb64040f9928b754fc50605cd620c78253140fcc5b4e5a2dd"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/skeleton_skull_villager.json"
+hash = "9997332cd7ad9cc9fc2cc9e5032cd89742eb86dcf2272119fbe57cf47ff6b364"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/spider_head.json"
+hash = "da8691bb09d3aa403cb1668fdb65a50113529affa4029b3b29d950253ffbb594"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/wither_head.json"
+hash = "df3766541d28dd3507f02c284ec07ec711275599221f353c9a5272bfe0fd5372"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/wither_skeleton_skull.json"
+hash = "5394e65b6f181a443c623c1a5aecf94f1d74f5a8556fc5d047f759d08c8c61d2"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/zombie_head.json"
+hash = "78b5e4395c79c245ad46d940b9882ef83f95eec2e88d9486b3a489ff2a1907fd"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/zombie_head_chilled.json"
+hash = "fc8c5386def181e615e34045e826abb96057b7d217d0e3f080b71fcd9f54d192"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/zombie_head_drowned.json"
+hash = "d5df1f24cc29084c42c1d7ea7ca28e33c625ea136ddbb5f276397165c7ac2816"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/zombie_head_husk.json"
+hash = "5740dc512bc889607cc2828f69ec756f0237e7205abde13dc0ae51f1a3378650"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/zombie_head_villager.json"
+hash = "ce0ec6ea65d854c688c1900a03286fc80585631e47cce0f7e2bd9a2f512e5785"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cleaving/zombified_piglin_head.json"
+hash = "9e3ac73e7e529d72e1a4a32704a8bfcde37735b26d16becb64fae962f4530689"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/cloth.json"
+hash = "9599806493ecdb72e3101757ed22c2878492f5add9136948d1ca76556b531b81"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/deepslate_dwarf_geode.json"
+hash = "397667c6cbc3764a52db4ff1ef9fc5d6ab8219ee5f2f1eb2e0da8290a34db50e"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/dimensional_tears.json"
+hash = "7cea147b7fa3c8b15198b9bd1fa69613e26b7e96e4b2dd6fede24ec6b730e85b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/disc_fragment_from_creepie.json"
+hash = "e346055f3c5745bc0f2fd4a2a9553fb76807e56ae926624e40e4d78caec99b8f"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/dwarf_geode.json"
+hash = "ac1d44ff148032f8ddbde7af7317e5d2406fc4a09953e12238def6d5a945a543"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/extra_exopearl.json"
+hash = "e34d9d83e0a4909bc8901dc7ae5909e6fb49671942483152fa2913ad0e1e4928"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/music_disc_death.json"
+hash = "e2bc4765ad586dcc9eade0ed43ba3a362f6beb3fad96cd71787c854b86690d8f"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/music_disc_droopy1.json"
+hash = "61e765d450b4b0ba5a6417019d5245870deb32b4b153553826a47b19f31903ab"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/music_disc_hullabaloo.json"
+hash = "2fbf28b586c8513a9e88bad332e3bd139c52f4b6fada6f994febe83904aad454"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/music_disc_rain.json"
+hash = "6dce89d59a411a45e223feace00ce36bc5fabd2256101b28f6fb3d4600cea63f"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/blaze_head.json"
+hash = "e9ac50835012a3db7f62fab55e4c880c660e93442d60287fdab6062a4186db83"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/blaze_powder.json"
+hash = "9fb50f2b2ece0ff5654e9beba632171c2c8eb10201238efbf6762984b7efdc2a"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/blaze_rod.json"
+hash = "1b172b4337f9f1e113f20ee3ee8ed6a54a1e4aadfbff0a766e137e03049cf13c"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/bone_meal_from_skeleton.json"
+hash = "6f170e4a0012f9a5c7c72f07dfdac7285d351ca59fd1b8bcf6f49148320263d0"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/bones_livestock.json"
+hash = "f42b816850adac764e4ca8db33fcbc86eb5b8e48d9a8fdb25269e730359aa3da"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/bones_livestock_big.json"
+hash = "7a200c764a788117cbd9ec20b9823341d2e030f3b78fd18d54eae47ee688abbb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/bones_livestock_small.json"
+hash = "06e10e5495e636d72570e016489974b58933783a7544fdebc8e689700717997c"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/cloth.json"
+hash = "1e041a5950cbe3bb933da2183e178f7c063f26e71adea7b376170cae649ba2b8"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/cobweb.json"
+hash = "9c79c765ada95b0e4999f7001cc440b9ba2c951a475434b549c7e485753c8b6f"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/cooked_crab_meat_from_coconut_crab.json"
+hash = "28c401c2ae00ebd33dcd3df2265b09734f29e0e5ff40c06ff307024e02137aa9"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/crab_meat_from_coconut_crab.json"
+hash = "688e9ea94f418df8004ba56f8b524199a876375853ae5007fa4bb8c538e6ea04"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/creeper_head.json"
+hash = "76f196e84db5daa3e27c0a920e3bf1d04ce73bdf7d91e94e62425f77a0e99043"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/creeper_head_creepie.json"
+hash = "398c875e7075355e6c7d105413e16ccb2240bafb502c4f84ea6a57c91ab340f7"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/deeper_head.json"
+hash = "0b69501eae858c5b76d95a8fa345f61a5b88d5009332a1497053102e1e066072"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/enderman_head.json"
+hash = "98bd0ac43fc100c23c452596a067b4cc7dc0bb3d7dbc0f6bef8a135cf823c161"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/feather_extra.json"
+hash = "b502fdf447732ea3b33a3baaebc3171afcd3b82932bed37a93a02db7ff191c97"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/ham_from_boar.json"
+hash = "34c568d06862efc9b047dbb47c4955882fc6eda8a6e32cadbddbc633569b1af3"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/leather.json"
+hash = "2404acaffe2a694817706461aa0d303c240b28a38a034f6a29ef290febe06ce3"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/mime_head.json"
+hash = "579ee017fc45a0a96f61cb4af312029c54151105cdf84d0fb8dee3235fd1dc5d"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/peeper_head.json"
+hash = "09b412ad1bc3c4b98bf565e811da94657dc3bd48329d3262e6bd2f0dd591e67c"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/piglin_alchemist_head.json"
+hash = "43cf67e0b05a3accffe6cfbe0c1cb3a68598cd55a0bc3724f94901146898cba5"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/piglin_brute_head.json"
+hash = "7f26c674c2d9331771821e55d9b51709181b5c5a05395bb7cecc35cb52ce1d48"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/piglin_head.json"
+hash = "0be686e2fd3514f598cb46c2a387ae792f6f0a781c67d6c7a840e104c9702410"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/rabbit_hide.json"
+hash = "5cefe910f39c3502c1ee83fbc0fee175f8cbd78bb5d21e37db67c4cfb8672cf1"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/skeleton_skull.json"
+hash = "0a66d3a1e129510a6857769d6da8d3dfcb15c6b54f6f6d2cd36620031641641b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/skeleton_skull_stray.json"
+hash = "9c96bcca7ec102000d78e55ab83c8806b27dbd953ecde2241c39976f9f98efff"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/skeleton_skull_villager.json"
+hash = "229fcb62139f2d07bf6390bb60a75c3a3b81ef1e7abebdacf7145ae994b3e32b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/smoked_ham_from_boar.json"
+hash = "7734471e99a247fcef19417efdc8d4c48362362c6ab1fe52eefee0d8c21a9905"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/spider_head.json"
+hash = "217bc4082e12920cbd0cc88f233d45a6cebed8492620c6f81137c3db5a44b2e3"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/string_extra.json"
+hash = "59f32853b50f67b25b5d53fa810b545f4509084bbae796d644b1a7ce2254e8be"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/wither_head.json"
+hash = "0b29bba931d8737851a42278dfc6cc503ff607852f8232eae42ae6254695fd7e"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/zombie_head.json"
+hash = "1757f604c5a3bca444f869b80c508b0b938f328803c2556a581b485a255f2be4"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/zombie_head_chilled.json"
+hash = "573d4287aa26373f038adb7404af027914ab13c34aed288d91c71c6d07cf944c"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/zombie_head_drowned.json"
+hash = "d2129c362c5040d657cfde32a443113f4b2bc2b96fad0c04585df3f2d6188cc4"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/zombie_head_husk.json"
+hash = "60557f3e15fbe415f2010771563ba3b9c6bca3918aa7504caabddcf1ec56f06e"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/zombie_head_villager.json"
+hash = "3febc488ae6ac2d80518f21415b179a510e92b332f864fa33f2cfa07b9bafa62"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/scavenging/zombified_piglin_head.json"
+hash = "ee9d7fa16ab6ecfc431a816aa7274b4426078cbe08889b5404cc9b6f216b4a92"
+
+[[files]]
 file = "kubejs/data/farmersdelight/loot_modifiers/scavenging_string.json"
 hash = "79f8e9eb6e18446c41d0b1db04cf8d90e92005a63e30c581bffbe14ba6fe02cb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/seeds_from_beachgrass.json"
+hash = "fed004a1c27cd1c64b0e20f8ff432aa7be5c7a2f2fe023d43b0b4aa0f5b62d2d"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/seeds_from_giant_tall_grass.json"
+hash = "739215de765eb1e6512547555e01ce8bc3e8e7f3199f18867f96a317ddc2357d"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/seeds_from_grass.json"
+hash = "b605ea2468f6bde5b1f2b96cf2efd5699b957426657211aa5937abd97ee8648b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/seeds_from_sandy_shrub.json"
+hash = "ee7f66ae52761a2b714d7bee56e136363ef3e6dc8b1851f0c42d1915dcbf8b2f"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/seeds_from_sporophyte.json"
+hash = "690247d1335988c24ff9625d43ba5a51af95707d5b22359dd9e32b1f713017dd"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/seeds_from_tall_beachgrass.json"
+hash = "1b5213d8c771590e02c0b0749c6170e422278ea958cfde14cd04a0d00c1d8090"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/seeds_from_tall_grass.json"
+hash = "5f7c0b647577c03a1868a1b113096f129e1f78a05fc685fe09e13a33df1c6a03"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/seeds_from_tall_sporophyte.json"
+hash = "536be29d15959ee2747af92143ddfbd642245aa7550fd15227dd5014d2957a63"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/soul_bead.json"
+hash = "a4d1c848ddf00c5ae444090f0dc572eaa936389bc7f537b73fff7cefb79281db"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_beachgrass.json"
+hash = "aedeed9d64f83e1b8c479c2dd6bd0f3e5bf9ec8afa168d3f189efe3a8d9e93e0"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_corn.json"
+hash = "c85d900329edd668bf4b108520e6787c3686de91d375e326742fb4665fa3b33a"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_dead_bush.json"
+hash = "176219b22cc082c290c51b927103dd39d74e6a09e5e0af7caa504cee4809496d"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_giant_tall_grass.json"
+hash = "1f5f4be3c9f88a70479b8cb01a43564293dd0a956e8a55b1c5f73ede89be799e"
 
 [[files]]
 file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_grass.json"
@@ -23693,8 +24141,32 @@ file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_sandy_shrub.json"
 hash = "bb39e6135617a21bfb95e4ed47d67d7b95a17b5dbf3e171bc11117348c1ac476"
 
 [[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_sporophyte.json"
+hash = "4bc34b70d75f9270b1d3ba8c182fe39796deda670e7bcdacbeda2c2335d4521f"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_tall_beachgrass.json"
+hash = "f848120c6b25fc20c1fcb3741f9841fd99d2363f7eba4a7d08f05aef232f5dd7"
+
+[[files]]
 file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_tall_grass.json"
 hash = "c1197830dcc758d05330f4a7e01d917be658426ad97bcfe0bd35bbbd80f40a33"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_tall_sporophyte.json"
+hash = "0ce1f2d9e8a22800dcaa4eda75703faa732163965f355df6bc3714b62923c86c"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_tangle_roots.json"
+hash = "ab2154aa022e4dceb8eb420f702e2e6e9f2be85a68b8a6a89147dd212da93aeb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_tangle_roots_plant.json"
+hash = "7ddbafed401a9278e5f03109b5dec9a6d48ef3ffbd5bccfcef6f3a87b29d6d04"
+
+[[files]]
+file = "kubejs/data/farmersdelight/loot_modifiers/straw_from_wild_corn.json"
+hash = "54b1c8513d7f4bc298d144fbc2f9fa138803184d436d08ff8bc0b7c20abc977b"
 
 [[files]]
 file = "kubejs/data/farmersdelight/loot_tables/blocks/rich_soil_farmland.json"
@@ -23829,8 +24301,24 @@ file = "kubejs/data/farmersdelight/recipes/cutting/bricks.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
+file = "kubejs/data/farmersdelight/recipes/cutting/clam.json"
+hash = "a7a37e50ab9a7f2f545f913ca6afa170b35e0b92561aee804b34ec03e1d0f515"
+
+[[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/cobweb_to_string.json"
 hash = "d233ad44400ebdec7b236dc36d8cf26d5cee3eef8240630d7c88920a48c8f3fc"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipes/cutting/coconut.json"
+hash = "831da9ea6880b83bd4a273714f9bfb99f156c5ef9b2f7f9da88df57cf1bab901"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipes/cutting/crimson_roots_from_fungi.json"
+hash = "796330befb892345a8230250824a82b8c994e251b2aaf0d07dd7d5b0691661e0"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipes/cutting/cut_leather.json"
+hash = "6ec2b12c9507a43a99de079406ad26daf003bb48309b656c8b7586fe325e36ee"
 
 [[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/ham.json"
@@ -23945,6 +24433,10 @@ file = "kubejs/data/farmersdelight/recipes/cutting/leaves/red_maple_leaves.json"
 hash = "2d1924dcc069d8d71491e178d004a5a58722628e43064a910269b46e94bf964c"
 
 [[files]]
+file = "kubejs/data/farmersdelight/recipes/cutting/leaves/river_leaves.json"
+hash = "521d5c4701680debb5d75268c96701ec7e8ef1f7fd112d3d972f275a784dfba3"
+
+[[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/leaves/rosewood_leaves.json"
 hash = "c1b3a1133a0edd860346c06d6822b21e0a119ac17694a9965088cdea4ad6134f"
 
@@ -23989,8 +24481,16 @@ file = "kubejs/data/farmersdelight/recipes/cutting/nether_bricks.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
+file = "kubejs/data/farmersdelight/recipes/cutting/netherrack_to_flour.json"
+hash = "a0710eaf8b0128e369c92f5189137c956d5c16d22954130b0373b96e49c27a29"
+
+[[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/oxeye_daisy.json"
 hash = "0653273162335fda3e2ed5ff632b90b296a96c4b37cfe87950a608782492dd77"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipes/cutting/prickly_pear.json"
+hash = "057ad8aca4e2ce2552220c51c07128cb7b89bb51c84b18a7c4ac26405a4ccb45"
 
 [[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/rough_cinnabar_to_redstone.json"
@@ -24011,6 +24511,10 @@ hash = "501794b81f26133fb78573c68c7b0751e5ab9d17fec5d17e1bee65e6b1068122"
 [[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/tooth_to_bone_meal.json"
 hash = "45ca99c1e26d65e6881bdf179f219fab9933a491866fedff96b03e40086b6621"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipes/cutting/warped_roots_from_fungi.json"
+hash = "b0368cc31f9b6b8c9d6c577469eea66b3010f44d6780b5fe37a86552b74b3f25"
 
 [[files]]
 file = "kubejs/data/farmersdelight/recipes/cutting/white_tulip.json"
@@ -24113,6 +24617,10 @@ file = "kubejs/data/farmersdelight/recipes/integration/create/mixing/pie_crust_f
 hash = "daf1f4521a172cf15b0d3c70d2860a8b3e648f38aeece3b02a48f9f9d2123ef5"
 
 [[files]]
+file = "kubejs/data/farmersdelight/recipes/lead_from_rope.json"
+hash = "2a6f5c7c37ffff3c2375431164e4637bbe0191381148202ef9c70c7d85520a3d"
+
+[[files]]
 file = "kubejs/data/farmersdelight/recipes/organic_compost_from_ash.json"
 hash = "fe7f6376207945af4cad66c1d7706e3d6c5ee60f70bc4cdc84f9a7b1b4f3d8a9"
 
@@ -24213,8 +24721,20 @@ file = "kubejs/data/farmersrespite/loot_tables/blocks/wild_tea_bush.json"
 hash = "2c0eb026db168575e84427c5772a8813fa5ea439b43b3b920c7c70630e8f121b"
 
 [[files]]
+file = "kubejs/data/farmersrespite/recipes/cutting/rose_bush.json"
+hash = "db060ad19b98df9eed667681d64a4023b3dbc14651449b0cc53f8033b0a8efdf"
+
+[[files]]
+file = "kubejs/data/farmersrespite/recipes/kettle.json"
+hash = "6c6d574db607553089af77aa96a29a682de65818b30c31bd6c23359d92715669"
+
+[[files]]
+file = "kubejs/data/firesticks/recipes/fire_starter.json"
+hash = "794a565264dca3db0b0b813153cd6e1251afe07fad84049d1ccb57ed21046a50"
+
+[[files]]
 file = "kubejs/data/forge/loot_modifiers/global_loot_modifiers.json"
-hash = "d79610a51964fb7f73b45c8bc1ad7a457fc3222f228a343f206813b23ee6db34"
+hash = "01dc178f6b6bd5e83881e9bbb6b27d9bc3daa855ce2d8cc96681726984130223"
 
 [[files]]
 file = "kubejs/data/forge/tags/items/hoes.json"
@@ -24499,10 +25019,6 @@ hash = "5c850d4801261d3452fe910145fcaad63b51910500d1ecc3c7db3d12ffc4046c"
 [[files]]
 file = "kubejs/data/kubejs/loot_modifiers/cattail_seeds_from_cattail.json"
 hash = "528bb1dd0217455b5eb0fbf096b093f0c515f5d9e874ba80ddbaf9a6950c408b"
-
-[[files]]
-file = "kubejs/data/kubejs/loot_modifiers/cattail_seeds_from_tall_cattail.json"
-hash = "50b0104490cd59d6c9c0f82f5d13520001ec410234501719c814c271c12f2ba5"
 
 [[files]]
 file = "kubejs/data/kubejs/loot_modifiers/cleaving/blaze_head.json"
@@ -24957,6 +25473,10 @@ file = "kubejs/data/kubejs/loot_tables/blocks/deposit.json"
 hash = "8b415e6147852e04d870f02cbb09afa2ffdf8b446756dc76f71094bb4ddc3962"
 
 [[files]]
+file = "kubejs/data/kubejs/loot_tables/blocks/eggplant_parmesan_block.json"
+hash = "43e036edfabd084a76ae37c68ed8e519215ec2f1cc1f57a7e12d285444f58d1a"
+
+[[files]]
 file = "kubejs/data/kubejs/loot_tables/blocks/exolite.json"
 hash = "494ed509402079adfdb82b7df5e0fa9c069120e644644ecd1b3b3549cd625d97"
 
@@ -25165,6 +25685,10 @@ file = "kubejs/data/kubejs/recipes/buzzing_bourbon.json"
 hash = "65730aebe31f0a311e1449111dadbe108e897c06392d83dc68a672f5ae1e3027"
 
 [[files]]
+file = "kubejs/data/kubejs/recipes/cinnamon_mint_curry.json"
+hash = "e9a9d8bafc89b53df1c539de1f5793273db9b5752c2582a6b466ec96c11dfe57"
+
+[[files]]
 file = "kubejs/data/kubejs/recipes/cinnamon_roll_deploying.json"
 hash = "b36848311aaa3d73fc9e9e6656e9ac1ad65dbb761c5b1a6594378bb9329304d9"
 
@@ -25213,8 +25737,16 @@ file = "kubejs/data/kubejs/recipes/sandpaper_polishing/sans.json"
 hash = "379f38de2f51817619919d05b1dc355f230430c5897426815f64fa8db40da3d8"
 
 [[files]]
+file = "kubejs/data/kubejs/recipes/smore_manual_only.json"
+hash = "7a9056d5313208688c63dbcb5d1927d4941319a7f5e12ea29c1d36225bc3a078"
+
+[[files]]
 file = "kubejs/data/kubejs/recipes/soulstice_sake.json"
 hash = "246ff9f79e8342b639d1a505fc183d61c96ef05e3e798180693e49ce40d4b367"
+
+[[files]]
+file = "kubejs/data/kubejs/recipes/turkey_chowder.json"
+hash = "39a50dd8efb52a96dacc34c8b3fecd3537a1e3270f5e2c5f9ef4b56f801c8a2e"
 
 [[files]]
 file = "kubejs/data/kubejs/sapling_overrides/mega/minecraft/dark_oak_sapling.json"
@@ -25769,6 +26301,10 @@ file = "kubejs/data/kubejs/tags/entity_types/allowed_to_attack.json"
 hash = "5294b82477520a79797b6753d4bff318133b7d9c7b6358bdd16daf139ffe9df3"
 
 [[files]]
+file = "kubejs/data/kubejs/tags/entity_types/feathery_fuckers.json"
+hash = "69cfc6574ea18577cd8e3483004b53101b665b6e0c4fe5e755e58fce14e45a03"
+
+[[files]]
 file = "kubejs/data/kubejs/tags/entity_types/head_droppers.json"
 hash = "a68c8fadbc060111654a71ba1dc49618acba17c39cd8b646030db9ec99b56b3f"
 
@@ -26001,6 +26537,10 @@ file = "kubejs/data/kubejs/worldgen/configured_feature/snowy_sprouts.json"
 hash = "0f048847b6f2dcb499ad20b2830c2113991c7982b166175e851a4931ca93f976"
 
 [[files]]
+file = "kubejs/data/kubejs/worldgen/configured_feature/soul_salt.json"
+hash = "c93f95e0c9a18ca25a8c4ab0a4585e37193773f87416a5b6d6fc81c932359cfb"
+
+[[files]]
 file = "kubejs/data/kubejs/worldgen/configured_feature/tall_grass_dense.json"
 hash = "227c559eca8d4d8607ff104897085e0ead6beca9ca62c8b013b4ec9cd8890d33"
 
@@ -26193,6 +26733,10 @@ file = "kubejs/data/kubejs/worldgen/placed_feature/snowy_sprouts.json"
 hash = "0b7f7afae85f98add7ca9cd2bae2a865973db5063d32690375d410f1151250c1"
 
 [[files]]
+file = "kubejs/data/kubejs/worldgen/placed_feature/soul_salt.json"
+hash = "d966773fb7d3b7f466c30b6fd464dde8b3ee668bf03aee64f098de007f2758d8"
+
+[[files]]
 file = "kubejs/data/kubejs/worldgen/placed_feature/sparse_mangrove.json"
 hash = "5bc1c097132e595b4a3ca9e21bf22d678fcfcaf705f9750afc70de0b0dfa2af3"
 
@@ -26251,6 +26795,10 @@ hash = "95a6343528d705d64026f23ca3f0aca85bcda6a8b094f9f7c244b1f81e632bf9"
 [[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json.disabled2"
 hash = "8ce17dfd99738e91daba637b9bdad0fcd37cfd2a91a528fcd33d895afaa7c36b"
+
+[[files]]
+file = "kubejs/data/minecraft/dimension/the_nether.json"
+hash = "a08f42c8c6bde37a34b530b245f50be5fcb2d1a9571fd1203bcb9ea8512066cc"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension/the_nether.json.disabled"
@@ -26917,6 +27465,22 @@ file = "kubejs/data/minecraft/recipes/ceramic_to_iron_shears.json"
 hash = "8b2f0759d6c54c18560e8ee23636f933c8d1d0e923101d628757c850561dbaf7"
 
 [[files]]
+file = "kubejs/data/minecraft/recipes/chain_boots.json"
+hash = "638b4b55630c889590dbd0359e8c80a464fe410f26762acc80e9ae70314558cb"
+
+[[files]]
+file = "kubejs/data/minecraft/recipes/chain_chestplate.json"
+hash = "1e473aab48a2051681cc960dc1ba39db82fe48bddf7c4636baad09dde2102799"
+
+[[files]]
+file = "kubejs/data/minecraft/recipes/chain_helmet.json"
+hash = "a14f31f6504bae4785f1373b91716f57f926f67f0fea35f0f140f781c8f1badf"
+
+[[files]]
+file = "kubejs/data/minecraft/recipes/chain_leggings.json"
+hash = "ed1a305f3821c5fff589b5883fe8569be19ae9402d345fb1dbc9395b568c0cf6"
+
+[[files]]
 file = "kubejs/data/minecraft/recipes/comparator.json"
 hash = "baf15fd4fbdd2d08b1bedd677ae3ebfdc2d84673ef6cb7051170691fd20b9fa0"
 
@@ -26963,6 +27527,10 @@ hash = "d9e10a30cbd424b4bff380d8fdb8680c679c49c8394e834634d798a5ba172f7f"
 [[files]]
 file = "kubejs/data/minecraft/recipes/glow_item_frame.json"
 hash = "0b0b3665557d083e671794601d38c979f45db0a1e6b96214e07f2a8af07f1846"
+
+[[files]]
+file = "kubejs/data/minecraft/recipes/grindstone.json"
+hash = "f9547480602a9e2310b514298870fad42dff157fb9c75fb847270374c041a0d8"
 
 [[files]]
 file = "kubejs/data/minecraft/recipes/honey_bottle_from_honeycomb_block.json"
@@ -27111,6 +27679,10 @@ hash = "ae2d4c58d832d81b9044f42a9da0681d1759a256cddab1243b89f283f3218664"
 [[files]]
 file = "kubejs/data/minecraft/recipes/piston.json"
 hash = "cbca295142100a1ea2c4a28068426bb4e80edaf827a58640370a1128e13fed62"
+
+[[files]]
+file = "kubejs/data/minecraft/recipes/red_dye_from_rose_hips.json"
+hash = "14f58e792b6073d2cdfc55ca1cd527ccb3ff140c7a79363a66d4e135b711775c"
 
 [[files]]
 file = "kubejs/data/minecraft/recipes/repeater.json"
@@ -27961,6 +28533,10 @@ file = "kubejs/data/neapolitan/recipes/mixed/neapolitan_ice_cream_from_vanilla.j
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
+file = "kubejs/data/neapolitan/recipes/mixed/strawberry_banana_smoothie.json"
+hash = "1af2e9624ae748f81181ff6bacf4a85118f07aa01da90a9957b11069802f5040"
+
+[[files]]
 file = "kubejs/data/neapolitan/recipes/mixed/vanilla_chocolate_fingers_manual_only.json"
 hash = "aaeeabf8f8cdd6ef452e94832d3e4454b42fd569e86846da68a9bf7c13c4db6e"
 
@@ -28091,6 +28667,10 @@ hash = "e0ce2a99f97523b1e1388bbc3ee76f0c75e7c90b0998c88ccf08eac8dbff98bc"
 [[files]]
 file = "kubejs/data/oreganized/recipes/create/splashing/crushed_silver_ore.json"
 hash = "b61b9eb3c8e7c6e5773251b7de80002daa2efe9bbf3fcf76b618896b834643fc"
+
+[[files]]
+file = "kubejs/data/oreganized/recipes/electrum_ingot.json"
+hash = "aa4874694e9cca6ea9ec8f755c372d88f42cb41aa99d20365eff5ef4679a34ff"
 
 [[files]]
 file = "kubejs/data/oreganized/recipes/glance.json"
@@ -28301,8 +28881,16 @@ file = "kubejs/data/quark/recipes/building/crafting/iron_ladder_from_stonecuttin
 hash = "e62ef705bcd4510b299502bdbcad78427f1050391dc3cd4e636d79f329c486a0"
 
 [[files]]
+file = "kubejs/data/quark/recipes/building/crafting/netherrack_bricks.json"
+hash = "f419d92b298f65bd39033c1c002769a50abe70d939ae37651daf5bad4aeeb6ae"
+
+[[files]]
 file = "kubejs/data/quark/recipes/building/crafting/rusty_iron_plate2_manual_only.json"
 hash = "69368f60ffe5cedfe2a91fdb499323bb3a2b05a614b93bab773ef465590ee46e"
+
+[[files]]
+file = "kubejs/data/quark/recipes/building/crafting/rusty_iron_plate_manual_only.json"
+hash = "faa0c837efd42f2157090c3b6d8cdf2ab3971790b5dad40085f7b961e206d241"
 
 [[files]]
 file = "kubejs/data/quark/recipes/building/crafting/woodsets/bamboo/trapdoor.json"
@@ -28563,6 +29151,46 @@ hash = "7f86485e89ed9b3fc68130bf9c0142f096a757851d2f80b3b61bc4a45aed282f"
 [[files]]
 file = "kubejs/data/shieldexp/shields/wooden_shield.json"
 hash = "b50d7a3a56d57ce1e8296e47288475cdef87ae16f7d5c4708c0e5a531763b278"
+
+[[files]]
+file = "kubejs/data/sob/recipes/autumnity/filling/maple_bread_alt.json"
+hash = "f44df29c70365c5623a74ee102fcaa4aa2b63b38228305d7f23038a2a96ec347"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/brewing/nether_nectar.json"
+hash = "55b40a891460ebf9c513b06c1c16042ee27cfc5a15b6e6449a9a9195f8919613"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/brewing/saffron_tisane.json"
+hash = "0fa8fee40ee0d869b39736643710c704c47efb046176a9463682d649f84f0cd4"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/cooking/exquisite_mushroom_soup.json"
+hash = "7e67b193534232e8ea5fb494afaafc0e716f250a5c20080e269a9031678832ab"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/crafting/carrot_smoothie.json"
+hash = "e655400d03e0c0780aaa1e514207b05d5e0a3364923b6be13de020a47fd22bf7"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/crafting/cinder_dough.json"
+hash = "b04a49804ef815f670b277d360e1939f880cd9ad32d3ae2722262faaf5cf697c"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/crafting/duck_sandwich_manual_only.json"
+hash = "8d62cbf2c45de1ec2dde9c5625513c852dbe41da987d0d635fe7179699a0302c"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/crafting/exotic_fruit_salad.json"
+hash = "6b792188962d46323a56f00ce71a81f03549bab38df8aa663e162d1d1908af7b"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/crafting/propelpearl_caviar.json"
+hash = "c32e8259fc02f1403c36bdef3dcbc6513402c2219c04ed987704941a7b777146"
+
+[[files]]
+file = "kubejs/data/sob/recipes/sob/mixing/cinder_dough_by_mixing.json"
+hash = "b3cfb1fc5e442038ca3b8187682056a387424b906871a946351b849b02490763"
 
 [[files]]
 file = "kubejs/data/spelunkery/forge/biome_modifier/desert_modifier.json"
@@ -28877,6 +29505,22 @@ file = "kubejs/data/supplementaries/loot_tables/inject/shipwreck_treasure_globe.
 hash = "9a46eb19a0cb8086f10eb191c1d22bb6afded7b703511db9aaf28f4406dbcc31"
 
 [[files]]
+file = "kubejs/data/supplementaries/recipes/ash_blasting/leaves_blasting.json"
+hash = "cd1405dce07f4cba5a8aacdb5b01b6747818066a7d3e2405f2d0edc776f58d81"
+
+[[files]]
+file = "kubejs/data/supplementaries/recipes/ash_blasting/sapling_blasting.json"
+hash = "b9d8db4062b71110fdc38e1bc6da8f0e1ceec9fd34314df5454402c312c68177"
+
+[[files]]
+file = "kubejs/data/supplementaries/recipes/ash_blasting/small_flowers_blasting.json"
+hash = "3d4a8f01629b691fc7403f4db277f4bf5fe3a2425c5ec9894b589ded13ba1af6"
+
+[[files]]
+file = "kubejs/data/supplementaries/recipes/ash_blasting/tall_flowers_blasting.json"
+hash = "2ef49d17d412b76f01ef783da947f901eb3e04164a631ff72b88d44c62b9385e"
+
+[[files]]
 file = "kubejs/data/supplementaries/recipes/ash_brick.json"
 hash = "e29bb165b8c159f2746c7033448701686611585825bdc999de0a85239114114d"
 
@@ -28967,6 +29611,10 @@ hash = "c13cb8089370386356d24923d2a9e201ab93d8325dbb5ddf009662691e72b481"
 [[files]]
 file = "kubejs/data/supplementaries/recipes/candle_holders/candle_holder_yellow.json"
 hash = "923df1c81a840753d26bdb6a497fa1c99c6f543838193c9d0a06fcf7f6074339"
+
+[[files]]
+file = "kubejs/data/supplementaries/recipes/candy.json"
+hash = "cd24887f242ba43c20ecff84f3acf6150cf568e3fa09c72e395ddd323e3b132b"
 
 [[files]]
 file = "kubejs/data/supplementaries/recipes/cog_block.json"
@@ -29657,12 +30305,24 @@ file = "kubejs/data/windswept/modifiers/loot_tables/underwater_ruin_small.json"
 hash = "91d633ae91af7b5e7c4cb5bc3fd1312c81362cdb8173d4ccaf80b53c460d3ca3"
 
 [[files]]
+file = "kubejs/data/windswept/recipes/blue_rose_bush_hips.json"
+hash = "68e4aaaf7cf8647aa34e55ff004f604155316e576da074bbab26a8448aba821f"
+
+[[files]]
 file = "kubejs/data/windswept/recipes/chestnut_chicken_platter.json"
 hash = "db31976d20c7079d006a39327882fb49023cd01365a206e223bc72bcb30083e5"
 
 [[files]]
 file = "kubejs/data/windswept/recipes/chestnut_trapdoor.json"
 hash = "e049c9805f6ec41ce1a6fcceb7307c5593688f9f914d05dc1d32ba04092f106f"
+
+[[files]]
+file = "kubejs/data/windswept/recipes/cooking/chestnut_risotto.json"
+hash = "4b94a3c69bc90436ab7d88b76d1ce235ff44641e8c8b9c4e5428ba5b6e31f653"
+
+[[files]]
+file = "kubejs/data/windswept/recipes/cooking/chestnut_soup.json"
+hash = "813f8321abde6866fe235b3cb461f7e8cc1bba333eef28b37241aac1546cb063"
 
 [[files]]
 file = "kubejs/data/windswept/recipes/cooking/goat_stew.json"
@@ -29685,6 +30345,18 @@ file = "kubejs/data/windswept/recipes/mutton_pie_manual_only.json"
 hash = "f18cb227342b1c6df6df0fe7e2843856985ac1b719c98f08f87cb12a71e5e72c"
 
 [[files]]
+file = "kubejs/data/windswept/recipes/packed_ice_bricks.json"
+hash = "8479863e91f2f05a159cbf8157824cf5b549f44a5a7a818b530c86439ea2e8ce"
+
+[[files]]
+file = "kubejs/data/windswept/recipes/pink_rose_bush_hips.json"
+hash = "14a4ac15b218a65b9c717c925912c92d6488c8b28bbfa205bf7072d267f08726"
+
+[[files]]
+file = "kubejs/data/windswept/recipes/red_rose_bush_hips.json"
+hash = "52eaa11811787de092e851327a82e640735b005b6f73fc41e400d6807c17d184"
+
+[[files]]
 file = "kubejs/data/windswept/recipes/sawing/chestnut_trapdoor_from_chestnut_logs.json"
 hash = "6e9382eb7111f41e3fafa62989258df7440e65142965641293eb2b7e79abf000"
 
@@ -29695,6 +30367,14 @@ hash = "9e6b5bbff87ccac87349a4805899ef626ce74229e820d5eeb6c35eed962a939b"
 [[files]]
 file = "kubejs/data/windswept/recipes/snow_boots_from_silver.json"
 hash = "b954a22ae9e70fe2feeac0290df8074bab0c48af0f6ebe7743ed8d7224ce6b48"
+
+[[files]]
+file = "kubejs/data/windswept/recipes/white_rose_bush_hips.json"
+hash = "f562f6b1dc937b75c728111c002f9f774b2e26aed06daf15cd9c899ba0697cb0"
+
+[[files]]
+file = "kubejs/data/windswept/recipes/yellow_rose_bush_hips.json"
+hash = "673aecc2e7edd46c717038db63d3a3188e66f1e3e21039f9ca7eb513231917f0"
 
 [[files]]
 file = "kubejs/data/windswept/tags/items/iron_silver_or_lead.json"
@@ -30317,7 +30997,7 @@ file = "kubejs/server_scripts/recycling.js"
 hash = "930ffdc82017ee55725949b900a54677cd1d3e9fea761af1ed19f932de0e3d66"
 
 [[files]]
-file = "kubejs/server_scripts/remove_recipes.js"
+file = "kubejs/server_scripts/remove_recipes.js.disabled"
 hash = "e2510fbe2420c3a66e009a3f993e883c83ef8081ec6a3afc1818a8dffaee68ac"
 
 [[files]]
