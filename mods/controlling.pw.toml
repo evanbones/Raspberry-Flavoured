@@ -1,13 +1,13 @@
 name = "Controlling"
-filename = "Controlling-forge-1.19.2-10.0+7.jar"
+filename = "Controlling-forge-1.20.1-12.0.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/xv94TkTM/versions/cV6fmL90/Controlling-forge-1.19.2-10.0%2B7.jar"
+url = "https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar"
 hash-format = "sha512"
-hash = "a002a61c9a27612523ae3baadc0e41e007438cf2432b0430cb4692aad5871c2c60eb7a20a40eb89baf6be5ce7b3968aad2766a7d9a8e16457220f1a4ad5ed383"
+hash = "3945bf3f6d843957f13584dfc70bede253d1e48f0dcb96f647fbcc6fcd3d1748a0dd9c6ca5c882e07a41f98eb84057934f51e43ab6023ed0a19695de2e6fe9f5"
 
 [update]
 [update.modrinth]
 mod-id = "xv94TkTM"
-version = "cV6fmL90"
+version = "LH6Bi6Am"

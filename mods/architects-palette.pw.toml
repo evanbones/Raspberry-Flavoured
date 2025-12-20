@@ -1,13 +1,13 @@
 name = "Architect's Palette"
-filename = "Architects-Palette-1.19.2-1.3.5.jar"
+filename = "Architects-Palette-1.20.1-1.3.6.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/vt0VyseM/versions/3NNRjDeC/Architects-Palette-1.19.2-1.3.5.jar"
+url = "https://cdn.modrinth.com/data/vt0VyseM/versions/bZg21BDb/Architects-Palette-1.20.1-1.3.6.1.jar"
 hash-format = "sha512"
-hash = "456564773aecef663e9ac56826ad860ed7f7360334fb50168a651c83691b8be85fdece0684f1bd3d7476deeb7ee98b4902c8f383e5132adeff6d9be7e7af6967"
+hash = "13bbbe62cd4707123ffbfb925ddc852211cecfc3cc1343a2f8b49e77ea6068d114ce641bb4f15bf0c70b52625a2dc8237b5cff717ea720a9dd277c592d9ae94d"
 
 [update]
 [update.modrinth]
 mod-id = "vt0VyseM"
-version = "3NNRjDeC"
+version = "bZg21BDb"

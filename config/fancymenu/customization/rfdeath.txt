@@ -1,92 +1,232 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.DeathScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = death_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1756240976285
+  is_enabled = true
   randommode = false
-  custom_menu_title = 
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  custom_menu_title = 
+  [loading_requirement_container_meta:787309ee-e755-4dee-ba81-519608cf2a3f-1756240976285] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
-  orientation = mid-centered
-  x = -90
-  action = movebutton
-  y = 31
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
-  width = 180
-  action = resizebutton
-  height = 20
+layout_action_executable_blocks {
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
-  seconds = 0.5
-  onlyfirsttime = false
-  fadein = true
-  fadeinspeed = 2.0
-  action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_deathscreen_respawn_button
-  x = 0
-  action = movebutton
-  y = 24
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
-  width = 180
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
-  seconds = 0.8
-  onlyfirsttime = false
-  fadein = true
-  fadeinspeed = 2.0
-  action = hidebuttonfor
-}
-
-customization {
-  orientation = top-centered
-  basecolor = #ffffff
-  shadow = true
-  splashfilepath = config/fancymenu/fancymenu_assets/deathquotes.txt
-  rotation = 0.0
+element {
+  source = config/fancymenu/fancymenu_assets/deathquotes.txt
+  source_mode = text_file
   scale = 1.0
+  shadow = true
+  rotation = 0.0
+  base_color = #ffffff
   refresh = true
   bouncing = true
-  vanilla-like = false
+  element_type = splash_text
+  instance_identifier = f4c08592-6402-4b2c-a1d8-762e6fa4e82f1714665559689
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = top-centered
   x = -27
-  actionid = f4c08592-6402-4b2c-a1d8-762e6fa4e82f1714665559689
-  action = addsplash
   y = 100
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 100950d2-7611-4b1a-8660-c2e626a3df13-1756240976286
+  [loading_requirement_container_meta:100950d2-7611-4b1a-8660-c2e626a3df13-1756240976286] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
 }
 
-customization {
-  path = config/fancymenu/fancymenu_assets/youdied2.png
-  orientation = top-centered
+element {
+  source = [source:local]config/fancymenu/fancymenu_assets/youdied2.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = 08811767-1083-44e8-8d10-601da172254f1726772087987
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = top-centered
   x = -113
-  width = 227
-  action = addtexture
-  actionid = 08811767-1083-44e8-8d10-601da172254f1726772087987
   y = 32
+  width = 227
   height = 49
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 4b391858-1654-403b-b7fb-5f7772b857c3-1756240976286
+  [loading_requirement_container_meta:4b391858-1654-403b-b7fb-5f7772b857c3-1756240976286] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 361f084c-b6df-447d-84ac-a948ad51ebf1-1756240976285
+  [executable_block:361f084c-b6df-447d-84ac-a948ad51ebf1-1756240976285][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 6933ba25-385d-4d55-8616-5d3d9c9e89af-1756240976285
+  [loading_requirement_container_meta:6933ba25-385d-4d55-8616-5d3d9c9e89af-1756240976285] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = mc_deathscreen_titlemenu_button
+  appearance_delay = every_time
+  appearance_delay_seconds = 0.8
+  fade_in_v2 = every_time
+  fade_in_speed = 2.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = mc_deathscreen_respawn_button
+  x = 0
+  y = 24
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = dd5c3d23-44ea-461e-83fd-bff1b2a88f09-1756240976285
+  [loading_requirement_container_meta:dd5c3d23-44ea-461e-83fd-bff1b2a88f09-1756240976285] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 70e45fe6-208d-40a1-a746-c511fdf392c2-1756240976285
+  [executable_block:70e45fe6-208d-40a1-a746-c511fdf392c2-1756240976285][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 7b9cf046-76e1-4e8b-8312-1a274cd036c9-1756240976285
+  [loading_requirement_container_meta:7b9cf046-76e1-4e8b-8312-1a274cd036c9-1756240976285] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = mc_deathscreen_respawn_button
+  appearance_delay = every_time
+  appearance_delay_seconds = 0.5
+  fade_in_v2 = every_time
+  fade_in_speed = 2.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -90
+  y = 31
+  width = 180
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e7736bb5-48c7-405e-a1dc-fa88063da9a0-1756240976285
+  [loading_requirement_container_meta:e7736bb5-48c7-405e-a1dc-fa88063da9a0-1756240976285] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  is_hidden = false
+  automated_button_clicks = 0
 }
 

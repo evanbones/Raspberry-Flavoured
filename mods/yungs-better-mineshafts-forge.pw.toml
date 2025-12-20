@@ -1,13 +1,13 @@
 name = "YUNG's Better Mineshafts (Forge/NeoForge)"
-filename = "YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar"
+filename = "YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HjmxVlSr/versions/K4G8SGWy/YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar"
+url = "https://cdn.modrinth.com/data/HjmxVlSr/versions/kVO57zxB/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
 hash-format = "sha512"
-hash = "bbdc71426874b4d8113b2f811db8a0943c81cf37b4812a99fc49fbb3dc2345c88b8952851f5bbd2410a5fcd293f9edacc53e1e21fe444fb5d49235ee2c6fe227"
+hash = "1e8237e0fc4dd7e00a3ad30c5c02a82eeed63aed4544310cfdee863ac95b626874773f599779b985e6e460869804c036e1336c2720fbb34a3b09445434c063c8"
 
 [update]
 [update.modrinth]
 mod-id = "HjmxVlSr"
-version = "K4G8SGWy"
+version = "kVO57zxB"

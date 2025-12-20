@@ -4655,7 +4655,7 @@ ServerEvents.tags('worldgen/structure', event => {
 ServerEvents.tags('mob_effect', event => {
 	event.get('caverns_and_chasms:bejeweled_apple_cannot_inflict')
 		.add('kubejs:satiation')
-		.add('kubejs:coughing')
+		.add('raspberry:coughing')
 		.add('dungeons_mobs:ensnared')
 		.add('farmersdelight:comfort')
 		.add('farmersdelight:nourishment')
@@ -4679,7 +4679,7 @@ ServerEvents.tags('mob_effect', event => {
 		.add('minecraft:luck')
 		.add('minecraft:unluck')
 		.add('brewinandchewin:tipsy')
-		.add('brewinandchewin:satisfaction')
+		.add('raspberry:satisfaction')
 		.add('friendsandfoes:reach')
 		.add('modestmining:prismarite_speed')
 		.add('modestmining:prismarite_strength')

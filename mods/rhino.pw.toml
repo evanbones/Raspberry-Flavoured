@@ -1,13 +1,13 @@
 name = "Rhino"
-filename = "rhino-forge-1902.2.3-build.284.jar"
+filename = "rhino-forge-2001.2.3-build.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/sk9knFPE/versions/6m33q64a/rhino-forge-1902.2.3-build.284.jar"
+url = "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar"
 hash-format = "sha512"
-hash = "d1bd723810a424f783903170e9e00a6fdda7f293a9639349efd49de6d4fb6454d2a0173113f934bfb16d66a8cf4dba440514e033e7c5d168abb55b7f74d33ff7"
+hash = "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58"
 
 [update]
 [update.modrinth]
 mod-id = "sk9knFPE"
-version = "6m33q64a"
+version = "uNALdylI"

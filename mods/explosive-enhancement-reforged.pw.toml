@@ -1,13 +1,13 @@
 name = "Explosive Enhancement: Reforged"
-filename = "explosiveenhancement-1.0.0.jar"
+filename = "explosiveenhancement-forge-1.20.1-1.1.0-client.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/r0camchr/versions/odfOCVAp/explosiveenhancement-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/r0camchr/versions/WZmrfQAK/explosiveenhancement-forge-1.20.1-1.1.0-client.jar"
 hash-format = "sha512"
-hash = "e505b04b34ffb7d2bef876c3269a536e459b09be29b8d15079d8f7b9ec88df53aa8adf44bf2d23c30cfe90e97ba1c309429ea9bcd54312240a75b24c96981444"
+hash = "0e15414e26feb9616192af218040468ebc45f6fd0cb220df2dfba77a7174cb51f6cb019735cd7f7f36c95800268ac9695d5f1ec73e55f7bf1065002013413c07"
 
 [update]
 [update.modrinth]
 mod-id = "r0camchr"
-version = "odfOCVAp"
+version = "WZmrfQAK"

@@ -1,13 +1,13 @@
 name = "Brewin' And Chewin'"
-filename = "BrewinAndChewin-1.19-2.0.jar"
+filename = "BrewinAndChewin-1.20.1-3.2.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hIu9KJTT/versions/gj3ERfxM/BrewinAndChewin-1.19-2.0.jar"
+url = "https://cdn.modrinth.com/data/hIu9KJTT/versions/9myDFPCD/BrewinAndChewin-1.20.1-3.2.1.jar"
 hash-format = "sha512"
-hash = "1b96e66a08a090e8a19af884c25eb1f3f680b493d6844687da8debf65bcc04e720e74b634209f5d764a1508c854da7a15a344ef42b58b0fb316e17fd2932ea3d"
+hash = "f784c2530f34e56e70a58ee7345e95abc79b312c39fbbef6339ab19dfd20e2842cd7414c5ef2395db2bfa0a9bb1036affc6a3be685b2b731ee3195b2d0d4eb5d"
 
 [update]
 [update.modrinth]
 mod-id = "hIu9KJTT"
-version = "gj3ERfxM"
+version = "9myDFPCD"

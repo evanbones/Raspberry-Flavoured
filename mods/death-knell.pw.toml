@@ -1,13 +1,13 @@
 name = "Death Knell"
-filename = "DeathKnell-Forge-1.19.2-6.0.3.jar"
+filename = "DeathKnell-Forge-1.20.1-10.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WNdd2blX/versions/KCMrvAXI/DeathKnell-Forge-1.19.2-6.0.3.jar"
+url = "https://cdn.modrinth.com/data/WNdd2blX/versions/KwUk8tcm/DeathKnell-Forge-1.20.1-10.0.4.jar"
 hash-format = "sha512"
-hash = "bb3745cb221177ff5b4eefebbfd5a4b2b89430a0704868ed68f2a888e7970bbf915ece904e3408ad9e735309b2f282364b9910163ba35962485abc913bd7d2fd"
+hash = "093f60b238ee0a5655110050970c103b442815030fba485bcf9aebb0aa98dbf10396b308fffd1e3b8357db3664d8635f0a868fdfe85fba1ad1d5ea136a4ca66e"
 
 [update]
 [update.modrinth]
 mod-id = "WNdd2blX"
-version = "KCMrvAXI"
+version = "KwUk8tcm"

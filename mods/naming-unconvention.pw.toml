@@ -1,13 +1,13 @@
 name = "Naming Unconvention"
-filename = "naming_unconvention-1.1.jar"
+filename = "naming_unconvention-1.20.1-1.0.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "cbdc7030d320686bea863b544e65952153887ff0"
+hash = "5df082a5ab0f0a1ca1422ff30a9cf37ff245d15b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5177335
+file-id = 5434579
 project-id = 963873

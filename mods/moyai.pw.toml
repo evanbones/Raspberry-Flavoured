@@ -1,13 +1,13 @@
 name = "Moyai"
-filename = "moyai-1.19.2-2.0.1.jar"
+filename = "moyai-1.20-2.0.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/z7WhFkyW/versions/c1iV7XZi/moyai-1.19.2-2.0.1.jar"
+url = "https://cdn.modrinth.com/data/z7WhFkyW/versions/y9lxexBC/moyai-1.20-2.0.2.jar"
 hash-format = "sha512"
-hash = "b272895c5d33779077908b73d7e11b3924376fd1048c416d46f22c54a9e3f879e87314762d982d60400dd236ed80f8e466bbd8497b56cd00f7fb80a781159203"
+hash = "0146a5d3ea14a336abcd80c22a86abe7bc769ed8dd35d9c6720783b10619efd9bc7b6bcf88c8515c67e756113af761fea6bc8929c79fbaaf42e6580712d12074"
 
 [update]
 [update.modrinth]
 mod-id = "z7WhFkyW"
-version = "c1iV7XZi"
+version = "y9lxexBC"

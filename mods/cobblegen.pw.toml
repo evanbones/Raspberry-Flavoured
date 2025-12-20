@@ -1,13 +1,13 @@
 name = "CobbleGen [Fabric/(Neo)Forge]"
-filename = "1.19.2-forge-5.3.10+1.19.2b46-BETA-forge.jar"
+filename = "cobblegen-5.4.6+1.20.1b1222-BETA-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qRogT5Gy/versions/8143nK1O/1.19.2-forge-5.3.10%2B1.19.2b46-BETA-forge.jar"
+url = "https://cdn.modrinth.com/data/qRogT5Gy/versions/McnoszgV/cobblegen-5.4.6%2B1.20.1b1222-BETA-forge.jar"
 hash-format = "sha512"
-hash = "c48c630f3c606a0c15b06c97544c62109f74d755171854caa05532d4cf7da1be499c8d1e09ca62b85a51ab12a3dcd43e5fb6f72da598eb198d1430e86d11b90e"
+hash = "52ddb18a5618867f9c0d73118ae390ea8243d75151be20fe40a190312ee8ec8719716609dbd562a4584207c4062c653264721e572740e2885247292747b90ddc"
 
 [update]
 [update.modrinth]
 mod-id = "qRogT5Gy"
-version = "8143nK1O"
+version = "McnoszgV"

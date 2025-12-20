@@ -1,13 +1,13 @@
 name = "Better Allay"
-filename = "betterallay-[FORGE]-1.4.0-1.19.2.jar"
+filename = "betterallay-[FORGE]-1.4.0-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rLUWhirj/versions/ne5tUDjj/betterallay-%5BFORGE%5D-1.4.0-1.19.2.jar"
+url = "https://cdn.modrinth.com/data/rLUWhirj/versions/2jvcnu7I/betterallay-%5BFORGE%5D-1.4.0-1.20.1.jar"
 hash-format = "sha512"
-hash = "ef109756d7eee03fe55191c29c142e89937fe4d32d318de276bc9ee3829da3604c50398821033146b11012f694595d26eb1f30dd86d1fa2fb30e2c65b3acd4a1"
+hash = "093c9470e8bb3bc3efbf0747f4998f6d3c3916ba87a2317e09087d3d877f6eae19e830401f72970cb58594e2edc9a8d334a7cd43273837f3c85ada4c8f695855"
 
 [update]
 [update.modrinth]
 mod-id = "rLUWhirj"
-version = "ne5tUDjj"
+version = "2jvcnu7I"

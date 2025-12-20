@@ -1,13 +1,13 @@
 name = "Mace Port"
-filename = "DerexMaceMod-Balanced-1.19.2-8.1.7.2.jar"
+filename = "DerexMaceMod-Balanced-1.20.1-8.1.7.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7cc3da7b6bbd3cef2f5e5671b1b600841414481a"
+hash = "06f3a26ba212abbfc8162301f4839abc427de730"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5651891
+file-id = 5639167
 project-id = 990180

@@ -1,13 +1,13 @@
 name = "Quark Oddities"
-filename = "QuarkOddities-1.18.jar"
+filename = "QuarkOddities-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qeEEslrN/versions/gvWA7HWA/QuarkOddities-1.18.jar"
+url = "https://cdn.modrinth.com/data/qeEEslrN/versions/NrzERFzz/QuarkOddities-1.20.1.jar"
 hash-format = "sha512"
-hash = "b6d6a4dfaa9141ec8a39c9f08252b2546c22e8d1d518799a58424c717635e607c4a4791d5e663d5424f00a1664b3629afd6fa255d02c54c5db67a4949247926b"
+hash = "d861797934748481931e00b9958500d83a9160fbe111b4bd4bd05777103daa48127906b21211436b5c2da2a9aef9d868459c5aebb5b1627b20c6f5d63dc54169"
 
 [update]
 [update.modrinth]
 mod-id = "qeEEslrN"
-version = "gvWA7HWA"
+version = "NrzERFzz"

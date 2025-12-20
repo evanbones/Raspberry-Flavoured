@@ -1,13 +1,13 @@
 name = "Respiteful"
-filename = "respiteful-1.1.2.c.jar"
+filename = "Respiteful.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Df7RucLK/versions/NpcBHs0g/respiteful-1.1.2.c.jar"
+url = "https://cdn.modrinth.com/data/Df7RucLK/versions/abeMbdkJ/Respiteful.jar"
 hash-format = "sha512"
-hash = "1871e230f8ba23c8839fe718b24634a3715b413981d2d781b2e74bf87f80f66b4e25bd9e6bb55ff75650d150a186cf7e5e99e8372e3bdda10800a01549b21a75"
+hash = "d96150cd853fc2b1dd54d1a1a791423290bbda731b5dbe09cbfd4f3d5c00a4ed3a914078d20d88acf4c0b183251b97c20b22e62171b15faca48198f095a029f2"
 
 [update]
 [update.modrinth]
 mod-id = "Df7RucLK"
-version = "NpcBHs0g"
+version = "abeMbdkJ"

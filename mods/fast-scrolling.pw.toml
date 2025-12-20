@@ -1,13 +1,13 @@
 name = "Fast Scrolling"
-filename = "FastScrolling-1.19.2-forge-1.0.2.jar"
+filename = "FastScrolling-2.0.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "c879c90034e7fdabaca973219c2e5d41aeafa583"
+hash = "9bf623e6bdab123daa9400a09315949cb87d3b7f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4440311
+file-id = 5601879
 project-id = 701437

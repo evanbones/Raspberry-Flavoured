@@ -1,13 +1,13 @@
 name = "Drippy Loading Screen"
-filename = "drippyloadingscreen_forge_2.2.2_MC_1.19.1-1.19.2.jar"
+filename = "drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/v3CYg2V9/versions/MWBvD0nQ/drippyloadingscreen_forge_2.2.2_MC_1.19.1-1.19.2.jar"
+url = "https://cdn.modrinth.com/data/v3CYg2V9/versions/68GEZSYA/drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar"
 hash-format = "sha512"
-hash = "b06ff58440f6cc87b5f176809616d386251e268dabb2a0d8e6096ccd261b1d0d968aaace86323f3983237ed7445d5bf098515f7c41d3002db8d8c2df069b7cdc"
+hash = "a40bc04b995c5ff5ec5ab6e999925296c613213de0db301b5171d7379672b28050d961556d6e5d41396d5493bdcd20a74fbeefe40b29bf61d74a465f6c71d13d"
 
 [update]
 [update.modrinth]
 mod-id = "v3CYg2V9"
-version = "MWBvD0nQ"
+version = "68GEZSYA"

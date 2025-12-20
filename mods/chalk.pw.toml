@@ -1,13 +1,13 @@
 name = "Chalk"
-filename = "chalk-1.19.2-1.6.3.jar"
+filename = "chalk-1.20.1-1.6.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/YWGP4Y1d/versions/fvS0q7eV/chalk-1.19.2-1.6.3.jar"
+url = "https://cdn.modrinth.com/data/YWGP4Y1d/versions/tRKPNWEg/chalk-1.20.1-1.6.6.jar"
 hash-format = "sha512"
-hash = "ecc42557ae2eb8a4b3d1ffdbf79282eca7c3c72cbdac69433130784411b4150a350a72e768f9d3a8963d9a370bb7113f78146ffdad641b50db1850a8dbc59534"
+hash = "c2c485321015847087c4724c768f5be7dffd24b1cb10be1e8e44f4dfcd42490dd6be82770c83ecba3344f93b4d66651c7bbc811f95ee300d889d11edf51b22f6"
 
 [update]
 [update.modrinth]
 mod-id = "YWGP4Y1d"
-version = "fvS0q7eV"
+version = "tRKPNWEg"

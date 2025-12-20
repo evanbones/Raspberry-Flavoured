@@ -1,13 +1,13 @@
 name = "Neapolitan"
-filename = "neapolitan-1.19.2-4.1.0.jar"
+filename = "neapolitan-1.20.1-5.1.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/InYMuiQt/versions/8qmVV9M7/neapolitan-1.19.2-4.1.0.jar"
+url = "https://cdn.modrinth.com/data/InYMuiQt/versions/AC9UEwPQ/neapolitan-1.20.1-5.1.0.jar"
 hash-format = "sha512"
-hash = "7342bf81fa5b521cb8788acf0a460e195242ee304c226f3f38fa8ff509d700032acacc9e654bd557248a6e6c03b5e85168718740daa676aa4f3cd5daebf14717"
+hash = "490fd228c449922e71d942b3886473a0873b131e4cbe4525819196aa5d453231bf2521f55ecf12630130bf5011e17a5d9cf60829128062d9841cc1f3a48c0afb"
 
 [update]
 [update.modrinth]
 mod-id = "InYMuiQt"
-version = "8qmVV9M7"
+version = "AC9UEwPQ"

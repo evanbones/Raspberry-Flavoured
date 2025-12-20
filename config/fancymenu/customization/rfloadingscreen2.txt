@@ -1,34 +1,33 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = mod.adrenix.nostalgic.client.screen.NostalgicLoadingScreen
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1756240976287
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:45e55d08-102d-4fd5-9376-7ff345bfcd1f-1756240976287] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = bottom-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = &6&nTip:%n%{"placeholder":"randomtext","values":{"path":"config/fancymenu/fancymenu_assets/tips.txt","interval":"10"}}
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -319
-  width = 639
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 0364bc48-89ff-4209-ad68-bf397cbcc3f21715727689668
-  y = -40
-  alignment = centered
-  height = 40
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
 }
 

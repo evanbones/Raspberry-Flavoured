@@ -1,13 +1,13 @@
 name = "YUNG's Extras (Forge/NeoForge)"
-filename = "YungsExtras-1.19.2-Forge-3.1.0.jar"
+filename = "YungsExtras-1.20-Forge-4.0.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZYgyPyfq/versions/Ltax470w/YungsExtras-1.19.2-Forge-3.1.0.jar"
+url = "https://cdn.modrinth.com/data/ZYgyPyfq/versions/h4m8J7w8/YungsExtras-1.20-Forge-4.0.3.jar"
 hash-format = "sha512"
-hash = "94201787023b3fc0467405b1ba95b09ae505983d83edba554bf2fd2b82d16c67b4d288a358b5ddc3a9942f6e4ac37f7844bfb7a169a79ce1cecb844f8dba6ffd"
+hash = "2c70e8e2c8e6161139bd19d302e225f7c12dc44f9cbdd63f4a548645fe923eb16de930abe2d2f8a89bee99f31d77798b7352bbd33f3642560cad18d86d372d4f"
 
 [update]
 [update.modrinth]
 mod-id = "ZYgyPyfq"
-version = "Ltax470w"
+version = "h4m8J7w8"

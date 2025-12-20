@@ -1,13 +1,13 @@
 name = "Tactical Fishing"
-filename = "TacticalFishing-1.19.x2-v1.2.jar"
+filename = "TacticalFishing-1.20.X1-v1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/5kRS9LYk/versions/g5xGoydC/TacticalFishing-1.19.x2-v1.2.jar"
+url = "https://cdn.modrinth.com/data/5kRS9LYk/versions/njjihzTi/TacticalFishing-1.20.X1-v1.2.jar"
 hash-format = "sha512"
-hash = "9bbad917aa578a01d59acc7f1fa8db6212249c9d57af93b877e098df214a6933d60a3cdacbf6214b338a995a26f56a7bc8cc7dffc921fc9646e033ee42e2db3f"
+hash = "9e6515df8daf9af6b4500dcdf7eabb3e354821ba6c56bf67341c3edcf6508f439d02abfa07e979129763a799ecb97a62283a4ed8d27fb28569f844b936131983"
 
 [update]
 [update.modrinth]
 mod-id = "5kRS9LYk"
-version = "g5xGoydC"
+version = "njjihzTi"

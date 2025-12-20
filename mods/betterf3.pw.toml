@@ -1,13 +1,13 @@
 name = "BetterF3"
-filename = "BetterF3-4.0.1-Forge-1.19.2.jar"
+filename = "BetterF3-7.0.2-Forge-1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/8shC1gFX/versions/mMlLANpz/BetterF3-4.0.1-Forge-1.19.2.jar"
+url = "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar"
 hash-format = "sha512"
-hash = "0e459bad92565751912866075b0e3de6af06761c5bacbcffac1892bc6cb22ab345d26c9c52a72b62bed2ca28bc64df0d7d515c00054c13782419285de0157a96"
+hash = "e88ce04d601a5953de909edaabb49dad9eea2c3a9ccccb1247fd041554b30794d4d4c315be065c90b1017cbd798199e644fe8d905125f4c431ddb8eaf170dd15"
 
 [update]
 [update.modrinth]
 mod-id = "8shC1gFX"
-version = "mMlLANpz"
+version = "xo6HmgWj"

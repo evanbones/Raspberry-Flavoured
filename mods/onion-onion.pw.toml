@@ -1,13 +1,13 @@
 name = "Onion Onion"
-filename = "onion_onion-1.19.2-1.0.3.jar"
+filename = "onion_onion-1.20.1-2.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/vC6rKlKN/versions/vMR6rlr2/onion_onion-1.19.2-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/vC6rKlKN/versions/qCDVuK4y/onion_onion-1.20.1-2.0.4.jar"
 hash-format = "sha512"
-hash = "e788dfd094c05aecdee205ecdbecb1b9e2277077d6da3a624c93183365d0e580c9f313eceb510ec2a5861c792c41a4c547212435e785076aea0efc9c0d9e74d4"
+hash = "4ed0fb098c151a3a58a58058940ddf1a66d470e618c5558e8dce56dd02d910d4632fa1343d2cc4b751a2ce91627f387f1198ad0bf48cb89b887c3ec736e75dd8"
 
 [update]
 [update.modrinth]
 mod-id = "vC6rKlKN"
-version = "vMR6rlr2"
+version = "qCDVuK4y"

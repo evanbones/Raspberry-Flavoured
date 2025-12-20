@@ -1,13 +1,13 @@
 name = "World Play Time"
-filename = "worldplaytime-1.2.2-1.19.2-FORGE.jar"
+filename = "worldplaytime-1.2.3-1.20.x-FORGE.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "a3197536b7109d9904aa745f96a9b6a73bde00c2"
+hash = "fd2d2b5ba5aba079020c76fa865d4db27cfe3520"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5183206
+file-id = 5920087
 project-id = 968891

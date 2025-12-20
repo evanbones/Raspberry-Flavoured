@@ -1,13 +1,13 @@
 name = "Konkrete [Forge/NeoForge]"
-filename = "konkrete_forge_1.6.1_MC_1.19-1.19.2.jar"
+filename = "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/J81TRJWm/versions/a4UZ7nGe/konkrete_forge_1.6.1_MC_1.19-1.19.2.jar"
+url = "https://cdn.modrinth.com/data/J81TRJWm/versions/skYziQQL/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
 hash-format = "sha512"
-hash = "b7336907c3cd13aeb3450c15bf986ab36f903741a8252c458b56f0536b21c23518bb4ecc8087e873d97354de13e1ccc0e703a8b6da9019c8414840ae306e0541"
+hash = "df79a0c64da14ca2b27dc04a72d85ce5c8e7c498e7b72da4d7bfddd592bb4bac165e70afe33fac97446e4996fffd8003350df07ede2a77233dddec77b8ff0ee7"
 
 [update]
 [update.modrinth]
 mod-id = "J81TRJWm"
-version = "a4UZ7nGe"
+version = "skYziQQL"

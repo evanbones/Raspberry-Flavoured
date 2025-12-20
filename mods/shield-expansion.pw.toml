@@ -1,13 +1,13 @@
 name = "Shield Expansion"
-filename = "ShieldExpansion-1.19.2-1.2.2.jar"
+filename = "ShieldExpansion-1.20.1-1.2.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/sjxWxSao/versions/dEY11Uda/ShieldExpansion-1.19.2-1.2.2.jar"
+url = "https://cdn.modrinth.com/data/sjxWxSao/versions/gV2H6vzy/ShieldExpansion-1.20.1-1.2.2.jar"
 hash-format = "sha512"
-hash = "3960f129879e3287f1490c5a9dad1b5312ea38b54e742dcc7713c45c58eef13618a93184f5470fdf6685ccad546591a12dc91f83c0ca4708b02fbf5d84007446"
+hash = "362dd5bdf7504f54bad9575528b8e6c222d7208177fa51c71fe72f78637d17178666d4721ee6076746f9e7633c5a44333b3a3b374aa30bd993d8b2daaf3af4ed"
 
 [update]
 [update.modrinth]
 mod-id = "sjxWxSao"
-version = "dEY11Uda"
+version = "gV2H6vzy"

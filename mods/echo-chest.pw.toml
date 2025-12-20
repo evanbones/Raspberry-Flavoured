@@ -1,13 +1,13 @@
 name = "Echo Chest"
-filename = "EchoChest-v4.0.2-1.19.2-Forge.jar"
+filename = "EchoChest-v8.0.0-1.20.1-Forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/m3pkVbY8/versions/T0Ez2ktf/EchoChest-v4.0.2-1.19.2-Forge.jar"
+url = "https://cdn.modrinth.com/data/m3pkVbY8/versions/aQcerSRS/EchoChest-v8.0.0-1.20.1-Forge.jar"
 hash-format = "sha512"
-hash = "5d82f601f48da769d2266fa8abeb6c2412e93a7729a269de5b8a321688d44dcd277fdff877d536d97b99dcde6464cffbda6577845b808bc7229abd7071e6c96f"
+hash = "7d630386a5f14ee061f3b019b49723564637ae0128d7bee647e145e831fb6132dd0ae70bd79244a817c94b0862ab4c723c55a8b9bfb42f571b9fed139c28f509"
 
 [update]
 [update.modrinth]
 mod-id = "m3pkVbY8"
-version = "T0Ez2ktf"
+version = "aQcerSRS"

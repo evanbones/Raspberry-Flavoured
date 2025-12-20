@@ -1,20 +1,5 @@
 // priority: 0
 
-const $EntityDamageSource = Java.loadClass(`net.minecraft.world.damagesource.EntityDamageSource`);
-
-StartupEvents.registry('mob_effect', event => {
-	event.create('coughing')
-		.effectTick((entity, lvl) => global.coughingEffect(entity, lvl))
-		.color('#0')
-		.harmful();
-})
-
-global.coughingEffect = (entity, lvl) => {
-	let coughingDamage = new $EntityDamageSource('coughing', entity)
-	if (entity.level.clientSide) return
-	entity.attack(coughingDamage, lvl + 1)
-}
-
 StartupEvents.registry('mob_effect', event => {
 	event.create('satiation')
 		.effectTick((entity, lvl) => global.foodRegenEffect(entity, lvl))

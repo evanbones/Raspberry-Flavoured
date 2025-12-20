@@ -1,78 +1,90 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.InBedChatScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = in_bed_chat_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1756240976273
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:27996be5-b87a-4400-a6e8-018cf00ce3f5-1756240976273] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=400960%
-  orientation = bottom-centered
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 2c86e276-518f-4087-b4ec-2d65b9add9d2-1756240976273
+  [executable_block:2c86e276-518f-4087-b4ec-2d65b9add9d2-1756240976273][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 4fb2ce47-f641-4809-b61d-3a5f6e519ca1-1756240976273
+  [loading_requirement_container_meta:4fb2ce47-f641-4809-b61d-3a5f6e519ca1-1756240976273] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = 400960
+  appearance_delay = first_time
+  appearance_delay_seconds = 0.5
+  fade_in_v2 = first_time
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = bottom-centered
   x = -75
-  action = movebutton
   y = -39
-}
-
-customization {
-  identifier = %id=400960%
   width = 150
-  action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=400960%
-  seconds = 0.5
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
-}
-
-customization {
-  orientation = mid-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = {"placeholder":"randomtext","values":{"path":"config/fancymenu/fancymenu_assets/tips.txt","interval":"15"}}
-  text_border = 1
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 0
-  x = -210
-  width = 420
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = c20bfa35-286c-44fe-8d5a-c4002da1d19b1713540061837
-  y = -61
-  alignment = centered
-  height = 40
-}
-
-customization {
-  orientation = mid-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = &nGood night, {"placeholder":"playername"}! Here's a tip:
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = -211
-  width = 422
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = fae0b8a7-79bc-4138-9b7c-34419b301be71713541223050
-  y = -73
-  alignment = centered
-  base_color = FFA88C
-  height = 12
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 212d3ed9-494e-453f-b245-d2f449b30735-1756240976273
+  [loading_requirement_container_meta:212d3ed9-494e-453f-b245-d2f449b30735-1756240976273] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  is_hidden = false
+  automated_button_clicks = 0
 }
 

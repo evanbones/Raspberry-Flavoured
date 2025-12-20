@@ -1,13 +1,13 @@
 name = "Clash!"
-filename = "clash-1.19.2-0.3.1.jar"
+filename = "clash-1.20.1-0.3.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "35d10c55b62d8c10a9189a2601a040ce8f5afce6"
+hash = "0d856278e39355d286e7ad90e0ef8cafc407f86e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5094213
+file-id = 5600159
 project-id = 468706
