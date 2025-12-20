@@ -1,13 +1,13 @@
 name = "Compost"
-filename = "compost-forge-1.20.1-3.0.1.jar"
+filename = "compost-forge-1.20.1-2.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1hn9SStW/versions/xjsgJjqZ/compost-forge-1.20.1-3.0.1.jar"
+url = "https://cdn.modrinth.com/data/1hn9SStW/versions/TZdmAYHl/compost-forge-1.20.1-2.1.1.jar"
 hash-format = "sha512"
-hash = "0fc15a9f2b8fdb62a64139568a411821bf082fb828e008ffab48967e4543755de9c4f9337cdae994551ec84bf246a7d7229ce4e5278ebe1c3a0305a7be4be3c0"
+hash = "078b366c037d5f6419467f579d41ccff214b4e6bfe621ba32cfb7aadd48a96bd722c4dccf3b4e512424e3c0b3f5505910195c6f45a2005f6ccfffb73af0ef7e0"
 
 [update]
 [update.modrinth]
 mod-id = "1hn9SStW"
-version = "xjsgJjqZ"
+version = "TZdmAYHl"

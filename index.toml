@@ -2026,7 +2026,7 @@ hash = "a040a6ecef6160349cf910f74139c563b644443c95602dcb42624ae549829be3"
 
 [[files]]
 file = "config/openloader/data/ZZZ_Advancements/pack.mcmeta"
-hash = "acbc755b6b02c97ef0f6c2b4e0149e3a08206c0c9fee0a4ded7a317d63a5c88a"
+hash = "7899090966cc67c6939965da0656409cd1f77bbbffe9846fcc8c4a37c6fe0381"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/abnormals_delight/lang/en_us.json"
@@ -23134,7 +23134,7 @@ hash = "97740a90a40785723a9ce0ec4b027c394af35b33d85bf31449b8fceea805af92"
 
 [[files]]
 file = "kubejs/data/culturaldelights/forge/biome_modifier/add_wild_cucumbers.json"
-hash = "c64143ac588275bec3324ba2a56f922ad9c0342be590859a5dfa0c82ea1fa829"
+hash = "25354ca3f539f85d205a84b8939f67351c4dc5c85f451549f89400ef0787dc73"
 
 [[files]]
 file = "kubejs/data/culturaldelights/loot_tables/blocks/avocado_leaves.json"
@@ -31410,7 +31410,7 @@ metafile = true
 
 [[files]]
 file = "mods/compost.pw.toml"
-hash = "624ecef60a5d3de6f722d4d4aa2a84657025ad1674b67df5d63760af77c4353e"
+hash = "0709463e2238176830b4607ceff2433f5fa57f58d73e7e348c6fb13cfa034df7"
 metafile = true
 
 [[files]]
@@ -31545,10 +31545,6 @@ hash = "e4a65e6e67523dab2e57e6070f8089bacda68bf39bc68c9afd264c115421066d"
 metafile = true
 
 [[files]]
-file = "mods/echo-chest-experience-obliterator.pw.toml.disabled"
-hash = "32e9c5a905d6a0e71a69e0d361a0b38b631b81f34170d221cac822c4176fe806"
-
-[[files]]
 file = "mods/echo-chest.pw.toml"
 hash = "a03f85ba7fd8beab1519e871b22d1c3525fe2c4176bef49790f4fbd00e37a426"
 metafile = true
@@ -31666,10 +31662,6 @@ metafile = true
 file = "mods/fast-scrolling.pw.toml"
 hash = "6d9e5d92ff3a29569e4bc7c93569cb35578e4b86eef9bda29895570e6f9069da"
 metafile = true
-
-[[files]]
-file = "mods/fastflyblockbreaking-reworked.pw.toml.disabled"
-hash = "2472f1f6c3cdf4166b358be8e603c2cbbc9e358175c8dcdc107e2aecb9be2024"
 
 [[files]]
 file = "mods/ferritecore.pw.toml"

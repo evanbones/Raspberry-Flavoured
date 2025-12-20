@@ -6,6 +6,6 @@
   ],
   "type": "forge:add_features",
   "biomes": "#forge:is_swamp",
-  "features": "culturaldelights:wild_cucumbers_placed",
+  "features": "farmersdelight:patch_wild_cabbages",
   "step": "vegetal_decoration"
 }
