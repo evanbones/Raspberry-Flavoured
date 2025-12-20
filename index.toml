@@ -162,11 +162,11 @@ hash = "7867f84eff68a159b630c1f1be013b60e88be0ee07f4fb1371f7823f494124c8"
 
 [[files]]
 file = "config/blockswap/block_swap.json5"
-hash = "730607894b730ae3461dcf95700a9f3d6e8eae078731f9f851c328d3a850587e"
+hash = "e9004168dda51ed05ea6fdb2e828b8e44c611588547566ba3da50a1db00d058a"
 
 [[files]]
 file = "config/blockswap/missing_block_ids.json5"
-hash = "62f528a6cbed5a846e9afb0f42b90e91a7bbbf0948412643d460ea872b8bcb51"
+hash = "bcb216de25b4e9cf7c7b8f65be9945be5de6dd349f4d2115abec2f25011ccdfe"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -31325,8 +31325,9 @@ hash = "28358fe53c22695b3bf1f93ac2225c46fe3525918b7b993ac36e68a7f0a16fe8"
 metafile = true
 
 [[files]]
-file = "mods/block-swap.pw.toml.disabled"
+file = "mods/block-swap.pw.toml"
 hash = "c89a994dc0964243562fe3e3d5050587db2057a006be99bee11773d8b37d1d5a"
+metafile = true
 
 [[files]]
 file = "mods/blueprint.pw.toml"
