@@ -1,0 +1,25 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "experience": 0.5,
+  "fermentingtime": 1200,
+  "ingredients": [
+    {
+      "tag": "forge:crops/cabbage"
+    },
+	{
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "item": "spelunkery:salt"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 6,
+    "item": "brewinandchewin:kimchi"
+  },
+  "temperature": 3
+}

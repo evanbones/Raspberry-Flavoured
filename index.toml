@@ -10225,31 +10225,31 @@ file = "config/openloader/resources/99_RaspberryResources/assets/miningmaster/te
 hash = "81564e08f904139f1f7da7857781456c77ec5d6a55b1696a0295b67c17762837"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/arrow_left_hover.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/textures/arrow_left_hover.png"
 hash = "7cfbd7a1cbdd5d54ad894638ab85068877d98ac3c331370fe02d81313bd88aae"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/arrow_left_normal.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/textures/arrow_left_normal.png"
 hash = "9b0d4d534ce8f2eaf8a016a3ad7218edccc991a7ab560ff80169aefa24d7b897"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/arrow_right_hover.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/textures/arrow_right_hover.png"
 hash = "adc106dc853a7f3cd2e471af806e161598f4d0eedf41e6f08c98a92e4d530ad2"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/arrow_right_normal.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/textures/arrow_right_normal.png"
 hash = "7d5660e363aaaa17dac45643945f6f824cfd696941b2de462e49aabbc2863dff"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/gamemodes/background_creative.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/textures/gamemodes/background_creative.png"
 hash = "42e1e1717a1aff4065217ba0a4cfbf5c006183098a4000e6bdeb2b23a1ac9980"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/gamemodes/background_hardcore.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/textures/gamemodes/background_hardcore.png"
 hash = "8cbf4869ae608cbbe5d55198dbbb94ed437ac378b58f03c5ca49cf316b5922ed"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/gamemodes/background_survival.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/modernworldcreation/textures/gamemodes/background_survival.png"
 hash = "424732dc7c6586d5398afa1e38ca47fc51bfc84ab238b762c1ce13b1c047f90a"
 
 [[files]]
@@ -23645,6 +23645,54 @@ file = "kubejs/data/environmental/tags/entity_types/scares_trusting_deer.json"
 hash = "ee3f55b55e3a61ef0bdf38efb82520f4d5abf2b83a5a7a5e84a1ab5756a3e75c"
 
 [[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/blue_wisteria.json"
+hash = "9e085e66bcede84356720381f5fc81079266ab22f696f5f289ddf04c7c8e8a4b"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/blue_wisteria_bees_002.json"
+hash = "a6e38a2c34854299d07a5fb6527bd4fab7b78ddd8c2074ffbfd01e1d3d6308c5"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/blue_wisteria_bees_005.json"
+hash = "ffa815e9c9a933c657a383e7d5b06d59ebfc4a5d37bbf7ae89756f850d85242f"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/pink_wisteria.json"
+hash = "e7508e0f39b94cade5c18882ae9796bd363389da3c68080288159c054709e56f"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/pink_wisteria_bees_002.json"
+hash = "9b14f8f2ec2ce8b1e0719cb458b98172b0d00788d7a64774b8ba970e1fa83d66"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/pink_wisteria_bees_005.json"
+hash = "2885d0d345d082c5a85443e1ee83d1269c1ca00f50719c760e6d6c7e0ce28455"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/purple_wisteria.json"
+hash = "4a33d930a45871bc01038a022469b469fb51317b96e65dc6ba2a0716867d54dd"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/purple_wisteria_bees_002.json"
+hash = "f8d2ce0254a14db68b25dae14cb884679b2cb38915cecec5f2fc591762a580a5"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/purple_wisteria_bees_005.json"
+hash = "e4601c2877b1ddda48229d5871c9c14cc7d879133f8b35e0c8afb4678b413806"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/white_wisteria.json"
+hash = "9700f5462e98ea28ca3878c7449e0f49d5f31db45050f9bf91350559482820ad"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/white_wisteria_bees_002.json"
+hash = "30b0603d0128747cd922c3e1d10d5f64d2ee74dbdab0ce73711d638800c96be3"
+
+[[files]]
+file = "kubejs/data/environmental/worldgen/configured_feature/white_wisteria_bees_005.json"
+hash = "ea0e8b52b87a8fd189c3b415d47325409d7bf928ac7d6a50df3614331a269fcc"
+
+[[files]]
 file = "kubejs/data/everycomp/loot_tables/blocks/mm/atmospheric/morado_board_slab.json"
 hash = "4afcc73685328849e97eeb8d912eb78838990642f4e1a34bc4cf6c8cdd937f2f"
 
@@ -31030,7 +31078,7 @@ hash = "2ede716988e80e381e293b392be2a47481145adeac6255e4b7ba35cabdb7438e"
 
 [[files]]
 file = "kubejs/startup_scripts/attributes_modify.js"
-hash = "1654d72dffb7ac6106d2dc38db26dc3b9a24ba5484710d30fbfac82ea861da22"
+hash = "985233dc5cb8c40d0b1d7dbe6aa77134d460ad92f9da012f26c09a7c5d403614"
 
 [[files]]
 file = "kubejs/startup_scripts/block_modify.js"
