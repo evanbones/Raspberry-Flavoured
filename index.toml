@@ -32151,7 +32151,7 @@ metafile = true
 
 [[files]]
 file = "mods/raspberry_core-1.11-pre1+1.20.1.jar"
-hash = "46ef4a2f72194e937bd5c10191c9c404c8ff1e08d165436a1e0a2e995bc5654b"
+hash = "1733ecfe881b3a0b9482ecac58083473406cd3a59f9e29784dfd4bc98bfe62c0"
 
 [[files]]
 file = "mods/recipe-essentials-forge-fabric.pw.toml"
