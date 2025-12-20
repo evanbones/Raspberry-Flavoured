@@ -56,12 +56,6 @@ StartupEvents.registry('fluid', event =>
 
 ItemEvents.modification(event => {
 // Fuel (fuel amount is x * 200)
-	// 0.5 
-	event.modify([
-	'environmental:tall_dead_bush'
-	], item => {
-		item.burnTime = 100
-    })
 	
 	// 1
 	event.modify([

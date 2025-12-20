@@ -10,10 +10,6 @@
       "predicate": {
         "tag": "farmersdelight:straw_harvesters"
       }
-    },
-    {
-      "condition": "block_state_property",
-      "block": "environmental:tall_dead_bush"
     }
   ],
   "item": "farmersdelight:straw"
