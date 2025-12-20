@@ -69,7 +69,7 @@ const keysToItems = {
     'rf.jei.avocados': ['#culturaldelights:avocados', 'culturaldelights:avocado_crate', 'culturaldelights:avocado_pit', 'culturaldelights:avocado_sapling', 'culturaldelights:fruiting_avocado_leaves'],
     'rf.jei.lemons': ['cookscollection:lemon', 'cookscollection:lemon_crate', 'cookscollection:lemon_sapling', 'cookscollection:fruiting_lemon_leaves'],
     'rf.jei.truffles': ['environmental:truffle', 'environmental:buried_truffle', 'environmental:truffle_crate'],
-    'rf.jei.cattails': ['environmental:cattail', 'environmental:tall_cattail', 'environmental:cattail_seeds', 'environmental:cattail_seed_sack'],
+    'rf.jei.cattails': ['environmental:cattail', 'environmental:cattail_seeds', 'environmental:cattail_seed_sack'],
 	
     'rf.jei.coal': ['#minecraft:coal_ores', 'minecraft:coal', 'minecraft:coal_block', 'spelunkery:coal_lump'],
     'rf.jei.iron': ['#minecraft:iron_ores', 'minecraft:raw_iron', 'minecraft:raw_iron_block', 'minecraft:iron_ingot', 'minecraft:iron_block', 'spelunkery:raw_iron_nugget', 'minecraft:iron_nugget'],
