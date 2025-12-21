@@ -12822,74 +12822,74 @@ hash = "639d59e38d2075f377661f2fe1ee87069a2f587ffadf004df668b43144fb512b"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/diamond_shield.json"
-hash = "b4fca4b6902e260f273e4b3d66cc8976dc460b028b1e8c487749eca899a11ad5"
+hash = "bc6be00c357d787c09d48c9a6ac4bbeabce3a3e5b050bdba708e752a8da7fc58"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/diamond_shield_blocking.json"
-hash = "7b4ff3901a27a6cb4c508315d23418a748185eeabe19240fbd36ef9fb98dbc40"
+hash = "7eac74f8cc8c504848c8ea7f2dbc9028ab7b787dbc5b9fa2bd1983a137858a5d"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/golden_shield.json"
-hash = "43a93bc3128072663f73c4d4041a4deabda0ad1abc1a0302e26119915f3a9b66"
+hash = "085df8c86f68f5f738258a07811e04cf667b71a17fcc0915ef3eaa1c22838e0f"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/golden_shield_blocking.json"
-hash = "ee3056f1969ae9dd975242553f9e646038f8cca37792968d38bd418393ed5960"
+hash = "8435e4529723fa0bc9f137e15aa813d2accd1898b5b31a3406b66f6d9f24392d"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/griefer_shield.json"
-hash = "9ad59f0d61001b3021be6bbc3b6074aeed57b10f0b42f24e7efc541280e46a29"
+hash = "1def67e2e195fc3bdcba4b2ace30760ebaacc08306077f148ac4f0261064c20b"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/griefer_shield_blocking.json"
-hash = "072bc31218c9fb74b218790084d8989639e40436e43309512515b08c70d90a9f"
+hash = "947f6a75052a6806e03b3e1b5637014d510b3197e3c29085f54dcf83b87ea4a3"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/iron_shield.json"
-hash = "2a8cf076a7bcb4e0208bc4e7776d90ddc932849b044fe3d7698ada8e405c4f8e"
+hash = "b710efbea03156ebf630b749dffeeae3680fc963feffcaac0c07ca591238756b"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/iron_shield_blocking.json"
-hash = "d7f9a54a1779e97c227683c88906842988a0e1ee8256650b5d6584c6cbdb3ded"
+hash = "a4d7cb21b4a8c7a2783554e5b4267056b2d069454692663a67d6b8f79b2d016e"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/netherite_shield.json"
-hash = "c67a58d264fe1e5736720c0a340d44bb73a892213841cb28c4b910c9a219503d"
+hash = "48ddf9f4d32e8b66344974205268ba7b63d9e60897b8c44c0b9492960dc19981"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/netherite_shield_blocking.json"
-hash = "0a94b17b8d05ef028088b6b9e2684f0af4f1bb5165316956293a979a339c459b"
+hash = "c66f4f029d9593c28de4c1124e07803a492ed46a57455449641a38ca7ba044ef"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/paragon_shield.json"
-hash = "182827a20e130d79ef69b0166c903d1daf3ddcf65a9c2c23a184e4f70c0e3788"
+hash = "a3cdb0236607c0b8a8cf39492e48c6657527947269b0db0491a915757313dc4e"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/paragon_shield_blocking.json"
-hash = "2ecf6865b2f89b4a984c93a13ddec32e540e7fdcc09fa86f5203503dccccd308"
+hash = "a2bb6855a996b839a86c6b7742294dd267f0077dad263fdcd8806c297956767e"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/wooden_shield.json"
-hash = "5eb754011ba3e4803feea0cdb26c05e1237d76157763175be3fbe98ab6d26c16"
+hash = "a9522dced1a5d7c489e6aa6b1632b90baa69d4ffd0b63a44657a545121506b78"
 
 [[files]]
 file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/models/item/wooden_shield_blocking.json"
-hash = "7a4f1b83b3feee366175e9774be819a0c28257a4f48aff70e9db76f6e2014435"
+hash = "82aac9df0a5ffe3d76f2868fba5a1f5cc64188f82c34dd15b7364f87b6dcfea6"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/textures/golden.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/textures/item/golden.png"
 hash = "0e469f0d1967bdef1ade4d72bc5a63dd989b29f5a2e22de1a7ec5cf16e900f68"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/textures/griefer.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/textures/item/griefer.png"
 hash = "e3b9849bc6dda3e89a9097e2c08f91d634e82f33619550eccf44594d57b3cf63"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/textures/iron.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/textures/item/iron.png"
 hash = "204c5fa5898b7a368080462c8e730a752ecca77b7c7d993facbc5f24f71a09e2"
 
 [[files]]
-file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/textures/wooden.png"
+file = "config/openloader/resources/99_RaspberryResources/assets/shieldexp/textures/item/wooden.png"
 hash = "df91282fde11da63039dd1ff18e99bd56f20d565ba19a8c53b1f39764c9b77cd"
 
 [[files]]
@@ -31481,6 +31481,11 @@ hash = "10e3d014bd3927d75f0969c35fa9296073b8987975aa6a059771a7571e35dd38"
 metafile = true
 
 [[files]]
+file = "mods/connector-extras.pw.toml"
+hash = "d8480ee1f6ae58fa389e502108bcde4936ca326d6dc2f1608b9af9ac141cb35a"
+metafile = true
+
+[[files]]
 file = "mods/connector.pw.toml"
 hash = "4d5ba0ec7ea7abf0ef76f3f08853bd7c886eec95b1795cbeacaba8bc608e2913"
 metafile = true
@@ -32080,12 +32085,22 @@ hash = "7de2b08934b2814c835be7c53902adc12337ab99dbf26803f4e3a9c974ac5080"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "df4c4fe3aff1792aa7d19d097d5d1bc0c6e958e6e4ee32dbf148ecac62e1274d"
+metafile = true
+
+[[files]]
 file = "mods/paletteblocks-1.20.1-0.2.1.jar"
 hash = "297a633524c7aca720b56e0357e19dffe158c2c4c8157001cbad7ace98dd98bf"
 
 [[files]]
 file = "mods/panorama-screens.pw.toml"
 hash = "cecb7d0cff7a9a70b83f77de9082d092264db8926e01185b9e56a07bb5bfa5b4"
+metafile = true
+
+[[files]]
+file = "mods/particular.pw.toml"
+hash = "63a2011c75cdaf07c0a537c1f5c0661b7e5e0471c81625273634f88fed05b9c4"
 metafile = true
 
 [[files]]
@@ -32310,6 +32325,11 @@ metafile = true
 [[files]]
 file = "mods/survivality.pw.toml"
 hash = "e75c35cde8d15b8a1b5fb7baacf7c02886165c4d34b430332069a162d2324d0f"
+metafile = true
+
+[[files]]
+file = "mods/sushi-bar.pw.toml"
+hash = "6bfb09a5bf731cd8d347b8e77b0379c254b2e2dd2763c8051b6bfe122a22b7fb"
 metafile = true
 
 [[files]]

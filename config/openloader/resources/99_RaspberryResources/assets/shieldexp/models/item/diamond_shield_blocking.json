@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "shieldexp:diamond",
-		"particle": "shieldexp:diamond"
+		"1": "shieldexp:item/diamond",
+		"particle": "shieldexp:item/diamond"
 	},
 	"elements": [
 		{

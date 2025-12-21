@@ -2,8 +2,8 @@
 	"credit": "Nekomaster1000",
 	"gui_light": "front",
 	"textures": {
-		"2": "shieldexp:griefer",
-		"particle": "shieldexp:griefer"
+		"2": "shieldexp:item/griefer",
+		"particle": "shieldexp:item/griefer"
 	},
 	"elements": [
 		{
@@ -32,7 +32,7 @@
 		}
 	],
 	"overrides": [
-		{"predicate": {"blocking": 1}, "model": "shieldexp:item/griefer_shield_blocking"}
+		{"predicate": {"blocking": 1}, "model": "shieldexp:item//griefer_shield_blocking"}
 	],
 	"display": {
 		"thirdperson_righthand": {

@@ -2,8 +2,8 @@
 	"credit": "Nekomaster1000",
 	"gui_light": "front",
 	"textures": {
-		"1": "shieldexp:griefer",
-		"particle": "shieldexp:griefer"
+		"1": "shieldexp:item/griefer",
+		"particle": "shieldexp:item/griefer"
 	},
 	"elements": [
 		{

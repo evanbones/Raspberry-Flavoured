@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"gui_light": "front",
 	"textures": {
-		"1": "shieldexp:iron",
-		"particle": "shieldexp:iron"
+		"1": "shieldexp:item/iron",
+		"particle": "shieldexp:item/iron"
 	},
 	"elements": [
 		{

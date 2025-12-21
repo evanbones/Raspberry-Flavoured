@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "shieldexp:netherite",
-		"particle": "shieldexp:netherite"
+		"1": "shieldexp:item/netherite",
+		"particle": "shieldexp:item/netherite"
 	},
 	"elements": [
 		{

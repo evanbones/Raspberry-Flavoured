@@ -2,8 +2,8 @@
 	"credit": "Nekomaster",
 	"gui_light": "front",
 	"textures": {
-		"1": "shieldexp:golden",
-		"particle": "shieldexp:golden"
+		"1": "shieldexp:item/golden",
+		"particle": "shieldexp:item/golden"
 	},
 	"elements": [
 		{
@@ -36,7 +36,7 @@
 			"predicate": {
 				"blocking": 1
 			},
-			"model": "shieldexp:item/golden_shield_blocking"
+			"model": "shieldexp:item//golden_shield_blocking"
 		}
 	],
 	"display": {
