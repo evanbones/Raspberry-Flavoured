@@ -1010,7 +1010,7 @@ hash = "48661fd8001af8c042aef19922c28ba4cdb108f7e1432fbd52683a7b16c9f8c5"
 
 [[files]]
 file = "config/fancymenu/customization/newpausemenu.txt"
-hash = "b32ce061ebcfe908b2338f4e4a259f0642703a73ba664bceec5b048a3fd64ddf"
+hash = "69ae86675ae6e9640aebf58d70f9ac4a08955a8ea682fdd3883dc08a408f590f"
 
 [[files]]
 file = "config/fancymenu/customization/newtitle.txt"
@@ -1678,7 +1678,7 @@ hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "5f9ff772228135fe6d8e56c5ece5a7bbacd04f1c46d489b92a14034ccbe59798"
+hash = "bfa242685cc9afa400562ed1699182fb19e60f58d124386ce5732398ca5d34c1"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
