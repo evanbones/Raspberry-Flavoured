@@ -33,7 +33,7 @@ layout_action_executable_blocks {
 }
 
 element {
-  source = config/fancymenu/fancymenu_assets/deathquotes.txt
+  source = config/fancymenu/assets/deathquotes.txt
   source_mode = text_file
   scale = 1.0
   shadow = true
@@ -75,7 +75,7 @@ element {
 }
 
 element {
-  source = [source:local]config/fancymenu/fancymenu_assets/youdied2.png
+  source = [source:local]config/fancymenu/assets/youdied2.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5

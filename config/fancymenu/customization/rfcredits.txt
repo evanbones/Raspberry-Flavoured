@@ -32,7 +32,7 @@ layout_action_executable_blocks {
 }
 
 element {
-  source = [source:local]config/fancymenu/fancymenu_assets/backgroundshadows2.png
+  source = [source:local]config/fancymenu/assets/backgroundshadows2.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -133,8 +133,8 @@ element {
   button_element_executable_block_identifier = 0bead1e1-0a06-4018-9e79-100790c7a91e-1756240976281
   [executable_action_instance:b646eb14-9fac-4bd3-bd53-0bb2d36c4755-1756240976281][action_type:openlink] = https://discord.gg/jxNe26WNYh
   [executable_block:0bead1e1-0a06-4018-9e79-100790c7a91e-1756240976281][type:generic] = [executables:b646eb14-9fac-4bd3-bd53-0bb2d36c4755-1756240976281;]
-  backgroundnormal = [source:local]config/fancymenu/fancymenu_assets/discordbutton.png
-  backgroundhovered = [source:local]config/fancymenu/fancymenu_assets/discordbuttonhover.png
+  backgroundnormal = [source:local]config/fancymenu/assets/discordbutton.png
+  backgroundhovered = [source:local]config/fancymenu/assets/discordbuttonhover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

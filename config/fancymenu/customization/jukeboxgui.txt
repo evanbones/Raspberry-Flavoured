@@ -34,8 +34,8 @@ layout_action_executable_blocks {
 vanilla_button {
   button_element_executable_block_identifier = 46f6b737-0f6b-4e3e-9bd4-051ba12a4e70-1756240976256
   [executable_block:46f6b737-0f6b-4e3e-9bd4-051ba12a4e70-1756240976256][type:generic] = [executables:]
-  backgroundnormal = [source:local]config/fancymenu/fancymenu_assets/left.png
-  backgroundhovered = [source:local]config/fancymenu/fancymenu_assets/lefthover.png
+  backgroundnormal = [source:local]config/fancymenu/assets/left.png
+  backgroundhovered = [source:local]config/fancymenu/assets/lefthover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -94,8 +94,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 94bddaa0-bedc-4d46-b9d4-c4c412da5452-1756240976257
   [executable_block:94bddaa0-bedc-4d46-b9d4-c4c412da5452-1756240976257][type:generic] = [executables:]
-  backgroundnormal = [source:local]config/fancymenu/fancymenu_assets/right.png
-  backgroundhovered = [source:local]config/fancymenu/fancymenu_assets/righthover.png
+  backgroundnormal = [source:local]config/fancymenu/assets/right.png
+  backgroundhovered = [source:local]config/fancymenu/assets/righthover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

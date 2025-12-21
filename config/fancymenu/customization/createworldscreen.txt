@@ -728,8 +728,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 45ca8f44-9af6-4152-b8fe-452d2892dd2d-1756240976262
   [executable_block:45ca8f44-9af6-4152-b8fe-452d2892dd2d-1756240976262][type:generic] = [executables:]
-  backgroundnormal = [source:local]config/fancymenu/fancymenu_assets/settingsbutton.png
-  backgroundhovered = [source:local]config/fancymenu/fancymenu_assets/settingsbuttonhover.png
+  backgroundnormal = [source:local]config/fancymenu/assets/settingsbutton.png
+  backgroundhovered = [source:local]config/fancymenu/assets/settingsbuttonhover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

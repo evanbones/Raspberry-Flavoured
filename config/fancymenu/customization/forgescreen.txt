@@ -34,8 +34,8 @@ layout_action_executable_blocks {
 vanilla_button {
   button_element_executable_block_identifier = e3bae54d-1619-4354-af06-55e175c6c156-1756240976270
   [executable_block:e3bae54d-1619-4354-af06-55e175c6c156-1756240976270][type:generic] = [executables:]
-  backgroundnormal = [source:local]config/fancymenu/fancymenu_assets/tickbutton.png
-  backgroundhovered = [source:local]config/fancymenu/fancymenu_assets/tickbuttonhover.png
+  backgroundnormal = [source:local]config/fancymenu/assets/tickbutton.png
+  backgroundhovered = [source:local]config/fancymenu/assets/tickbuttonhover.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

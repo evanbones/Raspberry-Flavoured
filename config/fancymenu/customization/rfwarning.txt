@@ -32,7 +32,7 @@ layout_action_executable_blocks {
 }
 
 element {
-  source = [source:local]config/fancymenu/fancymenu_assets/backgroundshadows3.png
+  source = [source:local]config/fancymenu/assets/backgroundshadows3.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5

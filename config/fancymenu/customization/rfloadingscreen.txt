@@ -13,7 +13,7 @@ layout-meta {
 }
 
 menu_background {
-  image_path = [source:local]config/fancymenu/fancymenu_assets/bg_anim.png
+  image_path = [source:local]config/fancymenu/assets/bg_anim.png
   slide = true
   repeat_texture = false
   parallax = false
@@ -45,9 +45,9 @@ layout_action_executable_blocks {
 
 element {
   bar_color = #DF467E
-  bar_texture = [source:local]config/fancymenu/fancymenu_assets/loadbar_loaded.png
+  bar_texture = [source:local]config/fancymenu/assets/loadbar_loaded.png
   background_color = #8F1D4F
-  background_texture = [source:local]config/fancymenu/fancymenu_assets/loadbar.png
+  background_texture = [source:local]config/fancymenu/assets/loadbar.png
   direction = right
   progress_for_element_anchor = false
   progress_source = {"placeholder":"game_loading_progress"}
@@ -89,9 +89,9 @@ element {
 
 element {
   bar_color = #5295FF
-  bar_texture = [source:local]config/fancymenu/fancymenu_assets/raspberry_flavoured_newest_logo.png
+  bar_texture = [source:local]config/fancymenu/assets/raspberry_flavoured_newest_logo.png
   background_color = #ABC8F7
-  background_texture = [source:local]config/fancymenu/fancymenu_assets/raspberry_flavoured_newest_logo_white.png
+  background_texture = [source:local]config/fancymenu/assets/raspberry_flavoured_newest_logo_white.png
   direction = right
   progress_for_element_anchor = false
   progress_source = {"placeholder":"game_loading_progress"}
@@ -132,9 +132,9 @@ element {
 
 element {
   bar_color = #DF467E
-  bar_texture = [source:local]config/fancymenu/fancymenu_assets/loadbar_loaded.png
+  bar_texture = [source:local]config/fancymenu/assets/loadbar_loaded.png
   background_color = #8F1D4F
-  background_texture = [source:local]config/fancymenu/fancymenu_assets/loadbar.png
+  background_texture = [source:local]config/fancymenu/assets/loadbar.png
   direction = right
   progress_for_element_anchor = false
   progress_source = {"placeholder":"game_loading_progress"}
@@ -176,9 +176,9 @@ element {
 
 element {
   bar_color = #5295FF
-  bar_texture = [source:local]config/fancymenu/fancymenu_assets/raspberry_flavoured_newest_logo.png
+  bar_texture = [source:local]config/fancymenu/assets/raspberry_flavoured_newest_logo.png
   background_color = #ABC8F7
-  background_texture = [source:local]config/fancymenu/fancymenu_assets/raspberry_flavoured_newest_logo_white.png
+  background_texture = [source:local]config/fancymenu/assets/raspberry_flavoured_newest_logo_white.png
   direction = right
   progress_for_element_anchor = false
   progress_source = {"placeholder":"game_loading_progress"}
