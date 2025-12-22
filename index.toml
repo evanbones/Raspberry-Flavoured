@@ -1046,11 +1046,11 @@ hash = "8dc22ed0b83399d5c83ed93bbec2cbd856aaac80df3801afe2adf0659428ff68"
 
 [[files]]
 file = "config/fancymenu/customization/rfloadingscreen.txt"
-hash = "053dbdb97769d16f742ad55d5f4ab5e42bbc30639bf5310cd2144fdd5d16c071"
+hash = "1a5a1a94d04692c4bfd6167f7428ffdd7d5d84e0da691a9e0cb13e75fae222d2"
 
 [[files]]
 file = "config/fancymenu/customization/rfloadingscreen2.txt"
-hash = "fa8105dee04adfc913bdd515b6792f74e18667ecc87f602d954aa7ec75bf730c"
+hash = "b755fbc7699c58e988b5195d21324ffed3029f79bcac62e0ee79a062800838fc"
 
 [[files]]
 file = "config/fancymenu/customization/rfmoreinfo.txt"
@@ -32980,7 +32980,7 @@ metafile = true
 
 [[files]]
 file = "mods/raspberry_core-1.11-pre1+1.20.1.jar"
-hash = "04b932b8c0f3c24e16b3f3e591ae7da02a772034f919019bca0085131c6ce3b9"
+hash = "c861b6c22e068030299c0853596ab35f14edc5556e0670fdb5cba63bb2552484"
 
 [[files]]
 file = "mods/recipe-essentials-forge-fabric.pw.toml"
