@@ -1742,6 +1742,9 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:silent_tablet')
 		.add('kubejs:swift_tablet')
 
+	event.get('miningmaster:gems')
+		.add('#raspberry_flavoured:all_enchanted_tablets')
+
 	event.get('raspberry_flavoured:smithing_templates')
 		.add('kubejs:blank_tablet')
 		.add('kubejs:aquatic_tablet')

@@ -1046,11 +1046,11 @@ hash = "8dc22ed0b83399d5c83ed93bbec2cbd856aaac80df3801afe2adf0659428ff68"
 
 [[files]]
 file = "config/fancymenu/customization/rfloadingscreen.txt"
-hash = "1a5a1a94d04692c4bfd6167f7428ffdd7d5d84e0da691a9e0cb13e75fae222d2"
+hash = "053dbdb97769d16f742ad55d5f4ab5e42bbc30639bf5310cd2144fdd5d16c071"
 
 [[files]]
 file = "config/fancymenu/customization/rfloadingscreen2.txt"
-hash = "b755fbc7699c58e988b5195d21324ffed3029f79bcac62e0ee79a062800838fc"
+hash = "fa8105dee04adfc913bdd515b6792f74e18667ecc87f602d954aa7ec75bf730c"
 
 [[files]]
 file = "config/fancymenu/customization/rfmoreinfo.txt"
@@ -31886,7 +31886,7 @@ hash = "46b1c875b099b05ef91fca5ab255a7fd908ffd38ab43d080e487bc06f64e66aa"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "a3d73f768c1576d9445874012d8feb6b66734d002a3a09b4f3acc0a6d797e99c"
+hash = "58de0b609f7e1c5dd3c157c26ca84dde75ca34ac8233094306ccaf454885b00e"
 
 [[files]]
 file = "kubejs/startup_scripts/attributes_modify.js"
