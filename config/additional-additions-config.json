@@ -37,7 +37,7 @@
   },
   "HastePotions": false,
   "GildedNetherite": {
-    "enabled": true,
+    "enabled": false,
     "fireResistancePerPiece": 2.5
   }
 }
