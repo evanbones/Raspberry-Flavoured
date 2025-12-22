@@ -57,6 +57,9 @@
 			kousa = true
 			grimwood = true
 
+		[types.wood_type.minecraft]
+			pale_oak = true
+
 	[types.cake]
 
 		[types.cake.farmersrespite]
@@ -157,6 +160,9 @@
 			orange_blossom = true
 			yellow_blossom = true
 			red_blossom = true
+
+		[types.leaves_type.minecraft]
+			pale_oak = true
 
 #Disables specific entries
 [entries]

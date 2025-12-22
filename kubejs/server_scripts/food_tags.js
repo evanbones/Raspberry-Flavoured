@@ -519,4 +519,7 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:pickerelweed_juice')
 		.add('kubejs:foul_fernet')
 		.add('kubejs:soulstice_sake')
+
+	event.get('forge:bars/chocolate')
+		.add('neapolitan:chocolate_bar')
 })

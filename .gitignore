@@ -70,3 +70,8 @@ instance.json
 
 # macOS
 .DS_Store
+/xaero
+packwiz.json
+packwiz-installer.jar
+packwiz-installer-bootstrap.jar
+command_history.txt

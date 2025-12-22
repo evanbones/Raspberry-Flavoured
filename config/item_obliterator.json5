@@ -16,6 +16,23 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    "minecraft:white_bundle",
+    "minecraft:gray_bundle",
+    "minecraft:light_gray_bundle",
+    "minecraft:light_blue_bundle",
+    "minecraft:blue_bundle",
+    "minecraft:purple_bundle",
+    "minecraft:red_bundle",
+    "minecraft:green_bundle",
+    "minecraft:orange_bundle",
+    "minecraft:yellow_bundle",
+    "minecraft:lime_bundle",
+    "minecraft:cyan_bundle",
+    "minecraft:magenta_bundle",
+    "minecraft:pink_bundle",
+    "minecraft:magenta_bundle",
+    "minecraft:black_bundle",
+    "minecraft:brown_bundle",
     "oreganized:electrum_upgrade_smithing_template",
     "minecraft:netherite_upgrade_smithing_template",
     "additionaladditions:gilded_netherite_upgrade",
