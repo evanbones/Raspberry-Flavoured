@@ -57,3 +57,9 @@ net.minecraft.client.gui.screens.packs.PackSelectionScreen {
 net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
