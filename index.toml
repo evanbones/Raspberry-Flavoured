@@ -15626,7 +15626,7 @@ hash = "cb6f36066738793ffdab0f2c5ab6583fdc9de70a12b3f7fe892a59eea3c92acf"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "1918810c6222755e6febcfd079c2c3cad4b2da80c9d722402b5268dbf0b1fe69"
+hash = "08f23689e946695a935816cd82570599c4fd62f5fad0101d12112ff3eeb7e2e2"
 
 [[files]]
 file = "config/raised.json"
