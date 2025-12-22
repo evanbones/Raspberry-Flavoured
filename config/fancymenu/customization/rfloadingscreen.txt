@@ -3,24 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1766357219557
+  last_edited_time = 1766429154739
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:dc9ffd49-2e78-41ee-b894-30177641650d-1766357192996] = [groups:][instances:]
-}
-
-customization {
-  action = setscale
-  scale = 3.0
-}
-
-customization {
-  action = autoscale
-  basewidth = 1704
-  baseheight = 980
+  [loading_requirement_container_meta:828d6a45-46e7-4ec3-9031-e79535760f4c-1766429091755] = [groups:][instances:]
 }
 
 menu_background {
@@ -77,10 +66,9 @@ element {
   auto_sizing_base_screen_width = 1704
   auto_sizing_base_screen_height = 981
   sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = fae086cb-94f8-4d8d-a1e8-43cd26268df21722779632401
-  x = 127
-  y = 241
+  anchor_point = mid-centered
+  x = -150
+  y = 78
   width = 300
   height = 10
   stretch_x = false
@@ -88,55 +76,6 @@ element {
   stay_on_screen = false
   element_loading_requirement_container_identifier = da5fbde9-76be-4e93-8b1b-a085f3130470-1756240976277
   [loading_requirement_container_meta:da5fbde9-76be-4e93-8b1b-a085f3130470-1756240976277] = [groups:][instances:]
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
-}
-
-element {
-  bar_color = #5295FF
-  bar_texture = [source:local]config/fancymenu/assets/raspberry_flavoured_newest_logo.png
-  background_color = #ABC8F7
-  background_texture = [source:local]config/fancymenu/assets/raspberry_flavoured_newest_logo_white.png
-  direction = right
-  progress_for_element_anchor = false
-  progress_source = {"placeholder":"game_loading_progress"}
-  value_mode = percentage
-  smooth_filling_animation = true
-  element_type = progress_bar
-  instance_identifier = f3ac0082-ea59-4041-8f30-3d50afec70ec1736041741716
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
-  fade_in_speed = 1.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -124
-  y = -106
-  width = 249
-  height = 62
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 05135532-8a79-41c2-afa9-b43ec105f26a-1756240976277
-  [loading_requirement_container_meta:05135532-8a79-41c2-afa9-b43ec105f26a-1756240976277] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -244,15 +183,15 @@ element {
   fade_out = no_fading
   fade_out_speed = 1.0
   base_opacity = 1.0
-  auto_sizing = false
+  auto_sizing = true
   auto_sizing_base_screen_width = 1704
   auto_sizing_base_screen_height = 981
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -160
-  y = 89
-  width = 275
-  height = 40
+  x = -150
+  y = 90
+  width = 277
+  height = 17
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -320,11 +259,12 @@ element {
   auto_sizing_base_screen_width = 1704
   auto_sizing_base_screen_height = 981
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = 115
-  y = 87
-  width = 163
-  height = 40
+  anchor_point = element
+  anchor_point_element = a2f6d0b2-1f3a-45e4-b13f-0da9e0f3dc7b-1766356850854
+  x = 270
+  y = 0
+  width = 88
+  height = 17
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
