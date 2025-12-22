@@ -9,17 +9,61 @@
 		#Whether farmland can be untilled by sneak-right clicking them with a hoe
 		"Untillable Farmland" = true
 
-	[Vanilla.crops]
+	[Vanilla.dispensers]
+		#If dispensers should be able to dispense into cauldrons
+		"Dispenser Cauldrons" = true
+
+	[Vanilla.bed]
+		#If having monsters next to you or being too far from bed should no longer prevent you from sleeping
+		"Good ahh sleep" = true
+
+	[Vanilla."Thunderstorm rates"]
+		#An inverse multiplier to how often thunderstorms should happen. If you put 1/3 here thunderstorms happen 3 times more often.
+		"Thunderstorm Multiplier" = 0.75
+
+	[Vanilla.bookshelves]
+		#If bookshelves and chiseled bookshelves should drop themselves without silk touch
+		"Bookshelves Drop Themselves" = true
+
+	[Vanilla.elytra]
+		#If elytras should still work when they have 0 durability. Don't turn this on unless you also use another mod to make elytras unbreakable
+		"Elytra infinite durability" = false
+
+	[Vanilla.end_poem]
+		#If the end poem should never show up.
+		"Opping End Poem" = true
+
+	[Vanilla.beacons]
+		#If status effects given you by beacons should NOT give off potion particles
+		"Hidden beacon particles" = false
+
+	[Vanilla."Moss carpet"]
+		#Whether Moss Carpets should become replaceable, like tall grass or something idk.
+		"Replaceable Moss Carpet" = true
+
+	[Vanilla.Stonecutter]
+		#If Woodworks is loaded, whether all sawmill recipes should becomes stonecutter recipes instead.
+		"Stonecutter more like woodcutter am I right" = false
+
+	[Vanilla.disc]
+		#The disc that should be spawned when a jukebox is struck with lightning. Disables if string is "no"
+		"Lightning Disc" = "minecraft:music_disc_ward"
+
+	[Vanilla.xp]
+		#If placing a block should have a chance to yield experience.
+		"Experienced Building" = true
+		#Specify n here, where the chance of a block dropping xp is 1/n. Integers only!
+		"Building XP chance" = 64
 		#If all blocks that are crops should drop experience.
-		"Experienced Crops" = false
+		"Experienced Crops" = true
 		#Minimum XP a crop block will drop when broken.
 		"Minimum Crop XP" = 0
 		#Maximum XP a crop block will drop when broken.
 		"Maximum Crop XP" = 1
 
-	[Vanilla.dispensers]
-		#If dispensers should be able to dispense into cauldrons
-		"Dispenser Cauldrons" = true
+	[Vanilla.enchantments]
+		#If enchantments other than protection should be buffed. Experimental!
+		"Erm what the sigma" = false
 
 [atmospheric]
 
@@ -33,11 +77,9 @@
 		#If knives should no longer receive the silk touch and efficiency from the enchanting table
 		"Unbloated Knife Enchantments" = true
 
-[brewin_and_chewin]
-
-	[brewin_and_chewin.Tipsy]
-		#If the tipsy effect should, instead of doing whatever it does now, should act as a progressively worsening nausea effect. TO FULLY DISABLE THIS FEATURE, PLEASE ALSO TURN OFF "WEIRD TIPSY" IN THE COMMON CONFIG
-		"Weird Tipsy" = true
+	[farmersdelight.Ballistic]
+		#If knives can receive the Ballistic enchantment, which gives them the effect of Dungeon's Delight cleavers to be thrown. REQUIRES DUNGEON's DELIGHT.
+		"Cleaverfication Enchantment" = false
 
 [nethersdelight]
 
@@ -45,11 +87,13 @@
 		#If fungus colonies should grow on normal rich soil instead of soul rich soil
 		"Rich Fungus" = true
 
-[environmental]
+	[nethersdelight.bullet_peppers]
+		#If bullet peppers should become unplaceable, thus killing letios plants forever
+		"Kill letios plants" = true
 
-	[environmental.wanderers_boots]
-		#If mobs will spawn with wanderer's boots with some odds proportional to how far they are away from the 0, 0
-		"Cool Boots" = false
+	[nethersdelight.magma_cakes]
+		#If frogs should become unable to consume magma cakes
+		"Magma Cakes Good" = false
 
 [supplementaries]
 
@@ -57,9 +101,63 @@
 		#If processing a quiver in a cutting board will eject all the arrows in that quiver
 		"Realistic Quivers" = true
 
-[anchor]
+[misc]
+	#If interacting with blocks like Flower Pots and Amendment Placeable Books should put the item they contain into your inventory, thus merging with existing stacks, instead of adding it to your hand, which is EXTREMELY ANNOYING
+	"Less Annoying Item Reclaim" = true
 
-	[anchor."epilogue Disc"]
-		#If striking a jukebox with lightning with a filled disc inside will change that disc to Epilogue
-		"AWESOME epilogue disc" = false
+["jaden nether expansion"]
+
+	["jaden nether expansion"."Bone Rods"]
+		#If bone rods should be placed by right clicking vanilla bones, instead of having a new bone rod item
+		#This will not change the loot table or recipe for bone rods. Modpack devs are expected to change those themselves
+		"Bone ahh bone" = false
+
+["Mowzies Mobs"]
+
+	["Mowzies Mobs".Rakes]
+		#If hoes should also be able to rake sand. Disabled by default option for my modpack
+		"Hoes Rake Sand" = false
+
+["Alexander Caverns"]
+
+	["Alexander Caverns".Acid]
+		#If acid should not corrode copper
+		"Good Acid" = true
+
+	["Alexander Caverns"."Cave Maps"]
+		#If pathfinder quills should make a based sigma cave map instead of a cringe beta vanilla map
+		"I'm sorry I said all that" = true
+
+	["Alexander Caverns"."Biome Treats"]
+		#If biome treats should work regardless of hunger
+		"Okay Treats" = true
+
+	["Alexander Caverns"."Sack of Sating"]
+		#If sacks of sating no longer restore saturation
+		"Mid sack of sating" = false
+
+	["Alexander Caverns".Tremorzilla]
+		#If tremorzillas should no longer passively break all blocks in its hitbox. Blocks are still broken when the tremorzilla attacks, or with its beam attack.
+		"Marginally Less Griefy Tremorzillas" = false
+
+["Dungeon's Delight"]
+
+	["Dungeon's Delight"."Brewing and Chewing Wardenzola"]
+		#If Wardenzola Dungeons Delight Should be Brewing and Chewingified; this means that they are placeable and have a keg recipe, as well as wedges.
+		"Wardenzola Wheel" = false
+
+["John Species"]
+
+	["John Species".Crankbow]
+		#The stack size crankbows should have. The formula for the capacity of crankbows is stack size * 2 + capacity enchantment level * stack size.
+		#This is for if you use a mod like Bigger Stacks to change the stack size
+		"Crankbow stack size " = 64
+
+	["John Species".hopelight]
+		#If species hopelights should act like JNE frogmists (only interactable when holding another hopelight or a pickaxe)
+		"Frogmist Hopelights" = true
+
+	["John Species"."Combustion Effect"]
+		#If explosions caused by mobs that die with the Species Combustion effect should not any blocks
+		"Less combusty combustion" = false
 

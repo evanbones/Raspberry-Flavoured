@@ -144,3 +144,15 @@
 			#Range: > 1
 			"Anvil cost cap" = 30
 
+	[tweaks.enchanting]
+		#Allow enchanting power from bookshelves to transmit through any non-solid block, not just replaceable ones
+		"Non-solid blocks transmit enchanting power" = true
+		#Allow Chiseled Bookshelves to be usable to boost enchanting table power
+		"Chiseled Bookshelf enchanting" = true
+		#How many regular books are needed to increase the enchantment power by 1
+		#Range: 1 ~ 6
+		"Books needed" = 3
+		#How many enchanted are needed to increase the enchantment power by 1
+		#Range: 1 ~ 6
+		"Enchanted Books needed" = 2
+

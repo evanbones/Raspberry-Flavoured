@@ -55,6 +55,13 @@
 	map_change_sound = false
 	#Automatically switches to the nearest slice when possible
 	automatic_slice_change = false
+	#Hides minimap when inventory is open
+	hide_when_inventory_is_open = false
+	#Shows a background texture for each map, useful to see where each map ends
+	shows_map_background = false
+	#Scale multiplier for Map Markers text on the mini-map
+	#Range: 0.0 ~ 10.0
+	map_markers_text_scale = 1.0
 
 [world_map]
 	#Use bigger book like texture for worldmap view. Makes the view a bit bigger. Recommended to ebe used with map scale 1 (you might want to lower lectern one too if buttons dont show)
@@ -86,6 +93,9 @@
 	crossair = false
 	#Range: 0.0 ~ 10.0
 	zoom_scroll_speed = 1.0
+	#Scale multiplier for Map Markers text on the world-map
+	#Range: 0.0 ~ 10.0
+	map_markers_text_scale = 1.0
 
 [misc]
 	#Multiplier for all the Atlases sound float
@@ -94,15 +104,9 @@
 	#Render atlas like normal map when in hand
 	#Allowed Values: ON, NOT_LOCKED, OFF
 	in_hand_renderer = "NOT_LOCKED"
-	#Scale multiplier for Map Markers on the atlas
-	#Range: 0.0 ~ 10.0
-	map_markers_scale = 1.0
-	#Scale multiplier for Map Markers text on the atlas
-	#Range: 0.0 ~ 10.0
-	map_markers_text_scale = 1.0
 
 [moonlight_integration]
-	#Show nearby mobs on minimap
+	#Show nearby mobs on minimap. Also requires matching server config
 	mob_radar = false
 	#Range: 0 ~ 256
 	radar_radius = 64
@@ -114,4 +118,8 @@
 	night_lightmap = true
 	#Turn on to convert Xaeros minimap waypoints. Conversion will happen on world boot. Remember to turn back off
 	convert_xaeros_waypoints = false
+	#Enables moonlight compat, which allows to place map markers on map via a special pin button
+	enabled = true
+	#Allows tracking pins by pressing control, making them follow you on minimap
+	pin_tracking = true
 

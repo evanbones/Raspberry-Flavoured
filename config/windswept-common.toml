@@ -11,6 +11,10 @@
 	"Larger Flower Hitbox" = true
 	#If Rabbits should have litters of 1-3
 	"Rabbit Litters" = true
+	#If Rain should wash away Snow Layers
+	"Rain Wash Away Snow" = true
+	#If Water in Snowy Biomes should slowly give the Frost Effect
+	"Freezing Water" = true
 
 #Tweaks to Windswept Worldgen
 [worldgen]
@@ -22,4 +26,7 @@
 	#How much durability Wooden Buckets should have
 	#Range: 1 ~ 1000
 	"Wooden Bucket Durability" = 8
+	#The chance that the Bumblebee Music Disc should drop from Beehives and Bee Nests
+	#Range: 0.0 ~ 1.0
+	"Bumblebee Disc Chance" = 0.01
 

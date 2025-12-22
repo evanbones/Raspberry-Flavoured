@@ -5,4 +5,9 @@
 	"Terracotta slabs, stairs, and walls" = true
 	"Terracotta bricks" = true
 	"Glazed terracotta" = true
+	Concrete = true
+
+	[blocks.decorated_pot]
+		"Decorated pot colors" = true
+		"Decorated pot trims" = true
 

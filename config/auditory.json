@@ -25,12 +25,15 @@
       "purpurSounds": true,
       "chorusPlantSounds": true,
       "iceSounds": true,
-      "gourdSounds": true
+      "gourdSounds": true,
+      "pot_sounds": true,
+      "bookshelf_sounds": true
     },
     "falling_in_place_sound": true,
     "jukebox_sounds": true,
     "flower_pot_sounds": true,
-    "cake_eating_sounds": false
+    "cake_eating_sounds": false,
+    "sculk_shrieker_ambient_sounds": true
   },
   "item_sounds": {
     "ender_pearl_sounds": true,

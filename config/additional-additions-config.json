@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "FoodItems": {
     "FriedEgg": false,
     "BerryPie": false,
@@ -19,7 +19,6 @@
   "Crossbows": false,
   "TridentShard": false,
   "GlowStick": false,
-  "GildedNetherite": false,
   "DepthMeter": {
     "enabled": false,
     "displayElevationAlways": false
@@ -32,11 +31,13 @@
   "PocketJukebox": false,
   "ChickenNugget": false,
   "PoweredRailsCopperRecipe": true,
-  "GoldRing": false,
   "GlowBerryEatGlow": {
     "enabled": false,
     "duration": 5
   },
   "HastePotions": false,
-  "BundleRecipe": false
+  "GildedNetherite": {
+    "enabled": true,
+    "fireResistancePerPiece": 2.5
+  }
 }

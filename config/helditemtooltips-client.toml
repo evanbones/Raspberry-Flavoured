@@ -18,7 +18,7 @@ offset_y = 57
 #Range: > 1
 update_interval = 20
 #Disables held item tooltips for specified items, mainly to prevent custom tooltips from overlapping.
-#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. Path may use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*shulker_box" to match all shulker boxes no matter of color.
+#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color.
 item_blacklist = []
 #Scale of held item tooltips. Works together with "GUI Scale" option in "Video Settings". A smaller scale might make room for more rows.
 #Range: 1 ~ 24

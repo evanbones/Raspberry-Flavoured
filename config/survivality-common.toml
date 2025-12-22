@@ -4,12 +4,8 @@
 	safe_cactus = false
 	#Feather Falling boots don't trample farmland
 	feathery_falling_boots = false
-	#Leaves turn white when snowing
-	snowy_leaves = true
 	#Pointed Dripstone falls when hit by projectiles
 	unstable_dripstone = false
-	#Signs can be re-edited
-	editable_signs = false
 	#Armor in the hotbar can be swapped with equipped armor
 	armor_swapping = true
 	#Night Vision is affected by its amplifier
@@ -72,4 +68,10 @@
 	#Chance for Polar Bears to spawn with a Stray on their back
 	#Range: 0.0 ~ 1.0
 	polar_bear_cavalry_chance = 0.11
+	#Max height for Cactus to grow
+	#Range: 0 ~ 384
+	cactus_grow_height = 5
+	#Max height for Sugar Cane to grow
+	#Range: 0 ~ 384
+	sugar_cane_grow_height = 5
 
