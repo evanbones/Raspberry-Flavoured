@@ -1,0 +1,13 @@
+name = "Bagel's Palette Blocks"
+filename = "paletteblocks-1.20.1-0.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ea8ebbf01b7f985a7f6d45a5b3492088ad33847"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7364490
+project-id = 628678

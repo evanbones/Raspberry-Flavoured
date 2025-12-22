@@ -32091,6 +32091,11 @@ hash = "bacd178cb6dee20b0ed95dcf70c13094bcb32f302c5610143337c196cda3924c"
 metafile = true
 
 [[files]]
+file = "mods/bagels-palette-blocks.pw.toml"
+hash = "e7c03d8bc7e9138282f6bfbfb07055696d1fe1664d43cb6a9a51fa9f7c04782f"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "1b31cb793a692d9f692b233eab37e6fed156f7b05c4a2080a75ea6c06c38c178"
 metafile = true
@@ -32887,10 +32892,6 @@ metafile = true
 file = "mods/owo-lib.pw.toml"
 hash = "df4c4fe3aff1792aa7d19d097d5d1bc0c6e958e6e4ee32dbf148ecac62e1274d"
 metafile = true
-
-[[files]]
-file = "mods/paletteblocks-1.20.1-0.2.1.jar"
-hash = "297a633524c7aca720b56e0357e19dffe158c2c4c8157001cbad7ace98dd98bf"
 
 [[files]]
 file = "mods/panorama-screens.pw.toml"
