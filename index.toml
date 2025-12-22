@@ -32585,11 +32585,6 @@ hash = "d8179ca370877386a5e3f69fa54d10bca74df9db1d3417ead96600260d03fb7a"
 metafile = true
 
 [[files]]
-file = "mods/geophilic-reforged.pw.toml"
-hash = "06d5c545081946629cc0aba5c7067b2850c3e4b9845e322e6429f0b66c529bbf"
-metafile = true
-
-[[files]]
 file = "mods/gliders.pw.toml"
 hash = "26f033943fda1183802bb7695fc54b77662644e6add2999432b6dc5171285836"
 metafile = true
@@ -32924,6 +32919,11 @@ hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "131e4f8e6ea05f47b2167852ad319d15a004e951b49aba54cbb6306570319cea"
+metafile = true
+
+[[files]]
 file = "mods/polytone.pw.toml"
 hash = "4b9f1ee7efa90e75297838cf069c226a4be228944f1db8e1920a1b3e444acbe9"
 metafile = true
@@ -33170,6 +33170,11 @@ metafile = true
 [[files]]
 file = "mods/upgrade-aquatic.pw.toml"
 hash = "909482378bf0ed15645bcbba896daf9e83b7ef4e100bc44d6d3a34090f13578f"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "beca04dfa133d41a193ecd5566a4448beeacc7db078d17d4f0149d0856168ec0"
 metafile = true
 
 [[files]]
