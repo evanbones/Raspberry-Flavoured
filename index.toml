@@ -15710,11 +15710,11 @@ hash = "186ffbe6ead0ec3ded9ac2131b3f55f01502f6b96bf642810aff2fcdb3a643ae"
 
 [[files]]
 file = "config/simple-rpc/server-entries.toml"
-hash = "8df93f32e1e331a11a5119038d148ee4fd4e2b8bb748242815eb4203398fc2a1"
+hash = "6dfd7e6dfd8bb89d93c9eadc92716a7d8cd05005f526beec8174db4ca3ebb019"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "d941005ea253a386d843e36426003a0f7a14b086f4377a5d4cd44211c3ce51f1"
+hash = "3d42450f058b30c88233dced5cc7f1b3359fd9c97f58c48c7163f101d233d63a"
 
 [[files]]
 file = "config/smoothchunk-common.toml"

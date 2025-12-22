@@ -1,253 +1,364 @@
+
+#General Config Section. See https://srpc.fdd-docs.com/introduction/
 [general]
-	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
-	applicationID = 1124831241598939228
+	#The Application ID of the Discord App to use
+	applicationID = "1124831241598939228"
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
-	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
-	configScreen = false
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
+	#Allow using local image files, as RPC icons
+	rpcImageServer = false
+	#The URL of the RPC image server that will be used for local images. Restart required when changed
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
 	#Internal Version Number. NO TOUCHY!
-	version = 18
+	version = 26
 
+#The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
 	enabled = true
-	#The first line of text under the app name
-	description = "Raspberry Flavoured is loading"
-	#The second line of text under the app name
-	state = "Game Starting..."
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[init.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[init.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Raspberry Flavoured is loading"
+		#The second line of text under the app name
+		state = "Game Starting..."
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = [""]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
-	#The first line of text under the app name
-	description = "%player% is doing stuff"
-	#The second line of text under the app name
-	state = "Chilling in the menu"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[main_menu.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[main_menu.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is currently lazy"
+		#The second line of text under the app name
+		state = "Chilling in the menu"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = []
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = true
-	#The first line of text under the app name
-	description = "%player% is looking for a server"
-	#The second line of text under the app name
-	state = "Searching for friends"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[server_list.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[server_list.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is looking for a server"
+		#The second line of text under the app name
+		state = "Searching for friends"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = true
-	#The first line of text under the app name
-	description = "%player% is looking for a Realm"
-	#The second line of text under the app name
-	state = "Browsing Realms"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[realms_list.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[realms_list.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is looking for a Realm"
+		#The second line of text under the app name
+		state = "Browsing Realms"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
 	enabled = true
-	#The first line of text under the app name
-	description = "%player% is joining a game"
-	#The second line of text under the app name
-	state = "Joining Game"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[join_game.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[join_game.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is joining a game"
+		#The second line of text under the app name
+		state = "Joining Game"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
-	#The first line of text under the app name
-	description = "Currently In %world%"
-	#The second line of text under the app name
-	state = "Playing in: %savename%"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[single_player.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[single_player.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Currently In {{world.name}}"
+		#The second line of text under the app name
+		state = "Playing lonely mode"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#The Multi Player Event
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
-	#The first line of text under the app name
-	description = "Playing on a server"
-	#The second line of text under the app name
-	state = "With some friends, probably"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[multi_player.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[multi_player.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Playing on {{server.name}} with {{server.players.count}} players"
+		#The second line of text under the app name
+		state = "Playing online"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
 	enabled = true
-	#The first line of text under the app name
-	description = "Playing on a Realm"
-	#The second line of text under the app name
-	state = "With some friends, probably"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[realms.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[realms.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Playing on {{realm.name}}"
+		#The second line of text under the app name
+		state = "Playing on a Realm"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#The Paused Event
+[paused]
+	#Enable/Disable the Pause Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[paused.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "In the Pause Menu"
+		#The second line of text under the app name
+		state = "Game Paused"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#Fallback event for disabled events
 [generic]
-	#The first line of text under the app name
-	description = "Doing something very cool, which is:"
-	#The second line of text under the app name
-	state = "Playing Raspberry Flavoured"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["rflogodcbig"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = [""]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-	#The buttons to display on Discord 
 
-	[[generic.buttons]]
-		label = "CurseForge Page"
-		url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
+	#List of RPCs that will be displayed at random
+	[[generic.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Playing Minecraft"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["rflogodcbig"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["mclogo"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
 
+#Custom Config Variables that you can use
 [custom]
 	#Must these variables be parsed along with other variables
 	enabled = true
 	#Your custom variables to add
 	variables = []
 
+#Dimension Information Overrides
 [dimension_overrides]
-	enabled = true
+	#Allows you to override the displayed values for dimensions
+	enabled = false
 
+	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "overworld"
-		description = "%player% is in The Overworld"
-		state = "Playing in: %savename%"
-		largeImageKey = ["rflogodcbig"]
-		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-		smallImageKey = [""]
-		smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 
-		[[dimension_overrides.dimensions.buttons]]
-			label = "CurseForge Page"
-			url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
-
+		#List of RPCs that will be displayed at random
+		[[dimension_overrides.dimensions.presence]]
+			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+			type = "PLAYING"
+			#The first line of text under the app name
+			description = "{{player.name}} is in The Overworld"
+			#The second line of text under the app name
+			state = ""
+			#The Asset ID or URLs of images to randomly use for the large image
+			largeImageKey = ["overworld"]
+			#The text to show when someone hovers over the largeImage
+			largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+			#The Asset ID or URLs of images to randomly use for the small image
+			smallImageKey = ["mclogo"]
+			#The text to show when someone hovers over the smallImage
+			smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+			#The Twitch or Youtube URL to use when type is set to STREAMING
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			#List of buttons (max 2) to show on the RPC
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "the_nether"
-		description = "%player% is in The Nether"
-		state = "Playing in: %savename%"
-		largeImageKey = ["rflogodcbig"]
-		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-		smallImageKey = [""]
-		smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 
-		[[dimension_overrides.dimensions.buttons]]
-			label = "CurseForge Page"
-			url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
-
+		#List of RPCs that will be displayed at random
+		[[dimension_overrides.dimensions.presence]]
+			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+			type = "PLAYING"
+			#The first line of text under the app name
+			description = "{{player.name}} is in The Nether"
+			#The second line of text under the app name
+			state = ""
+			#The Asset ID or URLs of images to randomly use for the large image
+			largeImageKey = ["nether"]
+			#The text to show when someone hovers over the largeImage
+			largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+			#The Asset ID or URLs of images to randomly use for the small image
+			smallImageKey = ["mclogo"]
+			#The text to show when someone hovers over the smallImage
+			smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+			#The Twitch or Youtube URL to use when type is set to STREAMING
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			#List of buttons (max 2) to show on the RPC
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "the_end"
-		description = "%player% is a dirty cheater"
-		state = "Playing in: %savename%"
-		largeImageKey = ["rflogodcbig"]
-		largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
-		smallImageKey = [""]
-		smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
 
-		[[dimension_overrides.dimensions.buttons]]
-			label = "CurseForge Page"
-			url = "https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured"
-
-
+		#List of RPCs that will be displayed at random
+		[[dimension_overrides.dimensions.presence]]
+			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+			type = "PLAYING"
+			#The first line of text under the app name
+			description = "{{player.name}} is a dirty cheater"
+			#The second line of text under the app name
+			state = ""
+			#The Asset ID or URLs of images to randomly use for the large image
+			largeImageKey = ["end"]
+			#The text to show when someone hovers over the largeImage
+			largeImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+			#The Asset ID or URLs of images to randomly use for the small image
+			smallImageKey = ["mclogo"]
+			#The text to show when someone hovers over the smallImage
+			smallImageText = "This person's playing Raspberry Flavoured, a Minecraft modpack - you can play it yourself if you go to the CurseForge page!"
+			#The Twitch or Youtube URL to use when type is set to STREAMING
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			#List of buttons (max 2) to show on the RPC
+			buttons = []
 
