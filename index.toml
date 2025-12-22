@@ -702,7 +702,7 @@ hash = "10d1509f758cd6b1f2677ab442aba7eae2d45abcdafcb28b833fa60818c96292"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "2c6d3853c04b3076916533fa4f3c0fdc305834e3ffde6a9b374151fc5b713299"
+hash = "7844cca4c8b456053bd2f2b68a1325d2e7431d3947073986d84d81d78a385cf2"
 
 [[files]]
 file = "config/fancymenu/customization/createworldscreen.txt"
@@ -722,7 +722,7 @@ hash = "772bc3c9c3f638bd2ba7928d09e5a0bac53b5f14b0d241135e08f79fc06d6ada"
 
 [[files]]
 file = "config/fancymenu/customization/keybindscreen.txt"
-hash = "bb2381c3ab0dfeebbfdfe5d5f7dc86fcdbf7a20c66bc0b3c533e0da6c0701c7f"
+hash = "098137bed8ce34612a448e75c750f85fe71ee621e08950796f3ba17a72fefb49"
 
 [[files]]
 file = "config/fancymenu/customization/modmenu.txt"
@@ -1006,7 +1006,7 @@ hash = "f97ebb72bc10ac50a17a69eafc899e4726cbcde997409ea933cd23c1b55d1cc8"
 
 [[files]]
 file = "config/fancymenu/customization/newoptions.txt"
-hash = "48661fd8001af8c042aef19922c28ba4cdb108f7e1432fbd52683a7b16c9f8c5"
+hash = "40d603c2b74f73910a861cd06e8a21241d3c37700c3761f4aaebd43143dd3db7"
 
 [[files]]
 file = "config/fancymenu/customization/newpausemenu.txt"
@@ -1014,7 +1014,7 @@ hash = "69ae86675ae6e9640aebf58d70f9ac4a08955a8ea682fdd3883dc08a408f590f"
 
 [[files]]
 file = "config/fancymenu/customization/newtitle.txt"
-hash = "8c65e140fbead84767e4a9fdd76112bbf6f1207c445516d7c31b1cdf821e95e0"
+hash = "43164bdebe628d1f37cbabe529b3421f26c78f621d69ddcb9fae4de2432bcf64"
 
 [[files]]
 file = "config/fancymenu/customization/resourcepacksmenu.txt"
@@ -1022,11 +1022,11 @@ hash = "b32bdef6acb1251593cfb6a84267ce4312863aa24a4130592d643af522722951"
 
 [[files]]
 file = "config/fancymenu/customization/rfchangelog.txt"
-hash = "a15ceff53c553206377883ec48a190d35b2040289a94b36030d30c713b0c41f8"
+hash = "13f0fe1564aa04a72a7a41ff32c80ebb2e47743d8494bbe7d4c365de5293dbf1"
 
 [[files]]
 file = "config/fancymenu/customization/rfcontrols1.txt"
-hash = "cbf9d19285513e461b319b9fabcadf46796c41fa4445de09a6dd8db5232db906"
+hash = "fef5256708683f682f49c3dd64918be3aa445873acb5e1435cca011ca6140d88"
 
 [[files]]
 file = "config/fancymenu/customization/rfcreative.txt"
@@ -1054,11 +1054,11 @@ hash = "b755fbc7699c58e988b5195d21324ffed3029f79bcac62e0ee79a062800838fc"
 
 [[files]]
 file = "config/fancymenu/customization/rfmoreinfo.txt"
-hash = "7d7ec7e2188c9bf68db2ac1f57f7a8b5a05668bf450e4fb5350ee5106f1fad9f"
+hash = "7268173b5ba2d37f5a7ad80fab43a9ebab9e46ca1230798ce52ce7c333711c87"
 
 [[files]]
 file = "config/fancymenu/customization/rfmoresettings.txt"
-hash = "18ed07263b8402fe6fc5514bce8a631ab13ad9b0882421c5347ab003dc8d3b05"
+hash = "991f3149be41916859af317eb8fd5de5224b3c2a3a00ea20d3cc85d66c1b46ff"
 
 [[files]]
 file = "config/fancymenu/customization/rfplayerselectionmenu.txt"
