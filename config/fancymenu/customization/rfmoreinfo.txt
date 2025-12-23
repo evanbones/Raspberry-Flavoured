@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = rfmoreinfo
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1766378630069
+  last_edited_time = 1766514891959
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:6c827250-cc05-4009-b740-b431a659b598-1766378608435] = [groups:][instances:]
+  [loading_requirement_container_meta:90b02712-a314-44a7-9a05-d66b67f0da2d-1766514772479] = [groups:][instances:]
 }
 
 customization {
@@ -49,8 +49,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 1704
+  auto_sizing_base_screen_height = 981
   sticky_anchor = false
   anchor_point = mid-centered
   x = -248
@@ -143,7 +143,7 @@ element {
 
 element {
   interactable = true
-  source = Frequently Asked Questions%n%Regarding Raspberry Flavoured
+  source = ^^^%n%Frequently Asked Questions%n%Regarding Raspberry Flavoured%n%^^^
   source_mode = direct
   shadow = true
   scale = 1.5
@@ -216,7 +216,7 @@ element {
 
 element {
   interactable = true
-  source = &6&lQ1: &f&lWhere is the Languages menu?%n%%n%The way a lot of items have been renamed is through%n%the language files and there's no conceivable way to add support%n%for every language - thus, the language menu is %n%disabled for the time being.%n%%n%&6&lQ2: &f&lWhy are a bunch of major features (such as villagers, %n%&lthe End, certain enchantments, etc.) disabled in this pack?%n%%n%A variety of reasons - mainly to maintain game/pack balance and also%n%because of personal taste and opinions. %n%Raspberry Flavoured was never meant to strictly try to %n%"improve" the game, rather just make a bunch of opinionated changes %n%and add fun stuff while trying to evoke the feelings people got from %n%older versions of Minecraft without completely ditching modern versions %n%and all of the improvements they've made to the game.%n%%n%So, it's likely most changes you'll see, even small ones, are just a result %n%of trying some things out and experimenting.%n%It's entirely possible some of these features may even make their way%n%back into the pack in some different form at some point.%n%%n%&6&lQ3: &f&lWhat's the goal of this modpack?%n%%n%There isn't a concrete goal (like beating the Ender Dragon) to achieve%n%in Raspberry Flavoured. Call it a bit of laziness if you will, and perhaps%n%it is to some degree, but ultimately I do believe Minecraft works best%n%when there is no end-all-be-all goal to work towards and you're%n%left to your own devices to make your own goals.%n%%n%That being said, the pack does have a fully new set of advancements%n%that you can follow to not only learn about various changes but also%n%track your progression, as there still is plenty of that.
+  source = &6&lQ1: &f&lWhere &f&lis &f&lthe &f&lLanguages &f&lmenu?%n%%n%The way a lot of items have been renamed is through%n%the language files and there's no conceivable way to add support%n%for every language - thus, the language menu is %n%disabled for the time being.%n%%n%&6&lQ2: &f&lWhy &f&lare &f&la &f&lbunch &f&lof &f&lmajor &f&lfeatures &f&l(such &f&las &f&lvillagers, %n%&l&f&lthe &f&lEnd, &f&lcertain &f&lenchantments, &f&letc.) &f&ldisabled &f&lin &f&lthis &f&lpack?%n%%n%A variety of reasons - mainly to maintain game/pack balance and also%n%because of personal taste and opinions. %n%Raspberry Flavoured was never meant to strictly try to %n%"improve" the game, rather just make a bunch of opinionated changes %n%and add fun stuff while trying to evoke the feelings people got from %n%older versions of Minecraft without completely ditching modern versions %n%and all of the improvements they've made to the game.%n%%n%So, it's likely most changes you'll see, even small ones, are just a result %n%of trying some things out and experimenting.%n%It's entirely possible some of these features may even make their way%n%back into the pack in some different form at some point.%n%%n%&6&lQ3: &f&lWhat's &f&lthe &f&lgoal &f&lof &f&lthis &f&lmodpack?%n%%n%There isn't a concrete goal (like beating the Ender Dragon) to achieve%n%in Raspberry Flavoured. Call it a bit of laziness if you will, and perhaps%n%it is to some degree, but ultimately I do believe Minecraft works best%n%when there is no end-all-be-all goal to work towards and you're%n%left to your own devices to make your own goals.%n%%n%That being said, the pack does have a fully new set of advancements%n%that you can follow to not only learn about various changes but also%n%track your progression, as there still is plenty of that.
   source_mode = direct
   shadow = true
   scale = 1.0

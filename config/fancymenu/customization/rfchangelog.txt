@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = rfchangelog
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1766356673533
+  last_edited_time = 1766515271074
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:53c3c2d9-a5f9-4237-820f-2656f25d5652-1766356614794] = [groups:][instances:]
+  [loading_requirement_container_meta:2829adc4-ec55-462d-8928-62c9a4000a1c-1766515244700] = [groups:][instances:]
 }
 
 customization {
@@ -49,8 +49,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 1704
+  auto_sizing_base_screen_height = 981
   sticky_anchor = false
   anchor_point = mid-centered
   x = -261
@@ -70,6 +70,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -127,6 +133,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -188,5 +200,155 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  interactable = true
+  source = ^^^%n%&nRASPBERRY &nFLAVOURED &n3.2.1 &nCHANGELOG%n%^^^ 
+  source_mode = direct
+  shadow = true
+  scale = 1.5
+  base_color = #E8587C
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
+  element_type = text_v2
+  instance_identifier = febdaf17-0d03-461b-8e78-6467da1e0cce-1766514921664
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1704
+  auto_sizing_base_screen_height = 981
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -192
+  y = -112
+  width = 385
+  height = 16
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 3de7fc51-0a36-40da-8001-93f6fccc69bf-1766514921664
+  [loading_requirement_container_meta:3de7fc51-0a36-40da-8001-93f6fccc69bf-1766514921664] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  interactable = true
+  source = &6&nMod &6&nList &6&nChanges:%n%&e- Added: &fScholar, Connectible Chains, Dynamic Crosshair, %n%Achievement Optimizer%n%&e- Updated: &fRaspberry Core, Immersive Overlays%n%%n%&6&nGameplay/Content &6&nChanges:%n%&e- &fArchitect's Palette's Parquetry blocks have been removed%n%&e- &fModest Mining's wooden Panels blocks %n%have been implemented, replacing Parquetry%n%&e- &fModest Mining's wooden Pillar blocks have been implemented%n%&e- &fBackported Minecraft 1.21.6's Leash mechanics %n%(implemented by evanbones)%n%&e- &fLeashes can now be tied between two Fences %n%by themselves (implemented by evanbones)%n%&e- &fChains can now be tied between two Fences or Walls %n%(with the addition of Connectible Chains, tweaked by evanbones)%n%&e- &fBook and Quills can now be dyed, show two pages at once and %n%have formatting options built-in (with the addition of Scholar, %n%backported by evanbones)%n%&e- &fCopycat Vertical Steps have been re-implemented%n%&e- &fSilver Ore now generates a bit more frequently and in a %n%bigger range of altitudes in Electrum Forests%n%&e- &fSilver Mirrors' damage has been nerfed to make it harder %n%to kill undead while trying to follow the Silver particle trail%n%&e- &fSilver Mirrors, Deeds of Ownership, %n%Train Stations and Leashes are now cheaper to craft%n%&e- &fCompasses and Depth Gauges now have Sequenced Assembly recipes%n%&e- &fHanging Signs are now crafted using Chains %n%instead of Iron Nuggets, but output 3 rather than 2%n%&e- &fBoards can now be converted back into Planks using a Table Saw%n%&e- &fSnail Master Potions are now more expensive to brew%n%&e- &fAdded storage blocks for Button Mushrooms, Crimini, Portabellas, %n%Milly Bubcap Mushrooms, Crimson Fungi, Warped Fungi %n%and Choral Fungi (textures by lurkywho)%n%&e- &fAdded Ghast Rolls%n%&e- &fRemoved Purulent Tea%n%&e- &fSnow Top Green Tea, Yellow Tea, Black Tea and Coffee's %n%amplification/extension effects have %n%been replaced with regular status effects%n%&e- &fCabbage Rolls and Bat Rolls now require Tomato Sauce and %n%Glowgurt in their recipes respectively but have been buffed slightly%n%&e- &fCabbage Rolls, Rustic Loaf Slices and all Toasts %n%can now be consumed twice as fast%n%&e- &fAll Ice Cream is now made with Milk instead of Butter%n%&e- &fPie Crust is now made with Butter instead of Salt%n%&e- &fMinecart riding speed has been reduced from %n%34 blocks per second down to 20 (and has been made configurable)%n%&e- &fThe Pouch of Sorcery can now rarely contain Shimmershrooms%n%&e- &fCat morning gift loot table has been tweaked%n%&e- &fParagliders can now be %n%enchanted with Vitality (implemented by cassiancc)%n%%n%&6&nCosmetic/Aesthetic &6&nChanges:%n%&e- &fRe-added Dynamic Crosshair, now hopefully %n%without it hiding the crosshair at random%n%&e- &fBackported Minecraft 1.21.6's Music Toast and %n%Frequency settings (implemented by evanbones)%n%&e- &fEMI will now display workstations for %n%recipe types by default (tweaked by cassiancc)%n%&e- &fEMI will now display recipe duration for %n%Fermenting recipes (implemented by cassiancc)%n%&e- &fAdobe Bricks have been renamed to Large Bricks and %n%their textures have been changed (new textures by Kayla_the_Bee)%n%&e- &fBlock of Bronze texture %n%has been changed (new texture by ProbablyEkho)%n%&e- &fFlax and Leash item textures have been changed%n%&e- &fWheat and Diamond item textures have been tweaked%n%&e- &fExokin and Exovaults' colour palettes have been tweaked%n%%n%&6&nFixes/Technical &6&nChanges:%n%&e- &fVarious tabs are no longer missing from EMI (fixed by cassiancc)%n%&e- &fSpiders no longer act as entirely ranged enemies, attacking entities %n%caught in Temporary Cobwebs as intended (fixed by evanbones)%n%&e- &fTemporary Cobwebs are no longer %n%unaffected by the Bracewalk enchantment%n%&e- &fThe Bracewalk enchantment can no longer %n%break Sweet Berry Bushes%n%&e- &fAllays are no longer unable to duplicate %n%near Jukeboxes (fixed by evanbones)%n%&e- &fMounted entities shot with Lachryte Arrows %n%will now swap with the attacker rather than %n%staying in place (fixed by Kobber)%n%&e- &fDispensers are no longer unable to %n%shoot Lachryte Arrows (fixed by Kobber)%n%&e- &fFixed certain Slab blocks still using 3x3 recipes%n%&e- &fFixed some incorrect or missing cutting recipes%n%&e- &fFixed some incorrect recycling recipe outputs%n%&e- &fFixed incorrect item names%n%&e- &fFixed certain items not being compostable%n%&e- &fAdded utility tags to items previously missing them%n%&e- &fDisabled large Lead veins for the time being%n%&e- &fAll Cake Slices are now consistently %n%unable to be eaten while full%n%&e- &fHidden resource packs will (hopefully) %n%no longer appear in the resource pack menu%n%&e- &fExokin Heads no longer have the %n%vanilla Enderman texture when worn%n%&e- &fThe "Brewing Bad" painting no longer %n%has the vanilla Witch texture
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
+  element_type = text_v2
+  instance_identifier = efa90ab4-a276-45bc-8bd5-91945da439e2-1766515048120
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1704
+  auto_sizing_base_screen_height = 981
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -193
+  y = -94
+  width = 387
+  height = 167
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 497a4c87-508d-49b9-8e02-42943cb12f58-1766515048120
+  [loading_requirement_container_meta:497a4c87-508d-49b9-8e02-42943cb12f58-1766515048120] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
