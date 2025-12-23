@@ -4542,9 +4542,6 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('environmental:blossom_woods')
 		.add('environmental:blossom_valleys')
 		
-	event.get('raspberry_flavoured:hopeful_wildflowers_biomes')
-		.add('minecraft:flower_forest')
-		
 	event.get('raspberry_flavoured:dense_pink_petals_biomes')
 		.add('environmental:blossom_woods')
 		
@@ -4556,7 +4553,6 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('minecraft:old_growth_birch_forest')
 		
 	event.get('raspberry_flavoured:cheery_wildflowers_biomes')
-		.add('minecraft:flower_forest')
 		.add('minecraft:meadow')
 		.add('minecraft:sunflower_plains')
 		.add('minecraft:sparse_jungle')
@@ -4570,7 +4566,6 @@ ServerEvents.tags('worldgen/biome', event => {
 		.add('minecraft:old_growth_spruce_taiga')
 		
 	event.get('raspberry_flavoured:moody_wildflowers_biomes')
-		.add('minecraft:flower_forest')
 		.add('minecraft:windswept_hills')
 		.add('minecraft:windswept_forest')
 		.add('minecraft:snowy_taiga')
