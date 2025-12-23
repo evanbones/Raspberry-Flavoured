@@ -75,3 +75,4 @@ packwiz.json
 packwiz-installer.jar
 packwiz-installer-bootstrap.jar
 command_history.txt
+config/fabric/indigo-renderer.properties

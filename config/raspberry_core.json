@@ -44,6 +44,7 @@
   "ghast_dragon_fireball": false,
   "leash_fences": true,
   "disable_birch_leaf_tinting": true,
+  "disable_maple_leaf_tinting": true,
   "jade_requires_scoping": true,
   "music_frequency": "DEFAULT",
   "show_music_toast": false,
@@ -68,5 +69,6 @@
     "minecraft:food_and_drinks": "minecraft:golden_apple",
     "minecraft:functional_blocks": "minecraft:oak_sign"
   },
-  "no_templates": true
+  "no_templates": true,
+  "compatible_datapacks": true
 }
