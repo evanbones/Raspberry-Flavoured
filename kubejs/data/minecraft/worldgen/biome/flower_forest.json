@@ -25,6 +25,8 @@
       }
     ,
     "sky_color": 6073571,
+    "grass_color": 6144065,
+    "foliage_color": 3649040,
     "water_color": 3569353,
     "water_fog_color": 198410
   },
@@ -81,7 +83,7 @@
     [
       "minecraft:glow_lichen",
       "minecraft:flower_forest_flowers",
-      "clifftree:pink_petals_flower_forest",
+      "clifftree:wildflowers_flower_forest",
       "minecraft:trees_flower_forest",
       "clifftree:flower_flower_forest",
       "minecraft:patch_grass_meadow",
@@ -90,7 +92,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_sugar_cane",
       "clifftree:grass_skylight",
-      "clifftree:patch_firefly_bush_skylight_near_water"
+      "clifftree:patch_firefly_bush_skylight_near_water",
+      "environmental:patch_delphiniums"
     ],
     [ 
       
