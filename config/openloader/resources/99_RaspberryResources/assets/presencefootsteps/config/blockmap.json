@@ -1108,7 +1108,7 @@
 	"environmental:cherry_crate": "wood,organic",
 	"environmental:duck_egg_crate": "wood,slate",
 	"environmental:cattail_seed_sack": "rug,sand",
-	"environmental:truffle_crate": "wood,mushroom",
+	"kubejs:truffle_crate": "wood,mushroom",
 
 	"environmental:duckweed.foliage": "brush",
 

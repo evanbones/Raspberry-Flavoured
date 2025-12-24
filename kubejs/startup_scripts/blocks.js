@@ -9,6 +9,10 @@ StartupEvents.registry('block', event => {
 	event.create('cinnamon_bag').soundType('wool').hardness(0.8).resistance(0.8).item(item => {item})
 	event.create('oat_bag').soundType('wool').hardness(0.8).resistance(0.8).item(item => {item})
 	
+	event.create('truffle_crate').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item})
+	event.create('red_mushroom_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item})
+	event.create('brown_mushroom_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item})
+	event.create('glow_shroom_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item})
 	event.create('button_mushroom_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item})
 	event.create('crimini_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item})
 	event.create('portabella_basket').soundType('wood').hardness(1.5).resistance(1.5).item(item => {item})

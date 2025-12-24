@@ -161,6 +161,8 @@ to make editing this file much easier.
 	   	}
 	*/
 	"swapper": {
+			"oreganized:lead_door": "supplementaries:netherite_door",
+			"oreganized:lead_trapdoor": "supplementaries:netherite_trapdoor",
 	   		"farmersdelight:rope": "supplementaries:rope",
 	   		"upgrade_aquatic:beachgrass": "farmersdelight:sandy_shrub",
 	   		"mynethersdelight:letios_compost": "farmersdelight:organic_compost",

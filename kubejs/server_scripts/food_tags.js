@@ -382,7 +382,7 @@ ServerEvents.tags('item', event => {
 		.add('spelunkery:white_inkcap_mushroom')
 		.add('create:chocolate_glazed_berries')
 		.add('create:sweet_roll')
-		.add('create_central_kitchen:cherry_pie_slice')
+		.add('raspberry:cherry_pie_slice')
 		.add('create_central_kitchen:pumpkin_pie_slice')
 		.add('create_central_kitchen:truffle_pie_slice')
 		.add('create_confectionery:chocolate_glazed_marshmallow')

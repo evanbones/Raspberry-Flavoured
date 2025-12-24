@@ -2,7 +2,7 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "windswept:pink_rose"
+      "item": "raspberry:pink_rose"
     }
   ],
   "processingTime": 50,

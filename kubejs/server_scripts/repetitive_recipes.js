@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
 	panel('minecraft:mangrove','modestmining:mangrove_pillar','modestmining:mangrove_board','woodworks:mangrove_board')
 	panel('minecraft:crimson','modestmining:crimson_pillar','modestmining:crimson_board','woodworks:crimson_board')
 	panel('minecraft:warped','modestmining:warped_pillar','modestmining:warped_board','woodworks:warped_board')
-	panel('minecraft:bamboo','everycomp:mm/quark/bamboo_pillar','everycomp:mm/quark/bamboo_board','everycomp:abnww/quark/bamboo_board')
+	panel('minecraft:bamboo','everycomp:mm/minecraft/bamboo_pillar','everycomp:mm/minecraft/bamboo_board','everycomp:abnww/minecraft/bamboo_board')
 	panel('mynethersdelight:powdery','everycomp:mm/mynethersdelight/powdery_pillar','everycomp:mm/mynethersdelight/powdery_board','everycomp:abnww/mynethersdelight/powdery_board')
 	panel('ecologics:azalea','everycomp:mm/ecologics/azalea_pillar','everycomp:mm/ecologics/azalea_board','everycomp:abnww/ecologics/azalea_board')
 	panel('ecologics:coconut','everycomp:mm/ecologics/coconut_pillar','everycomp:mm/ecologics/coconut_board','everycomp:abnww/ecologics/coconut_board')

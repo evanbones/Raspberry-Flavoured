@@ -1,8 +1,7 @@
 {
    "targets": [
 	"ecologics:pot",
-	"supplementaries:planter",
-	"supplementaries:planter_rich"
+	"supplementaries:planter"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.pot.break",

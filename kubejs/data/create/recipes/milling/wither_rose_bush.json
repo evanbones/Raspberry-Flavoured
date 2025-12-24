@@ -2,7 +2,7 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "windswept:wither_rose_bush"
+      "item": "raspberry:wither_rose_bush"
     }
   ],
   "processingTime": 50,

@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
 	event.shapeless('8x caverns_and_chasms:large_arrow', ['#forge:ingots/steel', '8x arrow']).id('caverns_and_chasms:large_arrow')
 	event.shapeless('8x caverns_and_chasms:blunt_arrow', ['#forge:ingots/rose_gold', '8x arrow']).id('caverns_and_chasms:blunt_arrow')
 	event.shapeless('8x raspberry:swap_arrow', ['ghast_tear', '8x arrow'])
-	event.shapeless('purple_dye', ['3x upgrade_aquatic:purple_pickerelweed']).id('upgrade_aquatic:purple_dye_from_pickerelweed')
+	event.shapeless('purple_dye', ['3x upgrade_aquatic:pickerelweed']).id('upgrade_aquatic:purple_dye_from_pickerelweed')
 	event.shapeless('flint', ['2x twigs:pebble'])
 	event.shapeless('spelunkery:salt', ['2x spelunkery:rock_salt'])
 	event.shapeless('2x kubejs:maple_glazed_chestnuts', ['autumnity:syrup_bottle', '2x windswept:roasted_chestnuts'])
@@ -760,7 +760,7 @@ ServerEvents.recipes(event => {
 	event.shaped('upgrade_aquatic:driftwood_beehive', ['CCC', 'ABA', 'AAA'], {A: 'upgrade_aquatic:driftwood_planks', B: 'honeycomb', C: 'upgrade_aquatic:driftwood_slab'}).id('upgrade_aquatic:driftwood_beehive')
 	event.shaped('upgrade_aquatic:river_beehive', ['CCC', 'ABA', 'AAA'], {A: 'upgrade_aquatic:river_planks', B: 'honeycomb', C: 'upgrade_aquatic:river_slab'}).id('upgrade_aquatic:river_beehive')
 	event.shaped('windswept:chestnut_beehive', ['CCC', 'ABA', 'AAA'], {A: 'windswept:chestnut_planks', B: 'honeycomb', C: 'windswept:chestnut_slab'}).id('windswept:chestnut_beehive')
-	event.shaped('woodworks:bamboo_beehive', ['CCC', 'ABA', 'AAA'], {A: 'minecraft:bamboo_planks', B: 'honeycomb', C: 'minecraft:bamboo_planks_slab'}).id('everycomp:abnww/quark/bamboo_beehive')
+	event.shaped('woodworks:bamboo_beehive', ['CCC', 'ABA', 'AAA'], {A: 'minecraft:bamboo_planks', B: 'honeycomb', C: 'minecraft:bamboo_planks_slab'}).id('everycomp:abnww/minecraft/bamboo_beehive')
 	event.shaped('everycomp:abnww/architects_palette/twisted_beehive', ['CCC', 'ABA', 'AAA'], {A: 'architects_palette:twisted_planks', B: 'honeycomb', C: 'architects_palette:twisted_slab'}).id('everycomp:abnww/architects_palette/twisted_beehive')
 	event.shaped('everycomp:abnww/ecologics/azalea_beehive', ['CCC', 'ABA', 'AAA'], {A: 'ecologics:azalea_planks', B: 'honeycomb', C: 'ecologics:azalea_slab'}).id('everycomp:abnww/ecologics/azalea_beehive')
 	event.shaped('everycomp:abnww/ecologics/coconut_beehive', ['CCC', 'ABA', 'AAA'], {A: 'ecologics:coconut_planks', B: 'honeycomb', C: 'ecologics:coconut_slab'}).id('everycomp:abnww/ecologics/coconut_beehive')
@@ -1610,7 +1610,7 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('aquaculture:tin_can', 'another_furniture:furniture_hammer', ['12x create:zinc_nugget', Item.of('iron_nugget', 6).withChance(0.5)])
 	event.recipes.farmersdelight.cutting('netherrack', 'another_furniture:furniture_hammer', ['create:cinder_flour'])
 	event.recipes.farmersdelight.cutting('ecologics:prickly_pear', '#forge:tools/knives', ['2x ecologics:cooked_prickly_pear'])
-	event.recipes.farmersdelight.cutting('upgrade_aquatic:purple_pickerelweed', '#forge:tools/knives', ['purple_dye']).id('abnormals_delight:upgrade_aquatic/cutting/purple_pickerelweed')
+	event.recipes.farmersdelight.cutting('upgrade_aquatic:pickerelweed', '#forge:tools/knives', ['purple_dye']).id('abnormals_delight:upgrade_aquatic/cutting/pickerelweed')
 	event.recipes.farmersdelight.cutting('glow_berries', 'another_furniture:furniture_hammer', [Item.of('naturalist:glow_goop').withChance(0.5)])
 	event.recipes.farmersdelight.cutting('raspberry:firefly', 'another_furniture:furniture_hammer', ['3x naturalist:glow_goop'])
 	event.recipes.farmersdelight.cutting('flowering_azalea', '#forge:shears', ['azalea', 'ecologics:azalea_flower'])
@@ -1646,7 +1646,7 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('kubejs:crystalfish', '#forge:tools/knives', ['2x aquaculture:fish_fillet_raw', Item.of('aquaculture:fish_fillet_raw').withChance(0.5), '7x spelunkery:rough_diamond_shard'])
 	
 	event.recipes.farmersdelight.cutting('windswept:red_rose', '#forge:tools/knives', ['2x red_dye', Item.of('farmersrespite:rose_hips').withChance(0.75)]).id('windswept:cutting/red_rose')
-	event.recipes.farmersdelight.cutting('windswept:pink_rose', '#forge:tools/knives', ['2x pink_dye', Item.of('farmersrespite:rose_hips').withChance(0.75)]).id('windswept:cutting/pink_rose')
+	event.recipes.farmersdelight.cutting('raspberry:pink_rose', '#forge:tools/knives', ['2x pink_dye', Item.of('farmersrespite:rose_hips').withChance(0.75)]).id('windswept:cutting/pink_rose')
 	event.recipes.farmersdelight.cutting('windswept:blue_rose', '#forge:tools/knives', ['2x blue_dye', Item.of('farmersrespite:rose_hips').withChance(0.75)]).id('windswept:cutting/blue_rose')
 	event.recipes.farmersdelight.cutting('windswept:white_rose', '#forge:tools/knives', ['2x white_dye', Item.of('farmersrespite:rose_hips').withChance(0.75)]).id('windswept:cutting/white_rose')
 	event.recipes.farmersdelight.cutting('windswept:yellow_rose', '#forge:tools/knives', ['2x yellow_dye', Item.of('farmersrespite:rose_hips').withChance(0.75)]).id('windswept:cutting/yellow_rose')
@@ -1654,11 +1654,11 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.farmersdelight.cutting('rose_bush', '#forge:tools/knives', ['3x red_dye', 'farmersrespite:rose_hips', Item.of('farmersrespite:rose_hips').withChance(0.25)]).id('farmersrespite:cutting/rose_bush')
 	event.recipes.farmersdelight.cutting('windswept:red_rose_bush', '#forge:tools/knives', ['3x windswept:red_rose'])
-	event.recipes.farmersdelight.cutting('windswept:pink_rose_bush', '#forge:tools/knives', ['3x windswept:pink_rose'])
+	event.recipes.farmersdelight.cutting('raspberry:pink_rose_bush', '#forge:tools/knives', ['3x raspberry:pink_rose'])
 	event.recipes.farmersdelight.cutting('windswept:blue_rose_bush', '#forge:tools/knives', ['3x windswept:blue_rose'])
 	event.recipes.farmersdelight.cutting('windswept:white_rose_bush', '#forge:tools/knives', ['3x windswept:white_rose'])
 	event.recipes.farmersdelight.cutting('windswept:yellow_rose_bush', '#forge:tools/knives', ['3x windswept:yellow_rose'])
-	event.recipes.farmersdelight.cutting('windswept:wither_rose_bush', '#forge:tools/knives', ['3x wither_rose'])
+	event.recipes.farmersdelight.cutting('raspberry:wither_rose_bush', '#forge:tools/knives', ['3x wither_rose'])
 	
 	event.recipes.farmersdelight.cutting('farmersrespite:rose_hips', '#forge:tools/knives', ['red_dye', Item.of('red_dye').withChance(0.25)])
 	
@@ -1773,7 +1773,7 @@ ServerEvents.recipes(event => {
 	// event.recipes.farmersdelight.cooking(['#raspberry_flavoured:full_raw_squid', '#forge:crops/rice', 'spelunkery:salt', '#forge:vegetables', '#forge:eggs', '#forge:crops/onion'], 'miners_delight:stuffed_squid', 0, 400, 'minecraft:bowl').id('miners_delight:cooking/stuffed_squid')
 	// event.recipes.farmersdelight.cooking(['sullysmod:lanternfish', '#raspberry_flavoured:cave_scrap_ingredients', '#raspberry_flavoured:cave_scrap_ingredients'], 'sullysmod:cave_chum_bucket', 0, 200, 'minecraft:bucket')
 	// event.recipes.farmersdelight.cooking(['culturaldelights:corn_cob', 'culturaldelights:corn_cob', 'kubejs:butter'], 'culturaldelights:creamed_corn', 0, 200, 'minecraft:bowl').id('culturaldelights:cooking/creamed_corn')
-	event.recipes.farmersdelight.cooking(['upgrade_aquatic:purple_pickerelweed', 'upgrade_aquatic:purple_pickerelweed', 'upgrade_aquatic:purple_pickerelweed', 'upgrade_aquatic:purple_pickerelweed', 'sugar'], 'kubejs:pickerelweed_juice', 0, 200, 'minecraft:glass_bottle')
+	event.recipes.farmersdelight.cooking(['upgrade_aquatic:pickerelweed', 'upgrade_aquatic:pickerelweed', 'upgrade_aquatic:pickerelweed', 'upgrade_aquatic:pickerelweed', 'sugar'], 'kubejs:pickerelweed_juice', 0, 200, 'minecraft:glass_bottle')
 	event.recipes.farmersdelight.cooking(['farmersrespite:black_tea_leaves', 'farmersrespite:black_tea_leaves', '#forge:milk', 'sugar'], 'kubejs:builders_tea', 0, 200, 'minecraft:glass_bottle')
 	event.recipes.farmersdelight.cooking(['autumnity:foul_berries', 'autumnity:foul_berries', '#raspberry_flavoured:foul_ingredients', '#forge:vegetables'], '2x autumnity:foul_soup', 0, 200, 'minecraft:bowl').id('abnormals_delight:autumnity/cooking/foul_soup')
 	event.recipes.farmersdelight.cooking(['#raspberry_flavoured:jam_fruit', '#raspberry_flavoured:jam_fruit', 'sugar'], 'upgrade_aquatic:mulberry_jam_bottle', 0, 200, 'minecraft:glass_bottle').id('upgrade_aquatic:mulberry_jam_bottle')
@@ -1892,8 +1892,8 @@ ServerEvents.recipes(event => {
 		{item: 'atmospheric:yucca_fruit'}, {item: 'atmospheric:yucca_fruit'}, {item: 'atmospheric:yucca_fruit'}
 	], result: {item: 'atmospheric:roasted_yucca_fruit', count: 3}})
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
-		{item: 'upgrade_aquatic:purple_pickerelweed'}, {item: 'upgrade_aquatic:purple_pickerelweed'}, {item: 'upgrade_aquatic:purple_pickerelweed'}
-	], result: {item: 'upgrade_aquatic:boiled_purple_pickerelweed', count: 3}})
+		{item: 'upgrade_aquatic:pickerelweed'}, {item: 'upgrade_aquatic:pickerelweed'}, {item: 'upgrade_aquatic:pickerelweed'}
+	], result: {item: 'upgrade_aquatic:boiled_pickerelweed', count: 3}})
 	
 	event.custom({type: 'cookscollection:baking', cooktime: 300, ingredients: [
 		{item: 'farmersdelight:ham'}, {item: 'farmersdelight:ham'}, {item: 'farmersdelight:ham'}
@@ -1979,7 +1979,7 @@ ServerEvents.recipes(event => {
 	], result: {item: 'abnormals_delight:perch_with_mushrooms'}}).id('abnormals_delight:perch_with_mushrooms')
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
 		{item: 'upgrade_aquatic:pike'}, {tag: 'forge:crops/beetroot'}, {item: 'minecraft:bowl'},
-		{item: 'upgrade_aquatic:purple_pickerelweed'}, {item: 'upgrade_aquatic:purple_pickerelweed'}, {item: 'upgrade_aquatic:purple_pickerelweed'}
+		{item: 'upgrade_aquatic:pickerelweed'}, {item: 'upgrade_aquatic:pickerelweed'}, {item: 'upgrade_aquatic:pickerelweed'}
 	], result: {item: 'abnormals_delight:pike_with_beetroot'}})
 	event.custom({type: 'cookscollection:baking', cooktime: 200, ingredients: [
 		{tag: 'forge:raw_venison'}, {item: 'minecraft:kelp'}, {item: 'minecraft:bowl'},
@@ -2460,7 +2460,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing(Fluid.of('kubejs:cherry_cream_soda',250), ['2x #forge:fruits/cherry', 'neapolitan:dried_vanilla_pods', 'sugar']).heated()
 	event.recipes.create.mixing(Fluid.of('kubejs:mint_green_tea',250), ['neapolitan:mint_leaves', 'farmersrespite:green_tea_leaves', Fluid.of('minecraft:water',250)]).heated()
 	event.recipes.create.mixing(Fluid.of('kubejs:vanilla_milk_tea',250), ['neapolitan:dried_vanilla_pods', 'farmersrespite:yellow_tea_leaves', Fluid.of('minecraft:milk',250)]).heated()
-	event.recipes.create.mixing(Fluid.of('kubejs:pickerelweed_juice',250), ['4x upgrade_aquatic:purple_pickerelweed', 'sugar']).heated()
+	event.recipes.create.mixing(Fluid.of('kubejs:pickerelweed_juice',250), ['4x upgrade_aquatic:pickerelweed', 'sugar']).heated()
 	event.recipes.create.mixing(Fluid.of('create:tea',250), ['2x farmersrespite:black_tea_leaves', 'sugar', Fluid.of('minecraft:milk',250)]).heated()
 	
 	event.recipes.create.mixing('2x slime_ball', ['autumnity:snail_goo', 'lime_dye', 'create:wheat_flour'])
@@ -2536,17 +2536,17 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['light_blue_dye', 'pink_dye', Item.of('white_dye').withChance(0.5), Item.of('purple_dye').withChance(0.25)], 'raspberry:hopeful_wildflowers').id('raspberry:milling/pink_dye_from_hopeful_wildflowers')
 	
 	event.recipes.create.milling(['2x red_dye', Item.of('red_dye').withChance(0.1)], 'windswept:red_rose')
-	event.recipes.create.milling(['2x pink_dye', Item.of('pink_dye').withChance(0.1)], 'windswept:pink_rose')
+	event.recipes.create.milling(['2x pink_dye', Item.of('pink_dye').withChance(0.1)], 'raspberry:pink_rose')
 	event.recipes.create.milling(['2x blue_dye', Item.of('blue_dye').withChance(0.1)], 'windswept:blue_rose')
 	event.recipes.create.milling(['2x white_dye', Item.of('white_dye').withChance(0.1)], 'windswept:white_rose')
 	event.recipes.create.milling(['2x yellow_dye', Item.of('yellow_dye').withChance(0.1)], 'windswept:yellow_rose')
 	
 	event.recipes.create.milling(['3x red_dye', Item.of('red_dye',2).withChance(0.25), Item.of('green_dye',2).withChance(0.05)], 'windswept:red_rose_bush')
-	event.recipes.create.milling(['3x pink_dye', Item.of('pink_dye',2).withChance(0.25), Item.of('green_dye',2).withChance(0.05)], 'windswept:pink_rose_bush')
+	event.recipes.create.milling(['3x pink_dye', Item.of('pink_dye',2).withChance(0.25), Item.of('green_dye',2).withChance(0.05)], 'raspberry:pink_rose_bush')
 	event.recipes.create.milling(['3x blue_dye', Item.of('blue_dye',2).withChance(0.25), Item.of('green_dye',2).withChance(0.05)], 'windswept:blue_rose_bush')
 	event.recipes.create.milling(['3x white_dye', Item.of('white_dye',2).withChance(0.25), Item.of('green_dye',2).withChance(0.05)], 'windswept:white_rose_bush')
 	event.recipes.create.milling(['3x yellow_dye', Item.of('yellow_dye',2).withChance(0.25), Item.of('green_dye',2).withChance(0.05)], 'windswept:yellow_rose_bush')
-	event.recipes.create.milling(['3x black_dye', Item.of('black_dye',2).withChance(0.25), Item.of('green_dye',2).withChance(0.05)], 'windswept:wither_rose_bush')
+	event.recipes.create.milling(['3x black_dye', Item.of('black_dye',2).withChance(0.25), Item.of('green_dye',2).withChance(0.05)], 'raspberry:wither_rose_bush')
 	
 	event.recipes.create.milling(['2x red_dye'], 'farmersrespite:rose_hips')
 	

@@ -3,7 +3,7 @@
     "ingredients": [
       {"item": "minecraft:bread"},
       {"tag": "forge:cooked_duck"},
-      {"item": "upgrade_aquatic:boiled_blue_pickerelweed"},
+      {"item": "upgrade_aquatic:boiled_pickerelweed"},
       {"item": "upgrade_aquatic:boiled_purple_pickerelweed"}
     ],
     "result": {

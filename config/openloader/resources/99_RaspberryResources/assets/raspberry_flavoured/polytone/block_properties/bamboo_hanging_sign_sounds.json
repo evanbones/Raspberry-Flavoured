@@ -1,7 +1,7 @@
 {
    "targets": [
-   "supplementaries:quark/hanging_sign_bamboo",
-   "supplementaries:mynethersdelight/hanging_sign_powdery"
+   "minecraft:bamboo_hanging_sign",
+   "mynethersdelight/powdery_hanging_sign"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.bamboo_hanging_sign.break",

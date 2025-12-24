@@ -18,10 +18,10 @@ to make editing this file much easier.
 	*/
 	"id_remapper": { 
 		// "swapper": {
-			// "everycomp:mm/quark/bamboo_boards": "everycomp:mm/minecraft/bamboo_boards",
-			// "everycomp:mm/quark/bamboo_board_stairs": "everycomp:mm/minecraft/bamboo_board_stairs",
-			// "everycomp:mm/quark/bamboo_board_slab": "everycomp:mm/minecraft/bamboo_board_slab",
-			// "everycomp:mm/quark/bamboo_board_wall": "everycomp:mm/minecraft/bamboo_board_wall",
+			// "everycomp:mm/minecraft/bamboo_boards": "everycomp:mm/minecraft/bamboo_boards",
+			// "everycomp:mm/minecraft/bamboo_board_stairs": "everycomp:mm/minecraft/bamboo_board_stairs",
+			// "everycomp:mm/minecraft/bamboo_board_slab": "everycomp:mm/minecraft/bamboo_board_slab",
+			// "everycomp:mm/minecraft/bamboo_board_wall": "everycomp:mm/minecraft/bamboo_board_wall",
 			// "everycomp:mm/environmental/cherry_board_slab": "everycomp:mm/minecraft/cherry_board_slab",
 			// "everycomp:mm/environmental/cherry_board_wall": "everycomp:mm/minecraft/cherry_board_wall",
 			// "everycomp:mm/environmental/cherry_boards": "everycomp:mm/minecraft/cherry_boards",
@@ -31,7 +31,6 @@ to make editing this file much easier.
 			// "create:small_rose_quartz_tiles": "minecraft:emerald_block",
 			// "sullysmod:polished_jade_shingles": "minecraft:emerald_block",
 			// "supplementaries:netherite_trapdoor": "minecraft:iron_trapdoor",
-			// "supplementaries:lead_door": "minecraft:iron_door",
 
 
 			

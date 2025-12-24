@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "woodworks:spruce_trapped_chest"
+          "name": "woodworks:trapped_spruce_chest"
         }
       ],
       "rolls": 1.0

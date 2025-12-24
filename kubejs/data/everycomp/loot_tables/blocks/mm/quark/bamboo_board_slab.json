@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "everycomp:mm/quark/bamboo_board_slab",
+                  "block": "everycomp:mm/minecraft/bamboo_board_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,7 +25,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "everycomp:mm/quark/bamboo_board_slab"
+          "name": "everycomp:mm/minecraft/bamboo_board_slab"
         }
       ],
       "rolls": 1.0

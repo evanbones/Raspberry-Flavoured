@@ -1,8 +1,7 @@
 {
    "targets": [
-   "supplementaries:hanging_sign_crimson",
-   "supplementaries:hanging_sign_warped",
-   "supplementaries:architects_palette/hanging_sign_twisted"
+   "minecraft:crimson_hanging_sign",
+   "minecraft:warped_hanging_sign"
    ],
    "sound_type": {
       "break_sound": "kubejs:sound.nether_hanging_sign.break",
