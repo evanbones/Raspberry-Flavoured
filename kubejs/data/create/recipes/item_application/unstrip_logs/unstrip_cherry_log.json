@@ -2,7 +2,7 @@
   "type": "create:item_application",
   "ingredients": [
     {
-      "item": "environmental:stripped_cherry_log"
+      "item": "minecraft:stripped_cherry_log"
     },
     {
       "item": "farmersdelight:tree_bark"

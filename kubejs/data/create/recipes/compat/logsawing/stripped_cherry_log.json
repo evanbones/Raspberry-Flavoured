@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "environmental:stripped_cherry_log"
+      "item": "minecraft:stripped_cherry_log"
     }
   ],
   "processingTime": 50,

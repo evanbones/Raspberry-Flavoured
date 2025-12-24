@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
 	panel('atmospheric:rosewood','everycomp:mm/atmospheric/rosewood_pillar','everycomp:mm/atmospheric/rosewood_board','atmospheric:rosewood_board')
 	panel('atmospheric:yucca','everycomp:mm/atmospheric/yucca_pillar','everycomp:mm/atmospheric/yucca_board','atmospheric:yucca_board')
 	panel('atmospheric:morado','everycomp:mm/atmospheric/morado_pillar','everycomp:mm/atmospheric/morado_board','atmospheric:morado_board')
-	panel('minecraft:cherry','everycomp:mm/environmental/cherry_pillar','everycomp:mm/environmental/cherry_board','minecraft:cherry_board')
+	panel('minecraft:cherry','everycomp:mm/minecraft/cherry_pillar','everycomp:mm/minecraft/cherry_board','minecraft:cherry_board')
 	panel('environmental:willow','everycomp:mm/environmental/willow_pillar','everycomp:mm/environmental/willow_board','environmental:willow_board')
 	panel('environmental:wisteria','everycomp:mm/environmental/wisteria_pillar','everycomp:mm/environmental/wisteria_board','environmental:wisteria_board')
 	panel('architects_palette:twisted','everycomp:mm/architects_palette/twisted_pillar','everycomp:mm/upgrade_aquatic/river_board','everycomp:abnww/architects_palette/twisted_board')
