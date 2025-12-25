@@ -1883,7 +1883,7 @@
 	"everycomp:c/atmospheric/rosewood_window": "wood,glass",
 	"everycomp:c/atmospheric/yucca_window": "wood,glass",
 	"everycomp:c/ecologics/azalea_window": "wood,glass",
-	"everycomp:c/minecraft/cherry_window_pane": "wood,glass",
+	"create:cherry_window_pane": "wood,glass",
 	"everycomp:c/minecraft/cherry_window": "wood,glass",
 	"everycomp:c/atmospheric/rosewood_window_pane": "wood,glass",
 	"everycomp:c/atmospheric/yucca_window_pane": "wood,glass",

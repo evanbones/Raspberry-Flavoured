@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
 	function bookshelf(inputItem, resultItem) {
 		event.shaped(Item.of(resultItem,3), ['AAA', 'BBB', 'AAA'], {A: inputItem, B: 'book'})
 	}
-	bookshelf('minecraft:bamboo_planks','minecraft:bamboo_bookshelf')
+	bookshelf('minecraft:bamboo_planks','woodworks:bamboo_bookshelf')
 	bookshelf('mynethersdelight:powdery_planks','everycomp:q/mynethersdelight/powdery_bookshelf')
 	bookshelf('architects_palette:twisted_planks','everycomp:q/architects_palette/twisted_bookshelf')
 	bookshelf('ecologics:azalea_planks','everycomp:q/ecologics/azalea_bookshelf')
@@ -136,11 +136,7 @@ ServerEvents.recipes(event => {
 	// panels, pillars, boards n stuff
 	function panel(woodType, pillarItem, panelItem, boardItem) {
 		// crafting slabs into panels
-		if (woodType == 'minecraft:bamboo') {
-			event.shaped(Item.of(panelItem + 's',3), ['AAA', 'AAA'], {A: woodType + '_planks_slab'})
-		} else {
-			event.shaped(Item.of(panelItem + 's',3), ['AAA', 'AAA'], {A: woodType + '_slab'})
-		}
+		event.shaped(Item.of(panelItem + 's',3), ['AAA', 'AAA'], {A: woodType + '_slab'})
 		// crafting panels into pillars
 		event.shaped(Item.of(pillarItem,2), ['A', 'A'], {A: panelItem + 's'})
 		// sawing planks into panels and back

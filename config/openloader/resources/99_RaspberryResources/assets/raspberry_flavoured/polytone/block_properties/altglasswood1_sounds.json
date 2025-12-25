@@ -9,8 +9,8 @@
    "everycomp:c/atmospheric/rosewood_window",
    "everycomp:c/atmospheric/yucca_window",
    "everycomp:c/ecologics/azalea_window",
-   "everycomp:c/minecraft/cherry_window_pane",
-   "everycomp:c/minecraft/cherry_window",
+   "create:cherry_window_pane",
+   "create:cherry_window",
    "everycomp:c/atmospheric/rosewood_window_pane",
    "everycomp:c/atmospheric/yucca_window_pane",
    "everycomp:c/ecologics/azalea_window_pane"
