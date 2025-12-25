@@ -2827,7 +2827,8 @@
     "respiteful:snow_top_yellow_tea",
     "respiteful:snow_top_black_tea",
     "respiteful:snow_top_coffee",
-	"farmersrespite:purulent_tea"
+	"farmersrespite:purulent_tea",
+	"minecraft:music_disc_lava_chicken"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
