@@ -90,6 +90,11 @@
     "result": "deny"
   },
   {
+    "mob": "spelunkery:dust_bunny",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
     "mob": "dungeons_mobs:wraith",
     "when": "onjoin",
     "random": 0.075,
