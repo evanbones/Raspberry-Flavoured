@@ -5,7 +5,7 @@
       "tag": "culturaldelights:avocados"
     },
     {
-      "item": "minecraft:bread"
+      "tag": "forge:bread/wheat"
     }
   ],
   "result": {

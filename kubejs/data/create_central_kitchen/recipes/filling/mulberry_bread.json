@@ -1,14 +1,8 @@
 {
   "type": "create:filling",
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "upgrade_aquatic"
-    }
-  ],
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "tag": "forge:bread/wheat"
     },
     {
       "amount": 250,
