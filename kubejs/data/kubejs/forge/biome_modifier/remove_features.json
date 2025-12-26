@@ -1,0 +1,43 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:all",
+  "features": [
+    "miningmaster:malachite_meteorite",
+    "miningmaster:ore_dive_aquamarine_gem",
+    "miningmaster:ore_divine_beryl_gem",
+    "miningmaster:ore_fire_ruby_gem",
+    "miningmaster:ore_gem_random",
+    "miningmaster:ore_haste_peridot_gem",
+    "miningmaster:ore_heart_rhodonite_gem",
+    "miningmaster:ore_ice_sapphire_gem",
+    "miningmaster:ore_kinetic_opal_gem",
+    "miningmaster:ore_lucky_citrine_gem",
+    "miningmaster:ore_power_pyrite_gem",
+    "miningmaster:ore_spider_kunzite_gem",
+    "miningmaster:ore_spirit_garnet_gem",
+    "miningmaster:ore_unbreaking_iolite_gem",
+    "caverns_and_chasms:ore_spinel_buried",
+    "caverns_and_chasms:ore_soul_silver",
+    "caverns_and_chasms:ore_spinel",
+    "sullysmod:jade_ore",
+    "naturalist:patch_cattail",
+    "naturalist:patch_duckweed",
+    "upgrade_aquatic:beachgrass_dunes",
+    "upgrade_aquatic:patch_flowering_rush",
+    "upgrade_aquatic:river_tree",
+    "twigs:azalea_flowers",
+    "twigs:patch_seashell",
+    "ecologics:walnut",
+    "nethersdelight:propelplant_patch",
+    "culturaldelights:wild_cucumber",
+    "modestmining:shell",
+    "yungsextras:swamp/misc/swamp_ogre",
+    "minecraft:monster_room"
+  ],
+  "step": [
+    "underground_ores",
+    "vegetal_decoration",
+    "surface_structures",
+    "underground_structures"
+  ]
+}

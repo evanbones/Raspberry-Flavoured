@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "kubejs:ore_rocky_dirt",
+    "kubejs:ore_coarse_dirt",
+    "kubejs:ore_deepslate_gravel"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_snowy",
+  "features": "kubejs:ore_coarse_snow",
+  "step": "underground_ores"
+}

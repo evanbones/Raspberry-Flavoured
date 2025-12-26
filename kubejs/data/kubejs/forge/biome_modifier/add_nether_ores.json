@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:nether_wastes",
+  "features": "kubejs:ore_lead_nether",
+  "step": "underground_decoration"
+}
