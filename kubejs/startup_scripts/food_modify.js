@@ -1490,6 +1490,11 @@ ItemEvents.modification(event => {
             food.effect('autumnity:foul_taste', 600, 0, 1)
         }
     })
+	event.modify('miners_delight:takoyaki', item => {
+        item.foodProperties = food => {
+            food.hunger(13).saturation(0.7).effect('kubejs:satiation', 4200, 0, 1)
+        }
+    })
 	
 // Remove speed from pie slices
 	event.modify([

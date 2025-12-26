@@ -462,10 +462,10 @@ ServerEvents.tags('item', event => {
 		.add('kubejs:squid_sandwich')
 		.add('kubejs:squid_stir_fry')
 		.add('kubejs:sugar_cookie')
-		.add('kubejs:takoyaki')
 		.add('kubejs:tambaqui_curry')
 		.add('kubejs:turkey_stew')
 		.add('kubejs:white_fish_soup')
+		.add('miners_delight:takoyaki')
 		
 	event.get('raspberry_flavoured:all_drinks')
 		.add('minecraft:milk_bucket')

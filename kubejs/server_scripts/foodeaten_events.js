@@ -157,7 +157,6 @@ ItemEvents.foodEaten([
 	'kubejs:cinnamon_mint_curry',
 	'kubejs:prismatic_ice_cream',
 	'kubejs:batter',
-	'kubejs:takoyaki',
 	'kubejs:glow_ink_pasta',
 	'kubejs:white_fish_soup',
 	'kubejs:tambaqui_curry',
