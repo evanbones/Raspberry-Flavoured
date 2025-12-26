@@ -1458,6 +1458,7 @@ ServerEvents.tags('item', event => {
 		.add('#raspberry_flavoured:white_fish')
 		.add('#raspberry_flavoured:red_fish')
 		.add('sullysmod:lanternfish')
+		.add('sullysmod:piranha')
 
 	event.get('raspberry_flavoured:raw_fish')
 		.add('#raspberry_flavoured:white_fish')

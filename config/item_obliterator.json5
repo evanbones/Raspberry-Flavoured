@@ -2823,7 +2823,10 @@
 	"piglinproliferation:end_stone_fire_ring",
 	"piglinproliferation:end_stone_soul_fire_ring",
 	"minecraft:brown_egg",
-	"minecraft:blue_egg"
+	"minecraft:blue_egg",
+	"sullysmod:cooked_piranha",
+	"sullysmod:piranha_tooth",
+	"sullysmod:throwing_knife"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
