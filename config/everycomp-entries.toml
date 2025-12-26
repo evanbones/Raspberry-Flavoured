@@ -178,12 +178,12 @@
 			board_stairs = true
 			carved_planks = true
 			board_wall = true
-			pillar = true
 			tile_wall = true
 			tiles = true
 			tile_slab = true
 			carved_plank_stairs = true
 			chiseled_planks = true
+			pillar = true
 
 		[entries.wood_type.boatload]
 			large_boat = true
