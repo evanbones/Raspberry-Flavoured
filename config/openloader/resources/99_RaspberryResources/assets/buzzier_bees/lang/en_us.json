@@ -1,4 +1,7 @@
 {
+  "block.buzzier_bees.ender_candle": "Exodic Candle",
+  "block.buzzier_bees.ender_candle_cake": "Exodic Candle Cake",
+  
   "item.buzzier_bees.honey_bread": "Honey Toast",
   "item.buzzier_bees.endermite_bottle": "Bottle of Lachmite"
 }
