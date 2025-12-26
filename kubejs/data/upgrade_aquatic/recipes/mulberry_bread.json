@@ -5,7 +5,7 @@
       "item": "upgrade_aquatic:mulberry_jam_bottle"
     },
     {
-      "item": "minecraft:bread"
+      "tag": "forge:bread/wheat"
     }
   ],
   "result": {

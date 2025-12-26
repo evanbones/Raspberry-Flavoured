@@ -410,12 +410,6 @@ StartupEvents.registry('item', event => {
     		.saturation(0.6)
 			.effect('glowing', 1500, 0, 1)
         	})
-	event.create('takoyaki').maxStackSize(16).food(food => {
-		food
-    		.hunger(13)
-    		.saturation(0.7)
-			.effect('kubejs:satiation', 4200, 0, 1)
-        	})
 	event.create('glow_ink_pasta').maxStackSize(16).food(food => {
 		food
     		.hunger(14)
