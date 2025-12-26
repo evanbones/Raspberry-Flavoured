@@ -1556,7 +1556,7 @@
 	"Variant Animal Textures" = true
 	"Uses For Curses" = true
 	"Usage Ticker" = true
-	"Soul Candles" = true
+	"Soul Candles" = false
 	"Microcrafting Helper" = true
 	"Long Range Pick Block" = true
 	"Improved Tooltips" = true
