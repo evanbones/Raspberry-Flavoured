@@ -3360,7 +3360,7 @@
     {
       "action": "replace_input",
       "target": "#minecraft:wool",
-      "replacement": "['#minecraft:wool', '#raspberry_flavoured:cloth_blocks']",
+      "replacement": ["#minecraft:wool", "#raspberry_flavoured:cloth_blocks"],
       "filter": {
         "id": [
           "create:crafting/kinetics/attribute_filter",
@@ -3374,7 +3374,7 @@
     {
       "action": "replace_input",
       "target": "minecraft:iron_bars",
-      "replacement": "['minecraft:iron_bars', 'caverns_and_chasms:golden_bars']",
+      "replacement": ["minecraft:iron_bars", "caverns_and_chasms:golden_bars"],
       "filter": {
         "id": [
           "supplementaries:cage"
@@ -3488,7 +3488,7 @@
     {
       "action": "replace_input",
       "target": "minecraft:stone_bricks",
-      "replacement": "['stone_bricks', 'paletteblocks:cobblestone_bricks']",
+      "replacement": ["stone_bricks", "paletteblocks:cobblestone_bricks"],
       "filter": {
         "id": [
           "cookscollection:oven"
@@ -3568,7 +3568,7 @@
     {
       "action": "replace_input",
       "target": "string",
-      "replacement": "['string', 'farmersdelight:canvas']",
+      "replacement": ["string", "farmersdelight:canvas"],
       "filter": {
         "id": [
           "naturalist:bug_net"
