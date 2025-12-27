@@ -772,7 +772,7 @@
 	"New Stone Types" = false
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
-	"Glimmering Weald" = true
+	"Glimmering Weald" = false
 	"Fairy Rings" = true
 	Corundum = false
 	"Chorus Vegetation" = true
