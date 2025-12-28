@@ -45,6 +45,7 @@ etched-sounds/
 fancymenu_data
 logs
 emf
+emi.json
 data
 !kubejs/data
 .qmenu_opened.marker
