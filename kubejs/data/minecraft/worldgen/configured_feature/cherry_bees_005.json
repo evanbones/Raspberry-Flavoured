@@ -18,7 +18,7 @@
             "dirt_provider": {
               "type": "minecraft:simple_state_provider",
               "state": {
-                "Name": "minecraft:snow_block"
+                "Name": "minecraft:dirt"
               }
             },
             "trunk_provider": {
@@ -33,7 +33,7 @@
             "foliage_provider": {
               "type": "minecraft:simple_state_provider",
               "state": {
-                "Name": "environmental:plum_leaves",
+                "Name": "minecraft:cherry_leaves",
                 "Properties": {
                   "distance": "7",
                   "persistent": "false",
@@ -59,23 +59,8 @@
             },
             "decorators": [
               {
-                "type": "minecraft:attached_to_leaves",
-                "probability": 1,
-                "exclusion_radius_xz": 0,
-                "exclusion_radius_y": 0,
-                "required_empty_blocks": 1,
-                "block_provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:snow",
-                    "Properties": {
-                      "layers": "1"
-                    }
-									}
-                },
-                "directions": [
-                  "up"
-                ]
+                "type": "minecraft:beehive",
+                "probability": 0.05
               }
             ]
           }
@@ -84,16 +69,16 @@
           {
             "type": "minecraft:block_predicate_filter",
             "predicate": {
-              "type": "minecraft:matching_blocks",
-              "offset": [
-                0,
-                -1,
-                0
-              ],
-              "blocks": [
-                "minecraft:snow_block",
-                "minecraft:powder_snow"
-              ]
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "tag": "clifftree:sapling_cannot_grow_cold"
+              }
             }
           }
         ]
