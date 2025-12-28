@@ -82,7 +82,8 @@
       "autumnity:pumpkin_fields_vegetation",
       "autumnity:flower_pumpkin_fields",
       "autumnity:patch_tall_grass_pumpkin_fields",
-      "autumnity:patch_pumpkin_pumpkin_fields"
+      "autumnity:patch_pumpkin_pumpkin_fields",
+	  "kubejs:autumn_flowers"
     ],
     [
       "minecraft:freeze_top_layer"

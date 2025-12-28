@@ -2842,7 +2842,8 @@
 	"minecraft:blue_egg",
 	"sullysmod:cooked_piranha",
 	"sullysmod:piranha_tooth",
-	"sullysmod:throwing_knife"
+	"sullysmod:throwing_knife",
+	"dolt_mod_how:ancient_leaf_pile"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

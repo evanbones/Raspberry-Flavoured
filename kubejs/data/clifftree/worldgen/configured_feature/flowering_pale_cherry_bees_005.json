@@ -33,7 +33,7 @@
             "foliage_provider": {
               "type": "minecraft:simple_state_provider",
               "state": {
-                "Name": "minecraft:cherry_leaves",
+                "Name": "environmental:moody_plum_leaves",
                 "Properties": {
                   "distance": "7",
                   "persistent": "false",

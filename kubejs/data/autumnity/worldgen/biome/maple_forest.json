@@ -90,7 +90,8 @@
       "autumnity:flower_maple_forest",
       "autumnity:fallen_leaves",
       "autumnity:patch_foul_berry_bush",
-      "clifftree:forest_fern"
+      "clifftree:forest_fern",
+	  "kubejs:autumn_flowers"
     ],
     [
       "minecraft:freeze_top_layer"

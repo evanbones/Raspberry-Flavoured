@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "clifftree:cherry_bees_005",
+    "features": [
+      {
+        "chance": 0.4,
+        "feature": "clifftree:flowering_cherry_bees_005"
+      },
+      {
+        "chance": 0.1,
+        "feature": "clifftree:pale_cherry_bees_005"
+      },
+      {
+        "chance": 0.4,
+        "feature": "clifftree:flowering_pale_cherry_bees_005"
+      }
+    ]
+  }
+}
