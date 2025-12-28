@@ -1,0 +1,37 @@
+{
+    "tag_modifications": [
+        {
+            "action": "clear_tag",
+            "tags": [
+                "createaddition:plant_foods",
+                "createaddition:plants",
+                "caverns_and_chasms:experience_boost_items",
+                "caverns_and_chasms:slowness_inflicting_items",
+                "atmospheric:aspen_logs",
+                "caverns_and_chasms:additional_toolbox_tools",
+                "caverns_and_chasms:azalea_logs",
+                "curios:artifact",
+                "curios:charm",
+                "endergetic:poise_stems",
+                "sullysmod:tortoise_food",
+                "trinkets:chest/cape",
+                "trinkets:chest/back",
+                "aquaculture:tooltip",
+                "aquaculture:tackle_box_green",
+                "aquaculture:turtle_edible",
+                "aquaculturedelight:fillet_one",
+                "aquaculturedelight:fillet_two",
+                "aquaculturedelight:fillet_three",
+                "aquaculturedelight:fillet_four",
+                "aquaculturedelight:fillet_ten",
+                "aquaculturedelight:neptunium_knives",
+                "aquaculturedelight:fish_rolls",
+                "culturaldelights:cucumbers",
+                "spelunkery:nuggets",
+                "create:create_ingots",
+                "onion_onion:motley_mushrooms",
+                "oreganized:consumable"
+            ]
+        }
+    ]
+}
