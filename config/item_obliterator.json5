@@ -2844,7 +2844,9 @@
 	"sullysmod:piranha_tooth",
 	"sullysmod:throwing_knife",
 	"dolt_mod_how:ancient_leaf_pile",
-	"windswept:cherry_wreath"
+	"windswept:cherry_wreath",
+	"environmental:plum",
+	"environmental:plum_crate"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
