@@ -132,7 +132,7 @@
 	"Leaf Carpet" = false
 	"Japanese Palette" = true
 	"Industrial Palette" = true
-	"Hollow Logs" = true
+	"Hollow Logs" = false
 	Hedges = true
 	Grate = true
 	"Gold Bars" = true
@@ -772,7 +772,7 @@
 	"New Stone Types" = false
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
-	"Glimmering Weald" = true
+	"Glimmering Weald" = false
 	"Fairy Rings" = true
 	Corundum = false
 	"Chorus Vegetation" = true
@@ -780,7 +780,7 @@
 	"Big Stone Clusters" = true
 	"Azalea Wood" = false
 	"Ancient Wood" = false
-	"Fallen Logs" = true
+	"Fallen Logs" = false
 
 	[world.spiral_spires]
 		Rarity = 200

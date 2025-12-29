@@ -2054,6 +2054,12 @@ ServerEvents.tags('item', event => {
 	
 	event.get('minecraft:flowers')
 		.remove('nethersdelight:mimicarnation')
+		.add('environmental:cheerful_plum_leaves')
+		.add('environmental:cheerful_plum_leaf_pile')
+		.add('environmental:plum_leaves')
+		.add('environmental:plum_leaf_pile')
+		.add('environmental:moody_plum_leaves')
+		.add('environmental:moody_plum_leaf_pile')
 	
 	event.get('minecraft:small_flowers')
 		.remove('nethersdelight:mimicarnation')
@@ -3495,6 +3501,12 @@ ServerEvents.tags('block', event => {
 		.add('farmersrespite:wild_coffee_bush')
 		.add('brewinandchewin:flaxen_cheese_wheel')
 		.add('brewinandchewin:scarlet_cheese_wheel')
+		.add('environmental:cheerful_plum_leaves')
+		.add('environmental:cheerful_plum_leaf_pile')
+		.add('environmental:plum_leaves')
+		.add('environmental:plum_leaf_pile')
+		.add('environmental:moody_plum_leaves')
+		.add('environmental:moody_plum_leaf_pile')
 		.remove('nethersdelight:mimicarnation')
 		.remove('miners_delight:wild_cave_carrots')
 	

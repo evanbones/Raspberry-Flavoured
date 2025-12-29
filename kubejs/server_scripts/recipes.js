@@ -1691,6 +1691,9 @@ ServerEvents.recipes(event => {
 	event.recipes.farmersdelight.cutting('glowstone', '#forge:tools/pickaxes', ['4x glowstone_dust'])
 	event.recipes.farmersdelight.cutting('#raspberry_flavoured:obsidian', '#raspberry_flavoured:diamond_tier_pickaxes', ['4x create:powdered_obsidian'])
 	event.recipes.farmersdelight.cutting('#raspberry_flavoured:crying_obsidian', '#raspberry_flavoured:diamond_tier_pickaxes', ['4x create:powdered_obsidian', 'ghast_tear'])
+	event.recipes.farmersdelight.cutting('environmental:cheerful_plum_leaves', '#forge:tools/hoes', [Item.of('environmental:cheerful_plum_sapling').withChance(0.25)])
+	event.recipes.farmersdelight.cutting('environmental:plum_leaves', '#forge:tools/hoes', [Item.of('environmental:plum_sapling').withChance(0.25)])
+	event.recipes.farmersdelight.cutting('environmental:moody_plum_leaves', '#forge:tools/hoes', [Item.of('environmental:moody_plum_sapling').withChance(0.25)])
 	
 	function mushCapCutting(capItem, resultItem) {
 		event.custom({type: 'farmersdelight:cutting', ingredients: [{item: capItem}], tool: {tag: 'forge:tools/hoes'}, result: [{item: resultItem, count: 1}]})

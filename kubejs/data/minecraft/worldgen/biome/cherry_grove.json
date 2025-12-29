@@ -84,9 +84,9 @@
       "minecraft:patch_grass_plain",
       "clifftree:flower_cherry",
       "clifftree:trees_cherry",
-      "clifftree:flower_pink_tulip",
       "clifftree:cherry_snow",
-      "clifftree:grass_skylight"
+      "clifftree:grass_skylight",
+	  "kubejs:cherry_flowers"
     ],
     [ 
       "minecraft:freeze_top_layer"

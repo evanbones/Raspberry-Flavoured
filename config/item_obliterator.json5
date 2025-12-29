@@ -3461,7 +3461,11 @@
     "woodworks:jungle_ladder",
     "woodworks:mangrove_ladder",
     "woodworks:spruce_ladder",
-    "woodworks:warped_ladder"
+    "woodworks:warped_ladder",
+	"dolt_mod_how:ancient_leaf_pile",
+	"windswept:cherry_wreath",
+	"environmental:plum",
+	"environmental:plum_crate"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
