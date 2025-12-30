@@ -20,7 +20,7 @@ function processBrushPreview(player){
     let success = false;
     let color = brushColors.inactive;
 
-    if (item.id.match(/kubejs:copper_brush_/)) {
+    if (item.id.match(/minecraft:brush_/)) {
       let target_block = player.rayTrace(30, false).block;
 
       if(item.nbt.contains("pos") && target_block !== null){

@@ -34,7 +34,7 @@ ItemEvents.tooltip(event => {
     'minecraft:warped_fungus_on_a_stick': 'item.minecraftwarped_fungus',
     'minecraft:trident': 'item.minecraft.prismarine_shard, item.upgrade_aquatic.thrasher_tooth',
     'another_furniture:furniture_hammer': 'item.minecraft.copper_ingot, item.create.copper_sheet',
-    'kubejs:copper_brush': 'item.minecraft.feather',
+    'minecraft:brush': 'item.minecraft.feather',
     'kubejs:copper_brush_wax': 'item.minecraft.honeycomb',
     'create:super_glue': 'item.minecraft.slime_ball',
     'naturalist:bug_net': 'block.minecraft.bamboo, block.quark.bamboo_planks',

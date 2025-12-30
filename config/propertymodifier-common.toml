@@ -195,7 +195,7 @@
 		"minecraft:trident" = "#raspberry_flavoured:trident_repair_materials"
 		"minecraft:crossbow" = "#raspberry_flavoured:iron_repair_materials"
 		"kubejs:copper_brush_wax" = "#raspberry_flavoured:honey_repair_materials"
-		"kubejs:copper_brush" = "#raspberry_flavoured:brush_repair_materials"
+		"minecraft:brush" = "#raspberry_flavoured:brush_repair_materials"
 		"mace_backport:mace" = "#raspberry_flavoured:steel_repair_materials"
 		"windswept:snow_boots" = "#raspberry_flavoured:metal_repair_materials"
 		"copperized:copper_helmet" = "#raspberry_flavoured:copper_repair_materials"

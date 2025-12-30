@@ -5,7 +5,6 @@ StartupEvents.registry('item', event => {
 	event.create('rose_gold_knife', 'farmersdelight:knife').tier('rosegold').attackDamageBaseline(1.5).speedBaseline(-2.0)
 	event.create('copper_knife', 'farmersdelight:knife').tier('copper').attackDamageBaseline(0).speedBaseline(-2.0)
 	event.create('bone_knife', 'farmersdelight:knife').tier('bone').attackDamageBaseline(0).speedBaseline(-2.0)
-	event.create('copper_brush').maxStackSize(1).maxDamage(200)
 	
 // Items
 	event.create('raw_ammonite')

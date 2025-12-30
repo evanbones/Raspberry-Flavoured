@@ -478,7 +478,7 @@ ServerEvents.recipes(event => {
 	event.shaped('raspberry:silt_stove', ['A', 'C', 'B'], {A: 'iron_ingot', B: 'twigs:silt_bricks', C: 'campfire'}).id('raspberry:silt_stove')
 	event.shaped('raspberry:ash_stove', ['A', 'C', 'B'], {A: 'iron_ingot', B: 'supplementaries:ash_bricks', C: 'campfire'}).id('raspberry:ash_stove')
 	event.shaped('mynethersdelight:nether_bricks_soul_stove', ['A', 'C', 'B'], {A: 'nether_brick', B: 'polished_blackstone_bricks', C: 'soul_campfire'})
-	event.shaped('kubejs:copper_brush', ['C', 'B', 'A'], {A: 'stick', B: 'copper_ingot', C: 'feather'})
+	event.shaped('minecraft:brush', ['C', 'B', 'A'], {A: 'stick', B: 'copper_ingot', C: 'feather'})
 	event.shaped('2x kubejs:rubber_tire', ['A', 'A'], {A: 'kubejs:rubber_block'})
 	event.shaped('4x sullysmod:jade_flinger_totem', ['BCB', 'AAD', 'BCB'], {A: 'kubejs:rubber', B: '#minecraft:stone_tool_materials', C: '#raspberry_flavoured:stone_crafting_slabs', D: 'create:belt_connector'})
 	event.shaped('6x create:belt_connector', ['AAA', 'AAA'], {A: 'kubejs:rubber'})
@@ -1349,8 +1349,8 @@ ServerEvents.recipes(event => {
 	event.smithing('kubejs:necromium_horse_armor', 'minecraft:diamond_horse_armor', 'caverns_and_chasms:necromium_ingot')
 	event.smithing('kubejs:netherite_horse_armor', 'minecraft:diamond_horse_armor', 'minecraft:netherite_ingot')
 	event.smithing('spelunkery:echo_fork', 'caverns_and_chasms:tuning_fork', 'minecraft:echo_shard').id('spelunkery:echo_fork')
-	event.smithing('create:super_glue', 'kubejs:copper_brush', 'minecraft:slime_ball').id('create:crafting/kinetics/super_glue')
-	event.smithing('kubejs:copper_brush_wax', 'kubejs:copper_brush', 'minecraft:honeycomb')
+	event.smithing('create:super_glue', 'minecraft:brush', 'minecraft:slime_ball').id('create:crafting/kinetics/super_glue')
+	event.smithing('kubejs:copper_brush_wax', 'minecraft:brush', 'minecraft:honeycomb')
 	event.smithing('suppsquared:heavy_key', 'supplementaries:key', '#forge:ingots/lead').id('suppsquared:heavy_key')
 	
 // Stonecutting
