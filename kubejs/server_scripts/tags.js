@@ -3853,6 +3853,7 @@ ServerEvents.tags('block', event => {
 		.add('kubejs:lachryte_slab')
 		.add('kubejs:polished_lachryte_slab')
 		.add('kubejs:lachryte_brick_slab')
+		.add('moreconcrete:cyan_concrete_slab')
 		.remove('minecraft:end_stone')
 		.remove('woodworks:sawmill')
 		
