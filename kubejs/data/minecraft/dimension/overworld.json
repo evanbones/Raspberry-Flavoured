@@ -811,7 +811,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -1621,7 +1621,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -1651,7 +1651,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -2311,7 +2311,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -2341,7 +2341,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -3901,7 +3901,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -3931,7 +3931,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -5401,7 +5401,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -5431,7 +5431,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -6121,7 +6121,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -6151,7 +6151,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -7141,7 +7141,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -7171,7 +7171,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -8281,7 +8281,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -8311,7 +8311,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -9121,7 +9121,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -9151,7 +9151,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -9841,7 +9841,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -9871,7 +9871,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -10531,7 +10531,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -11101,7 +11101,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -11311,7 +11311,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -11341,7 +11341,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -13111,7 +13111,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -13141,7 +13141,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -13681,7 +13681,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -13711,7 +13711,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -14671,7 +14671,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -14701,7 +14701,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -15301,7 +15301,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -15331,7 +15331,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -15451,7 +15451,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -15481,7 +15481,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -16261,7 +16261,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -16291,7 +16291,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -17401,7 +17401,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -18781,7 +18781,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -18811,7 +18811,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -19411,7 +19411,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -21091,7 +21091,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -21571,7 +21571,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -22411,7 +22411,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -22441,7 +22441,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -22861,7 +22861,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -23731,7 +23731,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -25021,7 +25021,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -25351,7 +25351,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -26101,7 +26101,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -27211,7 +27211,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -28351,7 +28351,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -29611,7 +29611,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -31081,7 +31081,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -31591,7 +31591,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -32371,7 +32371,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -32401,7 +32401,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -32911,7 +32911,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -34381,7 +34381,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -37801,7 +37801,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -40831,7 +40831,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tundra"
+          "biome": "windswept:tundra"
         },
         {
           "parameters": {
@@ -43711,7 +43711,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {
@@ -47131,7 +47131,7 @@
             ],
             "offset": 0
           },
-          "biome": "clifftree:tropical_beach"
+          "biome": "kubejs:tropical_beach"
         },
         {
           "parameters": {

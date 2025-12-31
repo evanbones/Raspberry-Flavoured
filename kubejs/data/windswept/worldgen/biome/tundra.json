@@ -6,25 +6,26 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.0,
+  "creature_spawn_probability": 0.15,
+  "downfall": 0.2,
   "effects": {
-    "fog_color": 10605533,
+    "fog_color": 15134448,
+    "grass_color": 10262619,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 6993872,
-    "water_color": 2916255,
-    "water_fog_color": 198666,
-    "grass_color": 16767347,
-    "foliage_color": 9214505
+    "sky_color": 10271469,
+    "water_color": 6128563,
+    "water_fog_color": 2568259
   },
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground"
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
     ],
     [
       "minecraft:amethyst_geode"
@@ -61,8 +62,7 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_clay"
+      "minecraft:underwater_magma"
     ],
     "#clifftree:extra_gold_remove",
     [
@@ -71,19 +71,20 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass",
-      "minecraft:trees_savanna",
-      "minecraft:flower_warm",
-      "minecraft:patch_grass_savanna",
+      "clifftree:flower_tundra",
+      "windswept:tundra_fallen_log",
+      "clifftree:patch_grass_tundra_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin",
-      "minecraft:patch_sugar_cane",
-      "clifftree:patch_dry_grass_beach"
+      "minecraft:patch_berry_common",
+      "windswept:snowy_gelisol",
+      "windswept:lupine",
+      "windswept:dry_moss_patch_large",
+      "windswept:gelisol_patch_small",
+      "windswept:dry_moss_rock",
+      "windswept:holly_bush"
     ],
     [
-      
-      
       "minecraft:freeze_top_layer"
     ]
   ],
@@ -101,55 +102,55 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "naturalist:boar",
-        "maxCount": 6,
-        "minCount": 6,
-        "weight": 14
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
+        "type": "minecraft:rabbit",
         "maxCount": 4,
         "minCount": 4,
         "weight": 8
       },
       {
-        "type": "naturalist:zebra",
-        "maxCount": 6,
-        "minCount": 2,
-        "weight": 1
+        "type": "minecraft:wolf",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 2
       },
       {
-        "type": "minecraft:armadillo",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 4
+        "type": "minecraft:llama",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:goat",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:fox",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:polar_bear",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 8
       }
     ],
     "misc": [],
     "monster": [
       {
         "type": "minecraft:spider",
-        "maxCount": 8,
+        "maxCount": 4,
         "minCount": 4,
-        "weight": 125
+        "weight": 100
       },
       {
         "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 80
+        "weight": 95
       },
       {
         "type": "minecraft:zombie_villager",
@@ -161,7 +162,7 @@
         "type": "minecraft:skeleton",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 85
+        "weight": 100
       },
       {
         "type": "minecraft:creeper",
@@ -186,6 +187,12 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
+      },
+      {
+        "type": "minecraft:stray",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 60
       }
     ],
     "underground_water_creature": [
@@ -199,6 +206,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 2.0,
-  "creature_spawn_probability": 0.15
+  "temperature": 1.0
 }

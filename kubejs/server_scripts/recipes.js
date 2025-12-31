@@ -159,7 +159,8 @@ ServerEvents.recipes(event => {
 	event.shapeless('rabbit_hide', ['miners_delight:bat_wing'])
 	event.shapeless('3x rabbit_hide', ['miners_delight:bat_wing', '4x spelunkery:salt'])
 	event.shapeless('3x leather', ['nethersdelight:hoglin_hide', '4x spelunkery:salt'])
-	event.shapeless('farmersdelight:sandy_shrub', ['3x atmospheric:arid_sprouts'])
+	event.shapeless('minecraft:short_dry_grass', ['2x atmospheric:arid_sprouts'])
+	event.shapeless('minecraft:tall_dry_grass', ['4x atmospheric:arid_sprouts'])
 	event.shapeless('2x mynethersdelight:chilidog', ['2x mynethersdelight:hotdog', 'farmersrespite:blazing_chili', 'brewinandchewin:scarlet_cheese_wedge'])
 	event.shapeless('mynethersdelight:bleeding_tartar', ['2x mynethersdelight:minced_strider', '#forge:eggs', '#forge:crops/onion', 'spelunkery:salt', 'bowl']).id('mynethersdelight:crafting/bleeding_tartar')
 	// event.shapeless('windswept:chestnut_chicken_platter', ['2x #forge:cooked_chicken', '2x windswept:roasted_chestnuts', '#forge:cooked_pork', 'bowl']).id('windswept:chestnut_chicken_platter')
@@ -600,7 +601,8 @@ ServerEvents.recipes(event => {
 	event.shaped('4x environmental:grass_thatch', ['ABA', 'BAB'], {A: 'wheat', B: 'grass'})
 	event.shaped('4x environmental:cattail_thatch', ['AAA', 'AAA'], {A: 'environmental:cattail'}).id('environmental:cattail_thatch')
 	event.shaped('4x environmental:duckweed_thatch', ['AAA', 'AAA'], {A: 'environmental:duckweed'}).id('environmental:duckweed_thatch')
-	event.shaped('4x upgrade_aquatic:beachgrass_thatch', ['AAA', 'AAA'], {A: 'farmersdelight:sandy_shrub'}).id('upgrade_aquatic:beachgrass_thatch')
+	event.shaped('4x upgrade_aquatic:beachgrass_thatch', ['AAA', 'AAA'], {A: 'minecraft:short_dry_grass'}).id('upgrade_aquatic:beachgrass_thatch')
+	event.shaped('4x upgrade_aquatic:beachgrass_thatch', ['AAA', 'AAA'], {A: 'minecraft:tall_dry_grass'}).id('upgrade_aquatic:beachgrass_thatch')
 	event.shaped('4x kubejs:straw_thatch', ['AAA', 'AAA'], {A: 'farmersdelight:straw'})
 	event.shaped('4x kubejs:flax_thatch', ['AAA', 'AAA'], {A: 'supplementaries:flax'})
 	
@@ -812,7 +814,7 @@ ServerEvents.recipes(event => {
 	event.smelting('copper_ingot', 'create:copper_sheet').cookingTime(200)
 	event.smelting('create:brass_ingot', 'create:brass_sheet').cookingTime(200)
 	event.smelting('alloyed:steel_ingot', 'alloyed:steel_sheet').cookingTime(200)
-	event.smelting('farmersdelight:sandy_shrub', 'grass').cookingTime(200)
+	event.smelting('minecraft:short_dry_grass', 'grass').cookingTime(200)
 	event.smelting('spelunkery:grilled_portabella', 'spelunkery:portabella').cookingTime(200)
 	event.smelting('pink_dye', 'culturaldelights:avocado_pit').cookingTime(200)
 	event.smelting('2x kubejs:dwarf_geode', 'kubejs:deposit').cookingTime(200)
@@ -861,7 +863,7 @@ ServerEvents.recipes(event => {
 	result: {item: 'minecraft:nether_brick', count: 3}})
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [{item: 'minecraft:grass'}, {item: 'minecraft:grass'}, {item: 'minecraft:grass'}], 
-	result: {item: 'farmersdelight:sandy_shrub', count: 3}})
+	result: {item: 'minecraft:short_dry_grass', count: 3}})
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [{item: 'minecraft:wet_sponge'}, {item: 'minecraft:wet_sponge'}, {item: 'minecraft:wet_sponge'}], 
 	result: {item: 'minecraft:sponge', count: 3}})

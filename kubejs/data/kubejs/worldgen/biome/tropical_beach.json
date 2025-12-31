@@ -3,18 +3,16 @@
   "downfall": 0.4,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 7907327,
-    "fog_color": 12638463,
-    "water_color": 4566514,
-    "water_fog_color": 267827,
-    "grass_color": 10277195,
-    "foliage_color": 12053778,
+    "fog_color": 13098953,
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2
-    }
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 8109009,
+    "water_color": 2523567,
+    "water_fog_color": 198666
   },
   "spawners": {
     "ambient": [
@@ -105,10 +103,11 @@
     ]
   },
   "features": [
-    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "clifftree:tropical_beach_surface"
+    ],
+    [
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -139,17 +138,16 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_clay"
     ],
-    [],
+    "#clifftree:extra_gold_remove",
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -163,7 +161,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_melon_sparse",
       "ecologics:trees_beach",
-      "kubejs:beachshrubs",
+      "clifftree:patch_dry_grass_beach",
       "kubejs:beachcabbage",
       "kubejs:beachbeet",
       "kubejs:coconuts"

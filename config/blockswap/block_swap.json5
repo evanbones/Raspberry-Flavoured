@@ -132,7 +132,7 @@ to make editing this file much easier.
 	    	},
 			{
 	    		"new": {
-	    			"Name": "farmersdelight:sandy_shrub"
+	    			"Name": "minecraft:air"
 	    		},
 	    		"old": {
 	    			"Name": "upgrade_aquatic:tall_beachgrass",
@@ -164,7 +164,8 @@ to make editing this file much easier.
 			"oreganized:lead_door": "supplementaries:netherite_door",
 			"oreganized:lead_trapdoor": "supplementaries:netherite_trapdoor",
 	   		"farmersdelight:rope": "supplementaries:rope",
-	   		"upgrade_aquatic:beachgrass": "farmersdelight:sandy_shrub",
+			"farmersdelight:sandy_shrub": "minecraft:short_dry_grass",
+	   		"upgrade_aquatic:beachgrass": "minecraft:air",
 	   		"mynethersdelight:letios_compost": "farmersdelight:organic_compost",
 	   		"mynethersdelight:resurgent_soil": "farmersdelight:rich_soil",
 	   		"mynethersdelight:resurgent_soil_farmland": "farmersdelight:rich_soil_farmland",
