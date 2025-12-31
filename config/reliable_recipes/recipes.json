@@ -3338,7 +3338,7 @@
             "replacement": "architects_palette:mushy_myonite_bricks",
             "filter": {
                 "id": [
-                    "architects_palette:cerebral_tiles"
+                    "architects_palette:cerebral_plate"
                 ]
             }
         },
