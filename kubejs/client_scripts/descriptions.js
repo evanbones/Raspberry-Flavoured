@@ -110,7 +110,7 @@ const keysToItems = {
     'rf.jei.paragliders': 'vc_gliders:paraglider_wood',
     'rf.jei.onion_cry': ['#forge:crops/onion', '#onion_onion:onion_proof_helmets'],
     'rf.jei.cloth_scraps': ['kubejs:cloth_scrap', '#raspberry_flavoured:cloth_blocks'],
-    'rf.jei.brush': 'kubejs:copper_brush',
+    'rf.jei.brush': 'minecraft:brush',
     'rf.jei.wax_brush': 'kubejs:copper_brush_wax',
     'rf.jei.sap': ['autumnity:sap_bottle', 'create_central_kitchen:sap_bucket', 'autumnity:sappy_maple_log', 'autumnity:sappy_maple_wood'],
     'rf.jei.latex': ['kubejs:latex_bottle', 'kubejs:latex_bucket', 'kubejs:latex_jungle_log', 'kubejs:latex_jungle_wood', 'kubejs:latex_rosewood_log', 'kubejs:latex_rosewood'],

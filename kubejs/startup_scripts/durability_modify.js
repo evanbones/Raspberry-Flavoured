@@ -6,6 +6,7 @@ ItemEvents.modification(event => {
 // Misc
 	maxDura('supplementaries:flute', 200)
 	maxDura('naturalist:bug_net', 200)
+	maxDura('minecraft:brush', 200)
 	maxDura('minecraft:fishing_rod', 350)
 	maxDura('minecraft:carrot_on_a_stick', 350)
 	maxDura('minecraft:warped_fungus_on_a_stick', 350)

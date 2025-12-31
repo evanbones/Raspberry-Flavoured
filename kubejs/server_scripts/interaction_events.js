@@ -5,7 +5,7 @@ const featherBrushables = ['minecraft:chicken', 'environmental:duck', 'autumnity
 const stringBrushables = ['minecraft:sheep', 'minecraft:goat']
 const friendBrushables = ['minecraft:wolf', 'minecraft:cat']
 
-ItemEvents.entityInteracted('kubejs:copper_brush', function (event) {
+ItemEvents.entityInteracted('minecraft:brush', function (event) {
 // brushing featheries
     if (featherBrushables.includes(event.target.type)) {
 		event.player.swing(event.hand, true)
@@ -22,7 +22,7 @@ ItemEvents.entityInteracted('kubejs:copper_brush', function (event) {
 			event.player.damageHeldItem(event.hand, 1)
         }
 		
-		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'kubejs:copper_brush.brush', 'players', 1, 1)
+		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:brush.brush', 'players', 1, 1)
         event.level.spawnParticles('supplementaries:feather', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
         event.level.spawnParticles('minecraft:poof', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
 		let itemEntity = event.level.createEntity("item")
@@ -50,7 +50,7 @@ ItemEvents.entityInteracted('kubejs:copper_brush', function (event) {
 			event.player.damageHeldItem(event.hand, 1)
         }
 		
-		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'kubejs:copper_brush.brush', 'players', 1, 1)
+		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:brush.brush', 'players', 1, 1)
         event.level.spawnParticles('minecraft:poof', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
 		let itemEntity = event.level.createEntity("item")
 			itemEntity.item = ('minecraft:string')
@@ -77,7 +77,7 @@ ItemEvents.entityInteracted('kubejs:copper_brush', function (event) {
 			event.player.damageHeldItem(event.hand, 1)
         }
 		
-		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'kubejs:copper_brush.brush', 'players', 1, 1)
+		event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:brush.brush', 'players', 1, 1)
         event.level.spawnParticles('minecraft:poof', true, event.target.x, event.target.y+0.75, event.target.z, 0.25, 0, 0.25, 3, 0.05)
 		let itemEntity = event.level.createEntity("item")
 			itemEntity.item = ('environmental:yak_hair')
@@ -105,7 +105,7 @@ ItemEvents.entityInteracted('kubejs:copper_brush', function (event) {
                 event.player.damageHeldItem(event.hand, 1)
             }
             
-            event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'kubejs:copper_brush.brush', 'players', 1, 1)
+            event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:brush.brush', 'players', 1, 1)
             event.level.spawnParticles('minecraft:poof', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
             event.level.spawnParticles('minecraft:heart', true, event.target.x, event.target.y+0.75, event.target.z, 0.2, 0, 0.2, 3, 0.05)
             event.target.mergeNbt({CurativeItems: [{id: "minecraft:milk_bucket", Count: 1}], ActiveEffects: [{ShowParticles: 1, Id: 10, Duration: 200, Ambient: 0, "forge:id": "minecraft:regeneration", Amplifier: 0}]})
@@ -277,7 +277,7 @@ BlockEvents.rightClicked(event => {
         }
     })
     Object.keys(global.brushingMap).forEach((value) => {
-        if (event.item.id === 'kubejs:copper_brush') {
+        if (event.item.id === 'minecraft:brush') {
             if (event.block.id === value) {
                 // damage brush
                 if (!event.player.isCreative()) {
@@ -286,7 +286,7 @@ BlockEvents.rightClicked(event => {
                 // swing hand, damage item, play sounds and transform block
                 event.player.swing(event.hand, true)
 				event.server.runCommandSilent(`particle wax_off ${event.block.x} ${event.block.y+0.5} ${event.block.z} 0.5 0.25 0.5 0.01 15 force`)
-                event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'kubejs:copper_brush.brush', 'players', 1, 1)
+                event.level.playSound(null, event.block.x, event.block.y, event.block.z, 'minecraft:brush.brush', 'players', 1, 1)
                 event.block.set(global.brushingMap[event.block.id])
             }  
         }
