@@ -62,6 +62,7 @@ pack.toml
 index.toml
 .nojekyll
 .packwizignore
+.lazyyyyy/
 
 # Files from Forge MDK
 forge*changelog.txt
