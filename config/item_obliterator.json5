@@ -3570,7 +3570,8 @@
 	"dolt_mod_how:ancient_leaf_pile",
 	"windswept:cherry_wreath",
 	"environmental:plum",
-	"environmental:plum_crate"
+	"environmental:plum_crate",
+	"farmersdelight:sandy_shrub"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
