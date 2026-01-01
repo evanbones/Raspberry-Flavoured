@@ -2,7 +2,7 @@
 
 const $ItemDescription = Java.loadClass("com.simibubi.create.foundation.item.ItemDescription$Modifier")
 const $TooltipModifier = Java.loadClass("com.simibubi.create.foundation.item.TooltipModifier")
-const $Palette = Java.loadClass("com.simibubi.create.foundation.item.TooltipHelper$Palette")
+const $Palette = Java.loadClass("net.createmod.catnip.lang.FontHelper$Palette")
 
 ClientEvents.lang("en_us", (event) => {
   event.addAll(

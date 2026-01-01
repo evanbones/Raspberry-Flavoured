@@ -1190,20 +1190,7 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
 	{tag: 'forge:stone'}, {tag: 'forge:stone'}, {tag: 'forge:gems/quartz'}, {item: 'architects_palette:withered_bone'}
-	], result: {item: 'quark:blank_rune', count: 4}})
-	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [
-	{item: 'quark:red_rune'}, {item: 'quark:orange_rune'}, {item: 'quark:yellow_rune'}, 
-	{item: 'quark:lime_rune'}, {item: 'quark:light_blue_rune'}, {item: 'quark:blue_rune'}, 
-	{item: 'quark:magenta_rune'}, {item: 'quark:pink_rune'}, {item: 'quark:white_rune'}
-	], result: {item: 'quark:rainbow_rune', count: 3}})
-	allColours.forEach(colour => {
-		event.custom({type: 'modestmining:forging', cooktime: 200, 
-		ingredients: [
-		{item: 'quark:blank_rune'}, {item: 'quark:blank_rune'}, 
-		{item: 'minecraft:'+colour+'_dye'}, {item: 'supplementaries:antique_ink'}, {item: 'minecraft:amethyst_shard'}
-		], result: {item: 'quark:'+colour+'_rune', count: 2}})
-    })
+	], result: {item: 'quark:smithing_template_rune', count: 4}})
 	
 	// Other stuff
 	event.custom({type: 'modestmining:forging', cooktime: 200, 

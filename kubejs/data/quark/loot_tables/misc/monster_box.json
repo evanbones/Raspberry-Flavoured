@@ -499,7 +499,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "quark:blank_rune",
+          "name": "quark:smithing_template_rune",
           "weight": 10
         },
 		{
