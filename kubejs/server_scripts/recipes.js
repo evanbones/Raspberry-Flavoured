@@ -1190,20 +1190,7 @@ ServerEvents.recipes(event => {
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
 	ingredients: [
 	{tag: 'forge:stone'}, {tag: 'forge:stone'}, {tag: 'forge:gems/quartz'}, {item: 'architects_palette:withered_bone'}
-	], result: {item: 'quark:blank_rune', count: 4}})
-	event.custom({type: 'modestmining:forging', cooktime: 200, 
-	ingredients: [
-	{item: 'quark:red_rune'}, {item: 'quark:orange_rune'}, {item: 'quark:yellow_rune'}, 
-	{item: 'quark:lime_rune'}, {item: 'quark:light_blue_rune'}, {item: 'quark:blue_rune'}, 
-	{item: 'quark:magenta_rune'}, {item: 'quark:pink_rune'}, {item: 'quark:white_rune'}
-	], result: {item: 'quark:rainbow_rune', count: 3}})
-	allColours.forEach(colour => {
-		event.custom({type: 'modestmining:forging', cooktime: 200, 
-		ingredients: [
-		{item: 'quark:blank_rune'}, {item: 'quark:blank_rune'}, 
-		{item: 'minecraft:'+colour+'_dye'}, {item: 'supplementaries:antique_ink'}, {item: 'minecraft:amethyst_shard'}
-		], result: {item: 'quark:'+colour+'_rune', count: 2}})
-    })
+	], result: {item: 'quark:smithing_template_rune', count: 4}})
 	
 	// Other stuff
 	event.custom({type: 'modestmining:forging', cooktime: 200, 
@@ -1584,7 +1571,7 @@ ServerEvents.recipes(event => {
 	result: [{item: 'minecraft:gunpowder', count: 2}, {item: 'minecraft:gunpowder', count: 2, chance: 0.5}, {item: 'minecraft:gunpowder', count: 1, chance: 0.25}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'caverns_and_chasms:mime_head'}], tool: {item: 'another_furniture:furniture_hammer'}, sound: 'minecraft:block.amethyst_block.break', 
 	result: [{item: 'minecraft:amethyst_shard', count: 3}, {item: 'minecraft:amethyst_shard', count: 3, chance: 0.5}]})
-	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'piglinproliferation:piglin_head'}], tool: {item: 'another_furniture:furniture_hammer'}, sound: 'auditory:block.gourd.break', 
+	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'minecraft:piglin_head'}], tool: {item: 'another_furniture:furniture_hammer'}, sound: 'auditory:block.gourd.break', 
 	result: [{item: 'minecraft:porkchop', count: 1}, {item: 'minecraft:bone', count: 2, chance: 0.15}]})
 	event.custom({type: 'farmersdelight:cutting', ingredients: [{item: 'piglinproliferation:piglin_alchemist_head'}], tool: {item: 'another_furniture:furniture_hammer'}, sound: 'auditory:block.gourd.break', 
 	result: [{item: 'minecraft:porkchop', count: 2}, {item: 'minecraft:bone', count: 2, chance: 0.15}]})
@@ -2225,7 +2212,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.pressing(['2x gunpowder', Item.of('gunpowder',4).withChance(0.65)], 'caverns_and_chasms:deeper_head')
 	event.recipes.create.pressing(['3x gunpowder', Item.of('gunpowder',4).withChance(0.65)], 'caverns_and_chasms:peeper_head')
 	event.recipes.create.pressing(['4x amethyst_shard', Item.of('amethyst_shard',4).withChance(0.65)], 'caverns_and_chasms:mime_head')
-	event.recipes.create.pressing(['2x porkchop', Item.of('bone',2).withChance(0.3)], 'piglinproliferation:piglin_head')
+	event.recipes.create.pressing(['2x porkchop', Item.of('bone',2).withChance(0.3)], 'minecraft:piglin_head')
 	event.recipes.create.pressing(['3x porkchop', Item.of('bone',2).withChance(0.3)], 'piglinproliferation:piglin_alchemist_head')
 	event.recipes.create.pressing(['9x porkchop', Item.of('bone',4).withChance(0.3)], 'piglinproliferation:piglin_brute_head')
 	event.recipes.create.pressing(['4x rotten_flesh', Item.of('bone',2).withChance(0.3)], 'piglinproliferation:zombified_piglin_head')

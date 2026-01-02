@@ -273,7 +273,7 @@ BlockEvents.modification(event => {
 	breakFast('caverns_and_chasms:peeper_wall_head', 0.5)
 	breakFast('caverns_and_chasms:mime_head', 0.5)
 	breakFast('caverns_and_chasms:mime_wall_head', 0.5)
-	breakFast('piglinproliferation:piglin_head', 0.5)
+	breakFast('minecraft:piglin_head', 0.5)
 	breakFast('piglinproliferation:piglin_wall_head', 0.5)
 	breakFast('piglinproliferation:piglin_brute_head', 0.5)
 	breakFast('piglinproliferation:piglin_brute_wall_head', 0.5)

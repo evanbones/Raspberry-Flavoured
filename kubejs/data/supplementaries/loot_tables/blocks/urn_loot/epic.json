@@ -99,7 +99,7 @@
               "add": false
             }
           ],
-          "name": "quark:blank_rune"
+          "name": "quark:smithing_template_rune"
         },
         {
           "type": "minecraft:item",

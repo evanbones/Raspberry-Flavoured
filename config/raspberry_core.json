@@ -183,17 +183,20 @@
     "neapolitan:ice_cubes"
   ],
   "creative_tab_icons": {
-    "minecraft:building_blocks": "minecraft:bricks",
-    "minecraft:spawn_eggs": "minecraft:creeper_spawn_egg",
-    "minecraft:ingredients": "minecraft:iron_ingot",
+    "minecraft:building_blocks": "kubejs:building_icon",
+    "minecraft:spawn_eggs": "kubejs:magic_icon",
+    "minecraft:ingredients": "kubejs:misc_icon",
     "minecraft:colored_blocks": "minecraft:cyan_wool",
-    "minecraft:redstone_blocks": "minecraft:redstone",
-    "minecraft:combat": "minecraft:netherite_sword",
+    "minecraft:redstone_blocks": "kubejs:machine_icon",
+    "minecraft:combat": "kubejs:combat_icon",
     "minecraft:natural_blocks": "minecraft:grass_block",
     "minecraft:op_blocks": "minecraft:command_block",
-    "minecraft:tools_and_utilities": "minecraft:diamond_pickaxe",
-    "minecraft:food_and_drinks": "minecraft:golden_apple",
-    "minecraft:functional_blocks": "minecraft:oak_sign"
+    "minecraft:tools_and_utilities": "kubejs:tools_icon",
+    "minecraft:food_and_drinks": "kubejs:food_icon",
+    "minecraft:functional_blocks": "minecraft:oak_sign",
+    "minecraft:saved_hotbars": "kubejs:hotbar_icon",
+    "minecraft:inventory": "kubejs:inventory_icon",
+    "minecraft:search": "kubejs:search_icon"
   },
   "no_templates": true,
   "compatible_datapacks": true

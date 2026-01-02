@@ -3963,6 +3963,7 @@
             "action": "remove",
             "filter": {
                 "id": [
+                    "quark:tools/crafting/rune_duplication",
                     "culturaldelights:beef_burrito",
                     "culturaldelights:chicken_taco",
                     "culturaldelights:eggplant_burger",

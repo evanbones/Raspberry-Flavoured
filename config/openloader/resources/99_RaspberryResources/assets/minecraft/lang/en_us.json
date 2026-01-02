@@ -285,6 +285,8 @@
   "item.minecraft.splash_potion.effect.water_breathing": "Splash Potion of the Deep Diver",
   "item.minecraft.lingering_potion.effect.water_breathing": "Lingering Potion of the Deep Diver",
   "item.minecraft.tipped_arrow.effect.water_breathing": "Arrow of the Deep Diver",
+
+  "container.upgrade.missing_template_tooltip": "Add Armor Trim",
   
   "subtitles.block.end_portal_frame.fill": "Exopearl shatters",
   "subtitles.item.flintandsteel.use": "Fire Striker ignites",
