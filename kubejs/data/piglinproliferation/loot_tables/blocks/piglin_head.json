@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "piglinproliferation:piglin_head"
+          "name": "minecraft:piglin_head"
         }
       ],
       "rolls": 1.0

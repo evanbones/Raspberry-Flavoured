@@ -2284,7 +2284,7 @@ ServerEvents.tags('item', event => {
 		
 	event.get('forge:heads')
 		.add('supplementaries:enderman_head')
-		.add('piglinproliferation:piglin_head')
+		.add('minecraft:piglin_head')
 		.add('piglinproliferation:piglin_brute_head')
 		.add('piglinproliferation:piglin_alchemist_head')
 		.add('piglinproliferation:zombified_piglin_head')
@@ -3768,7 +3768,7 @@ ServerEvents.tags('block', event => {
 		.add('caverns_and_chasms:peeper_wall_head')
 		.add('caverns_and_chasms:mime_head')
 		.add('caverns_and_chasms:mime_wall_head')
-		.add('piglinproliferation:piglin_head')
+		.add('minecraft:piglin_head')
 		.add('piglinproliferation:piglin_wall_head')
 		.add('piglinproliferation:piglin_brute_head')
 		.add('piglinproliferation:piglin_brute_wall_head')
