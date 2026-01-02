@@ -1,0 +1,10 @@
+
+[creativeModeTabs]
+	enableCreativeModeTabs = true
+	syncSelectedCreativeModeTab = true
+	disabledCreativeModeTabs = ["minecraft:op_blocks"]
+
+[stackGroups]
+	enableStackGroups = true
+	disabledStackGroups = []
+

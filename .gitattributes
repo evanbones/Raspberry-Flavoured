@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files
 * text=auto
+
+# Force LF for all JSON and config files to prevent Windows CRLF conversion
+*.json text eol=lf
+*.json5 text eol=lf
+*.txt text eol=lf
+*.css text eol=lf
+*.db text eol=lf
