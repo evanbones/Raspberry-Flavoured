@@ -1,6 +1,6 @@
 {
     "debug": false,
-    "async_model_baking": true,
+    "async_model_baking": false,
     "axiom.async_check_commercial": true,
     "entity_sound_features.async_sound_events": true,
     "lazy_entity_renderers": true,
