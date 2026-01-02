@@ -16,6 +16,23 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    "dolt_mod_how:white_encased_pipe",
+    "dolt_mod_how:gray_encased_pipe",
+    "dolt_mod_how:light_gray_encased_pipe",
+    "dolt_mod_how:light_blue_encased_pipe",
+    "dolt_mod_how:blue_encased_pipe",
+    "dolt_mod_how:purple_encased_pipe",
+    "dolt_mod_how:red_encased_pipe",
+    "dolt_mod_how:green_encased_pipe",
+    "dolt_mod_how:orange_encased_pipe",
+    "dolt_mod_how:yellow_encased_pipe",
+    "dolt_mod_how:lime_encased_pipe",
+    "dolt_mod_how:cyan_encased_pipe",
+    "dolt_mod_how:magenta_encased_pipe",
+    "dolt_mod_how:pink_encased_pipe",
+    "dolt_mod_how:magenta_encased_pipe",
+    "dolt_mod_how:black_encased_pipe",
+    "dolt_mod_how:brown_encased_pipe",
     "scholar:white_writable_book",
     "scholar:gray_writable_book",
     "scholar:light_gray_writable_book",

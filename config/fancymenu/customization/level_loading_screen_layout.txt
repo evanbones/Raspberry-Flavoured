@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = level_loading_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1767321630814
+  last_edited_time = 1767364043046
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5974f691-86be-4a04-a394-6096b7cf3511-1767321609531] = [groups:][instances:]
+  [loading_requirement_container_meta:5feb1550-8c75-4104-b0a8-eb6715cec406-1767364001415] = [groups:][instances:]
 }
 
 customization {
@@ -32,8 +32,8 @@ layout_action_executable_blocks {
 }
 
 element {
-  bar_color = #aeee7aFF
-  background_color = #000000FF
+  bar_color = #80ff80
+  background_color = #808080
   direction = right
   progress_for_element_anchor = false
   progress_source = {"placeholder":"world_load_progress"}
