@@ -4322,6 +4322,10 @@ ServerEvents.tags('block', event => {
 		.add('sullysmod:polished_small_jade_brick_slab')
 		.add('sullysmod:polished_jade_shingle_slab')
 		.add('sullysmod:polished_jade_tile_slab')
+		
+	event.get('environmental:pinecone_golem_base_blocks')
+		.add('windswept:pinecone_block')
+		.remove('environmental:pinecone')
 })
 
 // Fluid tags

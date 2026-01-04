@@ -1,7 +1,38 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "decorators": [],
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "block_provider": {
+          "type": "minecraft:randomized_int_state_provider",
+          "property": "amount",
+          "source": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "windswept:pinecone",
+              "Properties": {
+                "amount": "1"
+              }
+            }
+          },
+          "values": {
+            "type": "minecraft:uniform",
+            "value": {
+              "max_inclusive": 2,
+              "min_inclusive": 1
+            }
+          }
+        },
+        "directions": [
+          "down"
+        ],
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "probability": 0.12,
+        "required_empty_blocks": 1
+      }
+    ],
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -12,24 +43,24 @@
       "type": "minecraft:spruce_foliage_placer",
       "offset": {
         "type": "minecraft:uniform",
-		"value": {
+        "value": {
           "max_inclusive": 2,
           "min_inclusive": 0
-		}
+        }
       },
       "radius": {
         "type": "minecraft:uniform",
-		"value": {
+        "value": {
           "max_inclusive": 3,
           "min_inclusive": 2
-		}
+        }
       },
       "trunk_height": {
         "type": "minecraft:uniform",
-		"value": {
+        "value": {
           "max_inclusive": 2,
           "min_inclusive": 1
-		}
+        }
       }
     },
     "foliage_provider": {

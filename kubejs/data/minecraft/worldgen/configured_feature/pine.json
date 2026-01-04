@@ -1,27 +1,8 @@
 {
-  "type": "minecraft:tree",
+  "type": "environmental:pine_tree",
   "config": {
     "decorators": [
-	{
-        "type": "minecraft:attached_to_leaves",
-        "probability": 1,
-        "exclusion_radius_xz": 0,
-        "exclusion_radius_y": 0,
-        "required_empty_blocks": 1,
-        "block_provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:snow",
-            "Properties": {
-              "layers": "1"
-            }
-          }
-        },
-        "directions": [
-          "up"
-        ]
-    },
-	{
+      {
         "type": "minecraft:attached_to_leaves",
         "block_provider": {
           "type": "minecraft:randomized_int_state_provider",
@@ -50,19 +31,8 @@
         "exclusion_radius_y": 0,
         "probability": 0.12,
         "required_empty_blocks": 1
-      },
-    {"type": "minecraft:alter_ground",
-    "provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:grass_block",
-        "Properties": {
-          "snowy": "false"
-        }
       }
-    }
-  }
-	],
+    ],
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -70,28 +40,10 @@
       }
     },
     "foliage_placer": {
-      "type": "minecraft:spruce_foliage_placer",
-      "offset": {
-        "type": "minecraft:uniform",
-		"value": {
-          "max_inclusive": 2,
-          "min_inclusive": 0
-		}
-      },
-      "radius": {
-        "type": "minecraft:uniform",
-		"value": {
-          "max_inclusive": 3,
-          "min_inclusive": 2
-		}
-      },
-      "trunk_height": {
-        "type": "minecraft:uniform",
-		"value": {
-          "max_inclusive": 3,
-          "min_inclusive": 2
-		}
-      }
+      "type": "minecraft:blob_foliage_placer",
+      "height": 0,
+      "offset": 0,
+      "radius": 0
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
@@ -108,14 +60,14 @@
     "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
-      "limit": 2,
+      "limit": 0,
       "lower_size": 0,
-      "upper_size": 2
+      "upper_size": 0
     },
     "trunk_placer": {
       "type": "minecraft:straight_trunk_placer",
-      "base_height": 6,
-      "height_rand_a": 3,
+      "base_height": 8,
+      "height_rand_a": 2,
       "height_rand_b": 0
     },
     "trunk_provider": {
