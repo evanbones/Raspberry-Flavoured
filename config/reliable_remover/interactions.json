@@ -1,0 +1,10 @@
+[
+    {
+        "action": "remove_interactions",
+        "filter": {
+            "items": [
+                "spelunkery:portal_fluid_bucket"
+            ]
+        }
+    }
+]
