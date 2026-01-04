@@ -19,5 +19,10 @@
 	
 	"item.environmental.willow_chest_boat": "Willow Boat with Barrel",
 	"item.environmental.cherry_chest_boat": "Cherry Boat with Barrel",
-	"item.environmental.wisteria_chest_boat": "Wisteria Boat with Barrel"
+	"item.environmental.wisteria_chest_boat": "Wisteria Boat with Barrel",
+	
+  "entity.environmental.pinecone_golem": "Conifer Golem",
+  "item.environmental.pinecone_golem_spawn_egg": "Conifer Golem Spawn Egg",
+  "subtitles.environmental.entity.pinecone_golem.death": "Conifer Golem dies",
+  "subtitles.environmental.entity.pinecone_golem.hurt": "Conifer Golem hurts"
 }
