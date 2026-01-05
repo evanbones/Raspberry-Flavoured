@@ -199,5 +199,6 @@
     "minecraft:search": "kubejs:search_icon"
   },
   "no_templates": true,
-  "compatible_datapacks": true
+  "compatible_datapacks": true,
+  "disable_spruce_leaf_tinting": true
 }

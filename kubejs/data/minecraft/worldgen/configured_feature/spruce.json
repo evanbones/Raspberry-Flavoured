@@ -1,90 +1,101 @@
 {
-  "type": "minecraft:random_selector",
+  "type": "minecraft:tree",
   "config": {
-    "features": [
+    "decorators": [
       {
-        "chance": 0.2,
-        "feature": {
-          "feature": "minecraft:pine",
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:not",
-                "predicate": {
-                  "type": "minecraft:matching_block_tag",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
-                  "tag": "clifftree:sapling_cannot_grow_cold"
-                }
+        "type": "minecraft:attached_to_leaves",
+        "block_provider": {
+          "type": "minecraft:randomized_int_state_provider",
+          "property": "amount",
+          "source": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "windswept:pinecone",
+              "Properties": {
+                "amount": "1"
               }
             }
-          ]
-        }
-      },
-      {
-        "chance": 0.6,
-        "feature": {
-          "feature": "minecraft:pine",
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:snow_block",
-                      "minecraft:powder_snow"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:not",
-                    "predicate": {
-                      "type": "minecraft:matching_block_tag",
-                      "offset": [
-                        0,
-                        -1,
-                        0
-                      ],
-                      "tag": "clifftree:sapling_cannot_grow_cold"
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
-    ],
-    "default": {
-      "feature": "minecraft:spruce_base",
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_block_tag",
-              "offset": [
-                0,
-                -1,
-                0
-              ],
-              "tag": "clifftree:sapling_cannot_grow_cold"
+          },
+          "values": {
+            "type": "minecraft:uniform",
+            "value": {
+              "max_inclusive": 2,
+              "min_inclusive": 1
             }
           }
+        },
+        "directions": [
+          "down"
+        ],
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "probability": 0.12,
+        "required_empty_blocks": 1
+      }
+    ],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:spruce_foliage_placer",
+      "offset": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_inclusive": 2,
+          "min_inclusive": 0
         }
-      ]
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_inclusive": 3,
+          "min_inclusive": 2
+        }
+      },
+      "trunk_height": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_inclusive": 2,
+          "min_inclusive": 1
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:spruce_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 2,
+      "lower_size": 0,
+      "upper_size": 2
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 2,
+      "height_rand_b": 1
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:spruce_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
     }
   }
 }
