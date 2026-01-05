@@ -1,0 +1,37 @@
+{
+  "feature": "autumnity:maple_tree_orange",
+  "placement": [
+    {
+      "type": "autumnity:better_noise_based_count",
+      "noise": "autumnity:spotted_maples",
+      "noise_offset": -0.4000000059604645,
+      "noise_to_count_ratio": 12
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "autumnity:orange_maple_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
+}

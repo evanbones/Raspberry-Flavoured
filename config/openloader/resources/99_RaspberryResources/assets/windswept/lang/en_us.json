@@ -5,8 +5,6 @@
   "block.windswept.wither_rose_bush": "Withered Rose Bush",
   "block.windswept.bluebells": "Bluebell",
   "block.windswept.potted_bluebells": "Potted Bluebell",
-  "block.windswept.holly_chest": "Spruce Chest",
-  "block.windswept.holly_trapped_chest": "Spruce Trapped Chest",
   "block.windswept.ender_fairy_light": "Exodic Fairy Light",
   "block.windswept.carved_pinecone_block": "Carved Conifer Cone Block",
   "block.windswept.pinecone": "Conifer Cone",
@@ -16,8 +14,6 @@
   "item.windswept.mutton_pie": "Mutton Tart",
   "item.windswept.wild_berry_juice": "Mulberry Cocktail",
   "item.windswept.chestnut_risotto": "Chestnut Duck Risotto",
-  "item.windswept.large_holly_boat": "Large Coconut Boat",
-  "item.windswept.holly_furnace_boat": "Coconut Boat with Furnace",
   
   "windswept.jei.info.music_disc_bumblebee": "Sometimes dropped when a Bee Nest or Beehive is sheared for Honeycombs.",
   "windswept.jei.info.music_disc_rain": "Dropped by a Drowned if killed by a Skeleton.",
